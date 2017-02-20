@@ -32,9 +32,9 @@ Workflow of the deployment is as follows:
 
 
 ```
-                     Travis
-              PR     deploy       Final site
-[USER BRANCH] --> [`develop`] --> [`master`]
+                              Travis      Final
+              PR              deploy      site
+[USER BRANCH] --> [`develop`] -------> [`master`]
 
 
 ```
