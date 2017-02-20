@@ -1,0 +1,23 @@
+---
+ja:
+  back: 戻る
+  read_more: 続きを読む
+  events:
+    title: イベント
+    see_all: その他のイベント
+    where: 場所
+    when: 時間
+    price: 金額
+    read_more: 続き
+    register: 登録
+  footer:
+    contacts: コンタクト
+    email: E-mail
+    phone: 電話番号
+    fax: ファックス
+    stay_connected: 接続
+    latest_work: 私たちの最新作
+    navigate: ナビゲーション
+    blog: ブログ
+  cta:
+    go_to: 見せて！

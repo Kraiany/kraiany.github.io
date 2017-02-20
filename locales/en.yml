@@ -1,0 +1,22 @@
+---
+en:
+  back: Back
+  read_more: Read more
+  events:
+    title: Events
+    see_all: Other events
+    where: Address
+    when: Date
+    read_more: Read more
+    register: Registration
+  footer:
+    contacts: Contact us
+    email: Email
+    phone: Phone
+    fax: FAX
+    stay_connected: Stay connected
+    latest_work: Our latest work
+    navigate: Navigate
+    blog: Blog posts
+  cta:
+    go_to: Show me more
