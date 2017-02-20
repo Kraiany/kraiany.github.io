@@ -1,0 +1,23 @@
+---
+uk:
+  back: Назад
+  read_more: Детальніше
+  events:
+    title: Події
+    see_all: Минулі події
+    where: За адресою
+    when: Час
+    price: Вартість
+    read_more: Детальніше
+    register: Реєстрація
+  footer:
+    contacts: Наші контакти
+    email: Електронна пошта
+    phone: Телефон
+    fax: Факс
+    stay_connected: "До зв'язку"
+    latest_work: Наші останні роботи
+    navigate: Навігація
+    blog: Веб журнал
+  cta:
+    go_to: Хочу більше!
