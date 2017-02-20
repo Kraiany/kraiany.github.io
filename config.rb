@@ -24,7 +24,7 @@ page '/*.txt', layout: false
 
 # General configuration
 
-activate :i18n, langs: [:ja, :en, :uk]
+activate :i18n, langs: [:ja, :en, :uk], :mount_at_root => false
 activate :directory_indexes
 
 # --------------------------------------------
@@ -36,39 +36,11 @@ helpers do
     data.languages[I18n.locale]
   end
 
-  def available_locales_as_regex
-    I18n.config.available_locales.map(&:to_s).join("|")
-  end
-
-  # URL of the current page with stripped locale prefix.
-  def current_without_locale
-    current_page.url
-    .sub(%r{^/(#{ available_locales_as_regex})/},'/')
-  end
-
-  # Prefix page with locale
-  #
   def current_with_locale(locale)
-    if locale == I18n.default_locale.to_s
-      current_without_locale
-    else
-      "/#{locale}/#{current_without_locale}"
-    end
-      .gsub(%r{/+}, "/")
+    current_page_with_locale
+      .url
+      .sub(%r{^/#{I18n.locale}/},"/#{locale}/")
   end
-
-  def locale_prefix(locale=I18n.locale)
-    if locale == I18n.default_locale
-      "/"
-    else
-      "/#{locale.to_s}"
-    end
-  end
-
-  def localized_href(href)
-    "/#{locale_prefix}/#{href}".gsub(%r{/+}, "/")
-  end
-
 end
 
 
@@ -90,7 +62,6 @@ end
 
 # Build-specific configuration
 configure :build do
-  activate :sprockets
   activate :minify_css
   activate :minify_javascript
   set :relative_links, true
