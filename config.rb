@@ -2,6 +2,8 @@
 # Page options, layouts, aliases and proxies
 ###
 
+set :encoding, 'utf-8'
+set :index_file, 'index.html'
 # Per-page layout changes:
 #
 # With no layout
@@ -17,6 +19,54 @@ page '/*.txt', layout: false
 #  which_fake_page: "Rendering a fake page with a local variable" }
 
 # General configuration
+
+activate :i18n, langs: [:ja, :en, :uk]
+activate :directory_indexes
+
+# --------------------------------------------
+# Localization helpers
+# --------------------------------------------
+helpers do
+
+  def current_language
+    data.languages[I18n.locale]
+  end
+
+  def available_locales_as_regex
+    I18n.config.available_locales.map(&:to_s).join("|")
+  end
+
+  # URL of the current page with stripped locale prefix.
+  def current_without_locale
+    current_page.url
+    .sub(%r{^/(#{ available_locales_as_regex})/},'/')
+  end
+
+  # Prefix page with locale
+  #
+  def current_with_locale(locale)
+    if locale == I18n.default_locale.to_s
+      current_without_locale
+    else
+      "/#{locale}/#{current_without_locale}"
+    end
+      .gsub(%r{/+}, "/")
+  end
+
+  def locale_prefix(locale=I18n.locale)
+    if locale == I18n.default_locale
+      "/"
+    else
+      "/#{locale.to_s}"
+    end
+  end
+
+  def localized_href(href)
+    "/#{locale_prefix}/#{href}".gsub(%r{/+}, "/")
+  end
+
+end
+
 
 # Reload the browser automatically whenever files change
 configure :development do
