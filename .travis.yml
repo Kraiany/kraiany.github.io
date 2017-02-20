@@ -6,13 +6,21 @@ before_install:
 install:
 - bundle install --path vendor/bundle
 script:
+- bundle exec middleman build
+
+after_success:
 - git config --global user.name '${GIT_USER_NAME}'
 - git config --global user.email '${EMAIL}'
 - git remote set-url origin https://dmytro:${GH_TOKEN}@git@github.com:Kraiany/kraiany.github.io
-- bundle exec middleman build
+- bundle exec middleman deploy
+
+
+#
+# Only push to develop branch will deploy to master.
+#
 # branches:
 #   only:
-#   - master
+#   - develop
 env:
   global:
     - secure: "mf6qoeb1qr5Di5HrKeZ8Hl8iD4BbNU8vH91uMRhfDZqYErL3l1PbliScFY/CSZs3mAeH47bvHLBw1AmzAOAhhLeF0dD1cf67U2IanBgutEzyffhrLRaji5Ib5rK3cL0u/g3aBtGrf9uttlggc5sV3JDFE56SGWr5wlBu0/9YqzRSQMrxIcrWKTPW0RAzVAT3/p2Lxu43R7mWp1H9OTI7n+C6qJXv9gaStvzq52gDRdYH44umiQnRmoi+9FDvyimhFFpk8ZpFZJGtN45HVSeyEf9GQ+9mAgHvbZ8ALeKQNnvbgMaBBfamSXWA3jBFo9iN/C47kBNtK0k1xMhpXeXEWYmv38AF8nj6LChTgOSbA+VcEMWKKUG3bTDd4OY2kT4HLUBHDkAuPEImqIOehlKoQpYMGzelIXpG9qiw5WTHPGFcB44eAZ/B375T1ZdngUFYv2ZWzOYvniDd3V+wPKpAamzHiR5B7Vsmai9ri7OxiS6uagvDBAfixwNHrNWKrQAFME7A63oYjPgipjlEbYVoXO15pfZzK+3sia8bfH1lsfdfb33pEQEyLLw8qm7qUUfkAjdUXrMpOYa5Y4C6JBYv1U3n6ublDKmuQ6fbTR6jmr0hBbw/UUgoftVlbyjE8CjABoodcF9NvxdO/T0hBfwe7X/9j8bu5Qj/n9bSKf1wBEs="
