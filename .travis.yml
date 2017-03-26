@@ -6,12 +6,10 @@ before_install:
 install:
 - bundle install --path vendor/bundle
 script:
-- bundle exec middleman build
-
-after_success:
 - git config --global user.name '${GIT_USER_NAME}'
 - git config --global user.email '${EMAIL}'
 - git remote set-url origin https://dmytro:${GH_TOKEN}@github.com:Kraiany/kraiany.github.io
+- bundle exec middleman build
 - bundle exec middleman deploy
 
 
