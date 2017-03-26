@@ -8,7 +8,7 @@ install:
 script:
 - git config --global user.name '${GIT_USER_NAME}'
 - git config --global user.email '${EMAIL}'
-- git remote set-url origin https://dmytro:${GH_TOKEN}@github.com:Kraiany/kraiany.github.io
+- git remote set-url origin https://dmytro:${GH_TOKEN}@github.com:Kraiany/kraiany.github.io.git
 - bundle exec middleman build
 - bundle exec middleman deploy
 
