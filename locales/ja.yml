@@ -1,5 +1,16 @@
 ---
 ja:
+  kraiany:
+    name: クラヤニ
+    description: description TBD
+  festival:
+    festival: フェスティバル
+    description: description TBD
+  parade:
+    parade: パレード
+    description: description TBD
+  # Navigation
+  # --------------------------------------------
   back: 戻る
   read_more: 続きを読む
   events:

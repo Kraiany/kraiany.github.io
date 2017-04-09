@@ -1,5 +1,16 @@
 ---
 uk:
+  kraiany:
+    name: Краяни
+    description: Краяни - незалежна, неурядова та неофіційна організація українців, що проживають у Японії.
+  festival:
+    festival: Фестиваль
+    description: description TBD
+  parade:
+    parade: Парад вишиванок
+    description: description TBD
+  # Navigation
+  # --------------------------------------------
   back: Назад
   read_more: Детальніше
   events:
