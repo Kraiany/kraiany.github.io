@@ -38,3 +38,34 @@ Workflow of the deployment is as follows:
 
 
 ```
+
+## Docker
+
+Simpler setup using Docker.
+
+
+### Build image
+
+```
+docker build -t kraiany .
+
+```
+
+### Develop
+
+```
+
+ docker run -it  --rm -v $(pwd):/app -p 4567:4567 kraiany
+ open http://localhost:4567
+
+
+```
+
+
+### Deploy
+
+```
+
+docker run -it  --rm -v $(pwd):/app -v ~/.gitconfig:/root/.gitconfig  -p 4567:4567 kraiany deploy
+
+```
