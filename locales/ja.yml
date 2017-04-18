@@ -1,14 +1,12 @@
 ---
 ja:
-  kraiany:
-    name: クラヤニ
-    description: description TBD
   festival:
     festival: フェスティバル
     description: description TBD
   parade:
+    title: 東京ウクライナ・パレード 2017
     parade: パレード
-    description: description TBD
+    description: 伝統的なウクライナの刺繍が施された民族衣装（ヴィシヴァンカ）を身にまとい、東京の銀座を遊歩。
   # Navigation
   # --------------------------------------------
   back: 戻る
