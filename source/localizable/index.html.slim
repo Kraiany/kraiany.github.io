@@ -1,9 +1,9 @@
 ---
-title: t "kraiany.name"
+title: "kraiany.title"
 ---
-h1 = t "kraiany.name"
+h1 = t "kraiany.title"
 p = t "kraiany.description"
 h2
-  = link_to t("festival.festival"), '/festival'
+  = link_to t("festival.festival"), "/#{locale}/festival"
   |&nbsp;|&nbsp;
-  = link_to t("parade.parade"), '/parade'
+  = link_to t("parade.parade"), "/#{locale}/parade"

@@ -3,9 +3,6 @@ en:
   festival:
     festival: Festival
     description: description TBD
-  parade:
-    parade: Parade
-    description: description TBD
   # Navigation
   # --------------------------------------------
   back: Back

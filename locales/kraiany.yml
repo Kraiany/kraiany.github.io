@@ -1,17 +1,17 @@
 ---
 uk:
   kraiany:
-    name: Краяни
+    title: Краяни
     description: Краяни - незалежна, неурядова та неофіційна організація українців, що проживають у Японії.
 
 # ----------------------------------------------------------------------------------------
 en:
   kraiany:
-    name: Kraiany
+    title: Kraiany
     description: Kraiany - independent, non-governmental and unofficial community of Ukrainians leaving in Japan.
 
 # ----------------------------------------------------------------------------------------
 ja:
   kraiany:
-    name: クラヤニ
-    description: description TBD
+    title: クラヤネ
+    description: 在日ウクライナ人コミュニティ「クラヤネ」(Kraiany)

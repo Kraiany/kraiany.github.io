@@ -8,39 +8,24 @@ html
     meta charset="utf-8" /
     meta content="IE=edge" http-equiv="X-UA-Compatible" /
     meta content="width=device-width, initial-scale=1" name="viewport" /
-    meta content="伝統的なウクライナの刺繍が施された民族衣装を身にまとい、東京の銀座を遊歩" name="description" /
+
+    meta content="#{t current_page.data.description}" name="description" /
     meta content="ウクライナ,パレード,ヴィシヴァンカ,Kraiany" name="keywords" /
-    meta content="在日ウクライナ人コミュニティ「クラヤネ」(Kraiany)" name="author" /
+    meta content="#{t "kraiany.description"}" name="author" /
     meta content="https://www.kraiany.org/parade/assets/images/about-us.png" property="og:image" /
-    meta content="東京ウクライナ・パレード" property="og:title" /
-    meta content="伝統的なウクライナの刺繍が施された民族衣装を身にまとい、東京の銀座を遊歩" property="og:description" /
-    meta content="https://www.kraiany.org/parade/index.html" property="og:url" /
-    title 東京ウクライナ・パレード
-    /! css
-    link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" /
-    link href="bower_components/ionicons/css/ionicons.min.css" rel="stylesheet" /
-    link href="assets/css/main.css" rel="stylesheet" /
-    /! Use title if it's in the page YAML frontmatter
-    title = current_page.data.title || "Middleman"
-    = stylesheet_link_tag "site"
-    = javascript_include_tag "site"
+    meta content="#{t current_page.data.title}" property="og:title" /
+    meta content="#{t current_page.data.description}" property="og:description" /
+    meta content="https://www.kraiany.org/#{current_page.path}" property="og:url" /
+
+    title = t current_page.data.title
+
+
+    title = t("current_page.data.title") || t("kraiany.title")
+    = stylesheet_link_tag "/assets/stylesheets/site"
+    = javascript_include_tag "/assets/javascripts/site"
   body[class="#{page_classes}"]
 
     = yield
-
-  script src="bower_components/jquery/dist/jquery.min.js"
-  script src="bower_components/bootstrap/dist/js/bootstrap.min.js"
-  script src="bower_components/smooth-scroll/dist/js/smooth-scroll.min.js"
-  script src="assets/js/main.js"
-  script src="assets/js/jquery.lazyload-any.min.js"
-  javascript:
-    function load(img)
-          {
-            img.fadeOut(0, function() {
-              img.fadeIn(1000);
-            });
-          }
-          $('.lazyload').lazyload({load: load});
 
   javascript:
      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
