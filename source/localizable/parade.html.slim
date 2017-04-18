@@ -2,172 +2,147 @@
 layout: layout
 title: "parade.title"
 description: "parade.description"
+
+menu:
+  - "data-scroll": ""
+    href: "#about"
+    title: 東京ウクライナ・パレード概要
+  - data-scroll: ""
+    href: "#schedule"
+    title: タイムテーブル
+  - data-scroll: ""
+    href: "#location"
+    title: 集合場所
+  - data-scroll: ""
+    href: "#photos"
+    title: 過去のパレード
+
 ---
 
-body data-spy="scroll" data-target="#site-nav"
-  nav#site-nav.navbar.navbar-fixed-top.navbar-custom
-    .container
-      .navbar-header
-        /! logo
-        .site-branding
-          a.logo href="index.html"
-            /! logo image
-            img alt="Logo" src="/assets/images/logo.png" /
-            = t "parade.title"
-        button.navbar-toggle.collapsed aria-expanded="false" data-target="#navbar-items" data-toggle="collapse" type="button"
-          span.sr-only Toggle navigation
-          span.icon-bar
-          span.icon-bar
-          span.icon-bar
-      /! /.navbar-header
-      #navbar-items.collapse.navbar-collapse
-        ul.nav.navbar-nav.navbar-right
-          /! navigation menu
+header#site-header.site-header.valign-center
+  .intro
+    h2 2017年5月20日 / 東京都銀座
+    h1 東京ウクライナ・パレード 2017
+    p 伝統的なウクライナの刺繍が施された民族衣装（ヴィシヴァンカ）を身にまとい、東京の銀座を遊歩。
+    p 参加はどなたでも大歓迎です。
+    a.btn.btn-white href="https://www.facebook.com/events/1397388443669849/" target="_blank"  Facebookイベントページへ
+section#about.section.about
+  .container
+    .row
+      .col-sm-6
+        h3.section-title 東京ウクライナ・パレード概要
+        p ヴィシヴァンカと呼ばれる刺繍のブラウスや衣装を着るこの大パレードは、1991年のウクライナ独立後、ウクライナ国内をはじめ、世界各国で行われるようになりました。今回、在日ウクライナ人やその友人たちにより、日本でも5回目の開催が決まりましたので、ご案内いたします。参加はどなたでも大歓迎です！
+        p ヴィシヴァンカをお持ちでない場合、貸出を承っておりますので、詳細ご希望の方はイベントページにてコメントを残していただくか、管理者へメッセージをお送りください。私服でももちろんご参加いただけますが、その場合はウクライナ国旗の黄色か青色でお願いします！
+        p 当イベントはウクライナの伝統文化を日本で広めるという目的で行われます。抗議デモの呼びかけは禁止されています。当イベントにふさわしくない行動を取られる方は退場させていただく場合があります。
+        p
+          b
+            | 集合日時： 2017年5月20日(土)　13:30
+            br/
+            | 集合場所： 東京都中央区銀座1-12-6 水谷橋公園
+            br/
+            | パレード経路：
+            a href="http://bit.ly/UkraineParadeInTokyo" target="_blank"  水谷橋公園ー銀座駅ー日比谷公園 (地図を開く)
+            br/
+            | 参加料： 無料
+      /! /.col-sm-6
+      .col-sm-6
+        h3.section-title.multiple-title 主催
+        ul.list-arrow-right
           li
-            a data-scroll="" href="#about"  東京ウクライナ・パレード概要
-          li
-            a data-scroll="" href="#schedule"  タイムテーブル
-          li
-            a data-scroll="" href="#location"  集合場所
-          li
-            a data-scroll="" href="#photos"  過去のパレード
-    /! /.container
-  header#site-header.site-header.valign-center
-    .intro
-      h2 2017年5月20日 / 東京都銀座
-      h1 東京ウクライナ・パレード 2017
-      p 伝統的なウクライナの刺繍が施された民族衣装（ヴィシヴァンカ）を身にまとい、東京の銀座を遊歩。
-      p 参加はどなたでも大歓迎です。
-      a.btn.btn-white href="https://www.facebook.com/events/1397388443669849/" target="_blank"  Facebookイベントページへ
-  section#about.section.about
-    .container
-      .row
-        .col-sm-6
-          h3.section-title 東京ウクライナ・パレード概要
-          p ヴィシヴァンカと呼ばれる刺繍のブラウスや衣装を着るこの大パレードは、1991年のウクライナ独立後、ウクライナ国内をはじめ、世界各国で行われるようになりました。今回、在日ウクライナ人やその友人たちにより、日本でも5回目の開催が決まりましたので、ご案内いたします。参加はどなたでも大歓迎です！
-          p ヴィシヴァンカをお持ちでない場合、貸出を承っておりますので、詳細ご希望の方はイベントページにてコメントを残していただくか、管理者へメッセージをお送りください。私服でももちろんご参加いただけますが、その場合はウクライナ国旗の黄色か青色でお願いします！
-          p 当イベントはウクライナの伝統文化を日本で広めるという目的で行われます。抗議デモの呼びかけは禁止されています。当イベントにふさわしくない行動を取られる方は退場させていただく場合があります。
+            a href="https://www.facebook.com/ukrainians.japan" target="_blank"  在日ウクライナコミュニティー「クラヤネ」(Kraiany)
+        br/
+      /! /.col-sm-6
+      iframe#map.col-sm-6 src="https://www.google.com/maps/d/u/0/embed?mid=16H6PzkrFeq-qBvdn6-OGz4Zdmaw" style=("border:none; min-height:400px; width: 100%;")
+    /! /.row
+  /! /.container
+section#facts.section.bg-image-1.facts.text-center
+  .container
+    .row
+      .col-sm-4
+        i.ion-ios-calendar
+        h3 日時：2017年5月20日 13:30
+      .col-sm-4
+        i.ion-ios-location
+        h3 場所：東京都中央区水谷橋公園
+      .col-sm-4
+        i.ion-pricetags
+        h3 参加料：無料
+    /! row
+  /! container
+section#schedule.section.schedule
+  .container
+    .row
+      .col-md-12
+        h3.section-title タイムテーブル
+    .row
+      .col-md-4.col-sm-6
+        .schedule-box
+          .time
+            time datetime="13:30"  13:30
+            | \-
+            time datetime="14:00"  14:00
+          h3 集合、パレードの準備
           p
-            b
-              | 集合日時： 2017年5月20日(土)　13:30
+      .col-md-4.col-sm-6
+        .schedule-box
+          .time
+            time datetime="14:00"  14:00
+            | \-
+            time datetime="15:00"  15:00
+          h3 パレードの実行
+          p 中央区水谷橋公園を出発し、銀座駅を通り抜けて、日比谷公園まで歩きます。
+      .col-md-4.col-sm-6
+        .schedule-box
+          .time
+            time datetime="15:00"  15:00
+            | \-
+            time datetime="17:00"  17:00
+          h3 ピクニック、交流会
+          p
+section#location.section.location
+  .container
+    .row
+      .col-sm-5
+        h3.section-title 集合場所
+        address
+          p
+            | 東京都中央区銀座1-12-6
+            = succeed "\u{6c34}\u{8c37}\u{6a4b}\u{516c}\u{5712}" do
               br/
-              | 集合場所： 東京都中央区銀座1-12-6 水谷橋公園
-              br/
-              | パレード経路：
-              a href="http://bit.ly/UkraineParadeInTokyo" target="_blank"  水谷橋公園ー銀座駅ー日比谷公園 (地図を開く)
-              br/
-              | 参加料： 無料
-        /! /.col-sm-6
-        .col-sm-6
-          h3.section-title.multiple-title 主催
-          ul.list-arrow-right
-            li
-              a href="https://www.facebook.com/ukrainians.japan" target="_blank"  在日ウクライナコミュニティー「クラヤネ」(Kraiany)
-          br/
-        /! /.col-sm-6
-        iframe#map.col-sm-6 src="https://www.google.com/maps/d/u/0/embed?mid=16H6PzkrFeq-qBvdn6-OGz4Zdmaw" style=("border:none; min-height:400px; width: 100%;")
-      /! /.row
-    /! /.container
-  section#facts.section.bg-image-1.facts.text-center
-    .container
-      .row
-        .col-sm-4
-          i.ion-ios-calendar
-          h3 日時：2017年5月20日 13:30
-        .col-sm-4
-          i.ion-ios-location
-          h3 場所：東京都中央区水谷橋公園
-        .col-sm-4
-          i.ion-pricetags
-          h3 参加料：無料
-      /! row
-    /! container
-  section#schedule.section.schedule
-    .container
-      .row
-        .col-md-12
-          h3.section-title タイムテーブル
-      .row
-        .col-md-4.col-sm-6
-          .schedule-box
-            .time
-              time datetime="13:30"  13:30
-              | \-
-              time datetime="14:00"  14:00
-            h3 集合、パレードの準備
-            p
-        .col-md-4.col-sm-6
-          .schedule-box
-            .time
-              time datetime="14:00"  14:00
-              | \-
-              time datetime="15:00"  15:00
-            h3 パレードの実行
-            p 中央区水谷橋公園を出発し、銀座駅を通り抜けて、日比谷公園まで歩きます。
-        .col-md-4.col-sm-6
-          .schedule-box
-            .time
-              time datetime="15:00"  15:00
-              | \-
-              time datetime="17:00"  17:00
-            h3 ピクニック、交流会
-            p
-  section#location.section.location
-    .container
-      .row
-        .col-sm-5
-          h3.section-title 集合場所
-          address
-            p
-              | 東京都中央区銀座1-12-6
-              = succeed "\u{6c34}\u{8c37}\u{6a4b}\u{516c}\u{5712}" do
-                br/
-              br/
-              | Tokyo, Chuo-ku, Ginza 1-12-6
-              br>/
-              | Mizutanibashi Park
-          h3.section-title 交通機関
-          | 東京メトロ有楽町線: 銀座一丁目駅 10番出口徒歩5分
-          br/
-          | 都営地下鉄浅草線: 宝町駅 A3出口徒歩5分
-          br/
-          | JR 京浜東北線、山手線: 有楽町駅 中央口徒歩10分
-          br/
-          font color="red"  公園には専用の駐車場はありませんので、お車での来場はご遠慮ください。
-        .col-sm-7
-          iframe allowfullscreen="" frameborder="0" height="450" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.109737565084!2d139.76776531557425!3d35.67429983795889!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188be3d1ef96ab%3A0x55c7ebbcda2651ae!2sMizutanibashi+Park!5e0!3m2!1sen!2ssg!4v1490514372154" style="border:0" width="100%"
-  section#photos.section.photos
-    .container
-      .col-sm-12
-        h2.section-title
-          | 過去のパレード
-      .lazyload
-        /!
-          | <div class="row"
+            br/
+            | Tokyo, Chuo-ku, Ginza 1-12-6
+            br>/
+            | Mizutanibashi Park
+        h3.section-title 交通機関
+        | 東京メトロ有楽町線: 銀座一丁目駅 10番出口徒歩5分
+        br/
+        | 都営地下鉄浅草線: 宝町駅 A3出口徒歩5分
+        br/
+        | JR 京浜東北線、山手線: 有楽町駅 中央口徒歩10分
+        br/
+        font color="red"  公園には専用の駐車場はありませんので、お車での来場はご遠慮ください。
+      .col-sm-7
+        iframe allowfullscreen="" frameborder="0" height="450" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.109737565084!2d139.76776531557425!3d35.67429983795889!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188be3d1ef96ab%3A0x55c7ebbcda2651ae!2sMizutanibashi+Park!5e0!3m2!1sen!2ssg!4v1490514372154" style="border:0" width="100%"
+section#photos.section.photos
+  .container
+    .col-sm-12
+      h2.section-title
+        | 過去のパレード
+    .lazyload
+      /!
+        | <div class="row"
 
-          | <div class="col-sm-12"
-          | <h3 class="section-title">第４回（2016年）</h3
-          | <div class="row"
-          | <div class="col-sm-6"
-          | <iframe width="100%" height="400px" src="https://www.youtube.com/embed/quL0BJiDITM" frameborder="0" allowfullscreen></iframe
-          | </div
-          | <div class="col-sm-6"
-          | <iframe width="100%" height="400px"  src="https://www.youtube.com/embed/bQwCEHdhjuo" frameborder="0" allowfullscreen></iframe
-          | </div
-          | </div
-          | </div
+        | <div class="col-sm-12"
+        | <h3 class="section-title">第４回（2016年）</h3
+        | <div class="row"
+        | <div class="col-sm-6"
+        | <iframe width="100%" height="400px" src="https://www.youtube.com/embed/quL0BJiDITM" frameborder="0" allowfullscreen></iframe
+        | </div
+        | <div class="col-sm-6"
+        | <iframe width="100%" height="400px"  src="https://www.youtube.com/embed/bQwCEHdhjuo" frameborder="0" allowfullscreen></iframe
+        | </div
+        | </div
+        | </div
 
-          | </div
-  footer.site-footer
-    .container
-      .row
-        .col-md-12
-          p.site-info 在日ウクライナ人コミュニティ「クラヤネ」(Краяни, Kraiany) のイベントです
-          ul.social-block
-            li
-              a href="https://twitter.com/UkrainiansJP" target="_blank"
-                i.ion-social-twitter
-            li
-              a href="https://www.facebook.com/ukrainians.japan" target="_blank"
-                i.ion-social-facebook
-  /! script
+        | </div
+/! script
