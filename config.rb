@@ -8,6 +8,9 @@ Slim::Engine.disable_option_validator!
 set :encoding, 'utf-8'
 set :index_file, 'index.html'
 set :partials_dir, 'partials'
+set :css_dir, 'assets/stylesheets'
+set :js_dir, 'assets/javascripts'
+set :images_dir, 'assets/images'
 # Per-page layout changes:
 #
 # With no layout
@@ -43,10 +46,12 @@ helpers do
   end
 end
 
+activate :sprockets
 
 # Reload the browser automatically whenever files change
 configure :development do
   activate :livereload
+  activate :relative_assets
 end
 
 ###

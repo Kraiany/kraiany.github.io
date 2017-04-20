@@ -15,6 +15,8 @@ gem 'middleman-livereload', '~> 3.4'
 gem 'middleman-deploy', '~> 2.0.0.pre.alpha'
 gem "middleman-blog"
 
+gem 'middleman-sprockets', '~> 4.0'
+
 gem "html2slim"
 gem "slim"
 gem 'middleman-minify-html'

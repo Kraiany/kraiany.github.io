@@ -1,0 +1,70 @@
+doctype html
+html
+  link href="favicon.ico" rel=("shortcut icon") type="image/x-icon" /
+  head
+    meta content="IE=edge" http-equiv="X-UA-Compatible" /
+    meta charset="utf-8" /
+    meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport" /
+    meta charset="utf-8" /
+    meta content="IE=edge" http-equiv="X-UA-Compatible" /
+    meta content="width=device-width, initial-scale=1" name="viewport" /
+
+    meta content="#{t current_page.data.description}" name="description" /
+    meta content="ウクライナ,パレード,ヴィシヴァンカ,Kraiany" name="keywords" /
+    meta content="#{t "kraiany.description"}" name="author" /
+    meta content="https://www.kraiany.org/parade/assets/images/about-us.png" property="og:image" /
+    meta content="#{t current_page.data.title}" property="og:title" /
+    meta content="#{t current_page.data.description}" property="og:description" /
+    meta content="https://www.kraiany.org/#{current_page.path}" property="og:url" /
+
+    title = t current_page.data.title
+
+
+    title = t("current_page.data.title") || t("kraiany.title")
+    = stylesheet_link_tag "/assets/stylesheets/site"
+    = javascript_include_tag "/assets/javascripts/site"
+  body data-spy="scroll" data-target="#site-nav"
+    nav#site-nav.navbar.navbar-fixed-top.navbar-custom
+      .container
+        .navbar-header
+          /! logo
+          .site-branding
+            a.logo href="index.html"
+              /! logo image
+              img alt="Logo" src="/assets/images/kraiany_logo_55x63.png" /
+              = t current_page.data.title
+          button.navbar-toggle.collapsed aria-expanded="false" data-target="#navbar-items" data-toggle="collapse" type="button"
+            span.sr-only Toggle navigation
+            span.icon-bar
+            span.icon-bar
+            span.icon-bar
+        /! /.navbar-header
+        #navbar-items.collapse.navbar-collapse
+          ul.nav.navbar-nav.navbar-right
+            - unless current_page.data.menu.nil?
+              - current_page.data.menu.each do |item|
+                li
+                  a data-scroll="#{item['data-scroll']}" href="#{item['href']}" = t item['title']
+    /! /.container
+
+    = yield
+
+  footer.site-footer
+    .container
+      .row
+        .col-md-12
+          p.site-info 在日ウクライナ人コミュニティ「クラヤネ」(Краяни, Kraiany) のイベントです
+          ul.social-block
+            li
+              a href="https://twitter.com/UkrainiansJP" target="_blank"
+                i.ion-social-twitter
+            li
+              a href="https://www.facebook.com/ukrainians.japan" target="_blank"
+                i.ion-social-facebook
+  javascript:
+     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+     m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+     })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+     ga('create', 'UA-73462527-2', 'auto');
+     ga('send', 'pageview');

@@ -1,9 +1,18 @@
 ---
-title: t "kraiany.name"
+title: "kraiany.title"
+
+# menu:
+#   - "data-scroll": ""
+#     href: "#about"
+#     title: "kraiany.title"
 ---
-h1 = t "kraiany.name"
-p = t "kraiany.description"
-h2
-  = link_to t("festival.festival"), '/festival'
-  |&nbsp;|&nbsp;
-  = link_to t("parade.parade"), '/parade'
+header#site-header.site-header.valign-center
+  .intro
+
+    h1 = t "kraiany.title"
+
+    p = t "kraiany.description"
+    h2
+      = link_to t("festival.festival"), "/#{locale}/festival", class: "btn btn-white"
+      |&nbsp;|&nbsp;
+      = link_to t("parade.parade"), "/#{locale}/parade", class: "btn btn-white"

@@ -1,13 +1,7 @@
 ---
 en:
-  kraiany:
-    name: Kraiany
-    description: Kraiany - independent, non-governmental and unofficial community of Ukrainians leaving in Japan.
   festival:
     festival: Festival
-    description: description TBD
-  parade:
-    parade: Parade
     description: description TBD
   # Navigation
   # --------------------------------------------

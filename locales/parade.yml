@@ -1,0 +1,33 @@
+uk:
+  parade:
+    title: Парад вишиванок у Японії 2017
+    parade: Парад вишиванок
+    description: Паради у вишиванках проводяться кожного року в Токіо, третьої неділі травня, починаючи з 2013 року. Парад у Наґої проводиться починаючи з 2016 року.
+    menu:
+      schedule: Дата та час
+      about: Про парад
+      location: Місце
+      photos: Попередні паради
+########################################################################################
+en:
+  parade:
+    title: Vyshyvanky parade in Japan 2017
+    parade: Parade
+    description: Vyshyvanky (traditional Ukrainian embroidened shirts) parades are held accross the world on the 3rd week of May. Tokyo parades are held since 2013.
+    menu:
+      schedule: Schedule
+      about: About
+      location: Location
+      photos: Previous events
+
+########################################################################################
+ja:
+  parade:
+    title: 東京ウクライナ・パレード 2017
+    parade: パレード
+    description: 伝統的なウクライナの刺繍が施された民族衣装（ヴィシヴァンカ）を身にまとい、東京の銀座を遊歩。
+    menu:
+      schedule: タイムテーブル
+      about: 東京ウクライナ・パレード概要
+      location: 集合場所
+      photos: 過去のパレード

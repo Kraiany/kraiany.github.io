@@ -1,13 +1,7 @@
 ---
 ja:
-  kraiany:
-    name: クラヤニ
-    description: description TBD
   festival:
     festival: フェスティバル
-    description: description TBD
-  parade:
-    parade: パレード
     description: description TBD
   # Navigation
   # --------------------------------------------
