@@ -54,6 +54,7 @@ configure :development do
   activate :relative_assets
 end
 
+
 ###
 # Helpers
 ###
@@ -67,6 +68,8 @@ end
 
 # Build-specific configuration
 configure :build do
+  activate :relative_assets
+
   activate :minify_css
   activate :minify_javascript
   set :relative_links, true
@@ -98,8 +101,8 @@ configure :build do
   ignore(/Icon\r$/)
   ignore(/\.DS_Store/)
   ignore(/^assets.*\.yml/)
-  ignore(/^assets\/stylesheets\/(?!all).*\.css/)
-  ignore(/^assets\/javascripts\/(?!all).*\.js/)
+  ignore(/^assets\/stylesheets\/(?!site).*\.css/)
+  ignore(/^assets\/javascripts\/(?!site).*\.js/)
 end
 
 activate :deploy do |deploy|
