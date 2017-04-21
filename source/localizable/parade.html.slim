@@ -21,35 +21,41 @@ menu:
 
 header#site-header.site-header.valign-center
   .intro
-    h2 2017年5月20日 / 東京都銀座
-    h1 東京ウクライナ・パレード 2017
-    p 伝統的なウクライナの刺繍が施された民族衣装（ヴィシヴァンカ）を身にまとい、東京の銀座を遊歩。
-    p 参加はどなたでも大歓迎です。
-    a.btn.btn-white href="https://www.facebook.com/events/1397388443669849/" target="_blank"  Facebookイベントページへ
+    h2 = t "parade.intro.date_place"
+    h1 = t "parade.title"
+    p = t "parade.description"
+    p = t "parade.intro.everybody_welcome"
+    a.btn.btn-white href="https://www.facebook.com/events/1397388443669849/" target="_blank"  = t "parade.facebook"
 section#about.section.about
   .container
     .row
       .col-sm-6
-        h3.section-title 東京ウクライナ・パレード概要
-        p ヴィシヴァンカと呼ばれる刺繍のブラウスや衣装を着るこの大パレードは、1991年のウクライナ独立後、ウクライナ国内をはじめ、世界各国で行われるようになりました。今回、在日ウクライナ人やその友人たちにより、日本でも5回目の開催が決まりましたので、ご案内いたします。参加はどなたでも大歓迎です！
-        p ヴィシヴァンカをお持ちでない場合、貸出を承っておりますので、詳細ご希望の方はイベントページにてコメントを残していただくか、管理者へメッセージをお送りください。私服でももちろんご参加いただけますが、その場合はウクライナ国旗の黄色か青色でお願いします！
-        p 当イベントはウクライナの伝統文化を日本で広めるという目的で行われます。抗議デモの呼びかけは禁止されています。当イベントにふさわしくない行動を取られる方は退場させていただく場合があります。
+        h3.section-title =t "parade.about"
+        p =t "parade.section_about.p1"
+        p =t "parade.section_about.p2"
+        p =t "parade.section_about.p3"
+
         p
           b
-            | 集合日時： 2017年5月20日(土)　13:30
+            = t "parade.section_about.meeting_time"
+            | :
+            =< t "parade.datetime"
             br/
-            | 集合場所： 東京都中央区銀座1-12-6 水谷橋公園
+            = t "parade.section_about.meeting_place"
+            | :
+            =< t "parade.place"
             br/
-            | パレード経路：
-            a href="http://bit.ly/UkraineParadeInTokyo" target="_blank"  水谷橋公園ー銀座駅ー日比谷公園 (地図を開く)
+            = t "parade.section_about.parade_route"
+            | :
+            a href="http://bit.ly/UkraineParadeInTokyo" target="_blank" =< t "parade.route"
             br/
-            | 参加料： 無料
+            = t "parade.fee"
       /! /.col-sm-6
       .col-sm-6
-        h3.section-title.multiple-title 主催
+        h3.section-title.multiple-title = t "parade.organizers"
         ul.list-arrow-right
           li
-            a href="https://www.facebook.com/ukrainians.japan" target="_blank"  在日ウクライナコミュニティー「クラヤネ」(Kraiany)
+            a href="https://www.facebook.com/ukrainians.japan" target="_blank" = t "kraiany.about"
         br/
       /! /.col-sm-6
       iframe#map.col-sm-6 src="https://www.google.com/maps/d/u/0/embed?mid=16H6PzkrFeq-qBvdn6-OGz4Zdmaw" style=("border:none; min-height:400px; width: 100%;")
