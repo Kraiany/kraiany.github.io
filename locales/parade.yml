@@ -3,31 +3,102 @@ uk:
     title: Парад вишиванок у Японії 2017
     parade: Парад вишиванок
     description: Паради у вишиванках проводяться кожного року в Токіо, третьої неділі травня, починаючи з 2013 року. Парад у Наґої проводиться починаючи з 2016 року.
+    about: Про марш вишиванок у Токіо
+    facebook: Подія на Facebook
+    fee: |
+      Вартість：Безкоштовно
+    organizers: Організатори
+    datetime: 20 травня 2017 (субота) 13:30
+    place: Токіо, Чюо-ку, Ґінза 1-12-6, парк Мізутанібаші
+    route: Парк Мізутанібаші ー Станція Ґінза ー Парк Хібія (див. мапу)
+    # ------------------------------------------------------------------
     menu:
       schedule: Дата та час
       about: Про парад
       location: Місце
       photos: Попередні паради
+    intro:
+      date_place: 20 травня 2017 / Токіо, район Ґінзи
+      everybody_welcome: Запрошуються всі.
+    # ------------------------------------------------------------
+    section_about:
+      p1: |
+        Мегамарш закликає всіх українців, друзів України та небайдужих до України в Японії приєднатися до світової ініціативи та глобальної акції -- Вдягни вишиванку і підтримай Україну! П’ятий традиційний марш вулицями Токіо! Як і минулого року, цього разу в центрі столиці - районі Ґінза! Запрошуються всі!
+      p2: |
+        Будемо раді бачити вас у вишиванках, якщо ви не маєте вишиванки — в одязі в національних кольорах. Будь-яка українська символіка всіляко заохочується і вітається: українські прапори, прапорці, жовто-блакитні стрічки та інша національна атрибутика.
+      p3: |
+        Захід є аполітичним. Будь-яка символіка, окрім державної, вигуки/пісні з політичним наповненням на заході забороняється. Якщо після мегамаршу ви не проти продовжити спілкування у парку Хібія, не забудьте захопити з собою підстилки для сидіння та легкі закуски, напої на свій смак.
+
+      meeting_time: Час зустрічі
+      meeting_place: Місце зустрічі
+      parade_route: Маршрут руху
 ########################################################################################
+#
+#
 en:
   parade:
-    title: Vyshyvanky parade in Japan 2017
+    title: Ukranian parade in Japan 2017
     parade: Parade
     description: Vyshyvanky (traditional Ukrainian embroidened shirts) parades are held accross the world on the 3rd week of May. Tokyo parades are held since 2013.
+    about: About Ukrainian parade in Tokyo
+    facebook: See Facebook event
+    fee: Fee： Free
+    organizers: Organizers
+    datetime:  May 20th 2017 (Sat) 13:30
+    place:  Tokyo, Chuo-ku, Ginza1-12-6 Park Mizutanibashi
+    route: Mizutanibashi parkーGinza stationーHibiya park (See on the map)
+    # ------------------------------------------------------------------
     menu:
       schedule: Schedule
       about: About
       location: Location
       photos: Previous events
+    intro:
+      date_place: May 20th 2017 / Tokyo, Ginza
+      everybody_welcome: Everybody welcome.
+    # ------------------------------------------------------------
+    section_about:
+      p1: |
+        5th Annual Tokyo Ukraine Parade 2017. This year we will meet again in the heart of the capital of Japan, Ginza. First held in 2013, the Tokyo Ukraine Parade is informally connected to a series of worldwide “Vyshyvanka” (traditional Ukrainian embroidery) cultural parades held in cities in Ukraine and throughout the world. Although intended as a celebration of Ukraine’s traditional culture, it also has a deeper meaning for many participants due to the ongoing violence and occupation in parts of Ukraine. Everyone is welcome to participate!
+      p2: |
+        If you do not have Vyshyvanka,  somebody possibly can lend you one, please leave a comment on the event page or send a message to the administrator if you would like more information . You can participate even without vyshyvanka, of course, in that case please try to wear something in yellow or blue color of the Ukrainian flag!
 
+      p3: |
+        This is strictly a cultural event. Any political symbols, shouts, etc. are prohibited.
+
+      meeting_time: Meeting time
+      meeting_place: Meeting Place
+      parade_route: Parade route
 ########################################################################################
+#
+#
 ja:
   parade:
     title: 東京ウクライナ・パレード 2017
     parade: パレード
     description: 伝統的なウクライナの刺繍が施された民族衣装（ヴィシヴァンカ）を身にまとい、東京の銀座を遊歩。
+    about: 東京ウクライナ・パレード概要
+    facebook: Facebookイベントページへ
+    fee: |
+      参加料： 無料
+    organizers: 主催
+    datetime: 2017年5月20日 13:30
+    place: 東京都中央区水谷橋公園
+    route: 水谷橋公園ー銀座駅ー日比谷公園 (地図を開く)
+    # ------------------------------------------------------------------
     menu:
       schedule: タイムテーブル
       about: 東京ウクライナ・パレード概要
       location: 集合場所
       photos: 過去のパレード
+    intro:
+      date_place: 2017年5月20日 / 東京都銀座
+      everybody_welcome: 参加はどなたでも大歓迎です。
+    # ------------------------------------------------------------
+    section_about:
+      p1: ヴィシヴァンカと呼ばれる刺繍のブラウスや衣装を着るこの大パレードは、1991年のウクライナ独立後、ウクライナ国内をはじめ、世界各国で行われるようになりました。今回、在日ウクライナ人やその友人たちにより、日本でも5回目の開催が決まりましたので、ご案内いたします。参加はどなたでも大歓迎です！
+      p2: ヴィシヴァンカをお持ちでない場合、貸出を承っておりますので、詳細ご希望の方はイベントページにてコメントを残していただくか、管理者へメッセージをお送りください。私服でももちろんご参加いただけますが、その場合はウクライナ国旗の黄色か青色でお願いします！
+      p3: 当イベントはウクライナの伝統文化を日本で広めるという目的で行われます。抗議デモの呼びかけは禁止されています。当イベントにふさわしくない行動を取られる方は退場させていただく場合があります。
+      meeting_time: 集合日時：
+      meeting_place: 集合日時：
+      parade_route: パレード経路：

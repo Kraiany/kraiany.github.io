@@ -7,7 +7,6 @@ Slim::Engine.disable_option_validator!
 
 set :encoding, 'utf-8'
 set :index_file, 'index.html'
-set :partials_dir, 'partials'
 set :css_dir, 'assets/stylesheets'
 set :js_dir, 'assets/javascripts'
 set :images_dir, 'assets/images'
@@ -40,7 +39,7 @@ helpers do
   end
 
   def current_with_locale(locale)
-    current_page_with_locale
+    current_page
       .url
       .sub(%r{^/#{I18n.locale}/},"/#{locale}/")
   end

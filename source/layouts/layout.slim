@@ -11,7 +11,7 @@ html
 
     meta content="#{t current_page.data.description}" name="description" /
     meta content="ウクライナ,パレード,ヴィシヴァンカ,Kraiany" name="keywords" /
-    meta content="#{t "kraiany.description"}" name="author" /
+    meta content="#{t "kraiany.about"}" name="author" /
     meta content="https://www.kraiany.org/parade/assets/images/about-us.png" property="og:image" /
     meta content="#{t current_page.data.title}" property="og:title" /
     meta content="#{t current_page.data.description}" property="og:description" /
@@ -54,7 +54,7 @@ html
     .container
       .row
         .col-md-12
-          p.site-info 在日ウクライナ人コミュニティ「クラヤネ」(Краяни, Kraiany) のイベントです
+          p.site-info = t "kraiany.event"
           ul.social-block
             li
               a href="https://twitter.com/UkrainiansJP" target="_blank"
