@@ -12,4 +12,8 @@ $(document).ready(function() {
         });
     }
     $('.lazyload').lazyload({load: load});
+
+
+    $('[data-toggle="tooltip"]').tooltip();
+
 });

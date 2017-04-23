@@ -45,6 +45,7 @@ html
               - current_page.data.menu.each do |item|
                 li
                   a data-scroll="#{item['data-scroll']}" href="#{item['href']}" = t item['title']
+            = partial "language_select"
     /! /.container
 
     = yield
