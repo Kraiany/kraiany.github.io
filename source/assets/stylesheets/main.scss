@@ -2,3 +2,8 @@
 @import 'header';
 @import 'sections';
 @import 'footer';
+
+li.plain {
+    list-style-type: none;
+    font-weight: normal;
+}

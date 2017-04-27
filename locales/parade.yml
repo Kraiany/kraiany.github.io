@@ -11,27 +11,48 @@ uk:
     datetime: 20 травня 2017 (субота) 13:30
     place: Токіо, Чюо-ку, Ґінза 1-12-6, парк Мізутанібаші
     route: Парк Мізутанібаші ー Станція Ґінза ー Парк Хібія (див. мапу)
+    datetime_l: Час
+    place_l: Місце
     # ------------------------------------------------------------------
     menu:
-      schedule: Дата та час
+      schedule: Розклад
       about: Про парад
-      location: Місце
+      location: Адреса
       photos: Попередні
     intro:
       date_place: 20 травня 2017 / Токіо, район Ґінзи
       everybody_welcome: Запрошуються всі.
     # ------------------------------------------------------------
-    section_about:
-      p1: |
-        Мегамарш закликає всіх українців, друзів України та небайдужих до України в Японії приєднатися до світової ініціативи та глобальної акції -- Вдягни вишиванку і підтримай Україну! П’ятий традиційний марш вулицями Токіо! Як і минулого року, цього разу в центрі столиці - районі Ґінза! Запрошуються всі!
-      p2: |
-        Будемо раді бачити вас у вишиванках, якщо ви не маєте вишиванки — в одязі в національних кольорах. Будь-яка українська символіка всіляко заохочується і вітається: українські прапори, прапорці, жовто-блакитні стрічки та інша національна атрибутика.
-      p3: |
-        Захід є аполітичним. Будь-яка символіка, окрім державної, вигуки/пісні з політичним наповненням на заході забороняється. Якщо після мегамаршу ви не проти продовжити спілкування у парку Хібія, не забудьте захопити з собою підстилки для сидіння та легкі закуски, напої на свій смак.
+    section:
+      about:
+        p1: |
+          Мегамарш закликає всіх українців, друзів України та небайдужих до України в Японії приєднатися до світової ініціативи та глобальної акції -- Вдягни вишиванку і підтримай Україну! П’ятий традиційний марш вулицями Токіо! Як і минулого року, цього разу в центрі столиці - районі Ґінза! Запрошуються всі!
+        p2: |
+            Будемо раді бачити вас у вишиванках, якщо ви не маєте вишиванки — в одязі в національних кольорах. Будь-яка українська символіка всіляко заохочується і вітається: українські прапори, прапорці, жовто-блакитні стрічки та інша національна атрибутика.
+        p3: |
+              Захід є аполітичним. Будь-яка символіка, окрім державної, вигуки/пісні з політичним наповненням на заході забороняється. Якщо після мегамаршу ви не проти продовжити спілкування у парку Хібія, не забудьте захопити з собою підстилки для сидіння та легкі закуски, напої на свій смак.
 
-      meeting_time: Час зустрічі
-      meeting_place: Місце зустрічі
-      parade_route: Маршрут руху
+        meeting_time: Час зустрічі
+        meeting_place: Місце зустрічі
+        parade_route: Маршрут руху
+      # ------------------------------------------------------------------
+      schedule:
+        title: Розклад
+        preparation: Збір і підготовка
+        marche: Марш
+        parade_route: Вихід з парку Мізутанібаші, через район Ґінзи, до парку Хібія.
+        picnic: Пікнік і спілкування.
+      # ------------------------------------------------------------------
+      location:
+        from_ginza1chome: "Токіо метро, лінія Юракучьо: ст. Ґінза-іччоме, 10 вихід, 5 хв. пішки"
+        from_takarocho: "Метро Тоей, лінія Асакуса: ст. Такарачьо, вихід А3, 5 хв. пішки"
+        from_yourakucho: "JR лінії Кейхін-Тохоку, Яманоте: ст. Юракучьо, центр. вихід, 10 хв. пішки"
+        no_parking: В парку відсутні авто-стоянки, будь ласка, утримайтесь від користування автомобілем.
+        transportation: Транспорт
+      # ------------------------------------------------------------------
+      photos:
+        previous: Попередні марші
+        no4: 4й марш（2016 рік）
 ########################################################################################
 #
 #
@@ -47,6 +68,9 @@ en:
     datetime:  May 20th 2017 (Sat) 13:30
     place:  Tokyo, Chuo-ku, Ginza1-12-6 Park Mizutanibashi
     route: Mizutanibashi parkーGinza stationーHibiya park (See on the map)
+    datetime_l: Time
+    place_l: Place
+
     # ------------------------------------------------------------------
     menu:
       schedule: Schedule
@@ -57,18 +81,37 @@ en:
       date_place: May 20th 2017 / Tokyo, Ginza
       everybody_welcome: Everybody welcome.
     # ------------------------------------------------------------
-    section_about:
-      p1: |
-        5th Annual Tokyo Ukraine Parade 2017. This year we will meet again in the heart of the capital of Japan, Ginza. First held in 2013, the Tokyo Ukraine Parade is informally connected to a series of worldwide “Vyshyvanka” (traditional Ukrainian embroidery) cultural parades held in cities in Ukraine and throughout the world. Although intended as a celebration of Ukraine’s traditional culture, it also has a deeper meaning for many participants due to the ongoing violence and occupation in parts of Ukraine. Everyone is welcome to participate!
-      p2: |
-        If you do not have Vyshyvanka,  somebody possibly can lend you one, please leave a comment on the event page or send a message to the administrator if you would like more information . You can participate even without vyshyvanka, of course, in that case please try to wear something in yellow or blue color of the Ukrainian flag!
+    section:
+      about:
+        p1: |
+          5th Annual Tokyo Ukraine Parade 2017. This year we will meet again in the heart of the capital of Japan, Ginza. First held in 2013, the Tokyo Ukraine Parade is informally connected to a series of worldwide “Vyshyvanka” (traditional Ukrainian embroidery) cultural parades held in cities in Ukraine and throughout the world. Although intended as a celebration of Ukraine’s traditional culture, it also has a deeper meaning for many participants due to the ongoing violence and occupation in parts of Ukraine. Everyone is welcome to participate!
+        p2: |
+            If you do not have Vyshyvanka,  somebody possibly can lend you one, please leave a comment on the event page or send a message to the administrator if you would like more information . You can participate even without vyshyvanka, of course, in that case please try to wear something in yellow or blue color of the Ukrainian flag!
 
-      p3: |
-        This is strictly a cultural event. Any political symbols, shouts, etc. are prohibited.
+        p3: |
+              This is strictly a cultural event. Any political symbols, shouts, etc. are prohibited.
 
-      meeting_time: Meeting time
-      meeting_place: Meeting Place
-      parade_route: Parade route
+        meeting_time: Meeting time
+        meeting_place: Meeting Place
+        parade_route: Parade route
+      # ------------------------------------------------------------------
+      schedule:
+        title: Schedule
+        preparation: Meeting and preparation
+        marche: Marche
+        parade_route: LEave Mizutanibashi par, via Ginza to Hibia park.
+        picnic: Picnic and communication
+      # ------------------------------------------------------------------
+      location:
+        from_ginza1chome: "Tokyo metro, Yurakucho line: Ginza-itchome st., Exit 10, 5 min. walk"
+        from_takarocho: "Toei subway, Asakusa line: Takaracho st., Exit A3, 5 min. walk"
+        from_yourakucho: "JR Keihin-Tohoku and Yamanote lines: Yurakucho st., Central Exit, 10 min. walk"
+        no_parking: There is no private parking lot in the park, so please refrain from visiting by car.
+        transportation: Transportation
+      # ------------------------------------------------------------------
+      photos:
+        previuos: Previous parades
+        no4: Parane No 4 (year 2016)
 ########################################################################################
 #
 #
@@ -85,6 +128,8 @@ ja:
     datetime: 2017年5月20日 13:30
     place: 東京都中央区水谷橋公園
     route: 水谷橋公園ー銀座駅ー日比谷公園 (地図を開く)
+    datetime_l: 日時
+    place_l: 場所
     # ------------------------------------------------------------------
     menu:
       schedule: タイムテーブル
@@ -95,10 +140,29 @@ ja:
       date_place: 2017年5月20日 / 東京都銀座
       everybody_welcome: 参加はどなたでも大歓迎です。
     # ------------------------------------------------------------
-    section_about:
-      p1: ヴィシヴァンカと呼ばれる刺繍のブラウスや衣装を着るこの大パレードは、1991年のウクライナ独立後、ウクライナ国内をはじめ、世界各国で行われるようになりました。今回、在日ウクライナ人やその友人たちにより、日本でも5回目の開催が決まりましたので、ご案内いたします。参加はどなたでも大歓迎です！
-      p2: ヴィシヴァンカをお持ちでない場合、貸出を承っておりますので、詳細ご希望の方はイベントページにてコメントを残していただくか、管理者へメッセージをお送りください。私服でももちろんご参加いただけますが、その場合はウクライナ国旗の黄色か青色でお願いします！
-      p3: 当イベントはウクライナの伝統文化を日本で広めるという目的で行われます。抗議デモの呼びかけは禁止されています。当イベントにふさわしくない行動を取られる方は退場させていただく場合があります。
-      meeting_time: 集合日時：
-      meeting_place: 集合日時：
-      parade_route: パレード経路：
+    section:
+      about:
+        p1: ヴィシヴァンカと呼ばれる刺繍のブラウスや衣装を着るこの大パレードは、1991年のウクライナ独立後、ウクライナ国内をはじめ、世界各国で行われるようになりました。今回、在日ウクライナ人やその友人たちにより、日本でも5回目の開催が決まりましたので、ご案内いたします。参加はどなたでも大歓迎です！
+        p2: ヴィシヴァンカをお持ちでない場合、貸出を承っておりますので、詳細ご希望の方はイベントページにてコメントを残していただくか、管理者へメッセージをお送りください。私服でももちろんご参加いただけますが、その場合はウクライナ国旗の黄色か青色でお願いします！
+        p3: 当イベントはウクライナの伝統文化を日本で広めるという目的で行われます。抗議デモの呼びかけは禁止されています。当イベントにふさわしくない行動を取られる方は退場させていただく場合があります。
+        meeting_time: 集合日時：
+        meeting_place: 集合場所：
+        parade_route: パレード経路：
+      # ------------------------------------------------------------------
+      schedule:
+        title: タイムテーブル
+        preparation: 集合、パレードの準備
+        marche: パレードの実行
+        parade_route: 中央区水谷橋公園を出発し、銀座駅を通り抜けて、日比谷公園まで歩きます。
+        picnic: ピクニック、交流会
+      # ------------------------------------------------------------------
+      location:
+        from_ginza1chome: "東京メトロ有楽町線: 銀座一丁目駅 10番出口徒歩5分"
+        from_takarocho: "都営地下鉄浅草線: 宝町駅 A3出口徒歩5分"
+        from_yourakucho: "JR 京浜東北線、山手線: 有楽町駅 中央口徒歩10分"
+        no_parking: 公園には専用の駐車場はありませんので、お車での来場はご遠慮ください。
+        transportation: 交通機関
+      # ------------------------------------------------------------------
+      photos:
+        previous: 過去のパレード
+        no4: 第４回（2016年）
