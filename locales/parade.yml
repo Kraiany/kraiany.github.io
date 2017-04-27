@@ -17,13 +17,8 @@ uk:
     menu:
       schedule: Розклад
       about: Про парад
-<<<<<<< Updated upstream
-      location: Місце
-      photos: Попередні паради
-=======
       location: Адреса
       photos: Попередні
->>>>>>> Stashed changes
     intro:
       date_place: 20 травня 2017 / Токіо, район Ґінзи
       everybody_welcome: Запрошуються всі.
