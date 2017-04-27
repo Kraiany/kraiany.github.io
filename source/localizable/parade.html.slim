@@ -31,21 +31,21 @@ section#about.section.about
     .row
       .col-sm-6
         h3.section-title =t "parade.about"
-        p =t "parade.section_about.p1"
-        p =t "parade.section_about.p2"
-        p =t "parade.section_about.p3"
+        p =t "parade.section.about.p1"
+        p =t "parade.section.about.p2"
+        p =t "parade.section.about.p3"
 
         p
           b
-            = t "parade.section_about.meeting_time"
+            = t "parade.section.about.meeting_time"
             | :
             =< t "parade.datetime"
             br/
-            = t "parade.section_about.meeting_place"
+            = t "parade.section.about.meeting_place"
             | :
             =< t "parade.place"
             br/
-            = t "parade.section_about.parade_route"
+            = t "parade.section.about.parade_route"
             | :
             a href="http://bit.ly/UkraineParadeInTokyo" target="_blank" =< t "parade.route"
             br/
@@ -66,20 +66,20 @@ section#facts.section.bg-image-1.facts.text-center
     .row
       .col-sm-4
         i.ion-ios-calendar
-        h3 日時：2017年5月20日 13:30
+        h3 #{t "parade.datetime_l"} : #{t "parade.datetime"}
       .col-sm-4
         i.ion-ios-location
-        h3 場所：東京都中央区水谷橋公園
+        h3 #{t "parade.place_l"} : #{t "parade.place"}
       .col-sm-4
         i.ion-pricetags
-        h3 参加料：無料
+        h3 = t "parade.fee"
     /! row
   /! container
 section#schedule.section.schedule
   .container
     .row
       .col-md-12
-        h3.section-title タイムテーブル
+        h3.section-title = t "parade.section.schedule.title"
     .row
       .col-md-4.col-sm-6
         .schedule-box
@@ -87,7 +87,7 @@ section#schedule.section.schedule
             time> datetime="13:30"  13:30
             | -
             time datetime="14:00"  14:00
-          h3 集合、パレードの準備
+          h3 = t "parade.section.schedule.preparation"
           p
       .col-md-4.col-sm-6
         .schedule-box
@@ -95,48 +95,41 @@ section#schedule.section.schedule
             time> datetime="14:00"  14:00
             | -
             time datetime="15:00"  15:00
-          h3 パレードの実行
-          p 中央区水谷橋公園を出発し、銀座駅を通り抜けて、日比谷公園まで歩きます。
+          h3  = t "parade.section.schedule.marche"
+          p = t "parade.section.schedule.parade_route"
       .col-md-4.col-sm-6
         .schedule-box
           .time
             time> datetime="15:00"  15:00
             | -
             time datetime="17:00"  17:00
-          h3 ピクニック、交流会
+          h3 = t "parade.section.schedule.picnic"
           p
 section#location.section.location
   .container
     .row
       .col-sm-5
-        h3.section-title 集合場所
+        h3.section-title = t "parade.menu.location"
         address
-          p
-            | 東京都中央区銀座1-12-6
-            = succeed "\u{6c34}\u{8c37}\u{6a4b}\u{516c}\u{5712}" do
-              br/
-            br/
-            | Tokyo, Chuo-ku, Ginza 1-12-6
-            br>/
-            | Mizutanibashi Park
-        h3.section-title 交通機関
-        | 東京メトロ有楽町線: 銀座一丁目駅 10番出口徒歩5分
-        br/
-        | 都営地下鉄浅草線: 宝町駅 A3出口徒歩5分
-        br/
-        | JR 京浜東北線、山手線: 有楽町駅 中央口徒歩10分
-        br/
-        font color="red"  公園には専用の駐車場はありませんので、お車での来場はご遠慮ください。
+          p = t "parade.place"
+        h3.section-title = t "parade.section.location.transportation"
+
+        li.plain = t "parade.section.location.from_ginza1chome"
+        li.plain = t "parade.section.location.from_takarocho"
+        li.plain = t "parade.section.location.from_yourakucho"
+
+        font color="red"  = t "parade.section.location.no_parking"
       .col-sm-7
+
         iframe allowfullscreen="" frameborder="0" height="450" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.109737565084!2d139.76776531557425!3d35.67429983795889!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188be3d1ef96ab%3A0x55c7ebbcda2651ae!2sMizutanibashi+Park!5e0!3m2!1sen!2ssg!4v1490514372154" style="border:0" width="100%"
 section#photos.section.photos
   .container
     .col-sm-12
-      h2.section-title
-        | 過去のパレード
+      h2.section-title = t "parade.section.photos.previous"
+        |
     .row
       .col-sm-12
-        h3.section-title 第４回（2016年）
+        h3.section-title = t "parade.section.photos.no4"
         .row
           .col-sm-6
             iframe allowfullscreen="" frameborder="0" height="400px" src="https://www.youtube.com/embed/quL0BJiDITM" width="100%"
