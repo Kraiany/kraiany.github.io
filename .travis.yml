@@ -11,12 +11,8 @@ script:
 - git remote set-url origin https://dmytro:${GH_TOKEN}@github.com/Kraiany/kraiany.github.io.git
 - bundle exec middleman build
 
-deploy:
-  provider: script
-  script: bundle exec middleman deploy
-  on:
-    branch: develop
-
+after_success:
+    - '[ "$TRAVIS_BRANCH" == "develop" ] && [ $GH_TOKEN ] && bundle exec middleman deploy >/dev/null 2>&1'
 
 env:
   global:
