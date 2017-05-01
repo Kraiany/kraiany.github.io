@@ -1,6 +1,6 @@
 li
   span
-    - data.languages.each do |lang, lang_data|
+    - langs.each do |lang, lang_data|
       span.language_select
         a[href="#{current_with_locale("#{lang}")}"]
           = image_tag "flags/#{lang_data.flag}", class: :language_select, alt: "#{lang_data.display_name}", "data-toggle" => "tooltip", title: "#{lang_data.display_name}", "data-placement" => :bottom
