@@ -60,12 +60,12 @@ en:
   parade:
     title: Ukranian parade in Japan 2017
     parade: Parade
-    description: Vyshyvanky (traditional Ukrainian embroidened shirts) parades are held accross the world on the 3rd week of May. Tokyo parades are held since 2013.
+    description: Vyshyvanky (traditional Ukrainian embroidered shirts) parades are held across the world on the 3rd week of May. Tokyo parades are held since 2013.
     about: About Ukrainian parade in Tokyo
     facebook: See Facebook event
     fee: Fee： Free
     organizers: Organizers
-    datetime:  May 20th 2017 (Sat) 13:30
+    datetime:  May 20, 2017 (Sat) 13:30
     place:  Tokyo, Chuo-ku, Ginza1-12-6 Park Mizutanibashi
     route: Mizutanibashi parkーGinza stationーHibiya park (See on the map)
     datetime_l: Time
@@ -78,7 +78,7 @@ en:
       location: Location
       photos: Previous events
     intro:
-      date_place: May 20th 2017 / Tokyo, Ginza
+      date_place: May 20, 2017 / Tokyo, Ginza
       everybody_welcome: Everybody welcome.
     # ------------------------------------------------------------
     section:
@@ -98,8 +98,8 @@ en:
       schedule:
         title: Schedule
         preparation: Meeting and preparation
-        marche: Marche
-        parade_route: LEave Mizutanibashi par, via Ginza to Hibia park.
+        marche: March
+        parade_route: Leave Mizutanibashi par, via Ginza to Hibia park.
         picnic: Picnic and communication
       # ------------------------------------------------------------------
       location:
@@ -111,7 +111,7 @@ en:
       # ------------------------------------------------------------------
       photos:
         previuos: Previous parades
-        no4: Parane No 4 (year 2016)
+        no4: Parade No 4 (year 2016)
 ########################################################################################
 #
 #
@@ -166,3 +166,6 @@ ja:
       photos:
         previous: 過去のパレード
         no4: 第４回（2016年）
+#  LocalWords:  Mizutanibashi Hibiya Vyshyvanka vyshyvanka Hibia Toei
+#  LocalWords:  Yurakucho itchome Asakusa Takaracho Keihin Tohoku
+#  LocalWords:  Yamanote
