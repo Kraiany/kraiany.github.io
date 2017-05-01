@@ -26,7 +26,7 @@ page '/*.txt', layout: false
 
 # General configuration
 
-activate :i18n, langs: [:ja, :en, :uk], :mount_at_root => false
+activate :i18n, langs: [:ja], :mount_at_root => false # TODO: Add en and uk translations
 activate :directory_indexes
 
 # --------------------------------------------
