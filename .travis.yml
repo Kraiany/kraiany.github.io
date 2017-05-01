@@ -10,16 +10,14 @@ script:
 - git config --global user.email '${EMAIL}'
 - git remote set-url origin https://dmytro:${GH_TOKEN}@github.com/Kraiany/kraiany.github.io.git
 - bundle exec middleman build
-after_success:
-- bundle exec middleman deploy
+
+deploy:
+  provider: script
+  script: bundle exec middleman deploy
+  on:
+    branch: develop
 
 
-#
-# Only push to develop branch will deploy to master.
-#
-branches:
-  only:
-  - develop
 env:
   global:
     # GIT_USER_NAME
