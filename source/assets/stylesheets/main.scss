@@ -7,3 +7,22 @@ li.plain {
     list-style-type: none;
     font-weight: normal;
 }
+
+// Override
+/* #site-header > div > p:nth-child(4) */
+
+#site-header {
+    p {
+        text-transform: none;
+    }
+}
+
+// #site-nav > div > div.navbar-header > div > a
+
+#site-nav {
+    .navbar-header {
+        a  {
+            text-transform: none;
+        }
+    }
+}
