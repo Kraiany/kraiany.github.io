@@ -26,6 +26,27 @@ header#site-header.site-header.valign-center
     p = t "parade.description"
     p = t "parade.intro.everybody_welcome"
     a.btn.btn-white href="https://www.facebook.com/events/1397388443669849/" target="_blank"  = t "parade.facebook"
+    br
+    br
+    br
+    br
+    p = t "receive_information"
+    p
+      link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css" /
+      css:
+        #mc_embed_signup background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; width:100%;
+        /!* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+           | We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+      #mc_embed_signup
+        form#mc-embedded-subscribe-form.validate action="//kraiany.us15.list-manage.com/subscribe/post?u=89d2e52b81d67b8aa10f5c213&amp;id=96c7c0b3e3" method="post" name="mc-embedded-subscribe-form" novalidate="" target="_blank"
+          #mc_embed_signup_scroll
+            input#mce-EMAIL.email name="EMAIL" placeholder=("#{t 'email'}") required="" type="email" value="" /
+            /! real people should not fill this in and expect good things - do not remove this or risk form bot signups
+            div aria-hidden="true" style=("position: absolute; left: -5000px;")
+              input name="b_89d2e52b81d67b8aa10f5c213_96c7c0b3e3" tabindex="-1" type="text" value="" /
+            .clear
+              input#mc-embedded-subscribe.button name="subscribe" type="submit" value="#{t 'subscribe'}" /
+
 section#about.section.about
   .container
     .row
@@ -56,6 +77,12 @@ section#about.section.about
         ul.list-arrow-right
           li
             a href="https://www.facebook.com/ukrainians.japan" target="_blank" = t "kraiany.about"
+        h3.section-title.multiple-title = t "parade.partners"
+        ul.list-arrow-right
+          li
+            a href="http://japan.mfa.gov.ua/" target="_blank" = t "embassy"
+          li
+            a href="http://www.stjude.jp/" target="_blank" = t "church"
         br/
       /! /.col-sm-6
       iframe#map.col-sm-6 src="https://www.google.com/maps/d/u/0/embed?mid=16H6PzkrFeq-qBvdn6-OGz4Zdmaw" style=("border:none; min-height:400px; width: 100%;")
