@@ -1,5 +1,8 @@
 ---
 uk:
+  email: Email адреса
+  subscribe: Підписатися
+  receive_information: Інформація про наступні події
   festival:
     festival: Фестиваль
     description:  Фестиваль "День України" проводиться в жовтні-листопаді починаючи з 2014 року.

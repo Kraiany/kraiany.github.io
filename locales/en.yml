@@ -1,5 +1,8 @@
 ---
 en:
+  email: Emaiil address
+  subscribe: Subscribe
+  receive_information: Receive information about future events
   festival:
     festival: Festival
     description: description TBD
