@@ -1,5 +1,8 @@
 ---
 ja:
+  email: メールアドレス
+  subscribe: 登録する
+  receive_information: 今後のイベントの情報を受け取る
   festival:
     festival: フェスティバル
     description: description TBD
