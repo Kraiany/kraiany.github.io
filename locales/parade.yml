@@ -3,6 +3,7 @@ uk:
     title: Парад вишиванок у Японії 2017
     parade: Парад вишиванок
     description: Паради у вишиванках проводяться кожного року в Токіо, третьої неділі травня, починаючи з 2013 року. Парад у Наґої проводиться починаючи з 2016 року.
+    partners: Підтримка
     about: Про марш вишиванок у Токіо
     facebook: Подія на Facebook
     fee: |
@@ -53,6 +54,7 @@ uk:
       photos:
         previous: Попередні марші
         no4: 4й марш（2016 рік）
+        no5: 5й марш（2017 рік）
 ########################################################################################
 #
 #
@@ -60,6 +62,7 @@ en:
   parade:
     title: Ukrainian parade in Japan 2017
     parade: Parade
+    partners: Support
     description: Vyshyvanky (traditional Ukrainian embroidered shirts) parades are held across the world on the 3rd week of May. Tokyo parades are held since 2013.
     about: About Ukrainian parade in Tokyo
     facebook: See Facebook event
@@ -112,6 +115,7 @@ en:
       photos:
         previous: Previous parades
         no4: Fourth Annual Parade (2016)
+        no5: Fifth Annual Parade (2017)
 ########################################################################################
 #
 #
@@ -167,6 +171,7 @@ ja:
       photos:
         previous: 過去のパレード
         no4: 第４回（2016年）
+        no5: 第５回（2017年）
 #  LocalWords:  Mizutanibashi Hibiya Vyshyvanka vyshyvanka Hibia Toei
 #  LocalWords:  Yurakucho itchome Asakusa Takaracho Keihin Tohoku
 #  LocalWords:  Yamanote facebook
