@@ -6,20 +6,20 @@ before_install:
 install:
 - bundle install --path vendor/bundle
 script:
-- git config --global user.name '${GIT_USER_NAME}'
-- git config --global user.email '${EMAIL}'
-- git remote set-url origin https://dmytro:${GH_TOKEN}@github.com/Kraiany/kraiany.github.io.git
 - bundle exec middleman build
 
-after_success:
-    - '[ "$TRAVIS_BRANCH" == "develop" ] && [ $GH_TOKEN ] && bundle exec middleman deploy >/dev/null 2>&1'
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: $GH_TOKEN
+  keep-history: true
+  target-branch: master
+  fqdn: www.kraiany.org
+  verbose: true
+  local-dir: build
+  on:
+    branch: develop
 
 env:
   global:
-    # GIT_USER_NAME
-    - secure: "XgsRSwUUXpopl9bXZ78MlrybW5C65/vQkyAdvxSLdIgCIgFyPG5mnJJCp55yzMwIwHTgZZjR9b7t9hSca1YE8CnZg7Wq7v7H26kywitZ0Jh6hGItiHoq8bj80I+u5/VI0ax5KqpQsNJBsYtzjIO6ZKCT5Bd665TiMu2zXTop93ZcalP76Bg9MkLSp9RMP9cN0CBSgkUXpFjASZomDZ8JN2EMY/sr4gH7edqyWaByYMEq30H8is2VNFUmXG9QdfBUYfajDNm9inMX8ZXkMpcDStzqLNRgy4DAVow/BwbaY54+miGEX18mOBhUrnshJowCOWhUYxS234iB1duAfXj+Dl/RgMDL+vqRkTJPTwq4p7eJ9AJcl1zs5vsI+7VA5wqYWbZWHDqosu3RuHIHzeZFZZbYu3+d3TotQrdLr9Fx3xN1lLvrT90SlsoJrohavlOXRxl+mBY6j/qnndd7TEcQtk+NzO2zVJllGd99Zdd8UVuNpGKGPLDXXm3TTVVc0ViM4SGMGWTGXk18gW3eyxPe8xVWM5ZnYRwUddCKWTltmNYL3wSY2YgdUyhZ1mbb3kdpfL/CNEP/WsJcpLzZZ99DsLUve8BivB9TyXFu7I3eAyyUcJ91M370jYVq7+LEzHpubYAJnq/mIl92eD0QAeeIN4zCWuEwX+IemVtzaVkh/xs="
-    # EMAIL
-    - secure: "cXzcWowWNJO7vifsQemC8BTaofgN0P4+GBG9WF6Nu67uPEZd3nV+Jh3aNEesFwlmtZDX8f+DjnMXivod2vW1MkXKXZ3PhoMwCHyrNvdUgtqbfdyedwRtEL6YmIAxgYDvI9XvhBxK8mQjW5Rv/ERWtLJAVaIdV0J8w1/tz8IUz7pTIUqcJL+vs9WmjUtfT4/QlPcTdZaeHQ2qUnRfO4Qp9F8l8YusySI8moh305FOBXoJyavfEbql2Rl+qBYmiWUuHmjfISPzlxTa0V97a0Ye9jGSvLIxuSRBp8yHe2K1WlkIZPDOHFE4WkD5fZ3w1ssMpmVHOo60NvBB6zBqk4hT70ZiM17QQ9Ay3QXIiusxsOz70Q7SyW5tZMdvB5ZqHrp3IBWyaDAu2SZpYnPU3rCidBEgAVChs32cTJcWTfg0RDPRhsdgW5E0xrBTYYE2ALLObbBJo9T4PaOKxHOb6zwSJS5RoOQoOt7ZGdn0bOf2PLlceTiTzhc5B+7bACK0/6HXw0wKhYSyp4U3iGHwL0RPkVEIpWq0Lk17/xBjER4tRd1apCqKmsRJQ9ODUkB0MW9OBMrP2C8RrF4M41otX5koZdsqnV2/uqUFZYoWqQcnPSopY4K3QwBcxWESH+WLiKIOwFja7LtRlkHlpL2CW7g9wOw4/wZxkzRGHRJ7AaKIAMQ="
-
-    # GH_TOKEN
-    - secure: "pQv6ib35tCuhYIOu7ZLL+NrLBzag9p3efJ3s6tx6MPkNvFixUJE6DOo/ZmgtJivZxCsZ/0lWIdWIVU9uvVkhk01Jv5f1zCf4chh5P71W49+MLzOhhYE/NHiolllOO2CWMzYU3vEdXaidNcrgbtIn4gj7jP0ZEwkuuimv5Qv/8GNYvLWhkHHxzLyrAiWZ7zTZiyec0Oxo62ZPKae9aa+TTGzYYrmYrVU0c7JmQoRIQeihenYWsEpXbZL6D30QuObZVPkzCJbfXqjg0lcEl21KsvqoCn1hhpt4kX5bMtIUBcGbuGgehJS7Qz1CSAYfwQyl1dFnCmjTaYD4simGuFIh5IWHMWZVPbDWzsrDAA53vx0ZC3S07MhCjpU6C2PF1/7DZD8+GAmG34RBnesI2geJtmxxseYyYQWvJbykSdzRSVRBVn3S5OM8/ytt2kGnwkuvVrymFelO8RFNZa6ppgipQK8XZERkAdzmuKCE6or6K/0wPQ+hIeJj4uwbNqMWmVwZVeFH/ip0D1HyYrT4FXxCaBC4BOBPoVgNGspuuh3aPMxh+y+8AoKWJPlxmHhM+9LVoSPA1lLSdTXxRpf1weo+k1l+7k9YTrAiTpxm9e6YNgj/oxIjmgDQvJvYlxQUFDEn4AXdwmNFsOP9IQfLxUkM0w7rGbQfN4C5GorHcIIBlqo="
+    - secure: "LgRGCGuatwfTTHNk915O9I13n915AAoLfqshzAMxz9ZBYU9uNee5fJPQq+1YmfPSb2SyWxrRVDgunjJ2SCpgzSwt0wPFrPdRNxZwpjoXPjRouXKOOUHx2pbm2duZql1Vk6MdswBC27IjogXz+BL/MUi/hUoM6s4OFNWDLMQvkh17KCOYq3f5crBv2KI28PHOtFv6WAy90Q3phVRmWtT64ic4Y9gTiFS7MkFVYYOaBtX7tftOLoF98h4KnETrbphleq9ZjsaFTg3CIWzj1s1aUu+c3pPgdOCtLHfymtDVgkvvjA2a084zNDRz4A2BeA0Aao7PDsJM/EiWInxVq1z2S0UGHKgvUa95K6+8FM3/wZTVDcl243CmzW+ryDrSN1CiESdV/nVHdrxExgY0Pro510xoSiFOUv6UMyCENEL9syuTuAEFoLKb2V2EUNpc1XfSVsL+fUrRWXx2hy68sK2Wm0YT6v5TkVEHQTeYd1fvAwFANScggG0lk9HjoDNkf963JI4+q0G157Ulh4akvcneurk0VSJkDva0Tpcv+Yu0FT427hJOUO/GiKnHHLxqXfXyMH+sxtJ4NHk5+RCsroEN/IihFZ/7Blm2WluuyAmvHKtU26BhRMsROwbAMzIOCw0dQe7zZRZZHejOJ5OSTcrA1Re0JsnCDMe2liiWkxlg/T0="
