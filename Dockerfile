@@ -9,7 +9,7 @@
 # Deploy:
 # docker run -it  --rm -v $(pwd):/app -v ~/.gitconfig:/root/.gitconfig  -p 4567:4567 kraiany deploy
 #
-FROM ruby:2.2.6
+FROM ruby:2.5.0
 
 # Expose ports.
 EXPOSE 4567
