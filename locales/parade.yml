@@ -1,6 +1,6 @@
 uk:
   parade:
-    title: Парад вишиванок у Японії 2017
+    title: Парад вишиванок у Японії 2018
     parade: Парад вишиванок
     description: Паради у вишиванках проводяться кожного року в Токіо, третьої неділі травня, починаючи з 2013 року. Парад у Наґої проводиться починаючи з 2016 року.
     partners: Підтримка
@@ -9,9 +9,9 @@ uk:
     fee: |
       Вартість：Безкоштовно
     organizers: Організатори
-    datetime: 20 травня 2017 (субота) 13:30
-    place: Токіо, Чюо-ку, Ґінза 1-12-6, парк Мізутанібаші
-    route: Парк Мізутанібаші ー Станція Ґінза ー Парк Хібія (див. мапу)
+    datetime: 20 травня 2018 13:30
+    place: Токіо, Чюо-ку, Хонґокучо 4-3-4, парк Токіва
+    route: Парк Токіва ー Станція Ґінза ー Парк Хібія (див. мапу)
     datetime_l: Час
     place_l: Місце
     # ------------------------------------------------------------------
@@ -21,7 +21,7 @@ uk:
       location: Адреса
       photos: Попередні
     intro:
-      date_place: 20 травня 2017 / Токіо, район Ґінзи
+      date_place: 20 травня 2018 / Токіо, район Ґінзи
       everybody_welcome: Запрошуються всі.
     # ------------------------------------------------------------
     section:
@@ -54,23 +54,23 @@ uk:
       photos:
         previous: Попередні марші
         no4: 4й марш（2016 рік）
-        no5: 5й марш（2017 рік）
+        no5: 5й марш（2018 рік）
 ########################################################################################
 #
 #
 en:
   parade:
-    title: Ukrainian parade in Japan 2017
+    title: Ukrainian Parade in Tokyo 2018
     parade: Parade
     partners: Support
-    description: Vyshyvanky (traditional Ukrainian embroidered shirts) parades are held across the world on the 3rd week of May. Tokyo parades are held since 2013.
+    description: Vyshyvanka (traditional Ukrainian embroidered shirts) parades are held across the world on the 3rd week of May. Tokyo parades are held since 2013.
     about: About Ukrainian parade in Tokyo
     facebook: See Facebook event
     fee: Fee： Free
     organizers: Organizers
-    datetime:  May 20, 2017 (Sat) 13:30
-    place:  Tokyo, Chuo-ku, Ginza1-12-6 Park Mizutanibashi
-    route: Mizutanibashi parkーGinza stationーHibiya park (See on the map)
+    datetime:  May 20, 2018 13:30
+    place:  Tokyo, Chuo-ku, Nihonbashi Hongokuchō 4-3-4 Park Tokiwa
+    route: Tokiwa parkーGinza stationーHibiya park (See on the map)
     datetime_l: Time
     place_l: Place
 
@@ -81,13 +81,13 @@ en:
       location: Location
       photos: Previous events
     intro:
-      date_place: May 20, 2017 / Tokyo, Ginza
+      date_place: May 20, 2018 / Tokyo, Ginza
       everybody_welcome: Everybody welcome.
     # ------------------------------------------------------------
     section:
       about:
         p1: |
-          5th Annual Tokyo Ukraine Parade 2017. This year we will meet again in the heart of the capital of Japan, Ginza. First held in 2013, the Tokyo Ukraine Parade is informally connected to a series of worldwide “Vyshyvanka” (traditional Ukrainian embroidery) cultural parades held in cities in Ukraine and throughout the world. Although intended as a celebration of Ukraine’s traditional culture, it also has a deeper meaning for many participants due to the ongoing violence and occupation in parts of Ukraine. Everyone is welcome to participate!
+          Annual Tokyo Ukraine Parade will meet again in the heart of the capital of Japan, Ginza. First held in 2013, the Tokyo Ukraine Parade is informally connected to a series of worldwide “Vyshyvanka” (traditional Ukrainian embroidery) cultural parades held in cities in Ukraine and throughout the world. Although intended as a celebration of Ukraine’s traditional culture, it also has a deeper meaning for many participants due to the ongoing violence and occupation in parts of Ukraine. Everyone is welcome to participate!
         p2: |
             If you do not have Vyshyvanka,  somebody possibly can lend you one, please leave a comment on the event page or send a message to the administrator if you would like more information . You can participate even without vyshyvanka, of course, in that case please try to wear something in yellow or blue color of the Ukrainian flag!
 
@@ -101,8 +101,8 @@ en:
       schedule:
         title: Schedule
         preparation: Meeting and preparation
-        marche: March
-        parade_route: Leave Mizutanibashi par, via Ginza to Hibia park.
+        marche: Parade
+        parade_route: Leave Tokiwa park, walk via Ginza to Hibia park.
         picnic: Picnic and communication
       # ------------------------------------------------------------------
       location:
@@ -115,13 +115,13 @@ en:
       photos:
         previous: Previous parades
         no4: Fourth Annual Parade (2016)
-        no5: Fifth Annual Parade (2017)
+        no5: Fifth Annual Parade (2018)
 ########################################################################################
 #
 #
 ja:
   parade:
-    title: 東京ウクライナ・パレード 2017
+    title: 東京ウクライナ・パレード 2018
     parade: パレード
     description: 伝統的なウクライナの刺繍が施された民族衣装（ヴィシヴァンカ）を身にまとい、東京の銀座を遊歩。
     partners: 後援
@@ -130,9 +130,9 @@ ja:
     fee: |
       参加料： 無料
     organizers: 主催
-    datetime: 2017年5月20日 13:30
-    place: 東京都中央区水谷橋公園
-    route: 水谷橋公園ー銀座駅ー日比谷公園 (地図を開く)
+    datetime: 2018年5月20日 13:30
+    place: 常盤公園（東京都中央区日本橋本石町4-4-3）
+    route: 常盤公園ー銀座駅ー日比谷公園 (地図を開く)
     datetime_l: 日時
     place_l: 場所
     # ------------------------------------------------------------------
@@ -142,7 +142,7 @@ ja:
       location: 集合場所
       photos: 過去のパレード
     intro:
-      date_place: 2017年5月20日 / 東京都銀座
+      date_place: 2018年5月20日 / 東京都銀座
       everybody_welcome: 参加はどなたでも大歓迎です。
     # ------------------------------------------------------------
     section:
@@ -158,7 +158,7 @@ ja:
         title: タイムテーブル
         preparation: 集合、パレードの準備
         marche: パレードの実行
-        parade_route: 中央区水谷橋公園を出発し、銀座駅を通り抜けて、日比谷公園まで歩きます。
+        parade_route: 中央区常盤公園を出発し、銀座駅を通り抜けて、日比谷公園まで歩きます。
         picnic: ピクニック、交流会
       # ------------------------------------------------------------------
       location:
@@ -172,6 +172,6 @@ ja:
         previous: 過去のパレード
         no4: 第４回（2016年）
         no5: 第５回（2017年）
-#  LocalWords:  Mizutanibashi Hibiya Vyshyvanka vyshyvanka Hibia Toei
+#  LocalWords:  Tokiwa Hibiya Vyshyvanka vyshyvanka Hibia Toei
 #  LocalWords:  Yurakucho itchome Asakusa Takaracho Keihin Tohoku
 #  LocalWords:  Yamanote facebook
