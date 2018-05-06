@@ -16,6 +16,7 @@ html
     meta content="#{t(current_page.data.title) || t("kraiany.title")}" property="og:title" /
     meta content="#{t current_page.data.description}" property="og:description" /
     meta content="https://www.kraiany.org/#{current_page.path}" property="og:url" /
+    meta content="website" property="og:type" /
 
     title = t(current_page.data.title) || t("kraiany.title")
     = stylesheet_link_tag "/assets/stylesheets/site"
