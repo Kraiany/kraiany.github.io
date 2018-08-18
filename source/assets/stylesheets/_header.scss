@@ -45,7 +45,7 @@
 }
 
 .navbar-solid {
-	background-color: #000 !important;
+	background-color: rgba(119, 41, 83, 0.786) !important;
 	padding: 0 !important;
 	transition: all 0.2s linear 0s;
 }
@@ -89,11 +89,12 @@
 		right: 0;
 		bottom: 0;
 		left: 0;
-		background-color: rgba(0, 0, 0, 0.5);
+		background-color: rgba(119, 41, 83, 0.486);
 	}
 
 	.intro {
 		color: #fff;
+		text-shadow: -2px 2px 3px #2db2ff;
 		position: relative;
 		text-align: center;
 		text-transform: uppercase;
@@ -109,13 +110,13 @@
 
 		h1 {
 			margin-top: 0px;
-			font-size: 30px;
+			font-size: 50px;
 		}
 
 		p {
 			font-size: 20px;
-			margin-bottom: 10px;
-			font-weight: 300;
+			margin-bottom: 20px;
+			font-weight: 600;
 		}
 	}
 }

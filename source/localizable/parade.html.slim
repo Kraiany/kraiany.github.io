@@ -133,6 +133,7 @@ section#schedule.section.schedule
             time datetime="17:00"  17:00
           h3 = t "parade.section.schedule.picnic"
           p
+
 section#location.section.location
   .container
     .row
@@ -141,30 +142,26 @@ section#location.section.location
         address
           p = t "parade.place"
         h3.section-title = t "parade.section.location.transportation"
-
         font color="red"  = t "parade.section.location.no_parking"
       .col-sm-7
-
         iframe allowfullscreen="" frameborder="0" height="450" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.5471995717944!2d139.7677737516905!3d35.68814978009558!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188c008f50261d%3A0x48f2e48b4319f946!2sTokiwa+Park!5e0!3m2!1sen!2ssg!4v1521875148772" style="border:0" width="100%"
+
 section#photos.section.photos
   .container
-    .col-sm-12
-      h2.section-title = t "parade.section.photos.previous"
-        |
     .row
       .col-sm-12
-        h3.section-title = t "parade.section.photos.no5"
-        .row
-          .col-sm-8
-            iframe allowfullscreen="" frameborder="0" height="360" mozallowfullscreen="" src="https://player.vimeo.com/video/218334821" webkitallowfullscreen="" width="640"
-              p
-                a href="https://vimeo.com/218334821" Парад Вишиванок, Токіо, 2017
-    .row
-      .col-sm-12
-        h3.section-title = t "parade.section.photos.no4"
-        .row
-          .col-sm-6
-            iframe allowfullscreen="" frameborder="0" height="400px" src="https://www.youtube.com/embed/quL0BJiDITM" width="100%"
-          .col-sm-6
-            iframe allowfullscreen="" frameborder="0" height="400px" src="https://www.youtube.com/embed/bQwCEHdhjuo" width="100%"
+        h2.section-title = t "parade.section.photos.previous"
+
+        h4 href="https://photos.app.goo.gl/gkGUf3nZA8CbBsau8" = t "parade.section.photos.no6"
+        a href="https://photos.app.goo.gl/gkGUf3nZA8CbBsau8" Google Photos 1  
+        | | 
+        a href="https://photos.app.goo.gl/oksMOkWbRvPbQr502" Google Photos 2
+        p
+        h4 = t "parade.section.photos.no5"                    
+        iframe allowfullscreen="" frameborder="0" height="360" mozallowfullscreen="" src="https://player.vimeo.com/video/218334821" webkitallowfullscreen="" width="640"
+          a href="https://vimeo.com/218334821"        
+        p
+        h4 = t "parade.section.photos.no4"        
+        iframe allowfullscreen="" frameborder="0" height="400px" src="https://www.youtube.com/embed/quL0BJiDITM" width="100%"        
+        iframe allowfullscreen="" frameborder="0" height="400px" src="https://www.youtube.com/embed/bQwCEHdhjuo" width="100%"
 /! script
