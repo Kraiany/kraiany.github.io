@@ -27,7 +27,7 @@ GEM
     execjs (2.7.0)
     fast_blank (1.0.0)
     fastimage (2.1.1)
-    ffi (1.9.23)
+    ffi (1.9.25)
     font-awesome-middleman (4.2.1)
       middleman-core (>= 3.0.0)
     haml (5.0.4)
