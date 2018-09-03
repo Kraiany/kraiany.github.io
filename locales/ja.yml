@@ -5,7 +5,10 @@ ja:
   receive_information: 今後のイベントの情報を受け取る
   festival:
     festival: フェスティバル
-    description: description TBD
+    description: ウクライナフェスティバル
+  ukraine-info:
+    ukraine-info: ウクライナ情報
+    description: ウクライナ情報、ウクライナの写真、ウクライナのニュース
   # Navigation
   # --------------------------------------------
   back: 戻る

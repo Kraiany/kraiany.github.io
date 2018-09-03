@@ -1,11 +1,14 @@
 ---
 en:
-  email: Emaiil address
+  email: Email address
   subscribe: Subscribe
   receive_information: Receive information about future events
   festival:
     festival: Festival
-    description: description TBD
+    description: Ukrainian festival in Japan
+  ukraine-info:
+    ukraine-info: All About Ukraine
+    description: Information about Ukraine in Japanese for visitors
   # Navigation
   # --------------------------------------------
   back: Back
