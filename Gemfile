@@ -9,7 +9,7 @@ gem 'wdm', '~> 0.1.0', platforms: [:mswin, :mingw]
 gem 'tzinfo-data', platforms: [:mswin, :mingw, :jruby]
 
 # Middleman Gems
-gem 'middleman', '~> 4.2'
+gem 'middleman', '~> 4.3'
 gem 'middleman-livereload', '~> 3.4'
 # gem 'middleman-deploy', '~> 1.0'
 gem 'middleman-deploy', '~> 2.0.0.pre.alpha'
@@ -31,3 +31,4 @@ gem 'oj'
 
 # https://github.com/Aupajo/middleman-search_engine_sitemap
 gem 'middleman-search_engine_sitemap'
+gem 'sass'
