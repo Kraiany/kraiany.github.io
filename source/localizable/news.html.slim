@@ -1,0 +1,23 @@
+---
+layout: "layout"
+title: "news.title"
+description: "news.description"
+image: "/assets/images/parade-ja-2018.png"
+
+menu:
+  - "data-scroll": ""
+    href: "#latest"
+    title: news.menu.latest
+---
+
+header#site-header.site-header.valign-center
+  .intro
+    h1 = t "news.title"
+    p = t "news.description"
+
+section#news.section
+  .container
+    - blog.local_articles.each do |article|
+      .row
+        .col-sm-12
+          h3.section-title = link_to article.title, article
