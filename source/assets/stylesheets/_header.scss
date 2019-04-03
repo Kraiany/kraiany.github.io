@@ -1,4 +1,4 @@
-/* 
+/*
  * 4.0 Navigation
  */
 
@@ -21,7 +21,7 @@
 			font-weight: 400;
 			border-bottom: 1px solid transparent;
 
-			&:focus, 
+			&:focus,
 			&:hover {
 				background-color: transparent;
 				border-color: rgba(255, 255, 255, 0.5);
@@ -38,7 +38,7 @@
 	border: 0;
 	border-radius: 0;
 	margin-top: 2px;
-	
+
 	.icon-bar {
 		background-color: #fff;
 	}
@@ -62,15 +62,15 @@
 	    margin-right: 5px;
 	    letter-spacing: 3px;
 	    text-transform: uppercase;
-	    
-		&:focus, 
+
+		&:focus,
 		&:hover {
 			text-decoration: none;
-		} 
+		}
 	}
 }
 
-/* 
+/*
  * 5.0 Site Header
  */
 
@@ -105,6 +105,9 @@
 			margin-top: 0px;
 			font-size: 25px;
 			font-weight: 300;
+			a {
+				margin-left: 15px;
+			}
 		}
 
 		h1 {
@@ -126,7 +129,7 @@
 		padding-top: 30px;
 	}
 
-	.site-branding { 
+	.site-branding {
 		margin-top: 6px;
 		margin-left: 0;
 	}
