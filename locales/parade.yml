@@ -1,6 +1,6 @@
 uk:
   parade:
-    title: Парад вишиванок у Японії 2018
+    title: Парад вишиванок у Японії 2019
     parade: Парад вишиванок
     description: Паради у вишиванках проводяться кожного року в Токіо, третьої неділі травня, починаючи з 2013 року. Парад у Наґої проводиться починаючи з 2016 року.
     partners: Підтримка
@@ -9,7 +9,7 @@ uk:
     fee: |
       Вартість：Безкоштовно
     organizers: Організатори
-    datetime: 20 травня 2018 13:30
+    datetime: 19 травня 2019 13:30
     place: Токіо, Чюо-ку, Хонґокучо 4-4-3, парк Токіва
     route: Парк Токіва ー Станція Ґінза ー Парк Хібія (див. мапу)
     datetime_l: Час
@@ -21,7 +21,7 @@ uk:
       location: Адреса
       photos: Попередні
     intro:
-      date_place: 20 травня 2018 / Токіо, район Ґінзи
+      date_place: 19 травня 2019 / Токіо, район Ґінзи
       everybody_welcome: Запрошуються всі.
     # ------------------------------------------------------------
     section:
@@ -54,13 +54,14 @@ uk:
       photos:
         previous: Попередні марші
         no4: 4й марш（2016 рік）
-        no5: 5й марш（2018 рік）
+        no5: 5й марш（2017 рік）
+        no6: 6й марш（2018 рік）
 ########################################################################################
 #
 #
 en:
   parade:
-    title: Ukrainian Parade in Tokyo 2018
+    title: Ukrainian Parade in Tokyo 2019
     parade: Parade
     partners: Support
     description: Vyshyvanka (traditional Ukrainian embroidered shirts) parades are held across the world on the 3rd week of May. Tokyo parades are held since 2013.
@@ -68,7 +69,7 @@ en:
     facebook: See Facebook event
     fee: Fee： Free
     organizers: Organizers
-    datetime:  May 20, 2018 13:30
+    datetime:  May 19, 2019 13:30
     place:  Tokyo, Chuo-ku, Nihonbashi Hongokuchō 4-4-3 Park Tokiwa
     route: Tokiwa parkーGinza stationーHibiya park (See on the map)
     datetime_l: Time
@@ -81,7 +82,7 @@ en:
       location: Location
       photos: Previous events
     intro:
-      date_place: May 20, 2018 / Tokyo, Ginza
+      date_place: May 19, 2019 / Tokyo, Ginza
       everybody_welcome: Everybody welcome.
     # ------------------------------------------------------------
     section:
@@ -115,13 +116,14 @@ en:
       photos:
         previous: Previous parades
         no4: Fourth Annual Parade (2016)
-        no5: Fifth Annual Parade (2018)
+        no5: Fifth Annual Parade (2017)
+        no6: Sixth Annual Parade (2018)
 ########################################################################################
 #
 #
 ja:
   parade:
-    title: 東京ウクライナ・パレード 2018
+    title: 東京ウクライナ・パレード 2019
     parade: パレード
     description: 伝統的なウクライナの刺繍が施された民族衣装（ヴィシヴァンカ）を身にまとい、東京の銀座を遊歩。
     partners: 後援
@@ -130,7 +132,7 @@ ja:
     fee: |
       参加料： 無料
     organizers: 主催
-    datetime: 2018年5月20日 13:30
+    datetime: 2019年5月19日 13:30
     place: 常盤公園（東京都中央区日本橋本石町4-4-3）
     route: 常盤公園ー銀座駅ー日比谷公園 (地図を開く)
     datetime_l: 日時
@@ -142,7 +144,7 @@ ja:
       location: 集合場所
       photos: 過去のパレード
     intro:
-      date_place: 2018年5月20日 / 東京都銀座
+      date_place: 2019年5月19日 / 東京都銀座
       everybody_welcome: 参加はどなたでも大歓迎です。
     # ------------------------------------------------------------
     section:
@@ -170,8 +172,9 @@ ja:
       # ------------------------------------------------------------------
       photos:
         previous: 過去のパレード
-        no4: 第４回（2016年）
-        no5: 第５回（2017年）
+        no4: 第4回（2016年）
+        no5: 第5回（2017年）
+        no6: 第6回（2018年）
 #  LocalWords:  Tokiwa Hibiya Vyshyvanka vyshyvanka Hibia Toei
 #  LocalWords:  Yurakucho itchome Asakusa Takaracho Keihin Tohoku
 #  LocalWords:  Yamanote facebook
