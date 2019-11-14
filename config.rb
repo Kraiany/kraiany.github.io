@@ -53,6 +53,8 @@ activate :blog do |blog|
   blog.sources = "news/{year}-{month}-{day}-{lang}-{title}.html"
 end
 
+activate :sitemap, :hostname => "https://www.kraiany.org"
+
 
 # Reload the browser automatically whenever files change
 configure :development do

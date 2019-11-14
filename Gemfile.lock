@@ -1,3 +1,10 @@
+GIT
+  remote: https://github.com/matsu911/middleman-sitemap
+  revision: b52c2256d4188761122804cbb79ceb6cd1afdf6b
+  specs:
+    middleman-sitemap (0.0.13)
+      middleman-core (>= 3.2.2)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -162,6 +169,7 @@ DEPENDENCIES
   middleman-livereload (~> 3.4)
   middleman-minify-html
   middleman-search_engine_sitemap
+  middleman-sitemap!
   middleman-sprockets (~> 4.0)
   nokogiri
   oj
