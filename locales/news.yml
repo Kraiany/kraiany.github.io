@@ -2,14 +2,17 @@ ja:
   news:
     news: お知らせ
     title: お知らせ
+    sub_title: ニュースとプレスリリース
     description: お知らせ
 uk:
   news:
     news: Новини
     title: Новини
+    sub_title: Новини та прес-релізи
     description: Новини
 en:
   news:
     news: News
     title: News
+    sub_title: News and Press Releases
     description: News
