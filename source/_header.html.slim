@@ -1,0 +1,21 @@
+link href="favicon.ico" rel=("shortcut icon") type="image/x-icon" /
+head
+  meta charset="utf-8" /
+  meta content="IE=edge" http-equiv="X-UA-Compatible" /
+  meta content="width=device-width, initial-scale=1" name="viewport" /
+
+  - if current_page.data.description.present?
+    meta content="#{t current_page.data.description}" name="description" /
+    meta content="#{t current_page.data.description}" property="og:description" /
+
+  - if current_page.data.keywords.present?
+    meta content="#{t current_page.data.keywords}" name="keywords" /
+
+  meta content="#{t "kraiany.about"}" name="author" /
+  meta content="#{current_page.data.image || "/assets/images/about-us.png"}" property="og:image" /
+  meta content="#{t(current_page.data.title) || t("kraiany.title")}" property="og:title" /
+  meta content="https://www.kraiany.org/#{current_page.path}" property="og:url" /
+  meta content="website" property="og:type" /
+
+  title= defined?(title) ? title : (t(current_page.data.title) || t("kraiany.title"))
+  = stylesheet_link_tag "/assets/stylesheets/site"

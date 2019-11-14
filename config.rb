@@ -46,6 +46,13 @@ helpers do
 end
 
 activate :sprockets
+activate :blog do |blog|
+  blog.default_extension = ".slim"
+  blog.layout = "news"
+  blog.permalink = "{lang}/news/{year}-{month}-{day}-{title}.html"
+  blog.sources = "news/{year}-{month}-{day}-{lang}-{title}.html"
+end
+
 
 # Reload the browser automatically whenever files change
 configure :development do

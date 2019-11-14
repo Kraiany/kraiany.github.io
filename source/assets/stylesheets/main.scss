@@ -26,3 +26,14 @@ li.plain {
         }
     }
 }
+
+#news {
+  h3 {
+    .published_on {
+      padding-left: 20px;
+      .date {
+        padding-left: 10px;
+      }
+    }
+  }
+}
