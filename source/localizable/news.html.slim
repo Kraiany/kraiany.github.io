@@ -17,4 +17,9 @@ section#news.section
     - blog.local_articles.each do |article|
       .row
         .col-sm-12
-          h3.section-title = link_to article.title, article
+          h3.section-title
+            = link_to article.title, article
+            small.published_on
+              = t "news.published_on"
+              span.date= article.date
+          span= article.summary
