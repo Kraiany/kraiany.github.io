@@ -32,3 +32,4 @@ gem 'oj'
 # https://github.com/Aupajo/middleman-search_engine_sitemap
 gem 'middleman-search_engine_sitemap'
 gem 'sass'
+gem 'nokogiri'
