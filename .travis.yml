@@ -1,8 +1,8 @@
 language: ruby
 rvm:
-- 2.6.4
+- 2.6.5
 before_install:
-- rvm install 2.6.4
+- rvm install 2.6.5
 install:
 - bundle install --path vendor/bundle
 script:
