@@ -14,7 +14,7 @@ head
   meta content="#{t "kraiany.about"}" name="author" /
   meta content="#{current_page.data.image || "/assets/images/about-us.png"}" property="og:image" /
   meta content="#{t(current_page.data.title) || t("kraiany.title")}" property="og:title" /
-  meta content="https://www.kraiany.org/#{current_page.path}" property="og:url" /
+  meta content="https://www.kraiany.org#{current_page.url}" property="og:url" /
   meta content="website" property="og:type" /
 
   title= defined?(title) ? title : (t(current_page.data.title) || t("kraiany.title"))
