@@ -10,6 +10,7 @@ set :index_file, 'index.html'
 set :css_dir, 'assets/stylesheets'
 set :js_dir, 'assets/javascripts'
 set :images_dir, 'assets/images'
+set :host, 'https://www.kraiany.org'
 # Per-page layout changes:
 #
 # With no layout
@@ -60,6 +61,7 @@ activate :sitemap, :hostname => "https://www.kraiany.org"
 configure :development do
   activate :livereload
   activate :relative_assets
+  set :host, 'http://localhost:4567'
 end
 
 
