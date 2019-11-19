@@ -13,7 +13,7 @@ head
 
   meta content="#{t "kraiany.about"}" name="author" /
   meta content="#{config[:host]}#{current_page.data.image || "/assets/images/about-us.jpg"}" property="og:image" /
-  meta content="#{config[:host]}{current_page.url}" property="og:url" /
+  meta content="#{config[:host]}#{current_page.url}" property="og:url" /
   meta content="website" property="og:type" /
 
   - translated_title = defined?(title) ? title : (t(current_page.data.title) || t("kraiany.title"))
