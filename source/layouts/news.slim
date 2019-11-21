@@ -5,14 +5,16 @@ html
   body data-spy="scroll" data-target="#site-nav"
     = partial "layouts/page_header", locals: { title: t("news.news") }
     section#news.section
-      .container
+      .container itemscope=true itemtype="https://schema.org/Article"
+        meta itemprop="author" content=t("kraiany.author")
+        meta itemprop="image" content="#{config[:host]}#{image_path(current_page.data.image || "/assets/images/about-us.jpg")}"
         .row
           .col-sm-12
             h1.section-title
-              = current_page.data.title
+              span{itemProp="headline"}= current_page.data.title
               span.published_on
                 - date = Time.zone.parse(current_page.data.date).to_date
-                span.date= I18n.l(date, format: :default, locale: lang)
+                time.date{datetime=date itemprop="datePublished"}= I18n.l(date, format: :default, locale: lang)
         .row
-          .col-sm-12= yield
+          .col-sm-12(itemprop="articleBody")= yield
     = partial "layouts/footer"
