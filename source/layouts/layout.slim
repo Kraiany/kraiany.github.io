@@ -1,7 +1,7 @@
 doctype html
 html
-  = partial "header"
+  = partial "layouts/header"
   body data-spy="scroll" data-target="#site-nav"
-    = partial "page_header"
+    = partial "layouts/page_header"
     = yield
-    = partial "footer"
+    = partial "layouts/footer"

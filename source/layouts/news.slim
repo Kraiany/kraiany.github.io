@@ -1,8 +1,8 @@
 doctype html
 html
-  = partial "header", locals: { title: t("news.news") }
+  = partial "layouts/header", locals: { title: t("news.news") }
   body data-spy="scroll" data-target="#site-nav"
-    = partial "page_header", locals: { title: t("news.news") }
+    = partial "layouts/page_header", locals: { title: t("news.news") }
     section#news.section
       .container
         .row
@@ -14,4 +14,4 @@ html
                 span.date= I18n.l(date, format: :default, locale: lang)
         .row
           .col-sm-12= yield
-    = partial "footer"
+    = partial "layouts/footer"
