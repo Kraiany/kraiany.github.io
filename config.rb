@@ -119,3 +119,9 @@ activate :deploy do |deploy|
   # deploy.commit_message = 'custom-message'      # commit message (can be empty), default: Automated commit at `timestamp` by middleman-deploy `version`
 
 end
+
+redirect "index.html", to: "/ja/index.html"
+redirect "news/index.html", to: "/ja/news.html"
+redirect "news.html", to: "/ja/news.html"
+redirect "parade/index.html", to: "/ja/parade.html"
+redirect "parade.html", to: "/ja/parade.html"
