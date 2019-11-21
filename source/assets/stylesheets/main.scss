@@ -28,9 +28,12 @@ li.plain {
 }
 
 #news {
+  padding-top: 0px;
   h1, h2 {
     &.section-title {
       margin-top: 30px;
+      text-transform: inherit;
+      letter-spacing: inherit;
     }
     $title_color: #000;
     .published_on {
@@ -46,5 +49,18 @@ li.plain {
   .summary {
     display: block;
     text-align: justify;
+  }
+}
+
+.intro {
+  .site-header & {
+    padding-top: 100px;
+  }
+  .btn-white {
+    margin: 20px;
+    padding: 20px 40px;
+    @media (max-width: 600px) {
+      display: block;
+    }
   }
 }
