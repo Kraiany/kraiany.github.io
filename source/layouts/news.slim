@@ -1,17 +1,17 @@
 doctype html
 html
-  = partial "header", locals: { title: t("news.news") }
+  = partial "layouts/header", locals: { title: t("news.news") }
   body data-spy="scroll" data-target="#site-nav"
-    = partial "page_header", locals: { title: t("news.news") }
+    = partial "layouts/page_header", locals: { title: t("news.news") }
     section#news.section
       .container
         .row
           .col-sm-12
             h1.section-title
               = current_page.data.title
-              small.published_on
-                = t "news.published_on"
-                span.date= current_page.data.date
+              span.published_on
+                - date = Time.zone.parse(current_page.data.date).to_date
+                span.date= I18n.l(date, format: :default, locale: lang)
         .row
           .col-sm-12= yield
-    = partial "footer"
+    = partial "layouts/footer"

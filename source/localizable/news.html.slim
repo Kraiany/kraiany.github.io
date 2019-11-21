@@ -1,6 +1,7 @@
 ---
 layout: "layout"
 title: "news.title"
+menu_title: "news.title"
 description: "news.description"
 menu:
 ---
@@ -12,12 +13,11 @@ section#site-header.site-header.valign-center
 
 section#news.section
   .container
-    - blog.local_articles.each do |article|
+    - blog.articles_by_locale.each do |article|
       .row
         .col-sm-12
-          h3.section-title
+          h2.section-title
             = link_to article.title, article
-            small.published_on
-              = t "news.published_on"
-              span.date= article.date
+            span.published_on
+              span.date= I18n.l(article.date.to_date, format: :default, locale: lang)
           span= article.summary

@@ -26,9 +26,8 @@ page '/*.txt', layout: false
 #  which_fake_page: "Rendering a fake page with a local variable" }
 
 # General configuration
-
-activate :i18n, langs: [:ja, :en, :uk], :mount_at_root => false
-activate :directory_indexes
+supported_languages = [:ja, :en, :uk]
+activate :i18n, langs: supported_languages, :mount_at_root => false
 
 # --------------------------------------------
 # Localization helpers
@@ -52,6 +51,7 @@ activate :blog do |blog|
   blog.layout = "news"
   blog.permalink = "{lang}/news/{year}-{month}-{day}-{title}.html"
   blog.sources = "news/{year}-{month}-{day}-{lang}-{title}.html"
+  blog.new_article_template = File.expand_path("source/news/article_template.tt", __dir__)
 end
 
 activate :sitemap, :hostname => "https://www.kraiany.org"
@@ -60,7 +60,6 @@ activate :sitemap, :hostname => "https://www.kraiany.org"
 # Reload the browser automatically whenever files change
 configure :development do
   activate :livereload
-  activate :relative_assets
   set :host, 'http://localhost:4567'
 end
 
@@ -78,11 +77,8 @@ end
 
 # Build-specific configuration
 configure :build do
-  activate :relative_assets
-
   activate :minify_css
   activate :minify_javascript
-  set :relative_links, true
 
   # somehow minifying html takes some html attributes away so it is causing
   # some css not applied to certain elements... so until we find alternative
@@ -123,4 +119,15 @@ activate :deploy do |deploy|
   # deploy.strategy = :submodule      # commit strategy: can be :force_push or :submodule, default: :force_push
   # deploy.commit_message = 'custom-message'      # commit message (can be empty), default: Automated commit at `timestamp` by middleman-deploy `version`
 
+end
+
+redirect "index.html", to: "/ja/index.html"
+redirect "news/index.html", to: "/ja/news.html"
+redirect "news.html", to: "/ja/news.html"
+redirect "parade/index.html", to: "/ja/parade.html"
+redirect "parade.html", to: "/ja/parade.html"
+
+supported_languages.each do |lang|
+  redirect "#{lang}/parade/index.html", to: "/#{lang}/parade.html"
+  redirect "#{lang}/news/index.html", to: "/#{lang}/news.html"
 end

@@ -1,6 +1,9 @@
 ---
 title: Сьомий Парад Вишиванок у Токіо (2019)
 date: 2019-05-20 04:37 UTC
+lastmod: 2019-05-20
+changefreq: yearly
+priority: 0.5
 tags: Парад,Вишиванка,Токіо,Японія
 image: "/assets/images/parade-ja-2019.jpg"
 ---

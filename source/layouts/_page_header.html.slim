@@ -2,9 +2,9 @@ nav#site-nav.navbar.navbar-fixed-top.navbar-custom
   .container
     .navbar-header
       .site-branding
-        a.logo href="index.html"
-          img alt="Logo" src="/assets/images/kraiany_logo_33x38.png" /
-          = defined?(title) ? title : t(current_page.data.title)
+        = link_to "/", class: 'logo' do
+          = image_tag "/assets/images/kraiany_logo_33x38.png", alt: "Logo"
+          = defined?(title) ? title : t(current_page.data.menu_title)
       button.navbar-toggle.collapsed aria-expanded="false" data-target="#navbar-items" data-toggle="collapse" type="button"
         span.sr-only Toggle navigation
         span.icon-bar
@@ -16,4 +16,4 @@ nav#site-nav.navbar.navbar-fixed-top.navbar-custom
           - current_page.data.menu.each do |item|
             li
               a data-scroll="#{item['data-scroll']}" href="#{item['href']}" = t item['title']
-        = partial "language_select"
+        = partial "layouts/language_select"
