@@ -26,8 +26,8 @@ page '/*.txt', layout: false
 #  which_fake_page: "Rendering a fake page with a local variable" }
 
 # General configuration
-
-activate :i18n, langs: [:ja, :en, :uk], :mount_at_root => false
+supported_languages = [:ja, :en, :uk]
+activate :i18n, langs: supported_languages, :mount_at_root => false
 
 # --------------------------------------------
 # Localization helpers
@@ -125,3 +125,8 @@ redirect "news/index.html", to: "/ja/news.html"
 redirect "news.html", to: "/ja/news.html"
 redirect "parade/index.html", to: "/ja/parade.html"
 redirect "parade.html", to: "/ja/parade.html"
+
+supported_languages.each do |lang|
+  redirect "#{lang}/parade/index.html", to: "/#{lang}/parade.html"
+  redirect "#{lang}/news/index.html", to: "/#{lang}/news.html"
+end
