@@ -5,8 +5,15 @@ head
   meta content="width=device-width, initial-scale=1" name="viewport" /
 
   - if current_page.data.description.present?
-    meta content="#{t current_page.data.description}" name="description" /
-    meta content="#{t current_page.data.description}" property="og:description" /
+    - description = t current_page.data.description
+  - elsif current_page.data.details.present?
+    - description = current_page.data.details
+  - elsif current_page.data.summary.present?
+    - description = current_page.data.summary
+
+  - if defined?(description)
+    meta content="#{description}" name="description" /
+    meta content="#{description}" property="og:description" /
 
   - if current_page.data.keywords.present?
     meta content="#{t current_page.data.keywords}" name="keywords" /
