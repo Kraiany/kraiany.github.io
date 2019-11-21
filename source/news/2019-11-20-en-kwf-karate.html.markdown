@@ -2,6 +2,9 @@
 
 title: Kraiany Condemns Participation of so-called "DNR" in a Sporting Event
 date: 2019-11-20 00:00 UTC
+lastmod: 2019-11-20
+changefreq: yearly
+priority: 0.5
 tags:
 details: We condemn the action of the participants from the terrorist organization of so-called “DNR”. We consider their actions as inadmissible, and visa obtained for participation in the event discredits work of the Ministry of Foreign Affairs of Japan.
 

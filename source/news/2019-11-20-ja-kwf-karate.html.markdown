@@ -2,6 +2,9 @@
 
 title: Kraianyはテロ組織「DNR」メンバーの競技参加を非難
 date: 2019-11-20 00:00 UTC
+lastmod: 2019-11-20
+changefreq: yearly
+priority: 0.5
 tags:
 details: テロ組織「DNR」の競技参加を非難し、許容しがたい行為と見なします。また、その行為を可能にした日本のビザが発給された事実は、日本国外務省に対する信頼を大きく傷つけています。
 
