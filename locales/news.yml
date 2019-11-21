@@ -1,20 +1,17 @@
 ja:
   news:
-    published_on: 更新
     news: お知らせ
     title: お知らせ
     sub_title: ニュースとプレスリリース
     description: お知らせ
 uk:
   news:
-    published_on: Опубліковано
     news: Новини
     title: Новини
     sub_title: Новини та прес-релізи
     description: Новини
 en:
   news:
-    published_on: Published
     news: News
     title: News
     sub_title: News and Press Releases

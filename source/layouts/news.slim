@@ -9,8 +9,7 @@ html
           .col-sm-12
             h1.section-title
               = current_page.data.title
-              small.published_on
-                = t "news.published_on"
+              span.published_on
                 - date = Time.zone.parse(current_page.data.date).to_date
                 span.date= I18n.l(date, format: :default, locale: lang)
         .row
