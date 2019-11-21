@@ -4,7 +4,7 @@ nav#site-nav.navbar.navbar-fixed-top.navbar-custom
       .site-branding
         = link_to "/", class: 'logo' do
           = image_tag "/assets/images/kraiany_logo_33x38.png", alt: "Logo"
-          = defined?(title) ? title : t(current_page.data.title)
+          = defined?(title) ? title : t(current_page.data.menu_title)
       button.navbar-toggle.collapsed aria-expanded="false" data-target="#navbar-items" data-toggle="collapse" type="button"
         span.sr-only Toggle navigation
         span.icon-bar
