@@ -11,7 +11,8 @@ html
               = current_page.data.title
               small.published_on
                 = t "news.published_on"
-                span.date= current_page.data.date
+                - date = Time.zone.parse(current_page.data.date).to_date
+                span.date= I18n.l(date, format: :default, locale: lang)
         .row
           .col-sm-12= yield
     = partial "footer"

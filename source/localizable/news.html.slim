@@ -19,5 +19,6 @@ section#news.section
             = link_to article.title, article
             small.published_on
               = t "news.published_on"
-              span.date= article.date
+              - # date = Time.zone.parse(article.date)
+              span.date= I18n.l(article.date.to_date, format: :default, locale: lang)
           span= article.summary
