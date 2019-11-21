@@ -1,0 +1,12 @@
+---
+
+title: <%= @title %>
+date: <%= @date.strftime('%F %R %Z') %>
+lastmod: <%= @date.iso8601 %>
+changefreq: monthly
+priority: 0.5
+tags: <%= @tags.join(",") %>
+
+---
+
+<%= @content %>

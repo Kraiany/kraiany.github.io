@@ -51,6 +51,7 @@ activate :blog do |blog|
   blog.layout = "news"
   blog.permalink = "{lang}/news/{year}-{month}-{day}-{title}.html"
   blog.sources = "news/{year}-{month}-{day}-{lang}-{title}.html"
+  blog.new_article_template = File.expand_path("source/news/article_template.tt", __dir__)
 end
 
 activate :sitemap, :hostname => "https://www.kraiany.org"
