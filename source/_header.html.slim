@@ -12,7 +12,7 @@ head
     meta content="#{t current_page.data.keywords}" name="keywords" /
 
   meta content="#{t "kraiany.about"}" name="author" /
-  meta content="#{config[:host]}#{current_page.data.image || "/assets/images/about-us.jpg"}" property="og:image" /
+  meta content="#{config[:host]}#{image_path(current_page.data.image || "/assets/images/about-us.jpg")}" property="og:image" /
   meta content="#{config[:host]}#{current_page.url}" property="og:url" /
   meta content="website" property="og:type" /
 
