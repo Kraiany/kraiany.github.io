@@ -28,11 +28,15 @@ li.plain {
 }
 
 #news {
-  h3 {
+  h1, h2 {
+    $title_color: #000;
     .published_on {
-      padding-left: 20px;
+      display: block;
+      color: $title_color;
+      padding-top: 20px;
+      font-size: 0.5em;
+      color: lighten($title_color, 50%);
       .date {
-        padding-left: 10px;
       }
     }
   }
