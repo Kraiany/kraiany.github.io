@@ -28,7 +28,6 @@ page '/*.txt', layout: false
 # General configuration
 
 activate :i18n, langs: [:ja, :en, :uk], :mount_at_root => false
-activate :directory_indexes
 
 # --------------------------------------------
 # Localization helpers
