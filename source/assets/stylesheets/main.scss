@@ -29,6 +29,9 @@ li.plain {
 
 #news {
   h1, h2 {
+    &.section-title {
+      margin-top: 30px;
+    }
     $title_color: #000;
     .published_on {
       display: block;
@@ -39,5 +42,9 @@ li.plain {
       .date {
       }
     }
+  }
+  .summary {
+    display: block;
+    text-align: justify;
   }
 }

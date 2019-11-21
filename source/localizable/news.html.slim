@@ -20,4 +20,4 @@ section#news.section
             = link_to article.title, article
             span.published_on
               span.date= I18n.l(article.date.to_date, format: :default, locale: lang)
-          span= article.data.details ? article.data.details : article.summary
+          span.summary= article.data.details ? article.data.details : article.summary
