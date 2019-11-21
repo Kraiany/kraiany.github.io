@@ -60,7 +60,6 @@ activate :sitemap, :hostname => "https://www.kraiany.org"
 # Reload the browser automatically whenever files change
 configure :development do
   activate :livereload
-  activate :relative_assets
   set :host, 'http://localhost:4567'
 end
 
@@ -78,11 +77,8 @@ end
 
 # Build-specific configuration
 configure :build do
-  activate :relative_assets
-
   activate :minify_css
   activate :minify_javascript
-  set :relative_links, true
 
   # somehow minifying html takes some html attributes away so it is causing
   # some css not applied to certain elements... so until we find alternative
