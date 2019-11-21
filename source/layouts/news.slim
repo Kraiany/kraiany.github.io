@@ -1,8 +1,9 @@
 doctype html
 html
-  = partial "layouts/header", locals: { title: t("news.news") }
+  - title = is_blog_article? ? [current_page.data.title, t("news.news")].join(" - ") : t("news.news")
+  = partial "layouts/header", locals: { title: title }
   body data-spy="scroll" data-target="#site-nav"
-    = partial "layouts/page_header", locals: { title: t("news.news") }
+    = partial "layouts/page_header", locals: { title: t("news.page_title") }
     section#news.section
       .container
         .row
