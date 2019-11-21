@@ -7,6 +7,7 @@ install:
 - bundle install --path vendor/bundle
 script:
 - bundle exec middleman build
+- grep -qr 'translation missing' ./build; if [ $? -ne 1 ]; then echo 'translation key missing'; exit 1; fi
 
 deploy:
   provider: pages
