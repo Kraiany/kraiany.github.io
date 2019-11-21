@@ -6,6 +6,7 @@ uk:
     about: Краяни - незалежна, неурядова організація українців, що проживають у Японії.
     event: Захід проводиться організацією українців Японії Краяни
     description: Незалежна, неурядова організація українців, що проживають у Японії.
+    author: Краяни
 
 # ----------------------------------------------------------------------------------------
 en:
@@ -15,6 +16,7 @@ en:
     about: Kraiany - independent, non-governmental community of Ukrainians living in Japan.
     event: Event by Ukrainian community in Japan Kraiany
     description: Independent, non-governmental community of Ukrainians living in Japan.
+    author: Kraiany
 # ----------------------------------------------------------------------------------------
 ja:
   kraiany:
@@ -23,3 +25,4 @@ ja:
     about: 在日ウクライナ人コミュニティ「クラヤネ」(Kraiany)
     event: 在日ウクライナ人コミュニティ「クラヤネ」(Краяни, Kraiany) のイベントです
     description: 在日ウクライナ人コミュニティ「クラヤネ」(Kraiany)
+    author: クラヤネ (Kraiany)
