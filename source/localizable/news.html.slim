@@ -12,12 +12,11 @@ section#site-header.site-header.valign-center
 
 section#news.section
   .container
-    - blog.local_articles.each do |article|
+    - blog.articles_by_locale.each do |article|
       .row
         .col-sm-12
           h2.section-title
             = link_to article.title, article
             span.published_on
-              - # date = Time.zone.parse(article.date)
               span.date= I18n.l(article.date.to_date, format: :default, locale: lang)
           span= article.summary
