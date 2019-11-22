@@ -17,6 +17,8 @@ head
 
   - if current_page.data.keywords.present?
     meta content="#{t current_page.data.keywords}" name="keywords" /
+  - elsif current_page.data.tags.present?
+    meta content="#{current_page.data.tags}" name="keywords" /
 
   meta content="#{t "kraiany.about"}" name="author" /
   meta content="#{config[:host]}#{image_path(current_page.data.image || "/assets/images/about-us.jpg")}" property="og:image" /
