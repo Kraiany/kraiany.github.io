@@ -3,7 +3,7 @@
 title: Шостий Парад Вишиванок у Токіо (2018)
 date: 2018-05-21 15:12 UTC
 lastmod: 2018-05-21T15:52:00Z
-changefreq: yearkly
+changefreq: yearly
 priority: 0.5
 tags: Парад,Вишиванка,Токіо,Японія
 categories: release,parade
