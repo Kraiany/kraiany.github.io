@@ -6,7 +6,7 @@ lastmod: 2019-11-23T06:39:16Z
 changefreq: monthly
 priority: 0.5
 details: We demand that KWF officials strip of the medals or certificates awarded to participants of the so-called "DNR"
-tags: Karate, Ukraine, Donetsk, Donetsk People's Republic, Russia, Russian Federation, Crimea, War ,territorial integrity
+tags: Karate, Karatenomichi, Ukraine, Donetsk, Donetsk People's Republic, Russia, Russian Federation, Crimea, War ,territorial integrity
 
 ---
 
