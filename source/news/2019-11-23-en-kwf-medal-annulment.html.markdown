@@ -11,7 +11,9 @@ tags: Karate, Karatenomichi, Ukraine, Donetsk, Donetsk People's Republic, Russia
 ---
 
 
-To: KARATENOMICHI WORLD FEDERATION
+From: Ukrainian community in Japan "Kraiany"
+
+To: KARATENOMICHI WORLD FEDERATION, Grandmaster and Chairman of the Board of Directors
 
 Dear Sir/Madam,
 
