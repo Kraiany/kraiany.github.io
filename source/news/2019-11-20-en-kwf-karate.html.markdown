@@ -10,6 +10,12 @@ details: We condemn the action of the participants from the terrorist organizati
 
 ---
 
+The following was mailed to the Japanese Ministry of Foreign Affairs in reaction to participation of terrorists from the the so-called "Donetsk People's Republic" in a sporting event held in Tokyo.
+
+<hr />
+
+Dear Sir/Madam,
+
 According to several recent news sources, an event called "KWF World Conference & World Cup" took place in Tokyo during November 7-10, 2019.
 http://kwfjapan.com/ , email: mail@kwf.jp
 
