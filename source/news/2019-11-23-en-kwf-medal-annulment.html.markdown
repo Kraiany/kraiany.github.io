@@ -10,6 +10,9 @@ tags: Karate, Karatenomichi, Ukraine, Donetsk, Donetsk People's Republic, Russia
 
 ---
 
+The following letter was sent to Karatenomichi World Federation, organizers of a sporting event, where participants of the so-called "Donetsk People's Republic" terrorist organization took part in.
+
+<hr />
 
 To: KARATENOMICHI WORLD FEDERATION
 
