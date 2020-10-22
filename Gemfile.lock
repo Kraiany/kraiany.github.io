@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/matsu911/middleman-sitemap
-  revision: b52c2256d4188761122804cbb79ceb6cd1afdf6b
+  revision: 69f107b058d2ce1e8aa8695a97567c4a763e9367
   specs:
     middleman-sitemap (0.0.13)
       middleman-core (>= 3.2.2)
