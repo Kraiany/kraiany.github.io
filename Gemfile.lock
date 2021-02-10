@@ -134,7 +134,7 @@ GEM
       ffi (~> 1.0)
     ref (2.0.0)
     rexml (3.2.4)
-    rmagick (4.1.2)
+    rmagick (4.2.1)
     sass (3.7.4)
       sass-listen (~> 4.0.0)
     sass-listen (4.0.0)
@@ -177,7 +177,7 @@ DEPENDENCIES
   middleman-sprockets (~> 4.0)
   nokogiri
   oj
-  rmagick (~> 4.1)
+  rmagick (~> 4.2)
   sass
   slim
   therubyracer
