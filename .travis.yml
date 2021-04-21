@@ -8,12 +8,12 @@ install:
 - bundle install --path vendor/bundle
 script:
 - bundle exec middleman build
-- grep -qr 'translation missing' ./build; if [ $? -ne 1 ]; then echo 'translation key missing'; exit 1; fi
-
+- grep -qr 'translation missing' ./build; if [ $? -ne 1 ]; then echo 'translation
+  key missing'; exit 1; fi
 deploy:
   provider: pages
   skip-cleanup: true
-  github-token: $GH_TOKEN
+  github-token: "$GH_TOKEN"
   keep-history: true
   target-branch: master
   fqdn: www.kraiany.org
@@ -21,7 +21,6 @@ deploy:
   local-dir: build
   on:
     branch: develop
-
 env:
   global:
-    - secure: "LgRGCGuatwfTTHNk915O9I13n915AAoLfqshzAMxz9ZBYU9uNee5fJPQq+1YmfPSb2SyWxrRVDgunjJ2SCpgzSwt0wPFrPdRNxZwpjoXPjRouXKOOUHx2pbm2duZql1Vk6MdswBC27IjogXz+BL/MUi/hUoM6s4OFNWDLMQvkh17KCOYq3f5crBv2KI28PHOtFv6WAy90Q3phVRmWtT64ic4Y9gTiFS7MkFVYYOaBtX7tftOLoF98h4KnETrbphleq9ZjsaFTg3CIWzj1s1aUu+c3pPgdOCtLHfymtDVgkvvjA2a084zNDRz4A2BeA0Aao7PDsJM/EiWInxVq1z2S0UGHKgvUa95K6+8FM3/wZTVDcl243CmzW+ryDrSN1CiESdV/nVHdrxExgY0Pro510xoSiFOUv6UMyCENEL9syuTuAEFoLKb2V2EUNpc1XfSVsL+fUrRWXx2hy68sK2Wm0YT6v5TkVEHQTeYd1fvAwFANScggG0lk9HjoDNkf963JI4+q0G157Ulh4akvcneurk0VSJkDva0Tpcv+Yu0FT427hJOUO/GiKnHHLxqXfXyMH+sxtJ4NHk5+RCsroEN/IihFZ/7Blm2WluuyAmvHKtU26BhRMsROwbAMzIOCw0dQe7zZRZZHejOJ5OSTcrA1Re0JsnCDMe2liiWkxlg/T0="
+  - secure: WpGcgzJtc6tyUHYE6HMIPEiZErYxMBmnxWnA/2NMjEGEer+wrj8EYfz4OTGAO1EWwdIjRZETtCkfssji9NI9MdNZkF/qcci2NpmL+PGboGVDKjoV06FYtipTEKl8Xnl+fOshDJsSPWG/nVNc+WlDQMRXx3WE3X4Ysw+mAIY29CMMBZMr/MnUo+gKx94TN1cAiyqCcCv6VpGU6ocGikSOs3zUWVpJunbV9uuqQiqkj5cTUX39H16l5EajfCh05xRvcA/0EkjTssqseLIR1CzXvX3361hDbhoh9f2G+VIF1ZHkbgjIh5YCHjpGbwy2Ua8xIlI5hwwQOxxDS7+sAFKqDjKpDoeWZwz43UeSJXW94vazf+PxLykVF6R72J4vdct0U98q9U8efyJR3qR2pzXvveoP2nc5WeFwIton4dlTZY3QqjNrQFZOppFkgeNX5p1YJ3TRoZneOlKFVlA4FmhyFu4y+eHB1IXp0viu/EmRX/0k3ma8YshOA+oNJ50ayAE4ZnwiOI69enG9+yc5lk1GuI2x7wBTypDwxI7WjBB2gcuoN9FfJa2GBmPaShcwNcwA9NkpjdBKnwgLjH9b/DMKgeNtrloAh2BZ8OzeVay3lV3u21pqgyhU5ilIOMAX3r5KCl5oQ3xij9vxe/22njLhR/NjsKID+m1DKXLJZovh/xI=
