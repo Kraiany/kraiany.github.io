@@ -14,6 +14,8 @@ Home for the Kraiany projects
 *Please note*: All Pull Requests should be submitted against `develop`
 branch, not `master`. Please see explanation below.
 
+---
+
 ## Локалізація
 
 Локалізація це переклади і показ сторінки кількома мовами (українська,
@@ -52,12 +54,12 @@ branch, not `master`. Please see explanation below.
   фрагменти з структурованих файлів YAML.
 
 
-### Переклад текстових фрагментів
+#### Переклад текстових фрагментів
 
 В цьому випадку використовується база даних перекладів у файлах типу YAML. YAML — це структурований формат. Опис формату можна знайти на [вікіпедії](https://uk.wikipedia.org/wiki/YAML).
 
 
-Приклад локалізації (файл index.html.slim):
+Приклад локалізації (файл `index.html.slim`):
 
     p = t "kraiany.about"
     h2
@@ -100,6 +102,8 @@ ja:                          <--- позначка мови
   festival:
     festival: フェスティバル   <--- другий відступ (4 пробіли), аргумент і значення
 ```
+
+---
 
 ## Github pages and Branches
 
