@@ -75,7 +75,7 @@ branch, not `master`. Please see explanation below.
   буде відповідно вставлено переклад однією з трьох мов.
 
   *Примітка*: Інколи дужки функції `t()` можна опускати, як, наприклад у
-  випадку `t "kraiany.about"` є тим же самим, що і `t "kraiany.about"`).
+  випадку `t "kraiany.about"` є тим же самим, що і `t("kraiany.about")`.
 
 - Файли перекладів знаходяться в каталозі `source/locales` у файлах типу
     YAML, (наприклад: `parade.yml`, або `en.yml`, `jp.yml`, `uk.yml`).
