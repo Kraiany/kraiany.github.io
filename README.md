@@ -73,10 +73,13 @@ branch, not `master`. Please see explanation below.
   базу файли YAML. У наступних прикладах  `t("festival.festival")`,
   `t("parade.parade")` замість `festival.festival` та `parade.parade`
   буде відповідно вставлено переклад однією з трьох мов.
-  Примітка: Інколи дужки функції `t()` можна опускати, як, наприклад у
-  випадку `t "kraiany.about"` є тим же самим, що і `t "kraiany.about").
-  - Файли перекладів знаходяться в каталозі `source/locales` у файлах типу
+
+  *Примітка*: Інколи дужки функції `t()` можна опускати, як, наприклад у
+  випадку `t "kraiany.about"` є тим же самим, що і `t "kraiany.about"`).
+
+- Файли перекладів знаходяться в каталозі `source/locales` у файлах типу
     YAML, (наприклад: `parade.yml`, або `en.yml`, `jp.yml`, `uk.yml`).
+
 - Переклади знаходяться у структурованому тексті
   [YAML](https://uk.wikipedia.org/wiki/YAML). Наприклад, для перекладу
   `festival.festival` з файлу source/locales/(en,uk,jp).yml (в
