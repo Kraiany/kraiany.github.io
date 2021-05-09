@@ -1,28 +1,30 @@
 ---
 uk:
   kraiany:
-    menu_title: Краяни
-    title: Краяни - незалежна, неурядова організація українців, що проживають у Японії
-    about: Краяни - незалежна, неурядова організація українців, що проживають у Японії.
-    event: Захід проводиться організацією українців Японії Краяни
-    description: Незалежна, неурядова організація українців, що проживають у Японії.
-    author: Краяни
+    menu_title: НПО Краяни
+    author: НПО Краяни
+    title: НПО Краяни - організація українців у Японії
+    about: НПО Краяни - неприбуткова організація українців,
+           проживаючих у Японії. Ассоціація дружби Японія-Україна.
+    event: Захід проводиться НПО Краяни
+    description: неприбуткова організація українців, проживаючих у Японії. Ассоціація дружби Японія-Україна.
 
 # ----------------------------------------------------------------------------------------
 en:
   kraiany:
-    menu_title: Kraiany
-    title: Kraiany - independent, non-governmental community of Ukrainians living in Japan.
-    about: Kraiany - independent, non-governmental community of Ukrainians living in Japan.
-    event: Event by Ukrainian community in Japan Kraiany
-    description: Independent, non-governmental community of Ukrainians living in Japan.
-    author: Kraiany
+    menu_title: NPO Kraiany
+    author: NPO Kraiany
+    title: NPO Kraiany
+    about: NPO Kraiany - Association of friendship
+           Japan-Ukraine. Organization of Ukrianians living in Japan.
+    event: Event organized by Ukrainian community in Japan Kraiany
+    description: NPO Kraiany - Association of friendship Japan-Ukraine, Non Profit Organization (NPO Kraiany). Community of
 # ----------------------------------------------------------------------------------------
 ja:
   kraiany:
-    menu_title: クラヤネ (Kraiany)
-    title: クラヤネ (Kraiany) - 在日ウクライナ人コミュニティ
-    about: 在日ウクライナ人コミュニティ「クラヤネ」(Kraiany)
+    menu_title: NPO クラヤネ (Kraiany)
+    author: NPO クラヤネ (Kraiany)
+    title: 日本ウクライナ友好協会ＫＲＡＩＡＮＹ
+    about: 地域住民に国際的な感覚を身につけ、ウクライナ人、ウクライナの文化や異文化を理解する国際的な人々を育成し、国際交流を通じて世界平和に貢献する場所と機会を提供することを目的としています。
     event: 在日ウクライナ人コミュニティ「クラヤネ」(Краяни, Kraiany) のイベントです
-    description: 在日ウクライナ人コミュニティ「クラヤネ」(Kraiany)
-    author: クラヤネ (Kraiany)
+    description: 地域住民に国際的な感覚を身につけ、ウクライナ人、ウクライナの文化や異文化を理解する国際的な人々を育成し、国際交流を通じて世界平和に貢献する場所と機会を提供することを目的としています。
