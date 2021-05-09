@@ -8,7 +8,7 @@ uk:
            проживаючих у Японії. Ассоціація дружби Японія-Україна.
     event: Захід проводиться НПО Краяни
     description: неприбуткова організація українців, проживаючих у Японії. Ассоціація дружби Японія-Україна.
-
+    registration_link: Сторінка реєстрації НПО
 # ----------------------------------------------------------------------------------------
 en:
   kraiany:
@@ -19,6 +19,7 @@ en:
            Japan-Ukraine. Organization of Ukrianians living in Japan.
     event: Event organized by Ukrainian community in Japan Kraiany
     description: NPO Kraiany - Association of friendship Japan-Ukraine, Non Profit Organization (NPO Kraiany). Community of
+    registration_link: NPO registration infromation
 # ----------------------------------------------------------------------------------------
 ja:
   kraiany:
@@ -28,3 +29,4 @@ ja:
     about: 地域住民に国際的な感覚を身につけ、ウクライナ人、ウクライナの文化や異文化を理解する国際的な人々を育成し、国際交流を通じて世界平和に貢献する場所と機会を提供することを目的としています。
     event: 在日ウクライナ人コミュニティ「クラヤネ」(Краяни, Kraiany) のイベントです
     description: 地域住民に国際的な感覚を身につけ、ウクライナ人、ウクライナの文化や異文化を理解する国際的な人々を育成し、国際交流を通じて世界平和に貢献する場所と機会を提供することを目的としています。
+    registration_link: NPO登録情報
