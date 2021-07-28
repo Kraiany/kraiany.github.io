@@ -10,6 +10,14 @@
 	background-color: #000;
 	transition: all 0.2s linear 0s;
 
+	.navbar-right {
+		margin-right: 0;
+	}
+
+	.navbar-collapse {
+		max-height: fit-content;
+	}
+
 	.navbar-nav {
 		li {
 			margin: 0;
@@ -69,6 +77,85 @@
 		}
 	}
 }
+
+.navbar-header {
+	padding-bottom: 20px;
+}
+
+.navbar-menu {
+	clear: both;
+	border-top: 1px solid #555;
+	padding-top: 10px;
+
+	ul {
+		padding: 0;
+		margin: 0;
+
+		li {
+			display: inline-block;
+			list-style: none;
+			margin: 0;
+			padding: 0 20px;
+
+			&:first-child {
+				padding-left: 0;
+			}
+
+			a {
+				display: block;
+				padding: 10px 0;
+				color: #CCC;
+				border-bottom: 3px solid transparent;
+				&:hover {
+					color: #FFF;
+					text-decoration: none;
+					border-bottom: 3px solid #FFF;
+				}
+			}
+
+			&:hover {
+				/* hold parent hover styling */
+				a {
+					border-bottom: 3px solid #FFF;
+				}
+				/* show dropdown */
+				ul {
+					display: block;
+					li {
+						a {
+							border-bottom: 0;
+						}
+					}
+				}
+			}
+
+			/* dropdown styling */
+			ul {
+				display: none;
+				position: absolute;
+				padding: 10px 0;
+				background: #000;
+				li {
+					display: block;
+					padding: 0;
+					a {
+						padding: 5px 20px;
+						border-bottom: 0;
+						font-size: 0.9rem;
+
+						&:hover {
+							color: white;
+							border-bottom: 0;
+						}
+					}
+				}
+			}
+
+		}
+	}
+	
+}
+
 
 /*
  * 5.0 Site Header
@@ -139,5 +226,54 @@
 	.site-branding {
 		margin-top: 6px;
 		margin-left: 0;
+	}
+}
+
+@media (max-width:767px) {
+
+	.navbar-menu {
+
+		ul {
+			li {
+				display: block;
+				padding: unset;
+
+				&:first-child {
+					padding-left: unset;
+				}
+
+				a {
+					border-bottom: 0;
+					padding: 5px 0;
+					&:hover {
+						border-bottom: 0;
+					}
+				}
+
+				&:hover {
+					/* hold parent hover styling */
+					a {
+						border-bottom: 0;
+					}
+					/* show dropdown */
+					ul {
+						display: block;
+						li {
+							a {
+								border-bottom: 0;
+							}
+						}
+					}
+				}
+
+				/* dropdown styling */
+				ul {
+					display: block;
+					position: inherit;
+					padding: 0;
+				}
+			}
+
+		}
 	}
 }
