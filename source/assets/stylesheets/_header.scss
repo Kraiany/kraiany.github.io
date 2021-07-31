@@ -3,51 +3,59 @@
  */
 
 .navbar-custom {
-	border: 0;
-	margin: 0;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	background-color: #000;
-	transition: all 0.2s linear 0s;
+  border: 0;
+  margin: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #000;
+  transition: all 0.2s linear 0s;
 
-	.navbar-nav {
-		li {
-			margin: 0;
-		}
-		>li>a {
-			color: #fff;
-			text-transform: uppercase;
-			font-size: 12px;
-			font-weight: 400;
-			border-bottom: 1px solid transparent;
+  .navbar-right {
+    margin-right: 0;
+  }
 
-			&:focus,
-			&:hover {
-				background-color: transparent;
-				border-color: rgba(255, 255, 255, 0.5);
-			}
-		}
+  .navbar-collapse {
+    max-height: fit-content;
+  }
 
-		>.active>a {
-			border-color: rgba(255, 255, 255, 0.5);
-		}
-	}
+  .navbar-nav {
+    li {
+      margin: 0;
+    }
+    >li>a {
+      color: #fff;
+      text-transform: uppercase;
+      font-size: 12px;
+      font-weight: 400;
+      border-bottom: 1px solid transparent;
+
+      &:focus,
+      &:hover {
+        background-color: transparent;
+        border-color: rgba(255, 255, 255, 0.5);
+      }
+    }
+
+    >.active>a {
+      border-color: rgba(255, 255, 255, 0.5);
+    }
+  }
 }
 
 .navbar-toggle {
-	border: 0;
-	border-radius: 0;
-	margin-top: 2px;
+  border: 0;
+  border-radius: 0;
+  margin-top: 2px;
 
-	.icon-bar {
-		background-color: #fff;
-	}
+  .icon-bar {
+    background-color: #fff;
+  }
 }
 
 .navbar-solid {
-	background-color: #000 !important;
-	padding: 0 !important;
-	transition: all 0.2s linear 0s;
+  background-color: #000 !important;
+  padding: 0 !important;
+  transition: all 0.2s linear 0s;
 }
 
 .site-branding {
@@ -56,88 +64,216 @@
     margin-left: 10px;
 
     .logo {
-	    color: #fff;
-	    font-size: 14px;
-	    font-weight: 700;
-	    margin-right: 5px;
-	    letter-spacing: 3px;
-	    text-transform: uppercase;
+      color: #fff;
+      font-size: 14px;
+      font-weight: 700;
+      margin-right: 5px;
+      letter-spacing: 3px;
+      text-transform: uppercase;
 
-		&:focus,
-		&:hover {
-			text-decoration: none;
-		}
-	}
+    &:focus,
+    &:hover {
+      text-decoration: none;
+    }
+  }
 }
+
+.navbar-header {
+  padding-bottom: 20px;
+}
+
+.navbar-menu {
+  clear: both;
+  border-top: 1px solid #555;
+  padding-top: 10px;
+
+  ul {
+    padding: 0;
+    margin: 0;
+
+    li {
+      display: inline-block;
+      list-style: none;
+      margin: 0;
+      padding: 0 20px;
+
+      &:first-child {
+        padding-left: 0;
+      }
+
+      a {
+        display: block;
+        padding: 10px 0;
+        color: #CCC;
+        border-bottom: 3px solid transparent;
+        &:hover {
+          color: #FFF;
+          text-decoration: none;
+          border-bottom: 3px solid #FFF;
+        }
+      }
+
+      &:hover {
+        /* hold parent hover styling */
+        a {
+          border-bottom: 3px solid #FFF;
+        }
+        /* show dropdown */
+        ul {
+          display: block;
+          li {
+            a {
+              border-bottom: 0;
+            }
+          }
+        }
+      }
+
+      /* dropdown styling */
+      ul {
+        display: none;
+        position: absolute;
+        padding: 10px 0;
+        background: #000;
+        li {
+          display: block;
+          padding: 0;
+          a {
+            padding: 5px 20px;
+            border-bottom: 0;
+            font-size: 0.9rem;
+
+            &:hover {
+              color: white;
+              border-bottom: 0;
+            }
+          }
+        }
+      }
+
+    }
+  }
+  
+}
+
 
 /*
  * 5.0 Site Header
  */
 
 .site-header {
-	width: 100%;
-	height: 100%;
-	position: relative;
-	text-align: center;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  text-align: center;
 
-	&.landing-photo {
-		background: url(../images/backgrounds/header.jpg) no-repeat center center / cover;
-		min-height: 100vh;
-		&::before {
-			content: "";
-			position: absolute;
-			top: 0;
-			right: 0;
-			bottom: 0;
-			left: 0;
-			background-color: rgba(0, 0, 0, 0.5);
-		}
-		.intro {
-			color: #fff;
-		}
-	}
+  &.landing-photo {
+    background: url(../images/backgrounds/header.jpg) no-repeat center center / cover;
+    min-height: 100vh;
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      background-color: rgba(0, 0, 0, 0.5);
+    }
+    .intro {
+      color: #fff;
+    }
+  }
 
-	.intro {
-		position: relative;
-		text-align: center;
-		text-transform: uppercase;
-		width: 100%;
-		z-index: 1;
-		padding: 0 15px;
+  .intro {
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+    z-index: 1;
+    padding: 0 15px;
 
-		h2 {
-			margin-top: 0px;
-			font-size: 25px;
-			font-weight: 300;
-			a {
-				margin-left: 15px;
-			}
-		}
+    h2 {
+      margin-top: 0px;
+      font-size: 25px;
+      font-weight: 300;
+      a {
+        margin-left: 15px;
+      }
+    }
 
-		h1 {
-			margin-top: 0px;
-			font-size: 30px;
-		}
+    h1 {
+      margin-top: 0px;
+      font-size: 30px;
+    }
 
-		p {
-			font-size: 20px;
-			margin-bottom: 10px;
-			font-weight: 300;
-		}
-	}
+    p {
+      font-size: 20px;
+      margin-bottom: 10px;
+      font-weight: 300;
+    }
+  }
 }
 
 
 
 @media (min-width:768px) {
-	.navbar-custom {
-		// background-color: transparent;
-		padding-top: 10px;
-		padding-bottom: 20px;
-	}
+  .navbar-custom {
+    // background-color: transparent;
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
 
-	.site-branding {
-		margin-top: 6px;
-		margin-left: 0;
-	}
+  .site-branding {
+    margin-top: 6px;
+    margin-left: 0;
+  }
+}
+
+@media (max-width:767px) {
+
+  .navbar-menu {
+
+    ul {
+      li {
+        display: block;
+        padding: unset;
+
+        &:first-child {
+          padding-left: unset;
+        }
+
+        a {
+          border-bottom: 0;
+          padding: 5px 0;
+          &:hover {
+            border-bottom: 0;
+          }
+        }
+
+        &:hover {
+          /* hold parent hover styling */
+          a {
+            border-bottom: 0;
+          }
+          /* show dropdown */
+          ul {
+            display: block;
+            li {
+              a {
+                border-bottom: 0;
+              }
+            }
+          }
+        }
+
+        /* dropdown styling */
+        ul {
+          display: block;
+          position: inherit;
+          padding: 0;
+        }
+      }
+
+    }
+  }
 }
