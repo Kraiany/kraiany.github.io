@@ -44,8 +44,19 @@ jobs:
     needs: build
     if: ${{ github.ref == 'refs/heads/master' }}
     steps:
+      - uses: actions/checkout@v2
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 2.6.5
+      - name: Cache Gems
+        id: gem-cache
+        uses: actions/cache@v1.1.2
+        with:
+          path: vendor/bundle
+          key: ${{ runner.os }}-gem-${{ hashFiles('**/Gemfile.lock') }}
       - name: Build & Deploy to GitHub Pages
         with:
           REMOTE_BRANCH: gh-pages
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        uses: yurikoval/middleman-gh-pages-action@master
+        uses: Kraiany/middleman-gh-pages-action@master
