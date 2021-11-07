@@ -17,6 +17,11 @@ Home for the Kraiany projects
 *Please note*: All Pull Requests should be submitted against `develop`
 branch, not `master`. Please see explanation below.
 
+### Розробка - полегшений варіант
+
+Подивіться файл `README_docker.md` в цій директорії щодо використання
+Docker для розробки.
+
 ---
 
 ## Локалізація
@@ -157,31 +162,4 @@ Workflow of the deployment is as follows:
 
 ## Docker
 
-Simpler setup using Docker.
-
-
-### Build image
-
-```
-docker build -t kraiany .
-
-```
-
-### Develop
-
-```
-
- docker run -it  --rm -v $(pwd):/app -p 4567:4567 kraiany
- open http://localhost:4567
-
-
-```
-
-
-### Deploy
-
-```
-
-docker run -it  --rm -v $(pwd):/app -v ~/.gitconfig:/root/.gitconfig  -p 4567:4567 kraiany deploy
-
-```
+See file README_DOCKER.md
