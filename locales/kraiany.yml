@@ -3,11 +3,10 @@ uk:
   kraiany:
     menu_title: НПО Краяни
     author: НПО Краяни
-    title: НПО Краяни - організація українців у Японії
-    about: НПО Краяни - неприбуткова організація українців,
-           проживаючих у Японії. Ассоціація дружби Японія-Україна.
+    title: НПО Краяни - українська громада у Японії
+    about: НПО Краяни - українська неприбуткова організація у Японії. Ассоціація дружби Японія-Україна.
     event: Захід проводиться НПО Краяни
-    description: неприбуткова організація українців, проживаючих у Японії. Ассоціація дружби Японія-Україна.
+    description: українська неприбуткова організація у Японії. Ассоціація дружби Японія-Україна.
     registration_link: Сторінка реєстрації НПО
 # ----------------------------------------------------------------------------------------
 en:
@@ -16,9 +15,9 @@ en:
     author: NPO Kraiany
     title: NPO Kraiany
     about: NPO Kraiany - Association of friendship
-           Japan-Ukraine. Organization of Ukrianians living in Japan.
+           Japan-Ukraine. Ukrainian Community in Japan.
     event: Event organized by Ukrainian community in Japan Kraiany
-    description: NPO Kraiany - Association of friendship Japan-Ukraine, Non Profit Organization (NPO Kraiany). Community of
+    description: NPO Kraiany - Association of friendship Japan-Ukraine, Non Profit Organization (NPO Kraiany). Ukrainian community and NPO Kraiany in Japan.
     registration_link: NPO registration infromation
 # ----------------------------------------------------------------------------------------
 ja:
