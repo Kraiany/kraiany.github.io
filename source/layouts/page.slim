@@ -1,7 +1,6 @@
 doctype html
 html
-  - title = [current_page.data.title, t("page.title")].join(" - ")
-  = partial "layouts/header", locals: { title: title }
+  = partial "layouts/header"
   body#page data-spy="scroll" data-target="#site-nav"
     = partial "layouts/page_header", locals: { title: t("page.title") }
     section.section
