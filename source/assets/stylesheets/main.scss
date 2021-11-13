@@ -52,10 +52,10 @@ li.plain {
   }
 }
 
+.site-header, .section {
+  padding-top: 200px;
+}
 .intro {
-  .site-header & {
-    padding-top: 100px;
-  }
   .btn-white {
     margin: 20px;
     padding: 20px 40px;
