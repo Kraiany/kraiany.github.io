@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Ukrainian Christmas Trivia
+title: "christmas-trivia.title"
 ---
 
 # Two Christmases
