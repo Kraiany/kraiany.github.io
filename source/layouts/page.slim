@@ -1,9 +1,8 @@
 doctype html
 html
-  - title = [current_page.data.title, t("page.title")].join(" - ")
-  = partial "layouts/header", locals: { title: title }
+  = partial "layouts/header"
   body#page data-spy="scroll" data-target="#site-nav"
-    = partial "layouts/page_header", locals: { title: t("page.title") }
+    = partial "layouts/page_header", locals: { title: t(current_page.data.title) }
     section.section
       .container itemscope=true itemtype="https://schema.org/Article"
         meta itemprop="author" content=t("kraiany.author")
@@ -11,7 +10,7 @@ html
         .row
           .col-sm-12
             h1.section-title
-              span{itemProp="headline"}= current_page.data.title
+              span{itemProp="headline"}= t(current_page.data.title)
         .row
           .col-sm-12(itemprop="articleBody")= yield
     = partial "layouts/footer"

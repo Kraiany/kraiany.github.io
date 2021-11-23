@@ -1,4 +1,4 @@
-# [www.kraiany.org](https://www.kraiany.org/) [![Build Status](https://travis-ci.org/Kraiany/kraiany.github.io.svg?branch=develop)](https://travis-ci.org/Kraiany/kraiany.github.io)
+# [www.kraiany.org](https://www.kraiany.org/) [![Middleman](https://github.com/Kraiany/kraiany.github.io/actions/workflows/build.yml/badge.svg)](https://github.com/Kraiany/kraiany.github.io/actions/workflows/build.yml)
 Home for the Kraiany projects
 
 Це репозиторій домашньої сторінки НПО Краяни, Громади українців в
@@ -141,12 +141,12 @@ This project uses [GihubPages](https://pages.github.com/) for hosting
 final, parsed site. The way Github pages work sets how branches are used
 in this project.
 
-- `master` branch -- generated HTML, CSS, JS code.
-
-- `develop` branch -- main branch to submit PR's, testing and source of
+- `master` branch -- main branch to submit PR's, testing and source of
 the deployment.
 
-Merge of the PR to `develop` branch triggers automated testing and
+- `gh-pages` branch -- generated HTML, CSS, JS code.
+
+Merge of the PR to `master` branch triggers automated testing and
 deploy of the master branch.
 
 Workflow of the deployment is as follows:
@@ -155,7 +155,7 @@ Workflow of the deployment is as follows:
 ```
                               Travis      Final
               PR              deploy      site
-[USER BRANCH] --> [`develop`] -------> [`master`]
+[USER BRANCH] --> [`master`] -------> [`gh-pages`]
 
 
 ```

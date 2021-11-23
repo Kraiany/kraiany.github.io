@@ -1,6 +1,6 @@
 ---
 layout: page
-title: ウクライナのクリスマス まとめ
+title: "christmas-trivia.title"
 ---
 
 # 二つのクリスマス
