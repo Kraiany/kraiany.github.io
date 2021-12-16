@@ -31,6 +31,7 @@ jobs:
           if [  -s missing ]; then
              echo "Missing translations in file(s)"
              cat missing
+             exit 1
           fi
 
   deploy:
