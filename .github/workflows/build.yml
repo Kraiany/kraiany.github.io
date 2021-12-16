@@ -27,12 +27,8 @@ jobs:
         shell: bash
         run: |
           bundle exec middleman build
-          grep -lr 'translation missing' ./build > missing
-          if [  -s missing ]; then
-             echo "Missing translations in file(s)"
-             cat missing
-             exit 1
-          fi
+          echo "Missing translations in file(s):"
+          ! grep -lr 'translation missing' ./build
 
   deploy:
     name: "Deploy"
