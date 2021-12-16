@@ -30,6 +30,7 @@ gem 'font-awesome-middleman'
 # speed up minifying processes
 gem 'therubyracer'
 gem 'oj'
+gem 'execjs'
 
 # https://github.com/Aupajo/middleman-search_engine_sitemap
 gem 'middleman-search_engine_sitemap'

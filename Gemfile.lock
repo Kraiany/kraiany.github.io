@@ -171,6 +171,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  execjs
   font-awesome-middleman
   html2slim
   middleman (~> 4.4)
