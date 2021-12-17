@@ -16,7 +16,7 @@ EXPOSE 4567
 
 RUN \
   apt-get update && apt-get --yes upgrade \
-  && apt-get install -y sudo curl build-essential locales locales-all
+  && apt-get install -y sudo curl build-essential locales locales-all nodejs
 
 ADD Gemfile* /app/
 RUN cd /app; gem install bundler:2.1.2; bundle install
