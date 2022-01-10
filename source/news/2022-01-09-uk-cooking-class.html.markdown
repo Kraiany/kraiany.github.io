@@ -2,7 +2,7 @@
 
 title: Кулінарний клас від НПО Краяни в перший день занять Нового 2022 року у школі Джерельце
 date: 2022-01-09 15:12 UTC
-tags: Ukrainian, food, christmass
+tags: Ukrainian, food, christmas
 
 ---
 

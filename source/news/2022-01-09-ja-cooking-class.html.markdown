@@ -2,7 +2,7 @@
 
 title: 2022年、東京ウクライナ日曜学校Джерельцеの授業の初日です。今回は、通常のレッスンに加えてクリスマスの伝統行事が行われました。
 date: 2022-01-09 15:12 UTC
-tags: Ukrainian, food, christmass
+tags: Ukrainian, food, christmas
 
 ---
 
