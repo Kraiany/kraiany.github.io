@@ -1,0 +1,7 @@
+---
+layout: page
+title: "bylaw.title"
+---
+
+<iframe src="http://translate.google.com/translate?js=n&sl=ja&tl=en&u=https://www.kraiany.com/ja/bylaw.html" width="100%" height="800px"></iframe>
+[Bylaw translation using Google Translate](http://translate.google.com/translate?js=n&sl=ja&tl=en&u=https://www.kraiany.com/ja/bylaw.html)
