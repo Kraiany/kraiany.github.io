@@ -1,7 +1,10 @@
 .navbar-menu
   ul
     li= link_to t("news.news"), "/#{locale}/news.html"
-    li= link_to t("about.title"), "/uk/about.html"
+    li
+      = link_to t("about.title"), "/uk/about.html"
+      ul
+        li= link_to t("bylaw.menu"), "/#{locale}/bylaw.html"
     li= link_to t('dzherelze'), "https://dzherelce.github.io/"
     li= link_to t('ukraine-info'), "/ukraine-info"
     li= link_to t("festival.festival"), "/festival"
