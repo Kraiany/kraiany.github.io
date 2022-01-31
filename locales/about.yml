@@ -1,12 +1,15 @@
 ja:
   about:
     title: "ＫＲＡＩＡＮＹについて"
+    title_short: "NPO法人ＫＲＡＩＡＮＹ"
     description: "日本のウクライナ人コミュニティ「Kraiany」は2000年に設立されました。"
 uk:
   about:
     title: "Про НПО «Краяни»"
+    title_short: "НПО «Краяни»"
     description: "Громадська організація “Краяни” заснована в 2000 році."
 en:
   about:
     title: About NPO Kraiany
+    title_short: NPO Kraiany
     description: "Ukrainian community in Japan “Kraiany” was founded in 2000."
