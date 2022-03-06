@@ -8,9 +8,9 @@ header#site-header.site-header.valign-center.landing-photo
 
     h1 = t "kraiany.title"
 
-    p = t "kraiany.about"
+    p = t "kraiany.about"    
+    h2 = t "kraiany.news_social"
     h2
-      = link_to t("festival.festival") , "/festival",                   class: "btn btn-white"
-      = link_to t("parade.parade")     , "/#{locale}/parade.html",      class: "btn btn-white"
-      = link_to t("news.news")         , "/#{locale}/news.html",        class: "btn btn-white"
-      = link_to t("dzherelze")         , "http://dzherelce.github.io/", class: "btn btn-white"
+      = link_to t("news.ukrinform")         , t("news.ukrinform-url"), class: "btn btn-white"
+      = link_to t("news.ukrainer")         , t("news.ukrainer-url"), class: "btn btn-white"
+      = link_to t("embassy")         , t("news.ukrinjpn-url"), class: "btn btn-white"
