@@ -1,6 +1,6 @@
 ---
 en:
-  email: Emaiil address
+  email: Email
   subscribe: Subscribe
   receive_information: Receive information about future events
   festival:
@@ -28,9 +28,15 @@ en:
     blog: Blog posts
   cta:
     go_to: Show me more
-  embassy: Embassy of Ukraine to Japan
+  embassy: Embassy of Ukraine in Japan
   church: Ukrainian Orthodox Church - Kyiv Patriarchate
   dzherelze: Sunday School Dzherelze
   ukraine-info: About Ukraine in Japanese
+  news:
+    ukrinform: Ukrinform
+    ukrainer: Ukrainer    
+    ukrinform-url: https://twitter.com/ukrinform_news
+    ukrainer-url: https://twitter.com/ukrainer
+    ukrinjpn-url: https://twitter.com/UKRinJPN
   christmas-trivia:
     title: Ukrainian Christmas Trivia
