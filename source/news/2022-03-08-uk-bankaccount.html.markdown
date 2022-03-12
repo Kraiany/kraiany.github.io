@@ -7,6 +7,8 @@ date: 2022-03-08 00:00 UTC
 України. Кошти можна перераховувати на нижчевказаний банківський
 рахунок:
 
+READMORE
+
 <pre>
 
 Назва банку             : 三菱UFJ 銀行 (Mitsubishi UFJ )
@@ -16,3 +18,11 @@ date: 2022-03-08 00:00 UTC
 Ім'я                    : ニホンウクライナユウコウキヨウカイクラヤヌイ
 
 </pre>
+
+## Звітність
+
+Google Spreadsheet за цим
+<a
+href="https://docs.google.com/spreadsheets/d/1hg1RaGq74qmvQHc8Aj0dR-MrVAxL_5IpHCNhFQfBlzQ/edit#gid=0">
+посиланням</a> містить оперативну інформацію про зібрані кошти та
+перерахування коштів в Україну.
