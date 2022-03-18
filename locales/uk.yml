@@ -33,9 +33,11 @@ uk:
   church: Українська Православна Церква – Київського Патріархату
   dzherelze: Недільна Школа Джерельце
   ukraine-info: Японською мовою про Україну
+  aid: Гуманітарна допомога
+  aid_url: https://www.kraiany.org/uk/news/2022-03-08-bankaccount.html
   news:
     ukrinform: Укрінформ
-    ukrainer: Ukrainer    
+    ukrainer: Ukrainer
     ukrinform-url: https://twitter.com/ukrinform
     ukrainer-url: https://twitter.com/ukrainer
     ukrinjpn-url: https://twitter.com/UKRinJPN
