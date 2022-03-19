@@ -1,0 +1,43 @@
+uk:
+  donate:
+    title: Як допомогти Україні
+    description: "НПО Краяни оголосили збір коштів на гуманітарну допомогу для України."
+    reporting:
+      title: "Звітність"
+      text: "Google Spreadsheet за цим <a href='https://docs.google.com/spreadsheets/d/1hg1RaGq74qmvQHc8Aj0dR-MrVAxL_5IpHCNhFQfBlzQ/edit#gid=0' target='_blank'> посиланням</a> містить оперативну інформацію про зібрані кошти та перерахування коштів в Україну."
+    lead: "НПО Краяни оголосили збір коштів на гуманітарну допомогу для України. Кошти можна перераховувати на нижчевказаний банківський рахунок:"
+    bank:
+      name: "Назва банку"
+      branch: "Відділення банку"
+      account_type: "Тип рахунку"
+      account_number: "Номер рахунку"
+      name: "Ім'я"
+en:
+  donate:
+    title: How to help Ukraine
+    description: "NPO Kraiany has opend an account for collecting donations for humanitarian aid in Ukraine"
+    reporting:
+      title: "Reporting"
+      text: "Google Spreadsheet accessible by <a href='https://docs.google.com/spreadsheets/d/1hg1RaGq74qmvQHc8Aj0dR-MrVAxL_5IpHCNhFQfBlzQ/edit#gid=0' target='_blank'>this link</a> contains up-to-date information about received donations and about transferred funds to Ukrainian needs."
+    lead: "NPO Kraiany has opened an account for collecting funds for humanitarian aid in Ukraine. You can transfer donations to the account number below:"
+    bank:
+      name: "Name of the bank"
+      branch: "Branch"
+      account_type: "Account type"
+      account_number: "Account number"
+      name: "Name"
+
+ja:
+  donate:
+    title: ウクライナ支援：寄付・募金口座番号
+    description: "NPO Kraianyは、ウクライナで人道援助のための資金を集めるための口座を開設しました。"
+    lead: "NPO Kraianyは、ウクライナで人道援助のための資金を集めるための口座を開設しました。 以下の口座番号に送金できます:"
+    reporting:
+      title: "寄付金の報告書"
+      text: "集まった募金の合計と使用用途などは<a href='https://docs.google.com/spreadsheets/d/1hg1RaGq74qmvQHc8Aj0dR-MrVAxL_5IpHCNhFQfBlzQ/edit#gid=0' target='_blank'>こちらで公開しています</a>。"
+    bank:
+      name: "金融機関名"
+      branch: "支店"
+      account_type: "預金種目"
+      account_number: "口座番号"
+      name: "口座名義"
