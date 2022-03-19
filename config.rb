@@ -130,4 +130,5 @@ redirect "parade.html", to: "/ja/parade.html"
 supported_languages.each do |lang|
   redirect "#{lang}/parade/index.html", to: "/#{lang}/parade.html"
   redirect "#{lang}/news/index.html", to: "/#{lang}/news.html"
+  redirect "#{lang}/news/2022-03-08-bankaccount.html", to: "/#{lang}/donate.html"
 end
