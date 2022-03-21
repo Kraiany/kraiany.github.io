@@ -122,6 +122,8 @@ activate :deploy do |deploy|
 end
 
 redirect "index.html", to: "/ja/index.html"
+redirect "donate.html", to: "/ja/donate.html"
+redirect "donate/index.html", to: "/ja/donate.html"
 redirect "news/index.html", to: "/ja/news.html"
 redirect "news.html", to: "/ja/news.html"
 redirect "parade/index.html", to: "/ja/parade.html"
