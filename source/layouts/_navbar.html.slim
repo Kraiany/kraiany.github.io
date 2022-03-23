@@ -2,9 +2,9 @@
   ul
     li= link_to t("news.news"), "/#{locale}/news.html"
     li
-      = link_to t("about.title_short"), "/uk/about.html"
+      = link_to t("about.title_short"), "/#{locale}/about.html"
       ul
-        li= link_to t("about.title"), "/uk/about.html"
+        li= link_to t("about.title"), "/#{locale}/about.html"
         li= link_to t("bylaw.menu"), "/#{locale}/bylaw.html"
         li= link_to t("bylaw.register"), t("bylaw.register_url"), target: :_blank
     li= link_to t('dzherelze'), "https://dzherelce.github.io/"
