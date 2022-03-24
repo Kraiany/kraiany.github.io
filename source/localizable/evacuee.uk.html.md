@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "refugee.title"
+title: "evacuee.title"
 ---
 
 <img src="/assets/images/ukraine-japan-logo-1200x715.png" width="80%">
