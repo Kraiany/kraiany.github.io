@@ -71,4 +71,4 @@ READMORE
 - （正）ムィコラーイフ
   （誤）ニコラエフ
 
-(c) Sofiya Kataoka @ [Facebook](https://www.facebook.com/sofiya.kataoka/posts/10159564270710792)
+Sofiya Kataoka @ [Facebook](https://www.facebook.com/sofiya.kataoka/posts/10159564270710792)
