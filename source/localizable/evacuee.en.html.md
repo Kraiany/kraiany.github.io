@@ -5,35 +5,37 @@ title: "evacuee.title"
 
 <img src="/assets/images/ukraine-japan-logo-1200x715.png" width="80%">
 
-Вітаємо усіх батьків з дітьми, які знайшли або шукають у Японії притулок
-від війни.
+We welcome all Ukrainian parents with children, who found or looking for
+shelter in Japan.
 
-Одним із завдань НПО ” Краяни” є допомога з адаптацією до умов життя в
-Японії у цей складний для України час.
+One of the goals of NPO Kraiany is to help to adapt to new life
+conditions in Japan during this difficult time.
 
-Японський фонд Pathways Japan, про діяльність якого ви можете дізнатись
-[на їх сторінці](https://pathways-j.org/newstopics), 14 березня 2022
-розпочав розробку програм по роботі з українською молоддю, яка шукає
-притулку в Японії.
+Japanese fund Pathways Japan started with develoing programs to work
+with Ukrainian youth, who are seeking shelter in Japan. You can find
+information about work of the fund at [this page](https://pathways-j.org/newstopics)
 
-Наша громада НПО “Краяни” рада долучитись до розробки і підтримки
-програми у галузі освіти.  Всі консультації щодо майбутньої програми
-можете отримати безпосередньо у Фонді Pathways Japan (японською чи
-англійською) або запитати в нас (українською).
+Our community NPO Kraiany is happy to join the development and support
+of eductional programs. All cosultation regarding the programs you can
+obtain directly in Pathways Japan fund (in Japanese or English) or in
+Kraiany (Ukrainian).
 
-Якщо ви бажаєте отримати інформацію про японську систему освіти, про
-вивчення японської мови школярами та студентами, ви можете звернутись до
-нас. Консультації проводяться онлайн за попереднім записом. Для запису
-на консультацію заповніть, будь ласка, форму.
+If you need information regarding Japanese educton system, or regrading
+learning of Japanese language by school and/or university students, you
+can ask here. We will provide online cosultations by appointment. To
+apply for the consultation, please fill in the form below:
+
 
   <a
   href="https://docs.google.com/forms/d/1b3phT242xZrFsYDFWFxYatslbzmtlMEy0NRhbMI-pPg/formrestricted?edit_requested=true"
-  class="btn btn-success"> Форма для запису на консультацію</a>
+  class="btn btn-success"> Apply for the consultaion</a>
 
 
-До уваги всіх українців у Японії!  Ви маєте бажання долучитись до
-розробки програми чи брати участь у її реалізації? Ласкаво просимо!
+For all Ukrainians and Japanese in Japan! If you want to help with the
+development of the programs, please join us.
 
-<a href="https://docs.google.com/forms/d/1CIkiMMc0Tbh2E5M6ODMUYd5THyxwcFtw4H5stVAgmJQ/viewform?ts=62317465&edit_requested=true" class="btn btn-success">Заповніть форму</a>
+<a
+href="https://docs.google.com/forms/d/1CIkiMMc0Tbh2E5M6ODMUYd5THyxwcFtw4H5stVAgmJQ/viewform?ts=62317465&edit_requested=true"
+class="btn btn-success">Fill the form for providing help</a>
 
-**Pathways Japan** <br>**НПО “Краяни”**
+**Pathways Japan** <br>**NPO “Kraiany”**
