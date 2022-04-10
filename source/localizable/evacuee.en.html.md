@@ -5,8 +5,8 @@ title: "evacuee.title"
 
 <img src="/assets/images/ukraine-japan-logo-1200x715.png" width="80%">
 
-We welcome all Ukrainian parents with children, who found or looking for
-shelter in Japan.
+We welcome all Ukrainian parents with children, who has found or looking
+for shelter in Japan.
 
 One of the goals of NPO Kraiany is to help to adapt to new life
 conditions in Japan during this difficult time.
@@ -16,14 +16,15 @@ with Ukrainian youth, who are seeking shelter in Japan. You can find
 information about work of the fund at [this page](https://pathways-j.org/newstopics)
 
 Our community NPO Kraiany is happy to join the development and support
-of eductional programs. All cosultation regarding the programs you can
-obtain directly in Pathways Japan fund (in Japanese or English) or in
-Kraiany (Ukrainian).
+of educational programs. For enquiry regarding these programs, please
+contact directly in Pathways Japan fund (in Japanese or English) or
+through Kraiany (Ukrainian).
 
-If you need information regarding Japanese educton system, or regrading
-learning of Japanese language by school and/or university students, you
-can ask here. We will provide online cosultations by appointment. To
-apply for the consultation, please fill in the form below:
+If you need information regarding Japanese education system, or
+regrading learning of Japanese language by school and/or university
+students, you can enquire us. We will provide online consultations by
+appointment. To apply for the consultation, please fill in the form
+below:
 
 
   <a
