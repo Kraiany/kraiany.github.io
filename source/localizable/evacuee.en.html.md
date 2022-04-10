@@ -11,9 +11,9 @@ for shelter in Japan.
 One of the goals of NPO Kraiany is to help to adapt to new life
 conditions in Japan during this difficult time.
 
-Japanese fund Pathways Japan started with develoing programs to work
+Japanese fund Pathways Japan started with developing programs to work
 with Ukrainian youth, who are seeking shelter in Japan. You can find
-information about work of the fund at [this page](https://pathways-j.org/newstopics)
+information about work of the fund at  [this page](https://pathways-j.org/newstopics)
 
 Our community NPO Kraiany is happy to join the development and support
 of educational programs. For enquiry regarding these programs, please
