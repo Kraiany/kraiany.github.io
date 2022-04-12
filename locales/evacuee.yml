@@ -1,16 +1,19 @@
 uk:
   evacuee:
     title: Допомога батькам з дітьми
-    help: Допомога
+    help: Допомога евакуйованим з України
+    parents_with_children: Батькам з дітьми
 
 
 en:
   evacuee:
     title: Help for the evacuees
     help: Help for the evacuees
+    parents_with_children: Parents with children
 
 
 ja:
   evacuee:
     title: Help for the evacuees
     help: Help for the evacuees
+    parents_with_children: Parents with children
