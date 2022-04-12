@@ -8,9 +8,18 @@ header#site-header.site-header.valign-center.landing-photo
 
     h1 = t "kraiany.title"
 
-    p = t "kraiany.about"
-    h2 = t "kraiany.news_social"
-    h2
-      = link_to t("news.ukrinform")         , t("news.ukrinform-url"), class: "btn btn-white"
-      = link_to t("evacuee.help")         , "evacuee.html", class: "btn btn-white"
-      = link_to t("aid"), "donate.html", class: "btn btn-white"
+    p  = t "kraiany.about"
+    / h2 = t "kraiany.news_social"
+
+    div
+      .dropdown
+        .btn.btn-white News from Ukraine
+        .dropdown-content
+          = link_to t("news.ukrinform") , t("news.ukrinform-url")
+          = link_to t("news.ukrainer")  , t("news.ukrainer-url")
+      .dropdown
+
+        .btn.btn-white = t("evacuee.help")
+        .dropdown-content
+          = link_to t("aid")                           , "donate.html"
+          = link_to t("evacuee.parents_with_children") , "evacuee.html"
