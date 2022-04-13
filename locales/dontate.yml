@@ -1,5 +1,6 @@
 uk:
   donate:
+    menu: Пожертви
     title: Як допомогти Україні
     description: "НПО Краяни оголосили збір коштів на гуманітарну допомогу для України."
     reporting:
@@ -12,8 +13,10 @@ uk:
       account_type: "Тип рахунку"
       account_number: "Номер рахунку"
       name: "Ім'я"
+# ----------------------------------------
 en:
   donate:
+    menu: Donation
     title: How to help Ukraine
     description: "NPO Kraiany has opend an account for collecting donations for humanitarian aid in Ukraine"
     reporting:
@@ -26,9 +29,10 @@ en:
       account_type: "Account type"
       account_number: "Account number"
       name: "Name"
-
+# ----------------------------------------
 ja:
   donate:
+    menu: 寄付
     title: ウクライナ支援：寄付・募金口座番号
     description: "NPO Kraianyは、ウクライナで人道援助のための資金を集めるための口座を開設しました。"
     lead: "NPO Kraianyは、ウクライナで人道援助のための資金を集めるための口座を開設しました。 以下の口座番号に送金できます:"

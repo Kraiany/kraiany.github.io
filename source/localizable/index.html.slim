@@ -9,7 +9,6 @@ header#site-header.site-header.valign-center.landing-photo
     h1 = t "kraiany.title"
 
     p  = t "kraiany.about"
-    / h2 = t "kraiany.news_social"
 
     div
       .dropdown
@@ -17,9 +16,15 @@ header#site-header.site-header.valign-center.landing-photo
         .dropdown-content
           = link_to t("news.ukrinform") , t("news.ukrinform-url")
           = link_to t("news.ukrainer")  , t("news.ukrainer-url")
-      .dropdown
 
+
+      .dropdown
+        .btn.btn-white = t("donate.menu")
+        .dropdown-content
+          = link_to t("aid") , "donate.html"
+
+
+      .dropdown
         .btn.btn-white = t("evacuee.help")
         .dropdown-content
-          = link_to t("aid")                           , "donate.html"
           = link_to t("evacuee.parents_with_children") , "evacuee.html"
