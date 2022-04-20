@@ -14,15 +14,15 @@ en:
     help: Help for the evacuees
     parents_with_children: Help for parents with children
     ymca:
-      menu: Help from YMCA
-      title: Evacuation of your family from Ukraine to Japan (YMCA)
+      menu: Help with evacuation  (YMCA)
+      title: Evacuation of your family from Ukraine to Japan
 
 
 ja:
   evacuee:
-    title: Help for the evacuees
-    help: Help for the evacuees
-    parents_with_children: Help for parents with children
+    title: 避難者のための助け
+    help: 避難者のための助け
+    parents_with_children: 避難者のための助け
     ymca:
-      menu: Help with evacuation  (YMCA)
-      title: Evacuation of your family from Ukraine to Japan (YMCA)
+      menu: 避難を手伝う (YMCA)
+      title: ご家族のウクライナからの日本避難にあたって 支援提供 (YMCA)
