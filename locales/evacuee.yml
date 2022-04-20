@@ -3,8 +3,9 @@ uk:
     title: Допомога батькам з дітьми
     help: Допомога евакуйованим з України
     parents_with_children: Допомога батькам з дітьми
-    help:
-      ymca: Допомога від YMCA
+    ymca:
+      menu: Допомога з евакуацією від YMCA
+      title: Евакуація родин з України до Японії і допомога, яка надається
 
 
 en:
@@ -12,8 +13,9 @@ en:
     title: Help for the evacuees
     help: Help for the evacuees
     parents_with_children: Help for parents with children
-    help:
-      ymca: Help from YMCA
+    ymca:
+      menu: Help from YMCA
+      title: Evacuation of your family from Ukraine to Japan (YMCA)
 
 
 ja:
@@ -21,5 +23,6 @@ ja:
     title: Help for the evacuees
     help: Help for the evacuees
     parents_with_children: Help for parents with children
-    help:
-      ymca: Help from YMCA
+    ymca:
+      menu: Help with evacuation  (YMCA)
+      title: Evacuation of your family from Ukraine to Japan (YMCA)
