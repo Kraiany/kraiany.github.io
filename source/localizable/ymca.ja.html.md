@@ -3,98 +3,73 @@ layout: page
 title: evacuee.ymca.title
 ---
 
-We are deeply saddened to hear of the recent invasion to Ukraine and
-imagine your concern and anxiety for your family members in
-Ukraine. We hope that the situation will be brought to an end soon.
+この度のウクライナ侵攻について、皆様のウクライナにおられるご家族へ心配・
+不安を 想像し、私たちは胸を痛めています。一日も早い、終息を願います。
 
-The YMCA was founded in London, England in 1844 and is one of the
-world’s largest humanitarian organizations. It serves approximately 65
-million people in 120 countries and territories around the
-world. Immediately after the invasion to Ukraine, YMCA of Europe has
-been conducting relief activities in Ukraine and neighboring
-countries.
+YMCA は 1844 年にイギリス・ロンドンで創立された世界最大級の人道支援団体
+です。 世界 120 の国と地域で約 6500 万人が活動しています。ウクライナ侵攻
+直後から、ヨーロ ッパ YMCA では、ウクライナ及び近隣諸国で救援活動を行っ
+ています。
 
-The YMCA of Japan will support you in bringing your family members and
-relatives to Japan by utilizing its global network and cooperation
-with YMCA of Europe.
+日本 YMCA 同盟では、ヨーロッパ YMCA とグローバルネットワークを活用し、連
+携に よって、皆様のご家族・関係者の日本への呼び寄せを支援いたします。
 
+## 【提供できる支援内容】
 
-## Ⅰ　We can provide the following support services
+現地で避難者支援を行う YMCA のスタッフ・ボランティアが、個別ケースに対応
+し、責 任を持って対応し、状況の報告等をご家族に行います。
 
-YMCA staff/volunteers who provide support for evacuees on site will
-handle individual cases, take responsibility for them, and provide
-status reports and other information to the families.
+下記、1~6 のすべて、あるいはピンポイントでの相談と支援も可能です。
 
-Consultation and support for all of the following, 1-6, or pinpointing
-the situation is also available.
+1.ポーランドを中心に、近隣諸国(モルドバ・ルーマニア)での国境からの移動確
+保、 ホームステイアレンジ、生活用品等の提供。年齢、体調、その他の事情が
+ある場合、 十分に考慮する。
 
+2.ポーランドを中心に、近隣諸国でのビザ申請業務支援。ビザ申請書、身元保証
+書、ワ クチン接種証明書等の作成代行・サポート、大使館同行、PCR 検査対応
+等を行う。
 
-1.Securing transportation from the border in Poland and neighboring
-countries (Moldova and Romania), arranging homestays, providing daily
-necessities, etc. Age, physical condition, and other circumstances, if
-any, will be fully considered.
+3.日本までの航空券手配と e-ticket の送付。空港までの送迎、出国支援を行う。
 
-2.Assistance with visa application services in Warsaw and other
-neighboring countries. Preparation and support of visa application
-forms, identity documents, vaccination certificates, etc. on behalf of
-the applicant, accompaniment to Japanese embassies, support for PCR
-testing, etc.
+4.日本入国時に必要な書類の作成代行・見本提供等のサポートを行う。
 
-3.Arrangement of airline tickets to Japan and sending of
-e-tickets. Transportation to the airport, and assistance with
-departure from Warsaw.
+5.日本での出迎えを支援する。成田空港または羽田空港他。
 
-4.Support for preparation of documents required for entry into Japan
-on behalf of the applicant and provision of sample documents, etc.
+6.日本での生活支援(生活に関わる支援、日本語教育、お子様がおられる場合の教育支
+援等の相談。行政その他、必要期間への橋渡し等)を行う。
 
-5.Support for pick-up and drop-off in Japan Narita Airport or Haneda
-Airport, etc.
+## 【特記事項】
 
-6.Support for daily life in Japan (support for daily life, Japanese
-language education, educational support for those who have children,
-etc., and referral to government agencies and other necessary
-agencies).
+1.上記にはウクライナ国内での移動支援は含めていませんが、ウクライナ国内で
+も YMCA は支援活動を行っており、地域・タイミングに応じて連携は可能です。
+
+2.費用は原則無料です。経済的に必要な方については、第三国から日本までの渡
+航費用 についても支援いたします。
+
+ご家族のウクライナからの日本避難にあたって 支援提供
+2022 年 3 月 24 日 公益財団法人日本 YMCA 同盟
+
+3.一度に多くのリクエストを頂いた場合、高齢者や小さなお子さんがおられる
+等の方を 優先いたします。希望に添えない場合はご了承ください。申し訳あり
+ません。
 
 
-## Ⅱ　Special note
+## 【提供にあたって(条件)】
 
-1.The above does not include mobility support within Ukraine, but YMCA
-also provides support activities within Ukraine, and cooperation is
-possible depending on the region and timing.
+1.日本に親族がいつこと(短期滞在ビザの取得要件)
 
-2.In principle, there is no charge for this service. For those who
-have financial need, YMCA will cover for travel expenses from a third
-country to Japan.
+2.日本側家族が身元保証人になれること(短期滞在ビザの取得要件)
 
-3.If we receive many requests at once, priority will be given to those
-who are elderly or have small children. Please understand that we may
-not be able to meet your request.
+3.ウクライナの有効なパスポートをもっていること
 
+4.避難者本人がスマートフォンなどを持ち、連絡が取れ、位置情報(特にウクライナ国
+内移動中)が把握できること 5.日本側家族が、英語または日本語が日常会話・文章作成等が可能で、日本 YMCA 同
+盟とメール、SNS 等で連絡が取れること。 6.許諾の上、避難状況等について日本入国後にインタビューやレポートが可能であるこ
+と。
 
-## Ⅲ　Terms and Conditions
+相談・申し込み方法:
+日本 YMCA 同盟
 
-1.Have a relative in Japan (a requirement for obtaining a short-stay
-visa)
+- tel `03-5367-6640`/`090-3507-6809`
 
-2.A family member in Japan can act as a guarantor (requirement for
-obtaining a short-stay visa)
-
-3.Have a valid Ukrainian passport
-
-4.The evacuee himself/herself must have a smart phone or other means
-of communication and be able to keep track of his/her location
-(especially while traveling within Ukraine)
-
-5.Japanese family members must be able to speak and write in English
-or Japanese and communicate with the YMCA of Japan via e-mail, SNS
-smoothly.
-
-6.With permission, be able to interview and report on the evacuation
-situation after entering Japan.
-
-
-For inquiries and applications, please contact
-Japan YMCA Alliance:
-
-- tel `03-5367-6640/090-3507-6809`
-- email `yokoyama.yuria@japanymca.orga`
+- `yokoyama.yuria@japanymca.org`
