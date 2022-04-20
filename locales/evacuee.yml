@@ -2,18 +2,24 @@ uk:
   evacuee:
     title: Допомога батькам з дітьми
     help: Допомога евакуйованим з України
-    parents_with_children: Батькам з дітьми
+    parents_with_children: Допомога батькам з дітьми
+    help:
+      ymca: Допомога від YMCA
 
 
 en:
   evacuee:
     title: Help for the evacuees
     help: Help for the evacuees
-    parents_with_children: Parents with children
+    parents_with_children: Help for parents with children
+    help:
+      ymca: Help from YMCA
 
 
 ja:
   evacuee:
     title: Help for the evacuees
     help: Help for the evacuees
-    parents_with_children: Parents with children
+    parents_with_children: Help for parents with children
+    help:
+      ymca: Help from YMCA
