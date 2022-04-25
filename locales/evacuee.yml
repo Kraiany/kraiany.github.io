@@ -6,7 +6,7 @@ uk:
     ymca:
       menu: Допомога з евакуацією від YMCA
       title: Евакуація родин з України до Японії і допомога, яка надається
-
+    nogarant: Якщо у Вас немає гаранта (родичі, знайомі тощо) в Японії...
 
 en:
   evacuee:
@@ -16,7 +16,7 @@ en:
     ymca:
       menu: Help with evacuation  (YMCA)
       title: Evacuation of your family from Ukraine to Japan
-
+    nogarant: Якщо у Вас немає гаранта (родичі, знайомі тощо) в Японії...
 
 ja:
   evacuee:
@@ -26,3 +26,4 @@ ja:
     ymca:
       menu: 避難を手伝う (YMCA)
       title: ご家族のウクライナからの日本避難にあたって 支援提供 (YMCA)
+    nogarant: Якщо у Вас немає гаранта (родичі, знайомі тощо) в Японії...
