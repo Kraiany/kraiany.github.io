@@ -3,11 +3,14 @@ ja:
     news: お知らせ
     title: お知らせ - クラヤネ (Kraiany)
     sub_title: ニュースとプレスリリース
+
 uk:
   news:
     news: Новини
     title: Новини - Краяни
     sub_title: Новини та прес-релізи
+  titles:
+    picnic-2022: Великодній пікнік у парку Йойоґі
 en:
   news:
     news: News
