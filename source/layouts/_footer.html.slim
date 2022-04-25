@@ -1,18 +1,29 @@
 footer.site-footer
+  hr style="border-color: #555"
   .container
     .row
       .col-md-12
-        p.site-info = t "kraiany.about"
+        p.site-info = t "kraiany.contact_us"
+
         ul.social-block
+          // Contact email
           li
-            a href="https://www.seikatubunka.metro.tokyo.lg.jp/houjin/npo_houjin/list/ledger/0013702.html" target="_blank" data-toggle="tooltip" title="#{t("kraiany.registration_link")}"
-              i.ion-ios-paper
+            a href="mailto:contact@kraiany.org" target="_blank" data-toggle="tooltip" title="Email"
+              i.ion-email
+
+          // Twitter
           li
             a href="https://twitter.com/UkrainiansJP" target="_blank" data-toggle="tooltip" title="Twitter"
               i.ion-social-twitter
+          // Facebook
           li
             a href="https://www.facebook.com/ukrainians.japan" target="_blank" data-toggle="tooltip" title="Facebook"
               i.ion-social-facebook
+          // registration information
+          li
+            a href="https://www.seikatubunka.metro.tokyo.lg.jp/houjin/npo_houjin/list/ledger/0013702.html" target="_blank" data-toggle="tooltip" title="#{t("kraiany.registration_link")}"
+              i.ion-ios-paper
+// dont touch
 = javascript_include_tag "/assets/javascripts/site"
 javascript:
    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
