@@ -11,12 +11,12 @@ header#site-header.site-header.valign-center.landing-photo
     p  = t "kraiany.about"
 
     div
+      = link_to "Новини на радіо українською", "kraiany_radio.html", class: "btn btn-white"
       .dropdown
         .btn.btn-white News from Ukraine
         .dropdown-content
           = link_to t("news.ukrinform") , t("news.ukrinform-url")
           = link_to t("news.ukrainer")  , t("news.ukrainer-url")
-
 
       = link_to t("aid") , "donate.html", class: "btn btn-white"
 

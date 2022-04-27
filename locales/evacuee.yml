@@ -7,7 +7,8 @@ uk:
       menu: Допомога з евакуацією від YMCA
       title: Евакуація родин з України до Японії і допомога, яка надається
     nogarant: Якщо у Вас немає гаранта (родичі, знайомі тощо) в Японії...
-
+  radio:
+    title: Українське радіо в Токіо
 en:
   evacuee:
     title: Help for the evacuees
@@ -17,6 +18,8 @@ en:
       menu: Help with evacuation  (YMCA)
       title: Evacuation of your family from Ukraine to Japan
     nogarant: Якщо у Вас немає гаранта (родичі, знайомі тощо) в Японії...
+  radio:
+    title: Українське радіо в Токіо
 
 ja:
   evacuee:
@@ -27,3 +30,5 @@ ja:
       menu: 避難を手伝う (YMCA)
       title: ご家族のウクライナからの日本避難にあたって 支援提供 (YMCA)
     nogarant: Якщо у Вас немає гаранта (родичі, знайомі тощо) в Японії...
+  radio:
+    title: Українське радіо в Токіо
