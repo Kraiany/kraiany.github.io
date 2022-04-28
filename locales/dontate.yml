@@ -10,6 +10,7 @@ uk:
       text: "Google Spreadsheet за цим <a href='https://docs.google.com/spreadsheets/d/1hg1RaGq74qmvQHc8Aj0dR-MrVAxL_5IpHCNhFQfBlzQ/edit#gid=0' target='_blank'> посиланням</a> містить оперативну інформацію про зібрані кошти та перерахування коштів в Україну."
     lead: "НПО Краяни оголосили збір коштів на гуманітарну допомогу для України. Кошти можна перераховувати на нижчевказаний банківський рахунок:"
     bank:
+      title: "Банківський Рахунок"
       name: "Назва банку"
       branch: "Відділення банку"
       account_type: "Тип рахунку"
@@ -28,6 +29,7 @@ en:
       text: "Google Spreadsheet accessible by <a href='https://docs.google.com/spreadsheets/d/1hg1RaGq74qmvQHc8Aj0dR-MrVAxL_5IpHCNhFQfBlzQ/edit#gid=0' target='_blank'>this link</a> contains up-to-date information about received donations and about transferred funds to Ukrainian needs."
     lead: "NPO Kraiany has opened an account for collecting funds for humanitarian aid in Ukraine. You can transfer donations to the account number below:"
     bank:
+      title: "Bank Transfer Information"
       name: "Name of the bank"
       branch: "Branch"
       account_type: "Account type"
@@ -46,6 +48,7 @@ ja:
       title: "寄付金の報告書"
       text: "集まった募金の合計と使用用途などは<a href='https://docs.google.com/spreadsheets/d/1hg1RaGq74qmvQHc8Aj0dR-MrVAxL_5IpHCNhFQfBlzQ/edit#gid=0' target='_blank'>こちらで公開しています</a>。"
     bank:
+      title: "振り込み銀行口座"
       name: "金融機関名"
       branch: "支店"
       account_type: "預金種目"
