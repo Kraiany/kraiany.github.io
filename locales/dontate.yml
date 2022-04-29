@@ -35,6 +35,18 @@ en:
       account_type: "Account type"
       account_number: "Account number"
       name: "Name"
+    cc:
+      title: "Donate with Credit Card"
+      recurring: Monthly
+      once: One-time
+      general: General Help
+      ukraine_humanitarian: Help Ukrainians in Ukraine
+      japan_humanitarian: Help Ukrainians in Japan
+      once_5k: ¥5,000 one-time
+      once_10k: ¥10,000 one-time
+      monthly_5k: ¥5,000 monthly
+      monthly_10k: ¥10,000 monthly
+      donate: Donate
 # ----------------------------------------
 ja:
   help_ukrainians:
