@@ -10,11 +10,22 @@ uk:
       text: "Google Spreadsheet за цим <a href='https://docs.google.com/spreadsheets/d/1hg1RaGq74qmvQHc8Aj0dR-MrVAxL_5IpHCNhFQfBlzQ/edit#gid=0' target='_blank'> посиланням</a> містить оперативну інформацію про зібрані кошти та перерахування коштів в Україну."
     lead: "НПО Краяни оголосили збір коштів на гуманітарну допомогу для України. Кошти можна перераховувати на нижчевказаний банківський рахунок:"
     bank:
+      title: "Банківський Рахунок"
       name: "Назва банку"
       branch: "Відділення банку"
       account_type: "Тип рахунку"
       account_number: "Номер рахунку"
       name: "Ім'я"
+    cc:
+      title: "Зробити внесок через кредитну картку"
+      general: Загальна допомога
+      ukraine_humanitarian: Допомога в Україні
+      japan_humanitarian: Допомога біженцям у Японії
+      once_5k: ¥5,000 одноразовий
+      once_10k: ¥10,000 одноразовий
+      monthly_5k: ¥5,000 щомісячний
+      monthly_10k: ¥10,000 щомісячний
+      donate: Зробити внесок
 # ----------------------------------------
 en:
   help_ukrainians:
@@ -28,11 +39,22 @@ en:
       text: "Google Spreadsheet accessible by <a href='https://docs.google.com/spreadsheets/d/1hg1RaGq74qmvQHc8Aj0dR-MrVAxL_5IpHCNhFQfBlzQ/edit#gid=0' target='_blank'>this link</a> contains up-to-date information about received donations and about transferred funds to Ukrainian needs."
     lead: "NPO Kraiany has opened an account for collecting funds for humanitarian aid in Ukraine. You can transfer donations to the account number below:"
     bank:
+      title: "Bank Transfer Information"
       name: "Name of the bank"
       branch: "Branch"
       account_type: "Account type"
       account_number: "Account number"
       name: "Name"
+    cc:
+      title: "Donate with Credit Card"
+      general: General Help
+      ukraine_humanitarian: Help Ukrainians in Ukraine
+      japan_humanitarian: Help Ukrainians in Japan
+      once_5k: ¥5,000 one-time
+      once_10k: ¥10,000 one-time
+      monthly_5k: ¥5,000 monthly
+      monthly_10k: ¥10,000 monthly
+      donate: Donate
 # ----------------------------------------
 ja:
   help_ukrainians:
@@ -46,8 +68,19 @@ ja:
       title: "寄付金の報告書"
       text: "集まった募金の合計と使用用途などは<a href='https://docs.google.com/spreadsheets/d/1hg1RaGq74qmvQHc8Aj0dR-MrVAxL_5IpHCNhFQfBlzQ/edit#gid=0' target='_blank'>こちらで公開しています</a>。"
     bank:
+      title: "振り込み銀行口座"
       name: "金融機関名"
       branch: "支店"
       account_type: "預金種目"
       account_number: "口座番号"
       name: "口座名義"
+    cc:
+      title: "クレジット決済"
+      general: 一般支援
+      ukraine_humanitarian: ウクライナ人道支援
+      japan_humanitarian: 日本にいる難民人道支援
+      once_5k: 一回5千円
+      once_10k: 一回1万円
+      monthly_5k: 月々5千円
+      monthly_10k: 月々1万円
+      donate: 寄付する
