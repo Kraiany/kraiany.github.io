@@ -3,8 +3,39 @@ layout: page
 title: "donate.title"
 description: "donate.description"
 ---
-
 p= t("donate.lead")
+
+h2= t("donate.cc.title")
+
+table#donateTable
+  thead
+    tr
+      td
+      th= t("donate.cc.ukraine_humanitarian")
+      th= t("donate.cc.japan_humanitarian")
+      th= t("donate.cc.general")
+  tbody
+    tr
+      th= t("donate.cc.monthly_5k")
+      td= t("donate.cc.donate")
+      td= t("donate.cc.donate")
+      td= t("donate.cc.donate")
+    tr
+      th= t("donate.cc.once_5k")
+      td= t("donate.cc.donate")
+      td= t("donate.cc.donate")
+      td= t("donate.cc.donate")
+    tr
+      th= t("donate.cc.monthly_10k")
+      td= t("donate.cc.donate")
+      td= t("donate.cc.donate")
+      td= t("donate.cc.donate")
+    tr
+      th= t("donate.cc.once_10k")
+      td= t("donate.cc.donate")
+      td= t("donate.cc.donate")
+      td= t("donate.cc.donate")
+
 h2= t("donate.bank.title")
 dl
   dt= t("donate.bank.name")

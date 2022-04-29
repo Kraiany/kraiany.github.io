@@ -36,3 +36,11 @@
   border-width: 5px 5px 0;
   border-top-color: #fff;
 }
+
+#donateTable {
+  td, th {
+    border: 1px solid black;
+    text-align: center;
+    padding: 5px 5px;
+  }
+}

@@ -54,3 +54,15 @@ ja:
       account_type: "預金種目"
       account_number: "口座番号"
       name: "口座名義"
+    cc:
+      title: "クレジット決済"
+      recurring: 毎月
+      once: 一回
+      general: 一般支援
+      ukraine_humanitarian: ウクライナ人道支援
+      japan_humanitarian: 日本にいる難民人道支援
+      once_5k: 一回5千円
+      once_10k: 一回1万円
+      monthly_5k: 月々5千円
+      monthly_10k: 月々1万円
+      donate: 寄付する
