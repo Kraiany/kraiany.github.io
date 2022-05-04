@@ -9,6 +9,12 @@ uk:
     nogarant: Якщо у Вас немає гаранта (родичі, знайомі тощо) в Японії...
   radio:
     title: Українське радіо в Токіо
+  regions:
+    top: Help from regional governments
+    osaka: Help from Osaka
+    tokyo: Help from Tokyo
+    yokohama: Help from Yokohama
+
 en:
   evacuee:
     title: Help for the evacuees
@@ -20,6 +26,11 @@ en:
     nogarant: Якщо у Вас немає гаранта (родичі, знайомі тощо) в Японії...
   radio:
     title: Українське радіо в Токіо
+  regions:
+    top: Help from regional governments
+    osaka: Help from Osaka
+    tokyo: Help from Tokyo
+    yokohama: Help from Yokohama
 
 ja:
   evacuee:
@@ -32,3 +43,8 @@ ja:
     nogarant: Якщо у Вас немає гаранта (родичі, знайомі тощо) в Японії...
   radio:
     title: Українське радіо в Токіо
+  regions:
+    top: Help from regional governments
+    osaka: Help from Osaka
+    tokyo: Help from Tokyo
+    yokohama: Help from Yokohama
