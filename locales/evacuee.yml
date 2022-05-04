@@ -10,6 +10,7 @@ uk:
   radio:
     title: Українське радіо в Токіо
   regions:
+    top: Help from regional governments
     osaka: Help from Osaka
     tokyo: Help from Tokyo
     yokohama: Help from Yokohama
@@ -26,6 +27,7 @@ en:
   radio:
     title: Українське радіо в Токіо
   regions:
+    top: Help from regional governments
     osaka: Help from Osaka
     tokyo: Help from Tokyo
     yokohama: Help from Yokohama
@@ -42,6 +44,7 @@ ja:
   radio:
     title: Українське радіо в Токіо
   regions:
+    top: Help from regional governments
     osaka: Help from Osaka
     tokyo: Help from Tokyo
     yokohama: Help from Yokohama
