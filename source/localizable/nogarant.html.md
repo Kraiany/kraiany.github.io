@@ -1,5 +1,5 @@
 ---
-title: evacuee.nogarant
+title: evacuee.nogarant.title
 layout: page
 ---
 
