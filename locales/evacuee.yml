@@ -6,14 +6,17 @@ uk:
     ymca:
       menu: Допомога з евакуацією від YMCA
       title: Евакуація родин з України до Японії і допомога, яка надається
-    nogarant: Якщо у Вас немає гаранта (родичі, знайомі тощо) в Японії...
+    nogarant:
+      menu: Якщо у Вас немає гаранта в Японії
+      title: Якщо у Вас немає гаранта (родичі, знайомі тощо) в Японії...
   radio:
     title: Українське радіо в Токіо
   regions:
-    top: Help from regional governments
-    osaka: Help from Osaka
-    tokyo: Help from Tokyo
-    yokohama: Help from Yokohama
+    menu: Допомога по регіонах
+    title: Допомога від місцевих влад
+    osaka: Допомога в м. Осака
+    tokyo: Допомога в Токіо
+    yokohama: Допомога в Йокогамі
 
 en:
   evacuee:
@@ -23,11 +26,14 @@ en:
     ymca:
       menu: Help with evacuation  (YMCA)
       title: Evacuation of your family from Ukraine to Japan
-    nogarant: Якщо у Вас немає гаранта (родичі, знайомі тощо) в Японії...
+    nogarant:
+      menu: If you don't have guarantor
+      title: If you don't have guarantor (relatives, friends, etc) in Japan... (Ukrainian)
   radio:
     title: Українське радіо в Токіо
   regions:
-    top: Help from regional governments
+    menu: Help from regional governments
+    title: Help from regional governments
     osaka: Help from Osaka
     tokyo: Help from Tokyo
     yokohama: Help from Yokohama
@@ -40,11 +46,14 @@ ja:
     ymca:
       menu: 避難を手伝う (YMCA)
       title: ご家族のウクライナからの日本避難にあたって 支援提供 (YMCA)
-    nogarant: Якщо у Вас немає гаранта (родичі, знайомі тощо) в Японії...
+    nogarant:
+      title: 日本に保証人（親戚、友人など）がいない場合...（ウクライナ語）
+      menu: 保証人がいない場合
   radio:
     title: Українське радіо в Токіо
   regions:
-    top: Help from regional governments
+    menu: Help from regional governments
+    title: Help from regional governments
     osaka: Help from Osaka
     tokyo: Help from Tokyo
     yokohama: Help from Yokohama
