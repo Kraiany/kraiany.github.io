@@ -17,6 +17,7 @@ uk:
     osaka: Допомога в м. Осака
     tokyo: Допомога в Токіо
     yokohama: Допомога в Йокогамі
+  svij-do-svoho: Матеріальна підтримка евакуйованим
 
 en:
   evacuee:
@@ -37,6 +38,7 @@ en:
     osaka: Help from Osaka
     tokyo: Help from Tokyo
     yokohama: Help from Yokohama
+  svij-do-svoho: Meterial help for evacuees
 
 ja:
   evacuee:
@@ -57,3 +59,4 @@ ja:
     osaka: Help from Osaka
     tokyo: Help from Tokyo
     yokohama: Help from Yokohama
+  svij-do-svoho: Meterial help for evacuees
