@@ -6,6 +6,9 @@ uk:
     ymca:
       menu: Допомога з евакуацією від YMCA
       title: Евакуація родин з України до Японії і допомога, яка надається
+    ja_language:
+      menu: Допомога з вивчення японської мови
+      title: Ресурси з вивчення японської мови для українців
   radio:
     title: Українське радіо в Токіо
   regions:
@@ -16,6 +19,7 @@ uk:
     yokohama: Допомога в Йокогамі
   svij-do-svoho: Матеріальна підтримка евакуйованим
 
+################################################################################
 en:
   evacuee:
     title: Help for the evacuees
@@ -24,6 +28,9 @@ en:
     ymca:
       menu: Help with evacuation  (YMCA)
       title: Evacuation of your family from Ukraine to Japan
+    ja_language:
+      menu: Допомога з вивчення японської мови
+      title: Ресурси з вивчення японської мови для українців
   radio:
     title: Українське радіо в Токіо
   regions:
@@ -32,8 +39,8 @@ en:
     osaka: Help from Osaka
     tokyo: Help from Tokyo
     yokohama: Help from Yokohama
-  svij-do-svoho: Meterial help for evacuees
-
+  svij-do-svoho: Material help for evacuees
+################################################################################
 ja:
   evacuee:
     title: 避難者の支援
@@ -42,6 +49,9 @@ ja:
     ymca:
       menu: 避難を手伝う (YMCA)
       title: ご家族のウクライナからの日本避難にあたって 支援提供 (YMCA)
+    ja_language:
+      menu: Допомога з вивчення японської мови
+      title: Ресурси з вивчення японської мови для українців
   radio:
     title: Українське радіо в Токіо
   regions:
@@ -50,4 +60,4 @@ ja:
     osaka: Help from Osaka
     tokyo: Help from Tokyo
     yokohama: Help from Yokohama
-  svij-do-svoho: Meterial help for evacuees
+  svij-do-svoho: Material help for evacuees
