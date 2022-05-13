@@ -1,5 +1,6 @@
 uk:
   evacuee:
+    visa: Віза українцям, що шукають притулку в Японії
     title: Допомога батькам з дітьми
     help: Допомога евакуйованим з України
     parents_with_children: Допомога батькам з дітьми
@@ -9,19 +10,23 @@ uk:
     study_japanese:
       menu: Допомога з вивчення японської мови
       title: Ресурси з вивчення японської мови для українців
+    pets:
+      menu: Допомога евакуйованим з домашніми тваринами
+      title: Якщо вам потрібна допомога з вашими домашніми улюбленцями
+    regions:
+      menu: Допомога по регіонах
+      title: Допомога від місцевих влад
+      osaka: Допомога в м. Осака
+      tokyo: Допомога в Токіо
+      yokohama: Допомога в Йокогамі
+    svij-do-svoho: Матеріальна підтримка евакуйованим
   radio:
     title: Українське радіо в Токіо
-  regions:
-    menu: Допомога по регіонах
-    title: Допомога від місцевих влад
-    osaka: Допомога в м. Осака
-    tokyo: Допомога в Токіо
-    yokohama: Допомога в Йокогамі
-  svij-do-svoho: Матеріальна підтримка евакуйованим
 
 ################################################################################
 en:
   evacuee:
+    visa: Visa for Ukrainians seeking shelter in Japan
     title: Help for the evacuees
     help: Help for the evacuees
     parents_with_children: Help for parents with children
@@ -31,33 +36,40 @@ en:
     study_japanese:
       menu: Допомога з вивчення японської мови
       title: Ресурси з вивчення японської мови для українців
+    pets:
+      menu: Help for evacuees with pets (UK)
+      title: If you need help with your home pets (UK)
+    regions:
+      menu: Help from regional governments
+      title: Help from regional governments
+      osaka: Help from Osaka
+      tokyo: Help from Tokyo
+      yokohama: Help from Yokohama
+    svij-do-svoho: Material help for evacuees
   radio:
     title: Українське радіо в Токіо
-  regions:
-    menu: Help from regional governments
-    title: Help from regional governments
-    osaka: Help from Osaka
-    tokyo: Help from Tokyo
-    yokohama: Help from Yokohama
-  svij-do-svoho: Material help for evacuees
 ################################################################################
 ja:
   evacuee:
     title: 避難者の支援
     help: 避難者の支援
     parents_with_children: 避難者の支援
+    visa: Visa for Ukrainians seeking shelter in Japan
     ymca:
       menu: 避難を手伝う (YMCA)
       title: ご家族のウクライナからの日本避難にあたって 支援提供 (YMCA)
     study_japanese:
       menu: Допомога з вивчення японської мови
       title: Ресурси з вивчення японської мови для українців
+    pets:
+      menu: Help for evacuees with pets (UK)
+      title: If you need help with your home pets (UK)
+    regions:
+      menu: Help from regional governments
+      title: Help from regional governments
+      osaka: Help from Osaka
+      tokyo: Help from Tokyo
+      yokohama: Help from Yokohama
+    svij-do-svoho: Material help for evacuees
   radio:
     title: Українське радіо в Токіо
-  regions:
-    menu: Help from regional governments
-    title: Help from regional governments
-    osaka: Help from Osaka
-    tokyo: Help from Tokyo
-    yokohama: Help from Yokohama
-  svij-do-svoho: Material help for evacuees

@@ -1,6 +1,4 @@
 uk:
-  help_ukrainians:
-    visa: Віза українцям, що шукають притулку в Японії
   donate:
     menu: Пожертви
     title: Як допомогти Україні
@@ -28,8 +26,6 @@ uk:
       donate: Зробити внесок
 # ----------------------------------------
 en:
-  help_ukrainians:
-    visa: Visa for Ukrainians seeking shelter in Japan
   donate:
     menu: Donation
     title: How to help Ukraine
@@ -57,8 +53,6 @@ en:
       donate: Donate
 # ----------------------------------------
 ja:
-  help_ukrainians:
-    visa: Visa for Ukrainians seeking shelter in Japan
   donate:
     menu: 寄付
     title: ウクライナ支援：寄付・募金口座番号
