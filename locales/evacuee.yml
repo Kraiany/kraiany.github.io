@@ -6,7 +6,7 @@ uk:
     ymca:
       menu: Допомога з евакуацією від YMCA
       title: Евакуація родин з України до Японії і допомога, яка надається
-    ja_language:
+    study_japanese:
       menu: Допомога з вивчення японської мови
       title: Ресурси з вивчення японської мови для українців
   radio:
@@ -28,7 +28,7 @@ en:
     ymca:
       menu: Help with evacuation  (YMCA)
       title: Evacuation of your family from Ukraine to Japan
-    ja_language:
+    study_japanese:
       menu: Допомога з вивчення японської мови
       title: Ресурси з вивчення японської мови для українців
   radio:
@@ -49,7 +49,7 @@ ja:
     ymca:
       menu: 避難を手伝う (YMCA)
       title: ご家族のウクライナからの日本避難にあたって 支援提供 (YMCA)
-    ja_language:
+    study_japanese:
       menu: Допомога з вивчення японської мови
       title: Ресурси з вивчення японської мови для українців
   radio:
