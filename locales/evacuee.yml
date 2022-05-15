@@ -61,7 +61,7 @@ en:
 ################################################################################
 ja:
   evacuee:
-    tile: 避難者の支援
+    title: 避難者の支援
     help: 避難者の支援
     parents_with_children: 避難者の支援
     visa: Visa for Ukrainians seeking shelter in Japan
