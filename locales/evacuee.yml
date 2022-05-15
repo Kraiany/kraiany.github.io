@@ -13,6 +13,9 @@ uk:
     pets:
       menu: Допомога евакуйованим з домашніми тваринами
       title: Якщо вам потрібна допомога з вашими домашніми улюбленцями
+    work:
+      menu: Пошуки роботи
+      title: Інформація про пошуки роботи в Японії
     regions:
       menu: Допомога по регіонах
       title: Допомога від місцевих влад
@@ -41,6 +44,9 @@ en:
     pets:
       menu: Help for evacuees with pets (UK)
       title: If you need help with your home pets (UK)
+    work:
+      menu: Job search
+      title: Information for job seakers in Japan (UK)
     regions:
       menu: Help from regional governments
       title: Help from regional governments
@@ -60,14 +66,17 @@ ja:
     parents_with_children: 避難者の支援
     visa: Visa for Ukrainians seeking shelter in Japan
     ymca:
-      menu: 避難を手伝う (YMCA)
-      title: ご家族のウクライナからの日本避難にあたって 支援提供 (YMCA)
+      menu: 避を手伝う (YMCA)
+      title: ご家族のウクライナからの日本避難にあたって支援提供 (YMCA)
     study_japanese:
       menu: Допомога з вивчення японської мови
       title: Ресурси з вивчення японської мови для українців
     pets:
       menu: Help for evacuees with pets (UK)
       title: If you need help with your home pets (UK)
+    work:
+      menu: Job search
+      title: Information for job seakers in Japan (UK)
     regions:
       menu: Help from regional governments
       title: Help from regional governments
