@@ -19,6 +19,7 @@ uk:
       osaka: Допомога в м. Осака
       tokyo: Допомога в Токіо
       yokohama: Допомога в Йокогамі
+      saitama: Допомога в префектурі Сайтама
     svij-do-svoho: Матеріальна підтримка евакуйованим
   radio:
     title: Українське радіо в Токіо
@@ -42,9 +43,10 @@ en:
     regions:
       menu: Help from regional governments
       title: Help from regional governments
-      osaka: Help from Osaka
-      tokyo: Help from Tokyo
-      yokohama: Help from Yokohama
+      osaka: Help from Osaka (UK)
+      tokyo: Help from Tokyo (UK)
+      yokohama: Help from Yokohama (UK)
+      saitama: Help in Saitama prefecture (UK)
     svij-do-svoho: Material help for evacuees
   radio:
     title: Українське радіо в Токіо
@@ -67,9 +69,10 @@ ja:
     regions:
       menu: Help from regional governments
       title: Help from regional governments
-      osaka: Help from Osaka
-      tokyo: Help from Tokyo
-      yokohama: Help from Yokohama
+      osaka: Help from Osaka (UK)
+      tokyo: Help from Tokyo  (UK)
+      yokohama: Help from Yokohama (UK)
+      saitama: Help in Saitama prefecture (UK)
     svij-do-svoho: Material help for evacuees
   radio:
     title: Українське радіо в Токіо
