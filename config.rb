@@ -123,7 +123,7 @@ activate :deploy do |deploy|
 
 end
 
-redirect "index.html", to: "/ja/index.html"
+redirect "index.html", to: "/uk/index.html"
 redirect "donate.html", to: "/ja/donate.html"
 redirect "donate/index.html", to: "/ja/donate.html"
 redirect "news/index.html", to: "/ja/news.html"
