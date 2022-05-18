@@ -124,13 +124,13 @@ activate :deploy do |deploy|
 
 end
 
-redirect "index.html", to: "/uk/index.html"
-redirect "donate.html", to: "/ja/donate.html"
-redirect "donate/index.html", to: "/ja/donate.html"
-redirect "news/index.html", to: "/ja/news.html"
-redirect "news.html", to: "/ja/news.html"
-redirect "parade/index.html", to: "/ja/parade.html"
-redirect "parade.html", to: "/ja/parade.html"
+redirect "index.html", to: "/#{default_language}/index.html"
+redirect "donate.html", to: "/#{default_language}/donate.html"
+redirect "donate/index.html", to: "/#{default_language}/donate.html"
+redirect "news/index.html", to: "/#{default_language}/news.html"
+redirect "news.html", to: "/#{default_language}/news.html"
+redirect "parade/index.html", to: "/#{default_language}/parade.html"
+redirect "parade.html", to: "/#{default_language}/parade.html"
 
 supported_languages.each do |lang|
   redirect "#{lang}/parade/index.html", to: "/#{lang}/parade.html"
