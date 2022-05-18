@@ -21,6 +21,7 @@ uk:
       japan_humanitarian: Допомога біженцям у Японії
       once_5k: ¥5,000 одноразовий
       once_10k: ¥10,000 одноразовий
+      monthly_1k: ¥1,000 щомісячний
       monthly_5k: ¥5,000 щомісячний
       monthly_10k: ¥10,000 щомісячний
       donate: Зробити внесок
@@ -48,6 +49,7 @@ en:
       japan_humanitarian: Help Ukrainians in Japan
       once_5k: ¥5,000 one-time
       once_10k: ¥10,000 one-time
+      monthly_1k: ¥1,000 monthly
       monthly_5k: ¥5,000 monthly
       monthly_10k: ¥10,000 monthly
       donate: Donate
@@ -75,6 +77,7 @@ ja:
       japan_humanitarian: 日本にいる難民人道支援
       once_5k: 一回5千円
       once_10k: 一回1万円
+      monthly_1k: 月々1千円
       monthly_5k: 月々5千円
       monthly_10k: 月々1万円
       donate: 寄付する
