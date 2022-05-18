@@ -20,7 +20,8 @@ READMORE
 українські осередки та про найближчі події та заходи української громади
 у різних куточках Японії.
 
-[Посилання](https://www.interfm.co.jp/timetable) на радіо: [https://www.interfm.co.jp/timetable](і посилання на конкретну інформацію. (Безкоштовно)
+Посилання [на радіо](https://www.interfm.co.jp/timetable) і [посилання
+на конкретну інформацію](https://www.interfm.co.jp/timetable). (Безкоштовно)
 
 - [25 квітня (Понеділок)](https://www.interfm.co.jp/news/single/newsinukr04252022)
 
