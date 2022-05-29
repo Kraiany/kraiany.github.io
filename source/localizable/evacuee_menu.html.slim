@@ -1,0 +1,22 @@
+---
+layout: page
+title: evacuee.help.title
+---
+
+p = t("evacuee.help.lead")
+
+hr
+
+p = link_to t("evacuee.visa")                  , "visa.html", class: "btn btn-default btn-large"
+p = link_to t("evacuee.work.menu")             , "work.html", class: "btn btn-default btn-large"
+p = link_to t("evacuee.parents_with_children") , "evacuee.html", class: "btn btn-default btn-large"
+p = link_to t("evacuee.study_japanese.menu")   , "study_japanese.html", class: "btn btn-default btn-large"
+
+= partial "regions"
+
+p = link_to t("evacuee.svij-do-svoho")         , "https://www.facebook.com/groups/ukrainejapan/", class: "btn btn-default btn-large"
+p Посилання на групу у Фейсбук метою якої є допомога евакуйованим речима повсякденного вжитку. Тут ви зможете зв'язатися з укранцями, що проживають в Японії або японцями і можливо отримати допомога з предметами побуту.
+hr class="thicker"
+
+p = link_to t("evacuee.pets.menu")             , "pets.html", class: "btn btn-default btn-large"
+p = link_to t("evacuee.ymca.menu")             , "ymca.html", class: "btn btn-default btn-large"
