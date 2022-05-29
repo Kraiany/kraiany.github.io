@@ -2,7 +2,9 @@ uk:
   evacuee:
     visa: Віза українцям, що шукають притулку в Японії
     title: Допомога батькам з дітьми
-    help: Допомога евакуйованим з України
+    help:
+      title: Допомога евакуйованим з України
+      lead: "Ця сторінка містить посилання на різноманітні ресурси та корисні поради, які зможуть допомогти евакуйованим до Японії українцям в цих непростих умовах. Сторінка постійно оновлюється по  мірі того, як нові ресурси та сервіси з'являються, тож не забувайте її відвідувати час від часу."
     parents_with_children: Допомога батькам з дітьми
     ymca:
       menu: Допомога з евакуацією від YMCA
@@ -17,6 +19,7 @@ uk:
       menu: Пошуки роботи
       title: Інформація про пошуки роботи в Японії
     regions:
+      lead: "За посиланнями нижче зібрана інформація про допомогу евакуйованим з України за регіонами Японії. Переважно про допомогу місцевими владами та муніципалітетами міст."
       menu: Допомога по регіонах
       title: Допомога від місцевих влад
       osaka: Допомога в м. Осака
@@ -25,7 +28,7 @@ uk:
       saitama: Допомога в префектурі Сайтама
       aichi: Допомога в префектурі Аічі
       alljapan: Допомога по всій Японії
-    svij-do-svoho: Матеріальна підтримка евакуйованим
+    svij-do-svoho: Підтримка евакуйованих предметами побуту
   radio:
     title: Українське радіо в Токіо
 
@@ -34,8 +37,13 @@ en:
   evacuee:
     visa: Visa for Ukrainians seeking shelter in Japan
     title: Help for the evacuees
-    help: Help for the evacuees
-    parents_with_children: Help for parents with children
+    help:
+      title: Help for Ukrainian evacuees
+      lead: "This page contains references to various resources and
+      helpful advises that could help evacuated to Japan Ukrainians to
+      live through difficul times. The page is updated regularly, so,
+      please do not hesitate to re-visit this page later."
+      parents_with_children: Help for parents with children
     ymca:
       menu: Help with evacuation  (YMCA)
       title: Evacuation of your family from Ukraine to Japan
@@ -43,28 +51,37 @@ en:
       menu: Допомога з вивчення японської мови
       title: Ресурси з вивчення японської мови для українців
     pets:
-      menu: Help for evacuees with pets (UK)
-      title: If you need help with your home pets (UK)
+      menu: Help for evacuees with pets (Ukrainian)
+      title: If you need help with your home pets (Ukrainian)
     work:
       menu: Job search
-      title: Information for job seakers in Japan (UK)
+      title: Information for job seakers in Japan (Ukrainian)
     regions:
+      lead: "Links below contain information about help provided to
+      Ukrainian evacuees by local governments -- municipal or
+      prefectural authorities. Informmation is given only in Ukrainian
+      language."
       menu: Help from regional governments
       title: Help from regional governments
-      osaka: Help from Osaka (UK)
-      tokyo: Help from Tokyo (UK)
-      yokohama: Help from Yokohama (UK)
-      saitama: Help in Saitama prefecture (UK)
-      aichi: Help in Aichi prefecture (UK)
+      osaka: Help from Osaka (Ukrainian)
+      tokyo: Help from Tokyo (Ukrainian)
+      yokohama: Help from Yokohama (Ukrainian)
+      saitama: Help in Saitama prefecture (Ukrainian)
+      aichi: Help in Aichi prefecture (Ukrainian)
       alljapan: Help all over Japan
-    svij-do-svoho: Material help for evacuees
+    svij-do-svoho: Help with everyday life and things
   radio:
     title: Українське радіо в Токіо
 ################################################################################
 ja:
   evacuee:
     title: 避難者の支援
-    help: 避難者の支援
+    help:
+      title: 避難者の支援
+      lead: "This page contains references to various resources and
+      helpful advises that could help evacuated to Japan Ukrainians to
+      live through difficul times. The page is updated regularly, so,
+      please do not hesitate to re-visit this page later."
     parents_with_children: 避難者の支援
     visa: Visa for Ukrainians seeking shelter in Japan
     ymca:
@@ -74,20 +91,24 @@ ja:
       menu: Допомога з вивчення японської мови
       title: Ресурси з вивчення японської мови для українців
     pets:
-      menu: Help for evacuees with pets (UK)
-      title: If you need help with your home pets (UK)
+      menu: Help for evacuees with pets (Ukrainian)
+      title: If you need help with your home pets (Ukrainian)
     work:
       menu: Job search
-      title: Information for job seakers in Japan (UK)
+      title: Information for job seakers in Japan (Ukrainian)
     regions:
+      lead: "Links below contain information about help provided to
+      Ukrainian evacuees by local governments -- municipal or
+      prefectural authorities. Informmation is given only in Ukrainian
+      language."
       menu: Help from regional governments
       title: Help from regional governments
-      osaka: Help from Osaka (UK)
-      tokyo: Help from Tokyo  (UK)
-      yokohama: Help from Yokohama (UK)
-      saitama: Help in Saitama prefecture (UK)
-      aichi: Help in Aichi prefecture (UK)
+      osaka: Help from Osaka (Ukrainian)
+      tokyo: Help from Tokyo  (Ukrainian)
+      yokohama: Help from Yokohama (Ukrainian)
+      saitama: Help in Saitama prefecture (Ukrainian)
+      aichi: Help in Aichi prefecture (Ukrainian)
       alljapan: Help all over Japan
-    svij-do-svoho: Material help for evacuees
+    svij-do-svoho: Help with everyday life and things
   radio:
     title: Українське радіо в Токіо

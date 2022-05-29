@@ -35,4 +35,4 @@ gem 'execjs'
 # https://github.com/Aupajo/middleman-search_engine_sitemap
 gem 'middleman-search_engine_sitemap'
 gem 'sass'
-gem 'nokogiri'
+gem 'nokogiri', "=1.13.4"

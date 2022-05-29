@@ -1,0 +1,18 @@
+hr class="thicker"
+h3 = t("evacuee.regions.menu")
+
+p = t("evacuee.regions.lead")
+
+
+- regions = { "tokyo" => "Токіо",
+  "yokohama" => "Йокогама",
+  "osaka" => "Осака",
+  "saitama" => "Сайтама",
+  "aichi" => "Aїчі",
+  "alljapan" => "По всій Японії",
+  }
+
+- regions.keys.sort.each do |file|
+  =<> link_to regions[file], file+".html", class:  "btn btn-success"
+
+hr class="thicker"
