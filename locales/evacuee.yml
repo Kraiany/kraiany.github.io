@@ -29,6 +29,9 @@ uk:
       aichi: Допомога в префектурі Аічі
       alljapan: Допомога по всій Японії
     svij-do-svoho: Підтримка евакуйованих предметами побуту
+    helpful_advises:
+      title: Корисні поради
+      lead: Тут зібрані різноманітні корисні поради щодо життя в Японії, які не знайшли місця в інших розділах.
   radio:
     title: Українське радіо в Токіо
 
@@ -70,6 +73,9 @@ en:
       aichi: Help in Aichi prefecture (Ukrainian)
       alljapan: Help all over Japan
     svij-do-svoho: Help with everyday life and things
+    helpful_advises:
+      title: Helpful advises
+      lead: Various advises regarding everyday life in Japan for newcomers.
   radio:
     title: Українське радіо в Токіо
 ################################################################################
@@ -110,5 +116,8 @@ ja:
       aichi: Help in Aichi prefecture (Ukrainian)
       alljapan: Help all over Japan
     svij-do-svoho: Help with everyday life and things
+    helpful_advises:
+      title: Helpful advises
+      lead: Various advises regarding everyday life in Japan for newcomers.
   radio:
     title: Українське радіо в Токіо
