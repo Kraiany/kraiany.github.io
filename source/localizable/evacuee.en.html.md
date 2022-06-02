@@ -29,7 +29,7 @@ below:
 
   <a
   href="https://docs.google.com/forms/d/1b3phT242xZrFsYDFWFxYatslbzmtlMEy0NRhbMI-pPg/formrestricted?edit_requested=true"
-  class="btn btn-success"> Apply for the consultaion</a>
+  class="btn btn-success btn-wrap"> Apply for the consultaion</a>
 
 
 For all Ukrainians and Japanese in Japan! If you want to help with the
@@ -37,6 +37,6 @@ development of the programs, please join us.
 
 <a
 href="https://docs.google.com/forms/d/1CIkiMMc0Tbh2E5M6ODMUYd5THyxwcFtw4H5stVAgmJQ/viewform?ts=62317465&edit_requested=true"
-class="btn btn-success">Fill the form for providing help</a>
+class="btn btn-success btn-wrap">Fill the form for providing help</a>
 
 **Pathways Japan** <br>**NPO “Kraiany”**
