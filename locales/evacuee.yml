@@ -64,6 +64,9 @@ en:
       pathways:
         title: Help for the evacuees from Pathways Japan
         menu: Help for parents with children
+      avia_academy:
+        menu: Japan Aviation Academy
+        title: Japan Aviation Academy (JAA)
     help:
       title: Help for Ukrainian evacuees
       lead: "This page contains references to various resources and
@@ -119,6 +122,9 @@ ja:
       pathways:
         title: 避難者の支援
         menu: 避難者の支援
+      avia_academy:
+        menu: Japan Aviation Academy
+        title: Japan Aviation Academy (JAA)
     help:
       title: 避難者の支援
       lead: "This page contains references to various resources and
