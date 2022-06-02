@@ -3,7 +3,7 @@ uk:
     visa: Віза українцям, що шукають притулку в Японії
     id_displaced_person: Посвідчення переміщеної особи з України
     study_in_japan:
-      lead: Інформація про навчальні проекти та програми в Японії для евакуйованих українців.
+      lead: Інформація про навчальні проєкти та навчальні програми в Японії для евакуйованих українців.
       title: Навчання в Японії
       pathways:
         title: Допомога батькам з дітьми від фонду Pathways Japan
@@ -60,6 +60,8 @@ en:
     visa: Visa for Ukrainians seeking shelter in Japan
     id_displaced_person: ID of displaced person
     study_in_japan:
+      lead: "Information about study in Japan and study programs
+      available for Ukrainians in Japan."
       title: Study in Japan
       pathways:
         title: Help for the evacuees from Pathways Japan
@@ -119,6 +121,7 @@ ja:
   evacuee:
     study_in_japan:
       title: Study in Japan
+      lead: Information about study in Japan and study programs available for Ukrainians in Japan.
       pathways:
         title: 避難者の支援
         menu: 避難者の支援
