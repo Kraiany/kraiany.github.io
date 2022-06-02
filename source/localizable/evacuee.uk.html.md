@@ -28,12 +28,12 @@ title: "evacuee.title"
 
   <a
   href="https://docs.google.com/forms/d/1b3phT242xZrFsYDFWFxYatslbzmtlMEy0NRhbMI-pPg/formrestricted?edit_requested=true"
-  class="btn btn-success"> Форма для запису на консультацію</a>
+  class="btn btn-success btn-wrap"> Форма для запису на консультацію</a>
 
 
 До уваги всіх українців у Японії!  Ви маєте бажання долучитись до
 розробки програми чи брати участь у її реалізації? Ласкаво просимо!
 
-<a href="https://docs.google.com/forms/d/1CIkiMMc0Tbh2E5M6ODMUYd5THyxwcFtw4H5stVAgmJQ/viewform?ts=62317465&edit_requested=true" class="btn btn-success">Заповніть форму</a>
+<a href="https://docs.google.com/forms/d/1CIkiMMc0Tbh2E5M6ODMUYd5THyxwcFtw4H5stVAgmJQ/viewform?ts=62317465&edit_requested=true" class="btn btn-success btn-wrap">Заповніть форму</a>
 
 **Pathways Japan** <br>**НПО “Краяни”**

@@ -28,7 +28,7 @@ NPO Kraianyの目標の1つは、この困難な時期にウクライナ避難�
 
   <a
   href="https://docs.google.com/forms/d/1b3phT242xZrFsYDFWFxYatslbzmtlMEy0NRhbMI-pPg/formrestricted?edit_requested=true"
-  class="btn btn-success"> Форма для запису на консультацію / 相談申込書</a>
+  class="btn btn-success btn-wrap"> Форма для запису на консультацію / 相談申込書</a>
 
 
 До уваги всіх українців у Японії!  Ви маєте бажання долучитись до
@@ -39,6 +39,6 @@ NPO Kraianyの目標の1つは、この困難な時期にウクライナ避難�
 
 <a
 href="https://docs.google.com/forms/d/1CIkiMMc0Tbh2E5M6ODMUYd5THyxwcFtw4H5stVAgmJQ/viewform?ts=62317465&edit_requested=true"
-class="btn btn-success">Заповніть форму / フォームに記入する</a>
+class="btn btn-success btn-wrap">Заповніть форму / フォームに記入する</a>
 
 **Pathways Japan** <br>**NPO Kraiany”**

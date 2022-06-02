@@ -1,4 +1,3 @@
-hr class="thicker"
 h3 = t("evacuee.regions.menu")
 
 p = t("evacuee.regions.lead")
@@ -13,6 +12,4 @@ p = t("evacuee.regions.lead")
   }
 
 - regions.keys.sort.each do |file|
-  =<> link_to regions[file], file+".html", class:  "btn btn-success", style: "margin-bottom: 5px"
-
-hr class="thicker"
+  =<> link_to regions[file], file+".html", class:  "btn btn-success btn-wrap", style: "margin-bottom: 5px"
