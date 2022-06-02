@@ -1,7 +1,10 @@
 uk:
   evacuee:
-    visa: Віза українцям, що шукають притулку в Японії
-    id_displaced_person: Посвідчення переміщеної особи з України
+    documents:
+      title: Візові питання, документи та посвідчення
+      visa: Віза українцям, що шукають притулку в Японії
+      id_displaced_person: Посвідчення переміщеної особи з України
+      insurance: Медична страховка
     study_in_japan:
       lead: Інформація про навчальні проєкти та навчальні програми в Японії для евакуйованих українців.
       title: Навчання в Японії
@@ -57,8 +60,12 @@ uk:
 ################################################################################
 en:
   evacuee:
-    visa: Visa for Ukrainians seeking shelter in Japan
-    id_displaced_person: ID of displaced person
+    documents:
+      title: Візові питання, документи та посвідчення
+      visa: Visa for Ukrainians seeking shelter in Japan
+      id_displaced_person: ID of displaced person
+      insurance: Medical insurance
+
     study_in_japan:
       lead: "Information about study in Japan and study programs
       available for Ukrainians in Japan."
@@ -134,8 +141,12 @@ ja:
       helpful advises that could help evacuated to Japan Ukrainians to
       live through difficul times. The page is updated regularly, so,
       please do not hesitate to re-visit this page later."
-    visa: Visa for Ukrainians seeking shelter in Japan
-    id_displaced_person: ID of displaced person
+    documents:
+      title: Візові питання, документи та посвідчення
+      visa: Visa for Ukrainians seeking shelter in Japan
+      id_displaced_person: ID of displaced person
+      insurance: 医療保険
+
     ymca:
       menu: 避を手伝う (YMCA)
       title: ご家族のウクライナからの日本避難にあたって支援提供 (YMCA)
