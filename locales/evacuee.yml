@@ -2,11 +2,18 @@ uk:
   evacuee:
     visa: Віза українцям, що шукають притулку в Японії
     id_displaced_person: Посвідчення переміщеної особи з України
-    title: Допомога батькам з дітьми
+    study_in_japan:
+      lead: Інформація про навчальні проекти та програми в Японії для евакуйованих українців.
+      title: Навчання в Японії
+      pathways:
+        title: Допомога батькам з дітьми від фонду Pathways Japan
+        menu: Допомога батькам з дітьми
+      avia_academy:
+        menu: Японська Авіаційна Академія
+        title: Japan Aviation Academy(JAA) / Японська Авіаційна Академія
     help:
       title: Допомога евакуйованим з України
       lead: "Ця сторінка містить посилання на різноманітні ресурси та корисні поради, які зможуть допомогти евакуйованим до Японії українцям в цих непростих умовах. Сторінка постійно оновлюється по  мірі того, як нові ресурси та сервіси з'являються, тож не забувайте її відвідувати час від часу."
-    parents_with_children: Допомога батькам з дітьми
     ymca:
       menu: Допомога з евакуацією від YMCA
       title: Евакуація родин з України до Японії і допомога, яка надається
@@ -52,14 +59,17 @@ en:
   evacuee:
     visa: Visa for Ukrainians seeking shelter in Japan
     id_displaced_person: ID of displaced person
-    title: Help for the evacuees
+    study_in_japan:
+      title: Study in Japan
+      pathways:
+        title: Help for the evacuees from Pathways Japan
+        menu: Help for parents with children
     help:
       title: Help for Ukrainian evacuees
       lead: "This page contains references to various resources and
       helpful advises that could help evacuated to Japan Ukrainians to
       live through difficul times. The page is updated regularly, so,
       please do not hesitate to re-visit this page later."
-    parents_with_children: Help for parents with children
     ymca:
       menu: Help with evacuation  (YMCA)
       title: Evacuation of your family from Ukraine to Japan
@@ -104,14 +114,17 @@ en:
 ################################################################################
 ja:
   evacuee:
-    title: 避難者の支援
+    study_in_japan:
+      title: Study in Japan
+      pathways:
+        title: 避難者の支援
+        menu: 避難者の支援
     help:
       title: 避難者の支援
       lead: "This page contains references to various resources and
       helpful advises that could help evacuated to Japan Ukrainians to
       live through difficul times. The page is updated regularly, so,
       please do not hesitate to re-visit this page later."
-    parents_with_children: 避難者の支援
     visa: Visa for Ukrainians seeking shelter in Japan
     id_displaced_person: ID of displaced person
     ymca:
