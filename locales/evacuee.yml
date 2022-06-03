@@ -5,6 +5,7 @@ uk:
       visa: Віза українцям, що шукають притулку в Японії
       id_displaced_person: Посвідчення переміщеної особи з України
       insurance: Медична страховка
+      anketa: Анкета для допомоги тимчасовим переселенцям
     study_in_japan:
       lead: Інформація про навчальні проєкти та навчальні програми в Японії для евакуйованих українців.
       title: Навчання в Японії
@@ -65,6 +66,7 @@ en:
       visa: Visa for Ukrainians seeking shelter in Japan
       id_displaced_person: ID of displaced person
       insurance: Medical insurance
+      anketa: Questionary regarding help for the displaced persons
 
     study_in_japan:
       lead: "Information about study in Japan and study programs
@@ -146,6 +148,7 @@ ja:
       visa: Visa for Ukrainians seeking shelter in Japan
       id_displaced_person: ID of displaced person
       insurance: 医療保険
+      anketa: 避難民への援助に関する質問
 
     ymca:
       menu: 避を手伝う (YMCA)
