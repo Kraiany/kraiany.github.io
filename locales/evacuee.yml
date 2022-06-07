@@ -16,6 +16,9 @@ uk:
         menu: Японська Авіаційна Академія
         title: Japan Aviation Academy(JAA) / Японська Авіаційна Академія
       dzherelce: Недільна школа Джерельце в Токіо
+      temple:
+        menu: Університет Темпл
+        title: Навчання в американському Університеті Темпл в Токіо
     help:
       title: Допомога евакуйованим з України
       lead: "Ця сторінка містить посилання на різноманітні ресурси та корисні поради, які зможуть допомогти евакуйованим до Японії українцям в цих непростих умовах. Сторінка постійно оновлюється по  мірі того, як нові ресурси та сервіси з'являються, тож не забувайте її відвідувати час від часу."
@@ -80,6 +83,9 @@ en:
         menu: Japan Aviation Academy
         title: Japan Aviation Academy (JAA)
       dzherelce: Sunday school Dzherelce in Tokyo
+      temple:
+        menu: Temple University
+        title: Studyuing in Americal Temple University in Japan
     help:
       title: Help for Ukrainian evacuees
       lead: "This page contains references to various resources and
@@ -140,6 +146,9 @@ ja:
         menu: Japan Aviation Academy
         title: Japan Aviation Academy (JAA)
       dzherelce: Sunday school Dzherelce in Tokyo
+      temple:
+        menu: Temple University
+        title: Studyuing in Americal Temple University in Japan
     help:
       title: 避難者の支援
       lead: "This page contains references to various resources and
