@@ -3,6 +3,9 @@ uk:
     menu: Пожертви
     title: Як допомогти Україні
     description: "НПО Краяни оголосили збір коштів на гуманітарну допомогу для України."
+    message:
+      title: "Зворотній зв'язок"
+      text: "Ви можете залишити коментар <a href='https://forms.gle/Kx3f7kRundfJVUUQ6' target='_blank'> тут</a> заповнивши форму."
     reporting:
       title: "Звітність"
       text: "Google Spreadsheet за цим <a href='https://docs.google.com/spreadsheets/d/1hg1RaGq74qmvQHc8Aj0dR-MrVAxL_5IpHCNhFQfBlzQ/edit#gid=0' target='_blank'> посиланням</a> містить оперативну інформацію про зібрані кошти та перерахування коштів в Україну."
@@ -31,6 +34,9 @@ en:
     menu: Donation
     title: How to help Ukraine
     description: "NPO Kraiany has opend an account for collecting donations for humanitarian aid in Ukraine"
+    message:
+      title: "Message"
+      text: "If you've donated and would like to leave a message, please fill out <a href='https://forms.gle/Kx3f7kRundfJVUUQ6' target='_blank'>this form</a>."
     reporting:
       title: "Reporting"
       text: "Google Spreadsheet accessible by <a href='https://docs.google.com/spreadsheets/d/1hg1RaGq74qmvQHc8Aj0dR-MrVAxL_5IpHCNhFQfBlzQ/edit#gid=0' target='_blank'>this link</a> contains up-to-date information about received donations and about transferred funds to Ukrainian needs."
@@ -60,6 +66,9 @@ ja:
     title: ウクライナ支援：寄付・募金口座番号
     description: "NPO Kraianyは、ウクライナで人道援助のための資金を集めるための口座を開設しました。"
     lead: "NPO Kraianyは、ウクライナで人道援助のための資金を集めるための口座を開設しました。 以下の口座番号に送金できます:"
+    message:
+      title: "メッセージ"
+      text: "募金をされた方で、メッセージを残したい方は<a href='https://forms.gle/Kx3f7kRundfJVUUQ6' target='_blank'>こちらから投稿してください</a>。"
     reporting:
       title: "寄付金の報告書"
       text: "集まった募金の合計と使用用途などは<a href='https://docs.google.com/spreadsheets/d/1hg1RaGq74qmvQHc8Aj0dR-MrVAxL_5IpHCNhFQfBlzQ/edit#gid=0' target='_blank'>こちらで公開しています</a>。"
