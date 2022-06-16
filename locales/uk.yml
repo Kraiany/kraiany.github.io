@@ -17,6 +17,15 @@ uk:
       description: Паради у вишиванках проводяться кожного року в Токіо, третьої неділі травня, починаючи з 2013 року.
       title: Марш вишиванок у Токіо
     title: Події
+  films:
+    description: Це збірка фільмів та документальних фільмів про Україну.
+    title: Документальні фільми та фільми про Україну
+    titles:
+      call_sign_banderas: Позивний Бандерас
+      khaytarma: Хайтарма
+      mr_jones: Mr. Jones
+      the_guide: Поводир
+      winter_on_fire: Winter On Fire
   kraiany_radio:
     title: Радіо українською
   news:
