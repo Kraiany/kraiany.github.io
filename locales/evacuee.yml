@@ -19,6 +19,9 @@ uk:
       temple:
         menu: Університет Темпл
         title: Навчання в американському Університеті Темпл в Токіо
+      students:
+        menu: Підтримка українських студентів
+        title: Підтримка українських студентів,  можливості навчання  для  випускників  шкіл та студентів вищих навчальних закладів України в Японії.
     help:
       title: Допомога евакуйованим з України
       lead: "Ця сторінка містить посилання на різноманітні ресурси та корисні поради, які зможуть допомогти евакуйованим до Японії українцям в цих непростих умовах. Сторінка постійно оновлюється по  мірі того, як нові ресурси та сервіси з'являються, тож не забувайте її відвідувати час від часу."
@@ -92,6 +95,10 @@ en:
       temple:
         menu: Temple University
         title: Studyuing in Americal Temple University in Japan
+      students:
+        menu: Support for Ukrinian students
+        title: Support for Ukrinian students, options for studying of  Ukranian graduates.
+
     help:
       title: Help for Ukrainian evacuees
       lead: "This page contains references to various resources and
@@ -161,6 +168,10 @@ ja:
       temple:
         menu: Temple University
         title: Studyuing in Americal Temple University in Japan
+      students:
+        menu: Support for Ukrinian students
+        title: Support for Ukrinian students, options for studying of  Ukranian graduates.
+
     help:
       title: 避難者の支援
       lead: "This page contains references to various resources and
