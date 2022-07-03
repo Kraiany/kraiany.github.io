@@ -137,6 +137,12 @@ en:
       psychological_help:
         menu: Psychological Help
         title: Centre for Psychological and Moral Help for Ukrainians
+      mobile:
+        title: Mobile phones
+        menu: Mobile phones
+      payphone:
+        title: Pay-phones
+        menu: Pay-phones
   radio:
     title: Українське радіо в Токіо
 ################################################################################
@@ -207,5 +213,11 @@ ja:
       psychological_help:
         menu: Psychological Help
         title: Centre for Psychological and Moral Help for Ukrainians
+      mobile:
+        title: Mobile phones
+        menu: Mobile phones
+      payphone:
+        title: Pay-phones
+        menu: Pay-phones
   radio:
     title: Українське радіо в Токіо
