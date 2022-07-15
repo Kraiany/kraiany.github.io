@@ -69,6 +69,10 @@ uk:
       payphone:
         title: Телефони автомати
         menu: Телефони автомати
+      summer_heat:
+        menu: Літня спека
+        title: Як пережити літню спеку у Японії
+
   radio:
     title: Українське радіо в Токіо
 
@@ -152,6 +156,10 @@ en:
       payphone:
         title: Pay-phones
         menu: Pay-phones
+      summer_heat:
+        menu: Summer heat in Japan
+        title: How to survive summer heat
+
   radio:
     title: Українське радіо в Токіо
 ################################################################################
@@ -233,5 +241,8 @@ ja:
       payphone:
         title: Pay-phones
         menu: Pay-phones
+      summer_heat:
+        menu: Summer heat in Japan
+        title: How to survive summer heat
   radio:
     title: Українське радіо в Токіо
