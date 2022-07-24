@@ -2,6 +2,6 @@ doctype html
 html
   = partial "layouts/header"
   body data-spy="scroll" data-target="#site-nav"
-    = partial "layouts/page_header"
+    = partial "layouts/page_header", locals: { title: translated_title }
     = yield
     = partial "layouts/footer"
