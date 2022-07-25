@@ -19,19 +19,16 @@ hr, hr.thicker {
 /* #site-header > div > p:nth-child(4) */
 
 #site-header {
-    p {
-        text-transform: none;
-    }
+  p { text-transform: none; }
 }
 
-// #site-nav > div > div.navbar-header > div > a
-
 #site-nav {
-    .navbar-header {
-        a  {
-            text-transform: none;
-        }
-    }
+  .navbar-header {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    a {text-transform: none; }
+  }
 }
 
 .site-header, .section {
