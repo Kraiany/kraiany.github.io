@@ -44,6 +44,24 @@ helpers do
       .url
       .sub(%r{^/#{I18n.locale}/},"/#{locale}/")
   end
+
+  def translated_title
+    if current_page.data.title.present?
+      temp_title = t current_page.data.title
+      title = if temp_title.start_with?("translation missing:")
+        current_page.data.title
+      else
+        temp_title
+      end
+      is_blog_article? ? [title, t("news.title")].join(" - ") : title
+    else
+      t(".title")
+    end
+  end
+
+  def parse_date(c)
+    c.class == Date ? c.to_date : Time.parse(c).to_date
+  end
 end
 
 activate :sprockets

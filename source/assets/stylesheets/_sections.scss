@@ -34,41 +34,6 @@
 }
 
 /*
- * 6.3 Section: Speaker
- */
-
-.speaker {
-  text-align: center;
-  color: #313131;
-  text-transform: uppercase;
-  margin: 25px 0;
-  h4 {
-    margin-top: 15px;
-      margin-bottom: 5px;
-  }
-  p {
-    margin-bottom: 5px;
-  }
-
-  img:hover {
-    opacity: .7;
-  }
-}
-
-/*
- * 6.4 Section: Registration & Pricing
- */
-
-/*
- * 6.5 Section: Contribution
- */
-
-.contribution {
-  text-align: center;
-  color: #fff;
-}
-
-/*
  * 6.6 Section: Schedule
  */
 
@@ -91,58 +56,6 @@
   }
 }
 
-/*
- * 6.7 Section: Schedule
- */
-
-.partner {
-  background-color: #f8f8f8;
-
-  .partner-box {
-    display: block;
-    opacity: 0.3;
-    height: 150px;
-    width: 150px;
-    margin: 25px auto;
-    transition: 0.5s all linear;
-
-    &:hover {
-      opacity: 1;
-    }
-  }
-
-  .partner-box-1 {
-    background: url(../images/partner/partner-1.png) no-repeat center center / contain;
-  }
-
-  .partner-box-2 {
-    background: url(../images/partner/partner-2.png) no-repeat center center / contain;
-  }
-
-  .partner-box-3 {
-    background: url(../images/partner/partner-3.png) no-repeat center center / contain;
-  }
-
-  .partner-box-4 {
-    background: url(../images/partner/partner-4.png) no-repeat center center / contain;
-  }
-
-  .partner-box-5 {
-    background: url(../images/partner/partner-5.png) no-repeat center center / contain;
-  }
-
-  .partner-box-6 {
-    background: url(../images/partner/partner-6.png) no-repeat center center / contain;
-  }
-
-  .partner-box-7 {
-    background: url(../images/partner/partner-7.png) no-repeat center center / contain;
-  }
-
-  .partner-box-8 {
-    background: url(../images/partner/partner-8.png) no-repeat center center / contain;
-  }
-}
 
 /*
  * 6.8 Section: FAQ
@@ -185,60 +98,5 @@
       text-decoration: none;
       padding: 15px 15px 15px 35px;
     }
-  }
-}
-
-/*
- * 6.9 Section: photos
- */
-
-.grid {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-  &::after {
-    content: '';
-    display: block;
-    clear: both;
-  }
-}
-
-.grid-item {
-  float: left;
-  overflow: hidden;
-  padding: 3px;
-  margin: 0;
-  width: 100%;
-}
-
-@media (min-width: 768px) {
-  .grid-item-sm-6 {
-    width: 50%;
-  }
-
-  .grid-item-sm-3 {
-    width: 25%;
-  }
-
-  .section-title {
-    margin: 0 0 30px;
-  }
-
-  figure {
-    margin-bottom: 0;
-  }
-}
-
-@media (min-width: 992px) {
-  .schedule-box {
-    margin: 0;
-  }
-
-  .grid-item-md-6 {
-    width: 50%;
-  }
-
-  .grid-item-md-3 {
-    width: 25%;
   }
 }

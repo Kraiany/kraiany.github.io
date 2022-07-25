@@ -11,6 +11,7 @@
 html {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
+  height: 100%;
 }
 
 body {
@@ -21,6 +22,9 @@ body {
   line-height: 1.6;
   position: relative;
   -webkit-font-smoothing: antialiased;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 a {
@@ -28,7 +32,6 @@ a {
   &:focus {
     outline: none;
   }
-  border-bottom: 2px solid navy;
 }
 
 h1,
@@ -133,14 +136,32 @@ ul {
 
 .section {
   padding: 70px 0;
-}
+  a {
+    border-bottom: 2px solid navy;
+    &:hover {
+      border-bottom: inherit;
+    }
+  }
+  .section-title {
+    color: #313131;
+    letter-spacing: 1px;
+    margin: 0 0 20px;
+    text-transform: uppercase;
+    a { border-bottom: inherit; }
 
-.section-title {
-  color: #313131;
-  letter-spacing: 1px;
-  margin: 0 0 20px;
-  text-transform: uppercase;
-  text-align: center;
+    .published_on {
+      $title_color: #000;
+      display: block;
+      color: $title_color;
+      padding-top: 20px;
+      font-size: 0.5em;
+      color: lighten($title_color, 50%);
+    }
+  }
+  .summary {
+    display: block;
+    text-align: justify;
+  }
 }
 
 /*

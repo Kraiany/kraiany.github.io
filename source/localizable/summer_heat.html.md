@@ -1,6 +1,5 @@
 ---
 title: evacuee.helpful_advises.summer_heat.title
-layout: page
 ---
 __Зміст:__
 
