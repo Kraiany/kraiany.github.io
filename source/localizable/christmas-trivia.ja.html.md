@@ -1,5 +1,4 @@
 ---
-layout: page
 title: "christmas-trivia.title"
 ---
 

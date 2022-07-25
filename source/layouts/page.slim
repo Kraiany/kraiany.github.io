@@ -1,11 +1,2 @@
 = wrap_layout :layout do
-  section.section
-    .container itemscope=true itemtype="https://schema.org/Article"
-      meta itemprop="author" content=t("kraiany.author")
-      meta itemprop="image" content="#{config[:host]}#{image_path(current_page.data.image || "/assets/images/about-us.jpg")}"
-      .row
-        .col-sm-12
-          h1.section-title
-            span{itemProp="headline"}= translated_title
-      .row
-        .col-sm-12(itemprop="articleBody")= yield
+  = yield
