@@ -34,31 +34,6 @@ hr, hr.thicker {
     }
 }
 
-#news {
-  padding-top: 0px;
-  h1, h2 {
-    &.section-title {
-      margin-top: 30px;
-      text-transform: inherit;
-      letter-spacing: inherit;
-    }
-    $title_color: #000;
-    .published_on {
-      display: block;
-      color: $title_color;
-      padding-top: 20px;
-      font-size: 0.5em;
-      color: lighten($title_color, 50%);
-      .date {
-      }
-    }
-  }
-  .summary {
-    display: block;
-    text-align: justify;
-  }
-}
-
 .site-header, .section {
   padding-top: 200px;
 }
