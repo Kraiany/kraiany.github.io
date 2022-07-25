@@ -5,10 +5,16 @@
 .navbar-custom {
   border: 0;
   margin: 0;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding: none;
   background-color: #000;
   transition: all 0.2s linear 0s;
+  min-height: 50px;
+
+  .container {
+    @media (max-width:767px) {
+      margin: 10px;
+    }
+  }
 
   .navbar-right {
     margin-right: 0;
@@ -46,6 +52,7 @@
   border: 0;
   border-radius: 0;
   margin-top: 2px;
+  margin-left: auto;
 
   .icon-bar {
     background-color: #fff;
@@ -54,12 +61,10 @@
 
 .navbar-solid {
   background-color: #000 !important;
-  padding: 0 !important;
   transition: all 0.2s linear 0s;
 }
 
 .site-branding {
-    float: left;
     margin-top: 0;
     margin-left: 10px;
 
@@ -213,12 +218,6 @@
 
 
 @media (min-width:768px) {
-  .navbar-custom {
-    // background-color: transparent;
-    padding-top: 10px;
-    padding-bottom: 20px;
-  }
-
   .site-branding {
     margin-top: 6px;
     margin-left: 0;
