@@ -28,7 +28,6 @@ a {
   &:focus {
     outline: none;
   }
-  border-bottom: 2px solid navy;
 }
 
 h1,
@@ -133,14 +132,19 @@ ul {
 
 .section {
   padding: 70px 0;
-}
-
-.section-title {
-  color: #313131;
-  letter-spacing: 1px;
-  margin: 0 0 20px;
-  text-transform: uppercase;
-  text-align: center;
+  a {
+    border-bottom: 2px solid navy;
+    &:hover {
+      border-bottom: inherit;
+    }
+  }
+  .section-title {
+    color: #313131;
+    letter-spacing: 1px;
+    margin: 0 0 20px;
+    text-transform: uppercase;
+    a { border-bottom: inherit; }
+  }
 }
 
 /*
