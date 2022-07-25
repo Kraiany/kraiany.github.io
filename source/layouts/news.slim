@@ -1,22 +1,13 @@
-doctype html
-html
-  - title = is_blog_article? ? [current_page.data.title, t("news.title")].join(" - ") : t("news.title")
-  = partial "layouts/header", locals: { title: title }
-  body#news data-spy="scroll" data-target="#site-nav"
-    = partial "layouts/page_header", locals: { title: t("news.news") }
-    section.section
-      .container itemscope=true itemtype="https://schema.org/Article"
-        meta itemprop="author" content=t("kraiany.author")
-        meta itemprop="image" content="#{config[:host]}#{image_path(current_page.data.image || "/assets/images/about-us.jpg")}"
-        .row
-          .col-sm-12
-            h1.section-title
-              span{itemProp="headline"}= current_page.data.title
-              span.published_on
-                - c = current_page.data.date
-                - date = (c.class == Date ? c.to_date : Time.parse(c).to_date)
-                /- date = Time.parse(current_page.data.date).to_date
-                time.date{datetime=date itemprop="datePublished"}= I18n.l(date, format: :default, locale: lang)
-        .row
-          .col-sm-12(itemprop="articleBody")= yield
-    = partial "layouts/footer"
+= wrap_layout :layout do
+  section.section
+    .container itemscope=true itemtype="https://schema.org/Article"
+      meta itemprop="author" content=t("kraiany.author")
+      meta itemprop="image" content="#{config[:host]}#{image_path(current_page.data.image || "/assets/images/about-us.jpg")}"
+      .row
+        .col-sm-12
+          h1.section-title
+            span{itemProp="headline"}= current_page.data.title
+            span.published_on
+              time.date{datetime=parse_date(current_page.data.date) itemprop="datePublished"}= I18n.l(parse_date(current_page.data.date), format: :default, locale: lang)
+      .row
+        .col-sm-12(itemprop="articleBody")= yield

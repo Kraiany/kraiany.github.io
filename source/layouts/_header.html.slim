@@ -25,14 +25,6 @@ head
   meta content="#{config[:host]}#{current_page.url}" property="og:url" /
   meta content="website" property="og:type" /
 
-  - if defined?(title)
-    - translated_title = title
-  - elsif current_page.data.title.present?
-    - translated_title = t current_page.data.title
-    - if translated_title.start_with?("translation missing:")
-      - translated_title = current_page.data.title
-  - else
-    - translated_title = t "kraiany.title"
   title= translated_title
   meta content="#{translated_title}" property="og:title" /
 
