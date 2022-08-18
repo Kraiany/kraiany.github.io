@@ -22,6 +22,9 @@ uk:
       students:
         menu: Підтримка українських студентів
         title: Підтримка українських студентів,  можливості навчання  для  випускників  шкіл та студентів вищих навчальних закладів України в Японії.
+      circles:
+        menu: Рейтинг кружків
+        title: Рейтинг кружків та зайнять серед японських дітей
     help:
       title: Допомога евакуйованим з України
       lead: "Ця сторінка містить посилання на різноманітні ресурси та корисні поради, які зможуть допомогти евакуйованим до Японії українцям в цих непростих умовах. Сторінка постійно оновлюється по  мірі того, як нові ресурси та сервіси з'являються, тож не забувайте її відвідувати час від часу."
@@ -101,6 +104,9 @@ en:
       students:
         menu: Support for Ukrinian students
         title: Support for Ukrinian students, options for studying of  Ukranian graduates.
+      circles:
+        menu: School circles rating
+        title: Rating of school circles and study groups
 
     help:
       title: Help for Ukrainian evacuees
@@ -177,6 +183,9 @@ ja:
       students:
         menu: Support for Ukrinian students
         title: Support for Ukrinian students, options for studying of  Ukranian graduates.
+      circles:
+        menu: School circles rating
+        title: Rating of school circles and study groups
 
     help:
       title: 避難者の支援
