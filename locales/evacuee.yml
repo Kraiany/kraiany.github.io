@@ -37,9 +37,6 @@ uk:
     pets:
       menu: Допомога евакуйованим з домашніми тваринами
       title: Якщо вам потрібна допомога з вашими домашніми улюбленцями
-    work:
-      menu: Пошуки роботи
-      title: Інформація про пошуки роботи в Японії
     regions:
       lead: "За посиланнями нижче зібрана інформація про допомогу евакуйованим з України за регіонами Японії. Переважно про допомогу місцевими владами та муніципалітетами міст."
       menu: Допомога по регіонах
@@ -122,9 +119,6 @@ en:
     pets:
       menu: Help for evacuees with pets (Ukrainian)
       title: If you need help with your home pets (Ukrainian)
-    work:
-      menu: Job search
-      title: Information for job seakers in Japan (Ukrainian)
     regions:
       lead: "Links below contain information about help provided to
       Ukrainian evacuees by local governments -- municipal or
@@ -207,9 +201,6 @@ ja:
     pets:
       menu: Help for evacuees with pets (Ukrainian)
       title: If you need help with your home pets (Ukrainian)
-    work:
-      menu: Job search
-      title: Information for job seakers in Japan (Ukrainian)
     regions:
       lead: "Links below contain information about help provided to
       Ukrainian evacuees by local governments -- municipal or
