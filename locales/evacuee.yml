@@ -55,29 +55,6 @@ uk:
       funabashi: М. Фунабаші (Чіба)
     svij-do-svoho: Підтримка евакуйованих предметами побуту
 
-    helpful_advises:
-      dozvillya:
-        menu: Дозвілля
-        title: Дозвілля з дітьми
-
-      title: Корисні поради
-      lead: Тут зібрані різноманітні корисні поради щодо життя в Японії, які не знайшли місця в інших розділах.
-      transportation:
-        menu: Транспорт у Японії
-        title:   Громадський транспорт у Японії
-      psychological_help:
-        menu: Психологічна допомога
-        title: Психологічна допомога українцям в Японії
-      mobile:
-        title: Мобільний зв'язок
-        menu: Мобільний зв'язок
-      payphone:
-        title: Телефони автомати
-        menu: Телефони автомати
-      summer_heat:
-        menu: Літня спека
-        title: Як пережити літню спеку у Японії
-
   radio:
     title: Українське радіо в Токіо
 
@@ -147,28 +124,6 @@ en:
       chiba: Chiba city
       funabashi: Funabashi city (Chiba)
     svij-do-svoho: Help with everyday life and things
-    helpful_advises:
-      title: Helpful advises
-      lead: Various advises regarding everyday life in Japan for  newcomers.
-      dozvillya:
-        menu: Leisure
-        title: Spending free time with the kids
-
-      transportation:
-        menu: Transportation in Japan
-        title:   Public Transportation in Japan
-      psychological_help:
-        menu: Psychological Help
-        title: Psychological and Moral Help for Ukrainians in Japan
-      mobile:
-        title: Mobile phones
-        menu: Mobile phones
-      payphone:
-        title: Pay-phones
-        menu: Pay-phones
-      summer_heat:
-        menu: Summer heat in Japan
-        title: How to survive summer heat
 
   radio:
     title: Українське радіо в Токіо
@@ -237,27 +192,5 @@ ja:
       chiba: Chiba city
       funabashi: Funabashi city (Chiba)
     svij-do-svoho: Help with everyday life and things
-    helpful_advises:
-      title: Helpful advises
-      lead: Various advises regarding everyday life in Japan for newcomers.
-      dozvillya:
-        menu: Leisure
-        title: Spending free time with the kids
-
-      transportation:
-        menu: Transportation in Japan
-        title:   Public Transportation in Japan
-      psychological_help:
-        menu: Psychological Help
-        title: Psychological and Moral Help for Ukrainians in Japan
-      mobile:
-        title: Mobile phones
-        menu: Mobile phones
-      payphone:
-        title: Pay-phones
-        menu: Pay-phones
-      summer_heat:
-        menu: Summer heat in Japan
-        title: How to survive summer heat
   radio:
     title: Українське радіо в Токіо
