@@ -1,0 +1,20 @@
+uk:
+  evacuee:
+    work:
+      menu: Пошуки роботи
+      title: Інформація про пошуки роботи в Японії
+      primedelica:
+        menu: Працевлаштування від PrimeDelica
+        title: Працевлаштування для евакуйованих українців від компанії PrimeDelica
+################################################################################
+en:
+  evacuee:
+    work:
+      menu: Job search
+      title: Information for job seakers in Japan (Ukrainian)
+################################################################################
+ja:
+  evacuee:
+    work:
+      menu: Job search
+      title: Information for job seakers in Japan (Ukrainian)

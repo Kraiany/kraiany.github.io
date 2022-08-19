@@ -22,6 +22,9 @@ uk:
       students:
         menu: Підтримка українських студентів
         title: Підтримка українських студентів,  можливості навчання  для  випускників  шкіл та студентів вищих навчальних закладів України в Японії.
+      circles:
+        menu: Рейтинг кружків
+        title: Рейтинг кружків та зайнять серед японських дітей
     help:
       title: Допомога евакуйованим з України
       lead: "Ця сторінка містить посилання на різноманітні ресурси та корисні поради, які зможуть допомогти евакуйованим до Японії українцям в цих непростих умовах. Сторінка постійно оновлюється по  мірі того, як нові ресурси та сервіси з'являються, тож не забувайте її відвідувати час від часу."
@@ -37,12 +40,6 @@ uk:
     pets:
       menu: Допомога евакуйованим з домашніми тваринами
       title: Якщо вам потрібна допомога з вашими домашніми улюбленцями
-    work:
-      menu: Пошуки роботи
-      title: Інформація про пошуки роботи в Японії
-      primedelica:
-        menu: Працевлаштування від PrimeDelica
-        title: Працевлаштування для евакуйованих українців від компанії PrimeDelica
     regions:
       lead: "За посиланнями нижче зібрана інформація про допомогу евакуйованим з України за регіонами Японії. Переважно про допомогу місцевими владами та муніципалітетами міст."
       menu: Допомога по регіонах
@@ -55,6 +52,7 @@ uk:
       alljapan: Допомога по всій Японії
       izumisano: Місто Ізумісано (префектура Осака)
       chiba: Місто Чіба
+      funabashi: М. Фунабаші (Чіба)
     svij-do-svoho: Підтримка евакуйованих предметами побуту
 
     helpful_advises:
@@ -106,6 +104,9 @@ en:
       students:
         menu: Support for Ukrinian students
         title: Support for Ukrinian students, options for studying of  Ukranian graduates.
+      circles:
+        menu: School circles rating
+        title: Rating of school circles and study groups
 
     help:
       title: Help for Ukrainian evacuees
@@ -125,9 +126,6 @@ en:
     pets:
       menu: Help for evacuees with pets (Ukrainian)
       title: If you need help with your home pets (Ukrainian)
-    work:
-      menu: Job search
-      title: Information for job seakers in Japan (Ukrainian)
     regions:
       lead: "Links below contain information about help provided to
       Ukrainian evacuees by local governments -- municipal or
@@ -143,6 +141,7 @@ en:
       alljapan: Help all over Japan
       izumisano: City of Izumisano (Osaka Prefecture)
       chiba: Chiba city
+      funabashi: Funabashi city (Chiba)
     svij-do-svoho: Help with everyday life and things
     helpful_advises:
       title: Helpful advises
@@ -184,6 +183,9 @@ ja:
       students:
         menu: Support for Ukrinian students
         title: Support for Ukrinian students, options for studying of  Ukranian graduates.
+      circles:
+        menu: School circles rating
+        title: Rating of school circles and study groups
 
     help:
       title: 避難者の支援
@@ -210,9 +212,6 @@ ja:
     pets:
       menu: Help for evacuees with pets (Ukrainian)
       title: If you need help with your home pets (Ukrainian)
-    work:
-      menu: Job search
-      title: Information for job seakers in Japan (Ukrainian)
     regions:
       lead: "Links below contain information about help provided to
       Ukrainian evacuees by local governments -- municipal or
@@ -228,6 +227,7 @@ ja:
       alljapan: Help all over Japan
       izumisano: City of Izumisano (Osaka Prefecture)
       chiba: Chiba city
+      funabashi: Funabashi city (Chiba)
     svij-do-svoho: Help with everyday life and things
     helpful_advises:
       title: Helpful advises
