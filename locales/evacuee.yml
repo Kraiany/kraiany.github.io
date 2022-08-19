@@ -56,6 +56,10 @@ uk:
     svij-do-svoho: Підтримка евакуйованих предметами побуту
 
     helpful_advises:
+      dozvillya:
+        menu: Дозвілля
+        title: Дозвілля з дітьми
+
       title: Корисні поради
       lead: Тут зібрані різноманітні корисні поради щодо життя в Японії, які не знайшли місця в інших розділах.
       transportation:
@@ -145,7 +149,11 @@ en:
     svij-do-svoho: Help with everyday life and things
     helpful_advises:
       title: Helpful advises
-      lead: Various advises regarding everyday life in Japan for newcomers.
+      lead: Various advises regarding everyday life in Japan for  newcomers.
+      dozvillya:
+        menu: Leisure
+        title: Spending free time with the kids
+
       transportation:
         menu: Transportation in Japan
         title:   Public Transportation in Japan
@@ -232,6 +240,10 @@ ja:
     helpful_advises:
       title: Helpful advises
       lead: Various advises regarding everyday life in Japan for newcomers.
+      dozvillya:
+        menu: Leisure
+        title: Spending free time with the kids
+
       transportation:
         menu: Transportation in Japan
         title:   Public Transportation in Japan
