@@ -11,7 +11,7 @@ date: 2022-03-27 00:00 UTC
 
 READMORE
 
-<img src="/assets/images/2022-03-27-nft.jpg" class="main">
+<img src="/assets/images/news/2022-03-27-nft/nft.jpg" class="main">
 
 У нашій українській школі "Джерельце" в зв'язку з цим також змінився
 розклад. І кожного заняття один з уроків присвячений подіям в
