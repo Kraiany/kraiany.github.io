@@ -5,6 +5,8 @@
       meta itemprop="image" content="#{config[:host]}#{image_path(current_page.data.image || "/assets/images/about-us.jpg")}"
       .row
         .col-sm-12
+          - if current_page.data.image
+            img.section-header-image (src=image_path(current_page.data.image))
           h1.section-title
             span{itemProp="headline"}= translated_title
       .row
