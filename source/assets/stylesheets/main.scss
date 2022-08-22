@@ -31,8 +31,11 @@ hr, hr.thicker {
   }
 }
 
-.site-header, .section {
-  padding-top: 200px;
+.site-header, .section:first-of-type {
+  @media (min-width: 768px) {
+    padding-top: 200px;
+  }
+  padding-top: 80px;
 }
 .intro {
   .btn-white {

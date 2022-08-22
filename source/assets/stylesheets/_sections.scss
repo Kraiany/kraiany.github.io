@@ -100,3 +100,11 @@
     }
   }
 }
+
+.section-header-image {
+  width: 100%;
+  object-fit: cover;
+  max-height: 500px;
+  margin-bottom: 1.5em;
+  border-radius: 3px;
+}
