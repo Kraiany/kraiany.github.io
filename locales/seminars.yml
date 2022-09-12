@@ -1,0 +1,23 @@
+uk:
+  evacuee:
+    seminars:
+      title: Онлайн семінари
+      lead: Інформація про онлайн семінари з НПО Краяни
+      menu:
+        menu:  Онлайн семінари
+################################################################################
+en:
+  evacuee:
+    seminars:
+      title: Online seminars
+      lead: Information regardig online seminars with NPO Kraiany
+      menu:
+        menu:  Online seminars
+################################################################################
+ja:
+  evacuee:
+    seminars:
+      title: Online seminars
+      lead: Information regardig online seminars with NPO Kraiany
+      menu:
+        menu:  Online seminars
