@@ -26,6 +26,9 @@ uk:
       babysitting:
         menu: Догляд за дітьми
         title: Послуга по догляду за дітьми
+      vaccination:
+        menu: Вакцинація
+        title: Вакцинація в Японії
 
 ################################################################################
 en:
@@ -55,6 +58,9 @@ en:
       babysitting:
         menu: Babysitting
         title: Babysitting Service
+      vaccination:
+        menu: Vaccination
+        title: Vaccination in Japan
 ################################################################################
 ja:
   evacuee:
@@ -83,3 +89,6 @@ ja:
       babysitting:
         menu: Babysitting
         title: Babysitting Service
+      vaccination:
+        menu: Vaccination
+        title: Vaccination in Japan
