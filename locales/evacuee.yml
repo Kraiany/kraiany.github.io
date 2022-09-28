@@ -9,6 +9,9 @@ uk:
     study_in_japan:
       lead: Інформація про навчальні проєкти та навчальні програми в Японії для евакуйованих українців.
       title: Навчання в Японії
+      general:
+        menu: Про навчaння в Японії
+        title: Ресурси з навчання в Японії для українців
       pathways:
         title: Допомога батькам з дітьми від фонду Pathways Japan
         menu: Допомога батькам з дітьми
@@ -32,7 +35,7 @@ uk:
       menu: Допомога з евакуацією від YMCA
       title: Евакуація родин з України до Японії і допомога, яка надається
     study_japanese:
-      menu: Допомога з вивчення японської мови
+      menu: Вивчення японської мови
       title: Ресурси з вивчення японської мови для українців
     translation_services:
       menu: Послуги з перекладу
@@ -72,6 +75,9 @@ en:
       lead: "Information about study in Japan and study programs
       available for Ukrainians in Japan."
       title: Study in Japan
+      general:
+        menu: About studying in Japan
+        title: Resources for studying in Japan for Ukrainians
       pathways:
         title: Help for the evacuees from Pathways Japan
         menu: Help for parents with children
@@ -99,7 +105,7 @@ en:
       menu: Help with evacuation  (YMCA)
       title: Evacuation of your family from Ukraine to Japan
     study_japanese:
-      menu: Допомога з вивчення японської мови
+      menu: Вивчення японської мови
       title: Ресурси з вивчення японської мови для українців
     translation_services:
       menu: Translation services
@@ -133,6 +139,9 @@ ja:
     study_in_japan:
       title: Study in Japan
       lead: Information about study in Japan and study programs available for Ukrainians in Japan.
+      general:
+        menu: About studying in Japan
+        title: Resources for studying in Japan for Ukrainians
       pathways:
         title: 避難者の支援
         menu: 避難者の支援
@@ -167,7 +176,7 @@ ja:
       menu: 避を手伝う (YMCA)
       title: ご家族のウクライナからの日本避難にあたって支援提供 (YMCA)
     study_japanese:
-      menu: Допомога з вивчення японської мови
+      menu: Вивчення японської мови
       title: Ресурси з вивчення японської мови для українців
     translation_services:
       menu: Translation services
