@@ -29,6 +29,9 @@ uk:
       vaccination:
         menu: Вакцинація
         title: Вакцинація в Японії
+      free_tickets_tokyo:
+        menu: Безоплатні транспортні квитки в Токіо
+        title: Безоплатні транспортні квитки для евакуюованих в Токіо
 
 ################################################################################
 en:
@@ -61,6 +64,9 @@ en:
       vaccination:
         menu: Vaccination
         title: Vaccination in Japan
+      free_tickets_tokyo:
+        menu: Free transportation tickets in Tokyo
+        title: Free transportation tickets for Ukrainian evacuee in Tokyo
 ################################################################################
 ja:
   evacuee:
@@ -92,3 +98,6 @@ ja:
       vaccination:
         menu: Vaccination
         title: Vaccination in Japan
+      free_tickets_tokyo:
+        menu: Free transportation tickets in Tokyo
+        title: Free transportation tickets for Ukrainian evacuee in Tokyo
