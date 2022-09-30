@@ -56,6 +56,7 @@ uk:
       izumisano: Місто Ізумісано (префектура Осака)
       chiba: Місто Чіба
       funabashi: М. Фунабаші (Чіба)
+      support_r: Центр допомоги Support-R
     svij-do-svoho: Підтримка евакуйованих предметами побуту
 
   radio:
@@ -129,6 +130,7 @@ en:
       izumisano: City of Izumisano (Osaka Prefecture)
       chiba: Chiba city
       funabashi: Funabashi city (Chiba)
+      support_r: Support from Support-R
     svij-do-svoho: Help with everyday life and things
 
   radio:
@@ -200,6 +202,7 @@ ja:
       izumisano: City of Izumisano (Osaka Prefecture)
       chiba: Chiba city
       funabashi: Funabashi city (Chiba)
+      support_r: Support from Support-R
     svij-do-svoho: Help with everyday life and things
   radio:
     title: Українське радіо в Токіо
