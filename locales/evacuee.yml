@@ -37,6 +37,9 @@ uk:
     study_japanese:
       menu: Вивчення японської мови
       title: Ресурси з вивчення японської мови для українців
+      exams:
+        menu: Іспити з японської мови
+        title: Іспити на знання японської мови JLPT та JPT та навіщо вони потрібні.
     translation_services:
       menu: Послуги з перекладу
       title: Послуги з перекладу японської мови для українців
@@ -108,6 +111,9 @@ en:
     study_japanese:
       menu: Вивчення японської мови
       title: Ресурси з вивчення японської мови для українців
+      exams:
+        menu: Japanese language tests
+        title: Japanese language tests and why whould you need it
     translation_services:
       menu: Translation services
       title: Translation services for Ukrainians
@@ -180,6 +186,9 @@ ja:
     study_japanese:
       menu: Вивчення японської мови
       title: Ресурси з вивчення японської мови для українців
+      exams:
+        menu: Japanese language tests
+        title: Japanese language tests and why whould you need it
     translation_services:
       menu: Translation services
       title: Translation services for Ukrainians
