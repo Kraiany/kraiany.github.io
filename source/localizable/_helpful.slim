@@ -1,21 +1,19 @@
-
 h2 = t("evacuee.helpful_advises.title")
 p = t("evacuee.helpful_advises.lead")
 
-= link_to t("evacuee.helpful_advises.transportation.menu"), "transportation.html", class: "btn btn-success btn-wrap btn-margin"
-= link_to t("evacuee.helpful_advises.psychological_help.menu"), "psychological_help.html", class: "btn btn-success btn-wrap  btn-margin"
-= link_to t("evacuee.helpful_advises.mobile.menu"), "mobile.html", class: "btn btn-success btn-wrap  btn-margin"
-= link_to t("evacuee.helpful_advises.payphone.menu"), "payphone.html", class: "btn btn-success btn-wrap  btn-margin"
-= link_to t("evacuee.helpful_advises.summer_heat.menu"), "summer_heat.html", class: "btn btn-success btn-wrap  btn-margin"
 
-= link_to t("evacuee.helpful_advises.dozvillya.menu"), "dozvillya.html", class: "btn btn-success btn-wrap  btn-margin"
+- items = { "transportation" => t("evacuee.helpful_advises.transportation.menu"),
+   "psychological_help"      => t("evacuee.helpful_advises.psychological_help.menu"),
+   "mobile"                  => t("evacuee.helpful_advises.mobile.menu"),
+   "payphone"                => t("evacuee.helpful_advises.payphone.menu"),
+   "summer_heat"             => t("evacuee.helpful_advises.summer_heat.menu"),
+   "dozvillya"               => t("evacuee.helpful_advises.dozvillya.menu"),
+   "babysitting"             => t("evacuee.helpful_advises.babysitting.menu"),
+   "vaccination"             => t("evacuee.helpful_advises.vaccination.menu"),
+   "typhoons"                => "Тайфуни в Японії",
+   "uk-boooks"               => "Книжки українською мовою",
+   "tk_free_tickets"         => t("evacuee.helpful_advises.free_tickets_tokyo.menu"),
+  }
 
-= link_to t("evacuee.helpful_advises.babysitting.menu"), "babysitting.html", class: "btn btn-success btn-wrap  btn-margin"
-
-= link_to t("evacuee.helpful_advises.vaccination.menu"), "vaccination.html", class: "btn btn-success btn-wrap  btn-margin"
-
-= link_to "Тайфуни в Японії", "typhoons.html", class: "btn btn-success btn-wrap  btn-margin"
-
-= link_to "Книжки українською мовою", "uk-boooks.html", class: "btn btn-success btn-wrap  btn-margin"
-
-= link_to t("evacuee.helpful_advises.free_tickets_tokyo.menu"), "tk_free_tickets.html", class: "btn btn-success btn-wrap  btn-margin"
+- items.keys.sort.each do |file|
+  =<> link_to items[file], "helpful_advises/"+file+".html", class:  "btn btn-success btn-wrap btn-margin"
