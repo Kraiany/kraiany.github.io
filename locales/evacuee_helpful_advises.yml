@@ -36,6 +36,9 @@ uk:
         menu: Перукарська мережа Nexus
         title: Безкоштовні послуги перукарської мережі салонів NEXUS
         lead: (Тільки для евакуйованих)
+      metro_day_ticket:
+        menu: Дешеві денні квитки для метро Токіо
+        title: Проїзні квитки на всі 9 ліній Токійського метро по привабливій ціні!
 
 
 ################################################################################
@@ -76,6 +79,9 @@ en:
         menu: Barber shops Nexus
         title: Free services from barber shops chain NEXUS
         lead : (Only for evacuee)
+      metro_day_ticket:
+        menu: Day ticket in Tokyo metro
+        title: One day discount ticket in Tokyo metro
 ################################################################################
 ja:
   evacuee:
@@ -114,3 +120,6 @@ ja:
         menu: Barber shops Nexus
         title: Free services from barber shops chain NEXUS
         lead : (Only for evacuee)
+      metro_day_ticket:
+        menu: Day ticket in Tokyo metro
+        title: One day discount ticket in Tokyo metro
