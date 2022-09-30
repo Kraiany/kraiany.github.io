@@ -1,0 +1,18 @@
+# Розділ медицина
+uk:
+  evacuee:
+    medicine:
+      menu: Медицина
+      title: Медицина
+################################################################################
+en:
+  evacuee:
+    medicine:
+      menu: Medical
+      title: Medical
+################################################################################
+ja:
+  evacuee:
+    medicine:
+      menu: Medical
+      title: Medical

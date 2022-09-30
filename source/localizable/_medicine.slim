@@ -1,0 +1,13 @@
+h3 = t("evacuee.medicine.menu")
+
+
+- items = { "forms" => "Медичні форми",
+            'consultations' => "Медичні консультації",
+            "hospitals" => "Пошук лікарень",
+            "translations" => "Медичний переклад",
+            "for_mums" => "Для майбутніх мам",
+
+  }
+
+- items.keys.sort.each do |file|
+  =<> link_to items[file], "medical/"+file+".html", class:  "btn btn-success btn-wrap", style: "margin-bottom: 5px"
