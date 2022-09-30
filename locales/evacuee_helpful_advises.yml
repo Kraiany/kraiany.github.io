@@ -32,6 +32,11 @@ uk:
       free_tickets_tokyo:
         menu: Безоплатні транспортні квитки в Токіо
         title: Безоплатні транспортні квитки для евакуюованих в Токіо
+      barber_nexus:
+        menu: Перукарська мережа Nexus
+        title: Безкоштовні послуги перукарської мережі салонів NEXUS
+        lead: (Тільки для евакуйованих)
+
 
 ################################################################################
 en:
@@ -67,6 +72,10 @@ en:
       free_tickets_tokyo:
         menu: Free transportation tickets in Tokyo
         title: Free transportation tickets for Ukrainian evacuee in Tokyo
+      barber_nexus:
+        menu: Barber shops Nexus
+        title: Free services from barber shops chain NEXUS
+        lead : (Only for evacuee)
 ################################################################################
 ja:
   evacuee:
@@ -101,3 +110,7 @@ ja:
       free_tickets_tokyo:
         menu: Free transportation tickets in Tokyo
         title: Free transportation tickets for Ukrainian evacuee in Tokyo
+      barber_nexus:
+        menu: Barber shops Nexus
+        title: Free services from barber shops chain NEXUS
+        lead : (Only for evacuee)
