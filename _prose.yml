@@ -1,0 +1,14 @@
+prose:
+  rooturl: 'source/news'
+  siteurl: 'http://www.kraiany.org/'
+  media: 'source/assets/images/uploads'
+  ignore:
+    - article_template.tt
+    - .gitkeep
+  metadata:
+    source/news:
+      - name: "title"
+        field:
+          element: "text"
+          label: "title"
+          value: "2022-01-01-uk-news-article.html.md"
