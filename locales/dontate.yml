@@ -25,6 +25,7 @@ uk:
       once_5k: ¥5,000 одноразовий
       once_10k: ¥10,000 одноразовий
       once_30k: ¥30,000 одноразовий
+      once_50k: ¥50,000 одноразовий
       monthly_1k: ¥1,000 щомісячний
       monthly_3k: ¥3,000 щомісячний
       monthly_5k: ¥5,000 щомісячний
@@ -58,6 +59,7 @@ en:
       once_5k: ¥5,000 one-time
       once_10k: ¥10,000 one-time
       once_30k: ¥30,000 one-time
+      once_50k: ¥50,000 one-time
       monthly_1k: ¥1,000 monthly
       monthly_3k: ¥3,000 monthly
       monthly_5k: ¥5,000 monthly
@@ -92,6 +94,7 @@ ja:
       once_5k: ¥5,000
       once_10k: ¥10,000
       once_30k: ¥30,000
+      once_50k: ¥50,000
       monthly: 月々の支援
       monthly_1k: ¥1,000
       monthly_3k: ¥3,000
