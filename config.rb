@@ -149,6 +149,7 @@ redirect "news/index.html", to: "/#{default_language}/news.html"
 redirect "news.html", to: "/#{default_language}/news.html"
 redirect "parade/index.html", to: "/#{default_language}/parade.html"
 redirect "parade.html", to: "/#{default_language}/parade.html"
+redirect "donate/manage.html", to: "https://billing.stripe.com/p/login/6oE6pY89Sap04uc000"
 
 supported_languages.each do |lang|
   redirect "#{lang}/parade/index.html", to: "/#{lang}/parade.html"

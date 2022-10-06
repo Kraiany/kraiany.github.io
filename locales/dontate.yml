@@ -91,5 +91,5 @@ ja:
       monthly_1k: ¥1,000
       monthly_5k: ¥5,000
       monthly_10k: ¥10,000
-      monthly_cancel: ※月々の支援を選択された方はメールで発信された領収書からいつでも支援の停止をすることができます。
+      monthly_cancel: ※カード決済の支援を選択された方はメールで領収書が発信されます。決済情報の更新、支援の停止などは<a href="/donate/manage.html" rel="noindex nofollow">ポータル</a>からできます。
       donate: 寄付する
