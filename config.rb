@@ -40,9 +40,8 @@ helpers do
   end
 
   def current_with_locale(locale)
-    current_page
-      .url
-      .sub(%r{^/#{I18n.locale}/},"/#{locale}/")
+    localised_path = current_page.url.sub(%r{^/#{I18n.locale}/},"/#{locale}/")
+    sitemap.find_resource_by_destination_path(localised_path) ? localised_path : "/#{locale}/"
   end
 
   def translated_title
