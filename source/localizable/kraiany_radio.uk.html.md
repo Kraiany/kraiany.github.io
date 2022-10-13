@@ -1,5 +1,5 @@
 ---
-title: radio.title
+title: kraiany_radio
 ---
 
 Слава Україні!

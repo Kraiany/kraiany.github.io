@@ -1,5 +1,5 @@
 ---
-title: radio.title
+title: kraiany_radio
 ---
 
 日本で初めてのウクライナ語のニュース!
