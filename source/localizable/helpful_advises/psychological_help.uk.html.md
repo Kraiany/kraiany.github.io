@@ -29,7 +29,7 @@ title: evacuee.helpful_advises.psychological_help.title
 
 Номер телефону - `03-3813-9990`
 
-[Додаткова інформація (PDF)](http://www.jsccp.jp/userfiles/news/general/file/20220706154328_165708980880337.pdf)
+[Додаткова інформація (PDF)](https://www.jsccp.jp/userfiles/news/general/file/20220706154328_165708980880337.pdf)
 
 ---
 
