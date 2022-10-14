@@ -14,7 +14,23 @@ Do you like toys? How about presents? Have you heard of a legendary bearded gran
 
 You can not have Christmas without singing Carols, and you cannot have carols without singing Schedrik (aka ‘Carol of the Bells’). Though not strictly a Christmas Carol, this traditional composition was arranged by a Ukrainian musician, Mykola Leontovych over 100 years ago. Leontovych’s compositions have been played, reinterpreted, and adapted all around the world, including John Williams in Home Alone - a staple Christmas movie from 1990. This is a video of Schedrik, as sung by a famous Ukrainian Rock singer, Oleh Skrypka. Accompanying video is how a sacred swallow saves the dirty and corrupt world with its powers.
 
-<iframe width="1280" height="960" src="https://www.youtube.com/embed/dg1eMpFfexk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<style>
+  .youtube-container {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    height: 0;
+  }
+  .youtube-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+</style>
+<div class="youtube-container">
+  <iframe width="1280" height="960" src="https://www.youtube.com/embed/dg1eMpFfexk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 # Christmas Tree
 
