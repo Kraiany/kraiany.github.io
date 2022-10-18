@@ -115,7 +115,7 @@ GEM
     net-sftp (2.1.2)
       net-ssh (>= 2.6.5)
     net-ssh (5.2.0)
-    nokogiri (1.13.8)
+    nokogiri (1.13.9)
       mini_portile2 (~> 2.8.0)
       racc (~> 1.4)
     oj (3.13.21)
@@ -182,7 +182,7 @@ DEPENDENCIES
   middleman-search_engine_sitemap
   middleman-sitemap!
   middleman-sprockets (~> 4.0)
-  nokogiri (= 1.13.8)
+  nokogiri (= 1.13.9)
   oj
   rmagick (~> 5.0)
   sass
