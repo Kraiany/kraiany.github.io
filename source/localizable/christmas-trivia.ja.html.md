@@ -14,4 +14,20 @@ title: "christmas-trivia.title"
 
 クリスマスキャロルなしではクリスマスになりません。クリスマスキャロルの代表作と言えば「キャロル・オブ・ザ・ベル」です（ウクライナでは「シェドリク」で知られてます）。厳密にクリスマスに限った歌ではありませんが、この伝統的な歌は昔から伝わるメロディーをウクライナの作曲家、ミコラ・レオントヴィチ氏によって１００年以上も前に編曲されました。この曲は数々のテレビ番組や映画などでも使われています。クリスマスの定番映画であり、ジョン・ウィリアムが映画音楽を手掛けた「ホーム・アローン」にも使われています。こちらは2011年にウクライナのロック著名人のオレフ・スクリプカが歌う「シェドリク」です。汚い世界を聖なツバメがきれいにするかわいいアニメーションです。
 
-<iframe width="1280" height="960" src="https://www.youtube.com/embed/dg1eMpFfexk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<style>
+  .youtube-container {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    height: 0;
+  }
+  .youtube-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+</style>
+<div class="youtube-container">
+  <iframe width="1280" height="960" src="https://www.youtube.com/embed/dg1eMpFfexk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
