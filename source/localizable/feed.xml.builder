@@ -1,5 +1,5 @@
 xml.instruct!
-  xml.feed "xmlns" => "http://www.w3.org/2005/Atom" do
+  xml.feed "xmlns" => "https://www.w3.org/2005/Atom" do
   xml.title t("news.title")
   xml.subtitle [t("news.sub_title"), t("kraiany.about")].join(". ")
   xml.id [config[:host], lang, "news.html"].join(?/)

@@ -8,7 +8,7 @@ uk:
       text: "Ви можете залишити коментар <a href='https://forms.gle/Kx3f7kRundfJVUUQ6' target='_blank'> тут</a> заповнивши форму."
     reporting:
       title: "Звітність"
-      text: "Google Spreadsheet за цим <a href='https://docs.google.com/spreadsheets/d/1hg1RaGq74qmvQHc8Aj0dR-MrVAxL_5IpHCNhFQfBlzQ/edit#gid=0' target='_blank'> посиланням</a> містить оперативну інформацію про зібрані кошти та перерахування коштів в Україну."
+      text: "Google Spreadsheet за цим <a href='https://docs.google.com/spreadsheets/d/10DCYQGJ6pjHktbK3bHsT_5Wjy0dvPuKdlqWCi_HSip4/edit?usp=sharing' target='_blank'> посиланням</a> містить оперативну інформацію про зібрані кошти та перерахування коштів в Україну."
     lead: "НПО Краяни оголосили збір коштів на гуманітарну допомогу для України. Кошти можна сплатити кредитною карткою або перераховувати на нижчевказаний банківський рахунок."
     bank:
       title: "Банківський Рахунок"
@@ -24,7 +24,10 @@ uk:
       japan_humanitarian: Допомога біженцям у Японії
       once_5k: ¥5,000 одноразовий
       once_10k: ¥10,000 одноразовий
+      once_30k: ¥30,000 одноразовий
+      once_50k: ¥50,000 одноразовий
       monthly_1k: ¥1,000 щомісячний
+      monthly_3k: ¥3,000 щомісячний
       monthly_5k: ¥5,000 щомісячний
       monthly_10k: ¥10,000 щомісячний
       donate: Зробити внесок
@@ -39,7 +42,7 @@ en:
       text: "If you've donated and would like to leave a message, please fill out <a href='https://forms.gle/Kx3f7kRundfJVUUQ6' target='_blank'>this form</a>."
     reporting:
       title: "Reporting"
-      text: "Google Spreadsheet accessible by <a href='https://docs.google.com/spreadsheets/d/1hg1RaGq74qmvQHc8Aj0dR-MrVAxL_5IpHCNhFQfBlzQ/edit#gid=0' target='_blank'>this link</a> contains up-to-date information about received donations and about transferred funds to Ukrainian needs."
+      text: "Google Spreadsheet accessible by <a href='https://docs.google.com/spreadsheets/d/10DCYQGJ6pjHktbK3bHsT_5Wjy0dvPuKdlqWCi_HSip4/edit?usp=sharing' target='_blank'>this link</a> contains up-to-date information about received donations and about transferred funds to Ukrainian needs."
     lead: "NPO Kraiany has opened an account for collecting funds for humanitarian aid in Ukraine. You can transfer donations to the account number below:"
     bank:
       title: "Bank Transfer Information"
@@ -55,7 +58,10 @@ en:
       japan_humanitarian: Help Ukrainians in Japan
       once_5k: ¥5,000 one-time
       once_10k: ¥10,000 one-time
+      once_30k: ¥30,000 one-time
+      once_50k: ¥50,000 one-time
       monthly_1k: ¥1,000 monthly
+      monthly_3k: ¥3,000 monthly
       monthly_5k: ¥5,000 monthly
       monthly_10k: ¥10,000 monthly
       donate: Donate
@@ -71,7 +77,7 @@ ja:
       text: "募金をされた方で、メッセージを残したい方は<a href='https://forms.gle/Kx3f7kRundfJVUUQ6' target='_blank'>こちらから投稿してください</a>。"
     reporting:
       title: "寄付金の報告書"
-      text: "集まった募金の合計と使用用途などは<a href='https://docs.google.com/spreadsheets/d/1hg1RaGq74qmvQHc8Aj0dR-MrVAxL_5IpHCNhFQfBlzQ/edit#gid=0' target='_blank'>こちらで公開しています</a>。"
+      text: "集まった募金の合計と使用用途などは<a href='https://docs.google.com/spreadsheets/d/10DCYQGJ6pjHktbK3bHsT_5Wjy0dvPuKdlqWCi_HSip4/edit?usp=sharing' target='_blank'>こちらで公開しています</a>。"
     bank:
       title: "振り込み銀行口座"
       name: "金融機関名"
@@ -87,9 +93,12 @@ ja:
       once: １回の支援
       once_5k: ¥5,000
       once_10k: ¥10,000
+      once_30k: ¥30,000
+      once_50k: ¥50,000
       monthly: 月々の支援
       monthly_1k: ¥1,000
+      monthly_3k: ¥3,000
       monthly_5k: ¥5,000
       monthly_10k: ¥10,000
-      monthly_cancel: ※月々の支援を選択された方はメールで発信された領収書からいつでも支援の停止をすることができます。
+      monthly_cancel: ※カード決済の支援を選択された方はメールで領収書が発信されます。決済情報の更新、支援の停止などは<a href="/donate/manage.html" rel="noindex nofollow">ポータル</a>からできます。
       donate: 寄付する

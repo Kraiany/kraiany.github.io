@@ -62,9 +62,6 @@ uk:
       support_r: Центр допомоги Support-R
     svij-do-svoho: Підтримка евакуйованих предметами побуту
 
-  radio:
-    title: Українське радіо в Токіо
-
 ################################################################################
 en:
   evacuee:
@@ -138,9 +135,6 @@ en:
       funabashi: Funabashi city (Chiba)
       support_r: Support from Support-R
     svij-do-svoho: Help with everyday life and things
-
-  radio:
-    title: Українське радіо в Токіо
 ################################################################################
 ja:
   evacuee:
@@ -213,5 +207,3 @@ ja:
       funabashi: Funabashi city (Chiba)
       support_r: Support from Support-R
     svij-do-svoho: Help with everyday life and things
-  radio:
-    title: Українське радіо в Токіо
