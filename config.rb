@@ -144,11 +144,11 @@ end
 redirect "index.html", to: "/#{default_language}/index.html"
 redirect "donate.html", to: "/#{default_language}/donate.html"
 redirect "donate/index.html", to: "/#{default_language}/donate.html"
-redirect "news/index.html", to: "/#{default_language}/news.html"
-redirect "news.html", to: "/#{default_language}/news.html"
-redirect "parade/index.html", to: "/#{default_language}/parade.html"
-redirect "parade.html", to: "/#{default_language}/parade.html"
 redirect "donate/manage.html", to: "https://billing.stripe.com/p/login/6oE6pY89Sap04uc000"
+redirect "news.html", to: "/#{default_language}/news.html"
+redirect "news/index.html", to: "/#{default_language}/news.html"
+redirect "parade.html", to: "/#{default_language}/parade.html"
+redirect "parade/index.html", to: "/#{default_language}/parade.html"
 
 # QR code landing pages printed on the flyers/banners
 redirect "landing/1.html", to: "/#{default_language}/about.html"
