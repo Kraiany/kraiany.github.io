@@ -150,6 +150,11 @@ redirect "parade/index.html", to: "/#{default_language}/parade.html"
 redirect "parade.html", to: "/#{default_language}/parade.html"
 redirect "donate/manage.html", to: "https://billing.stripe.com/p/login/6oE6pY89Sap04uc000"
 
+# QR code landing pages printed on the flyers/banners
+redirect "landing/1.html", to: "/#{default_language}/about.html"
+redirect "landing/2.html", to: "/#{default_language}/about.html"
+redirect "landing/3.html", to: "/#{default_language}/about.html"
+
 supported_languages.each do |lang|
   redirect "#{lang}/parade/index.html", to: "/#{lang}/parade.html"
   redirect "#{lang}/news/index.html", to: "/#{lang}/news.html"
