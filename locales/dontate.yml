@@ -75,9 +75,6 @@ ja:
     message:
       title: "メッセージ"
       text: "募金をされた方で、メッセージを残したい方は<a href='https://forms.gle/Kx3f7kRundfJVUUQ6' target='_blank'>こちらから投稿してください</a>。"
-    reporting:
-      title: "寄付金の報告書"
-      text: "集まった募金の合計と使用用途などは<a href='https://docs.google.com/spreadsheets/d/10DCYQGJ6pjHktbK3bHsT_5Wjy0dvPuKdlqWCi_HSip4/edit?usp=sharing' target='_blank'>こちらで公開しています</a>。"
     bank:
       title: "振り込み銀行口座"
       name: "金融機関名"
