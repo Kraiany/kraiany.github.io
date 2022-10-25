@@ -8,7 +8,7 @@ uk:
       text: "Ви можете залишити коментар <a href='https://forms.gle/Kx3f7kRundfJVUUQ6' target='_blank'> тут</a> заповнивши форму."
     reporting:
       title: "Звітність"
-      text: "Google Spreadsheet за цим <a href='https://docs.google.com/spreadsheets/d/10DCYQGJ6pjHktbK3bHsT_5Wjy0dvPuKdlqWCi_HSip4/edit?usp=sharing' target='_blank'> посиланням</a> містить оперативну інформацію про зібрані кошти та перерахування коштів в Україну."
+      text: "Google Spreadsheet за цим <a href='/donate/report-sheet.html' target='_blank'> посиланням</a> містить оперативну інформацію про зібрані кошти та перерахування коштів в Україну."
     lead: "НПО Краяни оголосили збір коштів на гуманітарну допомогу для України. Кошти можна сплатити кредитною карткою або перераховувати на нижчевказаний банківський рахунок."
     bank:
       title: "Банківський Рахунок"
@@ -42,7 +42,7 @@ en:
       text: "If you've donated and would like to leave a message, please fill out <a href='https://forms.gle/Kx3f7kRundfJVUUQ6' target='_blank'>this form</a>."
     reporting:
       title: "Reporting"
-      text: "Google Spreadsheet accessible by <a href='https://docs.google.com/spreadsheets/d/10DCYQGJ6pjHktbK3bHsT_5Wjy0dvPuKdlqWCi_HSip4/edit?usp=sharing' target='_blank'>this link</a> contains up-to-date information about received donations and about transferred funds to Ukrainian needs."
+      text: "Google Spreadsheet accessible by <a href='/donate/report-sheet.html' target='_blank'>this link</a> contains up-to-date information about received donations and about transferred funds to Ukrainian needs."
     lead: "NPO Kraiany has opened an account for collecting funds for humanitarian aid in Ukraine. You can transfer donations to the account number below:"
     bank:
       title: "Bank Transfer Information"
