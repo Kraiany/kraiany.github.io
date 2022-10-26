@@ -99,3 +99,6 @@ ja:
       monthly_10k: ¥10,000
       monthly_cancel: ※カード決済の支援を選択された方はメールで領収書が発信されます。決済情報の更新、支援の停止などは<a href="/donate/manage.html" rel="noindex nofollow">ポータル</a>からできます。
       donate: 寄付する
+    swift:
+      title: "SWIFT国際送金による銀行振込"
+      description: 海外からの送金で寄付を希望される方は、国際送金プラットフォーム「SWIFT」をご利用ください。
