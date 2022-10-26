@@ -31,6 +31,9 @@ uk:
       monthly_5k: ¥5,000 щомісячний
       monthly_10k: ¥10,000 щомісячний
       donate: Зробити внесок
+    swift:
+      title: "Міжнародний переказ через SWIFT"
+      description: Якщо ви бажаєте здійснити банківський переказ з-за меж Японії, ми приймаємо перекази SWIFT.
 # ----------------------------------------
 en:
   donate:
@@ -65,6 +68,10 @@ en:
       monthly_5k: ¥5,000 monthly
       monthly_10k: ¥10,000 monthly
       donate: Donate
+    swift:
+      title: "International transfer via SWIFT"
+      description: If you would like to make a bank transfer from outside of Japan, we are accepting SWIFT transfers.
+
 # ----------------------------------------
 ja:
   donate:
