@@ -23,7 +23,7 @@ data:
   # `i18n-tasks normalize -p` will force move the keys according to these rules
   write:
     ## For example, write devise and simple form keys to their respective files:
-    - ['{about, donate, kraiany}.*', 'locales/\1/%{locale}.yml']
+    - ['{about, donate, kraiany, parade}.*', 'locales/\1/%{locale}.yml']
     ## Catch-all default:
     - locales/%{locale}.yml
 

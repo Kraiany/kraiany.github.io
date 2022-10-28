@@ -1,0 +1,53 @@
+---
+en:
+  parade:
+    about: About Ukrainian parade in Tokyo
+    datetime: May 19, 2019 13:30
+    datetime_l: Time
+    description: Vyshyvanka (traditional Ukrainian embroidered shirts) parades are held across the world on the 3rd week of May. Tokyo parades are held since 2013.
+    facebook: See Facebook event
+    fee: Fee： Free
+    intro:
+      date_place: May 19, 2019 / Tokyo, Ginza
+      everybody_welcome: Everybody welcome.
+    menu:
+      about: About
+      location: Location
+      photos: Previous events
+      schedule: Schedule
+    organizers: Organizers
+    parade: Parade
+    partners: Support
+    place: Tokyo, Chuo-ku, Nihonbashi Hongokuchō 4-4-3 Park Tokiwa
+    place_l: Place
+    route: Tokiwa parkーGinza stationーHibiya park (See on the map)
+    section:
+      about:
+        meeting_place: Meeting Place
+        meeting_time: Meeting time
+        p1: 'Annual Tokyo Ukraine Parade will meet again in the heart of the capital of Japan, Ginza. First held in 2013, the Tokyo Ukraine Parade is informally connected to a series of worldwide “Vyshyvanka” (traditional Ukrainian embroidery) cultural parades held in cities in Ukraine and throughout the world. Although intended as a celebration of Ukraine’s traditional culture, it also has a deeper meaning for many participants due to the ongoing violence and occupation in parts of Ukraine. Everyone is welcome to participate!
+
+          '
+        p2: You can participate even without vyshyvanka, of course, in that case please try to wear something in yellow or blue color of the Ukrainian flag!
+        p3: 'This is strictly a cultural event. Any political symbols, shouts, etc. are prohibited.
+
+          '
+        parade_route: Parade route
+      location:
+        from_ginza1chome: 'Tokyo metro, Yurakucho line: Ginza-itchome st., Exit 10, 5 min. walk'
+        from_takarocho: 'Toei subway, Asakusa line: Takaracho st., Exit A3, 5 min. walk'
+        from_yourakucho: 'JR Keihin-Tohoku and Yamanote lines: Yurakucho st., Central Exit, 10 min. walk'
+        no_parking: There is no private parking lot in the park, so please refrain from visiting by car.
+        transportation: Transportation
+      photos:
+        no4: Fourth Annual Parade (2016)
+        no5: Fifth Annual Parade (2017)
+        no6: Sixth Annual Parade (2018)
+        previous: Previous parades
+      schedule:
+        marche: Parade
+        parade_route: Leave Tokiwa park, walk via Ginza to Hibia park.
+        picnic: Picnic and communication
+        preparation: Meeting and preparation
+        title: Schedule
+    title: Ukrainian Parade in Tokyo 2019
