@@ -1,0 +1,64 @@
+---
+ja:
+  evacuee:
+    documents:
+      anketa: 避難民への援助に関する質問
+      id_displaced_person: ID of displaced person
+      insurance: 医療保険
+      title: Візові питання, документи та посвідчення
+      visa: Visa for Ukrainians seeking shelter in Japan
+    help:
+      lead: This page contains references to various resources and helpful advises that could help evacuated to Japan Ukrainians to live through difficul times. The page is updated regularly, so, please do not hesitate to re-visit this page later.
+      title: 避難者の支援
+    pets:
+      menu: Help for evacuees with pets (Ukrainian)
+      title: If you need help with your home pets (Ukrainian)
+    regions:
+      aichi: Help in Aichi prefecture (Ukrainian)
+      alljapan: Help all over Japan
+      chiba: Chiba city
+      funabashi: Funabashi city (Chiba)
+      izumisano: City of Izumisano (Osaka Prefecture)
+      lead: Links below contain information about help provided to Ukrainian evacuees by local governments -- municipal or prefectural authorities. Informmation is given only in Ukrainian language.
+      menu: Help from regional governments
+      osaka: Help from Osaka (Ukrainian)
+      saitama: Help in Saitama prefecture (Ukrainian)
+      support_r: Support from Support-R
+      title: Help from regional governments
+      tokyo: Help from Tokyo  (Ukrainian)
+      yokohama: Help from Yokohama (Ukrainian)
+    study_in_japan:
+      avia_academy:
+        menu: Japan Aviation Academy
+        title: Japan Aviation Academy (JAA)
+      circles:
+        menu: School circles rating
+        title: Rating of school circles and study groups
+      dzherelce: Sunday school Dzherelce in Tokyo
+      general:
+        menu: About studying in Japan
+        title: Resources for studying in Japan for Ukrainians
+      lead: Information about study in Japan and study programs available for Ukrainians in Japan.
+      pathways:
+        menu: 避難者の支援
+        title: 避難者の支援
+      students:
+        menu: Support for Ukrinian students
+        title: Support for Ukrinian students, options for studying of  Ukranian graduates.
+      temple:
+        menu: Temple University
+        title: Studyuing in Americal Temple University in Japan
+      title: Study in Japan
+    study_japanese:
+      exams:
+        menu: Japanese language tests
+        title: Japanese language tests and why whould you need it
+      menu: Вивчення японської мови
+      title: Ресурси з вивчення японської мови для українців
+    svij-do-svoho: Help with everyday life and things
+    translation_services:
+      menu: Translation services
+      title: Translation services for Ukrainians
+    ymca:
+      menu: 避を手伝う (YMCA)
+      title: ご家族のウクライナからの日本避難にあたって支援提供 (YMCA)
