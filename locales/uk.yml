@@ -15,7 +15,8 @@ uk:
   festival:
     description: Фестиваль "День України" проводиться в жовтні-листопаді починаючи з 2014 року.
     festival: Фестиваль
-  kraiany_radio: Радіо українською
+  kraiany_radio:
+    title: Радіо українською
   news:
     news: Новини
     sub_title: Новини та прес-релізи

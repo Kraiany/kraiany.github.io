@@ -1,5 +1,5 @@
 ---
-title: kraiany_radio
+title: kraiany_radio.title
 ---
 
 Glory to Ukraine!

@@ -17,7 +17,8 @@ ja:
   festival:
     description: description TBD
     festival: フェスティバル
-  kraiany_radio: ウクライナ語でのラジオ
+  kraiany_radio:
+    title: ウクライナ語でのラジオ
   news:
     news: お知らせ
     sub_title: ニュースとプレスリリース

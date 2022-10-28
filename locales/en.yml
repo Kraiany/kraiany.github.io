@@ -17,7 +17,8 @@ en:
   festival:
     description: Ukrainian festival in Japan
     festival: Festival
-  kraiany_radio: Radio in Ukrainian
+  kraiany_radio:
+    title: Radio in Ukrainian
   news:
     news: News
     sub_title: News and Press Releases
