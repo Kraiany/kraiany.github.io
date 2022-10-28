@@ -1,7 +1,6 @@
 ---
 en:
   aid: Donations
-  back: Back
   bylaw:
     menu: Bylaw
     register: Registration
@@ -10,43 +9,21 @@ en:
   christmas-trivia:
     title: Ukrainian Christmas Trivia
   church: Ukrainian Orthodox Church - Kyiv Patriarchate
-  cta:
-    go_to: Show me more
   dzherelze: Sunday School Dzherelze
   email: Email
   embassy: Embassy of Ukraine in Japan
   events:
-    read_more: Read more
-    register: Registration
-    see_all: Other events
     title: Events
-    when: Date
-    where: Address
   festival:
     description: Ukrainian festival in Japan
     festival: Festival
-  footer:
-    blog: Blog posts
-    contacts: Contact us
-    email: Email
-    fax: FAX
-    latest_work: Our latest work
-    navigate: Navigate
-    phone: Phone
-    stay_connected: Stay connected
   kraiany_radio: Radio in Ukrainian
   news:
     news: News
     sub_title: News and Press Releases
     title: News - Kraiany
-    ukrainer: Ukrainer
-    ukrainer-url: https://twitter.com/ukrainer
-    ukrinform: Ukrinform
-    ukrinform-url: https://twitter.com/ukrinform_news
-    ukrinjpn-url: https://twitter.com/UKRinJPN
   page:
     title: Kraiany
-  read_more: Read more
   receive_information: Receive information about future events
   subscribe: Subscribe
   ukraine-info: About Ukraine in Japanese

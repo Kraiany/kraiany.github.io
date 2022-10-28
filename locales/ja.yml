@@ -1,7 +1,6 @@
 ---
 ja:
   aid: 寄付
-  back: 戻る
   bylaw:
     menu: 定款
     register: 会員登録
@@ -10,44 +9,21 @@ ja:
   christmas-trivia:
     title: ウクライナのクリスマス まとめ
   church: キリスト教ウクライナ正教会
-  cta:
-    go_to: 見せて！
   dzherelze: 日曜学校のジェレルツェ
   email: メールアドレス
   embassy: 在日ウクライナ大使館
   events:
-    price: 金額
-    read_more: 続き
-    register: 登録
-    see_all: その他のイベント
     title: イベント
-    when: 時間
-    where: 場所
   festival:
     description: description TBD
     festival: フェスティバル
-  footer:
-    blog: ブログ
-    contacts: コンタクト
-    email: E-mail
-    fax: ファックス
-    latest_work: 私たちの最新作
-    navigate: ナビゲーション
-    phone: 電話番号
-    stay_connected: 接続
   kraiany_radio: ウクライナ語でのラジオ
   news:
     news: お知らせ
     sub_title: ニュースとプレスリリース
     title: お知らせ - クラヤネ (Kraiany)
-    ukrainer: Ukrainer
-    ukrainer-url: https://twitter.com/ukrainer_ja
-    ukrinform: Ukrinform
-    ukrinform-url: https://twitter.com/Ukrinform_JP
-    ukrinjpn-url: https://twitter.com/UKRinJPN
   page:
     title: クラヤネ (Kraiany)
-  read_more: 続きを読む
   receive_information: 今後のイベントの情報を受け取る
   subscribe: 登録する
   ukraine-info: ウクライナについて

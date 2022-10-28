@@ -34,9 +34,6 @@ en:
           '
         parade_route: Parade route
       location:
-        from_ginza1chome: 'Tokyo metro, Yurakucho line: Ginza-itchome st., Exit 10, 5 min. walk'
-        from_takarocho: 'Toei subway, Asakusa line: Takaracho st., Exit A3, 5 min. walk'
-        from_yourakucho: 'JR Keihin-Tohoku and Yamanote lines: Yurakucho st., Central Exit, 10 min. walk'
         no_parking: There is no private parking lot in the park, so please refrain from visiting by car.
         transportation: Transportation
       photos:
