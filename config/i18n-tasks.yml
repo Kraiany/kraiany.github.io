@@ -16,13 +16,14 @@ data:
     ## Default:
     - locales/%{locale}.yml
     ## More files:
+    - locales/**/*.yml
     - locales/*.yml
 
   # Locale files to write new keys to, based on a list of key pattern => file rules. Matched from top to bottom:
   # `i18n-tasks normalize -p` will force move the keys according to these rules
   write:
     ## For example, write devise and simple form keys to their respective files:
-    - ['{about, kraiany, news, page, parade, seminars}.*', 'locales/\1.%{locale}.yml']
+    - ['{about}.*', 'locales/\1/%{locale}.yml']
     ## Catch-all default:
     - locales/%{locale}.yml
 
