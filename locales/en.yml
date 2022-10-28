@@ -1,44 +1,52 @@
 ---
 en:
-  email: Email
-  subscribe: Subscribe
-  receive_information: Receive information about future events
-  festival:
-    festival: Festival
-    description: Ukrainian festival in Japan
-  # Navigation
-  # --------------------------------------------
-  back: Back
-  read_more: Read more
-  events:
-    title: Events
-    see_all: Other events
-    where: Address
-    when: Date
-    read_more: Read more
-    register: Registration
-  footer:
-    contacts: Contact us
-    email: Email
-    phone: Phone
-    fax: FAX
-    stay_connected: Stay connected
-    latest_work: Our latest work
-    navigate: Navigate
-    blog: Blog posts
-  cta:
-    go_to: Show me more
-  embassy: Embassy of Ukraine in Japan
-  church: Ukrainian Orthodox Church - Kyiv Patriarchate
-  dzherelze: Sunday School Dzherelze
-  ukraine-info: About Ukraine in Japanese
   aid: Donations
-  kraiany_radio: Radio in Ukrainian
-  news:
-    ukrinform: Ukrinform
-    ukrainer: Ukrainer
-    ukrinform-url: https://twitter.com/ukrinform_news
-    ukrainer-url: https://twitter.com/ukrainer
-    ukrinjpn-url: https://twitter.com/UKRinJPN
+  back: Back
+  bylaw:
+    menu: Bylaw
+    register: Registration
+    register_url: https://forms.gle/MLdonyMXWLKxkJL89
+    title: NPO Kraiany Bylaw
   christmas-trivia:
     title: Ukrainian Christmas Trivia
+  church: Ukrainian Orthodox Church - Kyiv Patriarchate
+  cta:
+    go_to: Show me more
+  dzherelze: Sunday School Dzherelze
+  email: Email
+  embassy: Embassy of Ukraine in Japan
+  events:
+    read_more: Read more
+    register: Registration
+    see_all: Other events
+    title: Events
+    when: Date
+    where: Address
+  festival:
+    description: Ukrainian festival in Japan
+    festival: Festival
+  footer:
+    blog: Blog posts
+    contacts: Contact us
+    email: Email
+    fax: FAX
+    latest_work: Our latest work
+    navigate: Navigate
+    phone: Phone
+    stay_connected: Stay connected
+  kraiany_radio: Radio in Ukrainian
+  news:
+    news: News
+    sub_title: News and Press Releases
+    title: News - Kraiany
+    ukrainer: Ukrainer
+    ukrainer-url: https://twitter.com/ukrainer
+    ukrinform: Ukrinform
+    ukrinform-url: https://twitter.com/ukrinform_news
+    ukrinjpn-url: https://twitter.com/UKRinJPN
+  page:
+    title: Kraiany
+  read_more: Read more
+  receive_information: Receive information about future events
+  subscribe: Subscribe
+  ukraine-info: About Ukraine in Japanese
