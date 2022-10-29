@@ -46,11 +46,10 @@ helpers do
 
   def translated_title
     if current_page.data.title.present?
-      temp_title = t current_page.data.title
-      title = if temp_title.start_with?("translation missing:")
-        current_page.data.title
+      title = if !current_page.data.title.match?(/[^A-Za-z0-9_\.]+/) && current_page.data.title.include?(".")
+        t current_page.data.title
       else
-        temp_title
+        current_page.data.title
       end
       is_blog_article? ? [title, t("news.title")].join(" - ") : title
     else

@@ -1,44 +1,30 @@
 ---
 en:
-  email: Email
-  subscribe: Subscribe
-  receive_information: Receive information about future events
-  festival:
-    festival: Festival
-    description: Ukrainian festival in Japan
-  # Navigation
-  # --------------------------------------------
-  back: Back
-  read_more: Read more
-  events:
-    title: Events
-    see_all: Other events
-    where: Address
-    when: Date
-    read_more: Read more
-    register: Registration
-  footer:
-    contacts: Contact us
-    email: Email
-    phone: Phone
-    fax: FAX
-    stay_connected: Stay connected
-    latest_work: Our latest work
-    navigate: Navigate
-    blog: Blog posts
-  cta:
-    go_to: Show me more
-  embassy: Embassy of Ukraine in Japan
-  church: Ukrainian Orthodox Church - Kyiv Patriarchate
-  dzherelze: Sunday School Dzherelze
-  ukraine-info: About Ukraine in Japanese
   aid: Donations
-  kraiany_radio: Radio in Ukrainian
-  news:
-    ukrinform: Ukrinform
-    ukrainer: Ukrainer
-    ukrinform-url: https://twitter.com/ukrinform_news
-    ukrainer-url: https://twitter.com/ukrainer
-    ukrinjpn-url: https://twitter.com/UKRinJPN
+  bylaw:
+    menu: Bylaw
+    register: Registration
+    register_url: https://forms.gle/MLdonyMXWLKxkJL89
+    title: NPO Kraiany Bylaw
   christmas-trivia:
     title: Ukrainian Christmas Trivia
+  church: Ukrainian Orthodox Church - Kyiv Patriarchate
+  dzherelze: Sunday School Dzherelze
+  email: Email
+  embassy: Embassy of Ukraine in Japan
+  events:
+    title: Events
+  festival:
+    description: Ukrainian festival in Japan
+    festival: Festival
+  kraiany_radio:
+    title: Radio in Ukrainian
+  news:
+    news: News
+    sub_title: News and Press Releases
+    title: News - Kraiany
+  page:
+    title: Kraiany
+  receive_information: Receive information about future events
+  subscribe: Subscribe
+  ukraine-info: About Ukraine in Japanese

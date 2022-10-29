@@ -1,0 +1,33 @@
+---
+en:
+  donate:
+    bank:
+      account_number: Account number
+      account_type: Account type
+      branch: Branch
+      name: Name
+      title: Bank Transfer Information
+    cc:
+      donate: Donate
+      general: General Help
+      monthly_10k: "¥10,000 monthly"
+      monthly_1k: "¥1,000 monthly"
+      monthly_3k: "¥3,000 monthly"
+      monthly_5k: "¥5,000 monthly"
+      once_10k: "¥10,000 one-time"
+      once_30k: "¥30,000 one-time"
+      once_50k: "¥50,000 one-time"
+      once_5k: "¥5,000 one-time"
+      title: Donate with Credit Card
+    description: NPO Kraiany has opend an account for collecting donations for humanitarian aid in Ukraine
+    lead: 'NPO Kraiany has opened an account for collecting funds for humanitarian aid in Ukraine. You can transfer donations to the account number below:'
+    message:
+      text: If you've donated and would like to leave a message, please fill out <a href='https://forms.gle/Kx3f7kRundfJVUUQ6' target='_blank'>this form</a>.
+      title: Message
+    reporting:
+      text: Google Spreadsheet accessible by <a href='/donate/report-sheet.html' target='_blank'>this link</a> contains up-to-date information about received donations and about transferred funds to Ukrainian needs.
+      title: Reporting
+    swift:
+      description: If you would like to make a bank transfer from outside of Japan, we are accepting SWIFT transfers.
+      title: International transfer via SWIFT
+    title: How to help Ukraine

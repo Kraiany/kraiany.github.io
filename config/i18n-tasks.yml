@@ -1,0 +1,30 @@
+base_locale: ja
+locales: [en, uk]
+data:
+  read:
+    - locales/%{locale}.yml
+    - locales/**/*.yml
+    - locales/*.yml
+
+  write:
+    - ['{about, donate, evacuee, kraiany, parade}.*', 'locales/\1/%{locale}.yml']
+    - locales/%{locale}.yml
+
+  router: conservative_router
+
+  yaml:
+    write:
+      # do not wrap lines at 80 characters
+      line_width: -1
+search:
+  paths:
+   - source/
+  exclude:
+    - source/assets
+  <%# I18n::Tasks.add_ast_matcher('I18n::Tasks::Scanners::AstMatchers::RailsModelMatcher') %>
+ignore_missing:
+ - '*'
+ignore_unused:
+  - '*.title'
+  - '*.description'
+  - 'evacuee.regions.*'

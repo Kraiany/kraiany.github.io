@@ -1,43 +1,28 @@
 ---
 uk:
-  email: Email адреса
-  subscribe: Підписатися
-  receive_information: Інформація про наступні події
-  festival:
-    festival: Фестиваль
-    description:  Фестиваль "День України" проводиться в жовтні-листопаді починаючи з 2014 року.
-  # Navigation
-  # --------------------------------------------
-  back: Назад
-  read_more: Детальніше
-  events:
-    title: Події
-    see_all: Минулі події
-    where: За адресою
-    when: Час
-    price: Вартість
-    read_more: Детальніше
+  aid: Пожертви
+  bylaw:
+    menu: Статут
     register: Реєстрація
-  footer:
-    contacts: Наші контакти
-    email: Електронна пошта
-    phone: Телефон
-    fax: Факс
-    stay_connected: "До зв'язку"
-    latest_work: Наші останні роботи
-    navigate: Навігація
-    blog: Веб журнал
-  cta:
-    go_to: Хочу більше!
-  embassy: Посольство України в Японії
+    register_url: https://forms.gle/9JgmtvLwi682dimXA
+    title: Статут Асоціації японсько-української дружби “Краяни”
   church: Українська Православна Церква – Київського Патріархату
   dzherelze: Недільна Школа Джерельце
-  ukraine-info: Японською мовою про Україну
-  aid: Пожертви
-  kraiany_radio: Радіо українською
+  email: Email адреса
+  embassy: Посольство України в Японії
+  events:
+    title: Події
+  festival:
+    description: Фестиваль "День України" проводиться в жовтні-листопаді починаючи з 2014 року.
+    festival: Фестиваль
+  kraiany_radio:
+    title: Радіо українською
   news:
-    ukrinform: Укрінформ
-    ukrainer: Ukrainer
-    ukrinform-url: https://twitter.com/ukrinform
-    ukrainer-url: https://twitter.com/ukrainer
-    ukrinjpn-url: https://twitter.com/UKRinJPN
+    news: Новини
+    sub_title: Новини та прес-релізи
+    title: Новини - Краяни
+  page:
+    title: Краяни
+  receive_information: Інформація про наступні події
+  subscribe: Підписатися
+  ukraine-info: Японською мовою про Україну

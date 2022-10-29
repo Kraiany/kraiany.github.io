@@ -1,0 +1,33 @@
+---
+ja:
+  donate:
+    bank:
+      account_number: 口座番号
+      account_type: 預金種目
+      branch: 支店
+      name: 口座名義
+      title: 振り込み銀行口座
+    cc:
+      donate: 寄付する
+      general: 一般支援
+      monthly: 月々の支援
+      monthly_10k: "¥10,000"
+      monthly_1k: "¥1,000"
+      monthly_3k: "¥3,000"
+      monthly_5k: "¥5,000"
+      monthly_cancel: ※カード決済の支援を選択された方はメールで領収書が発信されます。決済情報の更新、支援の停止などは<a href="/donate/manage.html" rel="noindex nofollow">ポータル</a>からできます。
+      once: １回の支援
+      once_10k: "¥10,000"
+      once_30k: "¥30,000"
+      once_50k: "¥50,000"
+      once_5k: "¥5,000"
+      title: クレジット決済
+    description: NPO Kraianyは、ウクライナで人道援助のための資金を集めるための口座を開設しました。
+    lead: 'NPO Kraianyは、ウクライナで人道援助のための資金を集めるための口座を開設しました。 以下の口座番号に送金できます:'
+    message:
+      text: 募金をされた方で、メッセージを残したい方は<a href='https://forms.gle/Kx3f7kRundfJVUUQ6' target='_blank'>こちらから投稿してください</a>。
+      title: メッセージ
+    swift:
+      description: 海外からの送金で寄付を希望される方は、国際送金プラットフォーム「SWIFT」をご利用ください。
+      title: SWIFT国際送金による銀行振込
+    title: ウクライナ支援｜戦禍のウクライナに必要なものを現地のボランティアに届けています
