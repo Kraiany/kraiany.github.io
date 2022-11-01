@@ -13,10 +13,13 @@ en:
   email: Email
   embassy: Embassy of Ukraine in Japan
   events:
+    festival:
+      description: Showcase of Ukrainian culture in Tokyo packed into small bites and workshops.
+      title: Ukraine Day Festival
+    parade:
+      description: We gather in the heart of Tokyo every year to celebrate Ukrainian culture. Show your support by wearing Vyshvyvanka and Ukrainian colors, and join us for a casual walk in Ginza.
+      title: Vyshyvanka Day Parade in Tokyo
     title: Events
-  festival:
-    description: Ukrainian festival in Japan
-    festival: Festival
   kraiany_radio:
     title: Radio in Ukrainian
   news:

@@ -13,10 +13,13 @@ ja:
   email: メールアドレス
   embassy: 在日ウクライナ大使館
   events:
+    festival:
+      description: ワークショップを通してウクライナの文化や人を知り、他では味わえないウクライナ料理を堪能でき、ウクライナという国のことを知ることができます。
+      title: ウクライナDAYフェスティバル
+    parade:
+      description: 伝統的なウクライナの刺繍が施された民族衣装（ヴィシヴァンカ）を身にまとい、東京の銀座を遊歩。
+      title: 東京ウクライナ・パレード
     title: イベント
-  festival:
-    description: description TBD
-    festival: フェスティバル
   kraiany_radio:
     title: ウクライナ語でのラジオ
   news:
