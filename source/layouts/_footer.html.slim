@@ -3,29 +3,8 @@ footer.site-footer
   .container
     .row
       .col-md-12
-        p.site-info = t "kraiany.contact_us"
+        p.site-info
+          a href="/#{locale}/contact.html" = t "kraiany.contact_us"
 
-        ul.social-block
-          // Contact phone
-          li
-            a data-toggle="tooltip" title="Contact Phone: 03-4595-0157" href="tel:+81345950157"
-              i.ion-android-call
-          // Contact email
-          li
-            a href="mailto:contact@kraiany.org" target="_blank" data-toggle="tooltip" title="Email"
-              i.ion-email
-
-          // Twitter
-          li
-            a href="https://twitter.com/NPO_KRAIANY" target="_blank" data-toggle="tooltip" title="Twitter"
-              i.ion-social-twitter
-          // Facebook
-          li
-            a href="https://www.facebook.com/ukrainians.japan" target="_blank" data-toggle="tooltip" title="Facebook"
-              i.ion-social-facebook
-          // registration information
-          li
-            a href="https://www.seikatubunka.metro.tokyo.lg.jp/houjin/npo_houjin/list/ledger/0013702.html" target="_blank" data-toggle="tooltip" title="#{t("kraiany.registration_link")}"
-              i.ion-ios-paper
 // dont touch
 = javascript_include_tag "/assets/javascripts/site"
