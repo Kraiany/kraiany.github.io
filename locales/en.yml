@@ -9,7 +9,6 @@ en:
   christmas-trivia:
     title: Ukrainian Christmas Trivia
   church: Ukrainian Orthodox Church - Kyiv Patriarchate
-  dzherelze: Sunday School Dzherelze
   email: Email
   embassy: Embassy of Ukraine in Japan
   events:
@@ -29,5 +28,10 @@ en:
   page:
     title: Kraiany
   receive_information: Receive information about future events
+  school:
+    description: NPO KRAIANY opened Ukrainian Sunday School "Dzherelze" in 2009 for children in Tokyo area. Classes are held once every two weeks, and not only Ukrainian language studies, but also Ukrainian culture, various events (Mother's Day, Christmas, Easter, etc.), theater and dance, yoga, programming, and summer schools are held. The main purpose of the school is to teach and familiarize students with the rich history and culture of Ukraine so they  will be able to preserve Ukrainian traditions in the future.
+    link_title: Sunday School Dzherelze (in Ukrainian)
+    menu_title: Sunday School Dzherelze
+    title: About Sunday School Dzherelze
   subscribe: Subscribe
   ukraine-info: About Ukraine in Japanese
