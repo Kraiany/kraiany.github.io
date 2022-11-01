@@ -1,19 +1,15 @@
 .navbar-menu
   ul
-    li= link_to t("news.news"), "/#{locale}/news.html"
     li
       = link_to t("about.title_short"), "/#{locale}/about.html"
       ul
         li= link_to t("about.title"), "/#{locale}/about.html"
         li= link_to t("bylaw.menu"), "/#{locale}/bylaw.html"
         li= link_to t("bylaw.register"), t("bylaw.register_url"), target: :_blank
-    li= link_to t('dzherelze'), "https://dzherelce.github.io/"
+        li= link_to t("kraiany.contact_us"), "/#{locale}/contact.html"
+    li= link_to t("events.title"), "/#{locale}/events.html"
+    li= link_to t("school.menu_title"), "/#{locale}/school.html"
+    li= link_to t("aid"), "/#{locale}/donate.html"
+    li= link_to t("evacuee.help.title"), "/#{locale}/evacuee_menu.html"
     li= link_to t('ukraine-info'), "/ukraine-info"
-    li= link_to t("festival.festival"), "/festival"
-    li
-      = link_to t("parade.parade"), "/#{locale}/parade.html"
-      ul
-        li= link_to t("parade.menu.about"), "/#{locale}/parade.html#about"
-        li= link_to t("parade.menu.schedule"), "/#{locale}/parade.html#schedule"
-        li= link_to t("parade.menu.location"), "/#{locale}/parade.html#location"
-        li= link_to t("parade.menu.photos"), "/#{locale}/parade.html#photos"
+    li= link_to t("news.news"), "/#{locale}/news.html"

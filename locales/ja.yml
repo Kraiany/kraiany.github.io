@@ -9,14 +9,16 @@ ja:
   christmas-trivia:
     title: ウクライナのクリスマス まとめ
   church: キリスト教ウクライナ正教会
-  dzherelze: 日曜学校のジェレルツェ
   email: メールアドレス
   embassy: 在日ウクライナ大使館
   events:
+    festival:
+      description: ワークショップを通してウクライナの文化や人を知り、他では味わえないウクライナ料理を堪能でき、ウクライナという国のことを知ることができます。
+      title: ウクライナDAYフェスティバル
+    parade:
+      description: 伝統的なウクライナの刺繍が施された民族衣装（ヴィシヴァンカ）を身にまとい、東京の銀座を遊歩。
+      title: 東京ウクライナ・パレード
     title: イベント
-  festival:
-    description: description TBD
-    festival: フェスティバル
   kraiany_radio:
     title: ウクライナ語でのラジオ
   news:
@@ -26,5 +28,10 @@ ja:
   page:
     title: クラヤネ (Kraiany)
   receive_information: 今後のイベントの情報を受け取る
+  school:
+    description: 2009年に「日本ウクライナ友好協会 KRAIANY」は子どもたちの為に、ウクライナ日曜学校「ジェレリツェ」を開校しました。 授業は2週間に一度行われ、ウクライナ語の勉強だけでなく、ウクライナの文化、各種イベント（母の日、クリスマス、コロディアなど）、演劇やダンス、ヨガ、プログラミング、そしてサマースクール等も開催しています。学校の主な目的はウクライナの歴史ある豊かな文化を教え、親しんでもらうことで将来、ウクライナの伝統を守って行く事ができる事になることです。
+    link_title: ウクライナ日曜学校「ジェレリツェ」（ウクライナ語）
+    menu_title: 日本ウクライナ日曜学校
+    title: 日本ウクライナ日曜学校ジェレリツェについて
   subscribe: 登録する
   ukraine-info: ウクライナについて

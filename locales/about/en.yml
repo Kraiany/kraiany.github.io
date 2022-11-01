@@ -1,6 +1,12 @@
 ---
 en:
   about:
+    contact:
+      email_title: Email
+      facebook_title: Facebook
+      phone_title: Phone
+      title: Contact Us
+      twitter_title: Twitter
     description: Ukrainian community in Japan “Kraiany” was founded in 2000.
     title: About NPO Kraiany
     title_short: NPO Kraiany
