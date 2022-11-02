@@ -1,0 +1,15 @@
+---
+ja:
+  gallery:
+    description: 過去のイベントの写真集
+    images:
+      001_gunma:
+        description: 群馬での NPO Green Grows とのフェスティバル
+        title: 群馬でのフェスティバル
+      002_dukachi:
+        description: ウクライナを支援するジェレルツェとドゥカチの学生
+        title: ウクライナを支援するジェレルツェとドゥカチの学生
+      003_motanka:
+        description: 世田谷区にて、モタンカのお守り人形のワークショップ
+        title: 世田谷区にて、モタンカのお守り人形のワークショップ
+    title: ギャラリー

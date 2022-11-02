@@ -1,0 +1,15 @@
+---
+en:
+  gallery:
+    description: Photo collection from past events.
+    images:
+      001_gunma:
+        description: Fall Festival in collaboration with NPO Green Grows in Gunma.
+        title: Kraiany Fall Festival in Gunma 2022
+      002_dukachi:
+        description: Students from Dzherelze and Dukachi pefroming in support of Ukraine.
+        title: Students from Dzherelze and Dukachi pefroming in support of Ukraine
+      003_motanka:
+        description: Motanka workshop in Setagaya.
+        title: Motanka workshop in Setagaya
+    title: Photo Gallery

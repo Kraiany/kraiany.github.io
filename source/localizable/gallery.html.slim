@@ -1,0 +1,23 @@
+---
+title: "gallery.title"
+images:
+  - 003_motanka
+  - 002_dukachi
+  - 001_gunma
+---
+
+css:
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 1rem;
+    grid-auto-rows: minmax(100px, auto);
+  }
+
+p= t("gallery.description")
+div class="gallery"
+  - current_page.data.images.each do |image_key|
+    div
+      div class="thumbnail"
+        = image_tag "/assets/images/gallery/#{image_key}.jpg", alt: t("gallery.images.#{image_key}.title")
+        div class="caption"= t("gallery.images.#{image_key}.description")
