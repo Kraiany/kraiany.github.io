@@ -12,7 +12,7 @@ head
   - elsif current_page.data.summary.present?
     - description = current_page.data.summary
 
-  - if defined?(description)
+  - if defined?(description) && description.present?
     meta content="#{description}" name="description" /
     meta content="#{description}" property="og:description" /
 
