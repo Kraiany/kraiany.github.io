@@ -40,8 +40,24 @@ helpers do
   end
 
   def current_with_locale(locale)
-    localised_path = current_page.url.sub(%r{^/#{I18n.locale}/},"/#{locale}/")
+    localised_path = current_page.url
+      .sub(%r{^/#{I18n.locale}/},"/#{locale}/")
+      .sub(%r{/$}, "/index.html")
     sitemap.find_resource_by_destination_path(localised_path) ? localised_path : "/#{locale}/"
+  end
+
+  def alternate_lang_pages(page)
+    dict = {}
+
+    (data.languages.keys.map(&:to_sym) - [I18n.locale]).map do |locale|
+      localised_path = page.url
+        .sub(%r{^/#{I18n.locale}/},"/#{locale}/")
+        .sub(%r{/$}, "/index.html")
+      resource = sitemap.find_resource_by_destination_path(localised_path)
+      dict[locale] = resource if resource
+    end
+
+    dict
   end
 
   def translated_title
