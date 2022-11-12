@@ -16,9 +16,9 @@ title: evacuee.regions.izumisano
 ### Контактна інформація:
 - Fax: 072-469-7752                                  　
 - E-mail：[support@ifos.or.jp](mailto:support@ifos.or.jp)
-- Web: [Ifos7@outlook.jp](Ifos7@outlook.jp)
+- Web: [Ifos7@outlook.jp](mailto:Ifos7@outlook.jp)
 - Facebook: `@izumisanoIFOS`
-- Tel：`072-469-7751`
+- Tel：[`072-469-7751`](tel:+8172-469-7751)
 
 (Пн.-Пт. 09:00-18:00 англійська та японська мови)
 
