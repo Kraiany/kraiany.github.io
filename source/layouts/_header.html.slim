@@ -33,5 +33,5 @@ head
 
   - if current_page.data.hreflang != false
     - alternate_lang_pages(current_page).each do |lang, page|
-      link href="#{page.url}" hreflang="#{lang}" rel="alternate" /
+      link href="#{config[:host]}#{page.url}" hreflang="#{lang}" rel="alternate" /
   = stylesheet_link_tag "/assets/stylesheets/site"
