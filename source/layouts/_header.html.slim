@@ -31,6 +31,7 @@ head
 
   link rel="alternate" type="application/rss+xml" title="#{t("news.title")} - RSS Feed" href="/#{lang}/feed.xml"
 
+  link href="#{config[:host]}#{current_page.url}" rel="canonical" /
   - if current_page.data.hreflang != false
     - alternate_lang_pages(current_page).each do |lang, page|
       link href="#{config[:host]}#{page.url}" hreflang="#{lang}" rel="alternate" /
