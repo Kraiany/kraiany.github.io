@@ -49,7 +49,7 @@ helpers do
   def alternate_lang_pages(page)
     dict = {}
 
-    (data.languages.keys.map(&:to_sym) - [I18n.locale]).map do |locale|
+    data.languages.keys.map(&:to_sym).map do |locale|
       localised_path = page.url
         .sub(%r{^/#{I18n.locale}/},"/#{locale}/")
         .sub(%r{/$}, "/index.html")
