@@ -156,7 +156,6 @@ activate :deploy do |deploy|
 
 end
 
-redirect "index.html", to: "/#{default_language}/index.html"
 redirect "donate.html", to: "/#{default_language}/donate.html"
 redirect "donate/index.html", to: "/#{default_language}/donate.html"
 redirect "donate/manage.html", to: "https://billing.stripe.com/p/login/6oE6pY89Sap04uc000"
