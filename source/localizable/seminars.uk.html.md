@@ -48,4 +48,4 @@ layout: page
 
 ---
 
-![](/assets/images/supported_by_NF_bottom.png" width="100%")
+![](/assets/images/supported_by_NF_bottom.png)
