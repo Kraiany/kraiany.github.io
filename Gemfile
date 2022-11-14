@@ -12,8 +12,6 @@ gem 'tzinfo-data', platforms: [:mswin, :mingw, :jruby]
 # Middleman Gems
 gem 'middleman', '~> 4.4'
 gem 'middleman-livereload', '~> 3.4'
-# gem 'middleman-deploy', '~> 1.0'
-gem 'middleman-deploy', '~> 2.0.0.pre.alpha'
 gem "middleman-blog"
 gem "middleman-sitemap", git: "https://github.com/matsu911/middleman-sitemap"
 

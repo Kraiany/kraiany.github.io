@@ -146,16 +146,6 @@ configure :build do
   ignore(/^assets\/javascripts\/(?!site).*\.js/)
 end
 
-activate :deploy do |deploy|
-  deploy.deploy_method = :git
-  # Optional Settings
-  # deploy.remote   = 'custom-remote' # remote name or git url, default: origin
-  deploy.branch   = 'master' # default: gh-pages
-  # deploy.strategy = :submodule      # commit strategy: can be :force_push or :submodule, default: :force_push
-  # deploy.commit_message = 'custom-message'      # commit message (can be empty), default: Automated commit at `timestamp` by middleman-deploy `version`
-
-end
-
 redirect "donate.html", to: "/#{default_language}/donate.html"
 redirect "donate/index.html", to: "/#{default_language}/donate.html"
 redirect "donate/manage.html", to: "https://billing.stripe.com/p/login/6oE6pY89Sap04uc000"
