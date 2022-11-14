@@ -19,6 +19,16 @@ en:
       description: We gather in the heart of Tokyo every year to celebrate Ukrainian culture. Show your support by wearing Vyshvyvanka and Ukrainian colors, and join us for a casual walk in Ginza.
       title: Vyshyvanka Day Parade in Tokyo
     title: Events
+  films:
+    description: This is a collection of films and documentaries depicting movies and films about Ukraine.
+    menu: Documentaries and Films
+    title: Documentary films and movies about Ukraine
+    titles:
+      call_sign_banderas: Call Sign Banderas
+      khaytarma: Khaytarma
+      mr_jones: Mr. Jones
+      the_guide: The Guide
+      winter_on_fire: Winter On Fire
   kraiany_radio:
     title: Radio in Ukrainian
   news:
