@@ -33,7 +33,5 @@ gem 'therubyracer'
 gem 'oj'
 gem 'execjs'
 
-# https://github.com/Aupajo/middleman-search_engine_sitemap
-gem 'middleman-search_engine_sitemap'
 gem 'sass'
 gem 'nokogiri', "1.13.9"
