@@ -12,5 +12,9 @@
     li= link_to t("events.title"), "/#{locale}/events.html"
     li= link_to t("aid"), "/#{locale}/donate.html"
     li= link_to t("evacuee.help.title"), "/#{locale}/evacuee_menu.html"
-    li= link_to t('ukraine-info'), "/ukraine-info"
+    li
+      = link_to t('ukraine-info'), "/ukraine-info"
+      ul
+        li= link_to t('ukraine-info'), "/ukraine-info"
+        li= link_to t("films.menu"), "/#{locale}/films.html"
     li= link_to t("news.news"), "/#{locale}/news.html"

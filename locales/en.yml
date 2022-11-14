@@ -21,6 +21,7 @@ en:
     title: Events
   films:
     description: This is a collection of films and documentaries depicting movies and films about Ukraine.
+    menu: Documentaries and Films
     title: Documentary films and movies about Ukraine
     titles:
       call_sign_banderas: Call Sign Banderas

@@ -21,6 +21,7 @@ ja:
     title: イベント
   films:
     description: ウクライナに関する映画や映画を描いた映画やドキュメンタリーのコレクションです。
+    menu: ドキュメンタリーと映画
     title: ウクライナに関するドキュメンタリーと映画
     titles:
       call_sign_banderas: バンデラス　ウクライナの英雄
