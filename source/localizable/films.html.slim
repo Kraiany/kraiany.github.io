@@ -6,22 +6,20 @@ layout: page
 
 p= t("films.description")
 
-ul
-  li
-    a href="https://www.imdb.com/title/tt6828390/" target="_blank"= t "films.titles.mr_jones"
-  li
-    a href="https://en.wikipedia.org/wiki/Between_Hitler_and_Stalin" target="_blank" Between Hitler and Stalin
-  li
-    a href="https://www.imdb.com/title/tt7366338/" target="_blank" Chernobyl (HBO miniseries)
-  li
-    a href="https://www.imdb.com/title/tt3182620/" target="_blank" Bitter Harvest
-  li
-    a href="https://www.netflix.com/title/80031666" target="_blank"= t "films.titles.winter_on_fire"
-  li
-    a href="https://www.youtube.com/watch?v=1lDp9AMACys" target="_blank" The Living
-  li
-    a href="https://www.imdb.com/title/tt3037582/" target="_blank"= t "films.titles.the_guide"
-  li
-    a href="https://www.imdb.com/title/tt2871482/" target="_blank"= t "films.titles.khaytarma"
-  li
-    a href="https://www.amazon.co.jp/%E3%83%90%E3%83%B3%E3%83%87%E3%83%A9%E3%82%B9-%E3%82%A6%E3%82%AF%E3%83%A9%E3%82%A4%E3%83%8A%E3%81%AE%E8%8B%B1%E9%9B%84%EF%BC%88%E5%AD%97%E5%B9%95%E7%89%88%EF%BC%89-%E3%82%AA%E3%83%AC%E3%82%B0%E3%83%BB%E3%82%B7%E3%83%A5%E3%83%AB%E3%82%AC/dp/B07RZVPHRF" target="_blank"= t "films.titles.call_sign_banderas"
+- %w[mr_jones chernobyl].each do |title|
+  = partial "film", locals: { title: title }
+
+h2
+  a href="https://en.wikipedia.org/wiki/Between_Hitler_and_Stalin" target="_blank" Between Hitler and Stalin
+h2
+  a href="https://www.imdb.com/title/tt3182620/" target="_blank" Bitter Harvest
+h2
+  a href="https://www.netflix.com/title/80031666" target="_blank"= t "films.titles.winter_on_fire"
+h2
+  a href="https://www.youtube.com/watch?v=1lDp9AMACys" target="_blank" The Living
+h2
+  a href="https://www.imdb.com/title/tt3037582/" target="_blank"= t "films.titles.the_guide"
+h2
+  a href="https://www.imdb.com/title/tt2871482/" target="_blank"= t "films.titles.khaytarma"
+h2
+  a href="https://www.amazon.co.jp/%E3%83%90%E3%83%B3%E3%83%87%E3%83%A9%E3%82%B9-%E3%82%A6%E3%82%AF%E3%83%A9%E3%82%A4%E3%83%8A%E3%81%AE%E8%8B%B1%E9%9B%84%EF%BC%88%E5%AD%97%E5%B9%95%E7%89%88%EF%BC%89-%E3%82%AA%E3%83%AC%E3%82%B0%E3%83%BB%E3%82%B7%E3%83%A5%E3%83%AB%E3%82%AC/dp/B07RZVPHRF" target="_blank"= t "films.titles.call_sign_banderas"

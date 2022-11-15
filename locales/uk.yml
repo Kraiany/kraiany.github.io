@@ -24,7 +24,8 @@ uk:
     titles:
       call_sign_banderas: Позивний Бандерас
       khaytarma: Хайтарма
-      mr_jones: Mr. Jones
+      mr_jones:
+        title: Mr. Jones
       the_guide: Поводир
       winter_on_fire: Winter On Fire
   kraiany_radio:
