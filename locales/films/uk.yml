@@ -22,5 +22,13 @@ uk:
           url: https://www.youtube.com/watch?v=wtWSyFNT9qY
         website: http://www.samuelgoldwynfilms.com/mr-jones/
       the_guide: Поводир
-      winter_on_fire: Winter On Fire
+      winter_on_fire:
+        description: Мирні демонстрації студентів в Україні за 93 дні перетворитися на насильницьку революцію та повноцінний рух за громадянські права.
+        title: 'Winter On Fire: Ukraine''s Fight for Freedom'
+        watch_on:
+        - title: Трейлер
+          url: https://www.youtube.com/watch?v=RibAQHeDia8
+        - title: Netflix
+          url: https://www.netflix.com/ua/title/80031666
+        website: https://www.netflix.com/ua/title/80031666
     watch_on: Дивитись «%{title}»

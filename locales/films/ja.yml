@@ -34,7 +34,15 @@ ja:
           url: https://play.google.com/store/movies/details/%E8%B5%A4%E3%81%84%E9%97%87_%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%AA%E3%83%B3%E3%81%AE%E5%86%B7%E3%81%9F%E3%81%84%E5%A4%A7%E5%9C%B0%E3%81%A7?id=xAcPEpIQkMQ.P
         website: http://akaiyami.com
       the_guide: The Guide
-      winter_on_fire: 'ウィンター・オン・ファイヤー: ウクライナ、自由への闘い'
+      winter_on_fire:
+        description: 2013-2014年にかけてのウクライナの自由革命に関するドキュメンタリー。ヨーロッパ統合を支持、国家のよりよき未来を願う平穏な学生デモが、ヴィクトル F. ヤヌコビッチ大統領の辞任を求める公民権運動へと変貌していったウクライナの93日間を追ったドキュメンタリー。
+        title: 'ウィンター・オン・ファイヤー: ウクライナ、自由への闘い'
+        watch_on:
+        - title: Trailer
+          url: https://www.youtube.com/watch?v=RibAQHeDia8
+        - title: Netflix
+          url: https://www.netflix.com/jp/title/80031666
+        website: https://www.netflix.com/jp/title/80031666
     trailers:
       mr_jones: https://youtu.be/fm0T7am4dnw
     watch_on: "『%{title}』を鑑賞する"

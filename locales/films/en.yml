@@ -38,5 +38,13 @@ en:
           url: https://amzn.to/2YdiBhz
         website: http://www.samuelgoldwynfilms.com/mr-jones/
       the_guide: The Guide
-      winter_on_fire: Winter On Fire
+      winter_on_fire:
+        description: A documentary on the unrest in Ukraine during 2013 and 2014, as student demonstrations supporting European integration grew into a violent revolution calling for the resignation of President Viktor F. Yanukovich.
+        title: 'Winter On Fire: Ukraine''s Fight for Freedom'
+        watch_on:
+        - title: Trailer
+          url: https://www.youtube.com/watch?v=RibAQHeDia8
+        - title: Netflix
+          url: https://www.netflix.com/title/80031666
+        website: https://www.netflix.com/title/80031666
     watch_on: Where to watch %{title}

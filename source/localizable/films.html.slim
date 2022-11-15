@@ -6,15 +6,13 @@ layout: page
 
 p= t("films.description")
 
-- %w[mr_jones chernobyl].each do |title|
+- %w[winter_on_fire chernobyl mr_jones].each do |title|
   = partial "film", locals: { title: title }
 
 h2
   a href="https://en.wikipedia.org/wiki/Between_Hitler_and_Stalin" target="_blank" Between Hitler and Stalin
 h2
   a href="https://www.imdb.com/title/tt3182620/" target="_blank" Bitter Harvest
-h2
-  a href="https://www.netflix.com/title/80031666" target="_blank"= t "films.titles.winter_on_fire"
 h2
   a href="https://www.youtube.com/watch?v=1lDp9AMACys" target="_blank" The Living
 h2
