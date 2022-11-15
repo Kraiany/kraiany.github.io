@@ -5,6 +5,5 @@ p= t("films.titles.#{title}.description")
 - if watch_on.any?
   h3= t("films.watch_on", title: t("films.titles.#{title}.title"))
   p
-    ul
-      - watch_on.each do |link|
-        li= link_to(link[:title], link[:url], target: "_blank")
+    - watch_on.each do |link|
+      = link_to(link[:title], link[:url], target: "_blank", class: "btn btn-success btn-margin")
