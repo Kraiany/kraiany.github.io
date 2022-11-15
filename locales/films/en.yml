@@ -5,6 +5,13 @@ en:
     menu: Documentaries and Films
     title: Documentary films and movies about Ukraine
     titles:
+      between_hiterl_and_stalin:
+        description: This is a 2003 film produced and directed by Slavko Nowytski and narrated by Jack Palance. The one-hour documentary, part black-and-white and part color, is a project of <a href="http://www.ucrdc.org" target="_blank">Ukrainian Canadian Research and Documentation Centre</a> – an attempt to tell the story of World War II from a Ukrainian perspective.<br />The film chronicles the struggle between the Nazi and Soviet regimes, from a Ukrainian perspective. The documentary recounts the events in Ukraine on the brink of the Second World War, during the Soviet occupation of Western Ukraine (1939–1941), the German-Soviet War, the Nazi occupation of Ukraine and the second Soviet occupation of Western Ukraine (1944). <br />The impact of these events, which claimed 8 to 10 million Ukrainian lives, is depicted through segments on the “scorched-earth” policies of both powers; the tragedy of the Jews; and the 2.3 million Ukrainians taken as slave labourers (Ostarbeiters). The Ukrainians’ struggle against the Nazi occupiers and the Ukrainian Insurgent Army’s fight—against both totalitarian powers—for Ukraine’s independence are is portrayed.<br />The film also deals with the forcible repatriation of Ukrainians to the Soviet Union, Displaced Persons (D.P.) camps and emigration. Between Hitler and Stalin features eyewitness accounts, documentary material, rare film footage, photos and documents obtained from myriad sources.
+        title: 'Between Hitler and Stalin: Ukraine in World War II, The Untold Story'
+        watch_on:
+        - title: YouTube, UCRDC
+          url: https://youtu.be/c-xJeKpm6-A
+        website: http://www.ucrdc.org/Film-Hitler.html
       call_sign_banderas: Call Sign Banderas
       chernobyl:
         description: On April 26, 1986, the Chernobyl Nuclear Power Plant in the Soviet Union suffered a massive explosion. This gripping five-part miniseries tells the powerful and visceral story of the worst man-made accident in history, following the tragedy from the moment of the early-morning explosion through the chaos and loss of life in the ensuing days, weeks and months.
