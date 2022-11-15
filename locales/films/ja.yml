@@ -1,0 +1,46 @@
+---
+ja:
+  films:
+    description: ウクライナに関する映画や映画を描いた映画やドキュメンタリーのコレクションです。
+    menu: ドキュメンタリーと映画
+    title: ウクライナに関するドキュメンタリーと映画
+    titles:
+      call_sign_banderas: バンデラス　ウクライナの英雄
+      chernobyl:
+        description: 歴史上最悪の人災を衝撃的かつ感情を揺さぶる物語として描き出す、ＨＢＯ製作の全５話のミニシリーズドラマ。1986年、旧ソビエト連邦のチェルノブイリ原子力発電所で大規模な爆発事故が発生。放射性物質がベラルーシ、ロシア、ウクライナばかりか、スカンディナビアや西ヨーロッパまで飛散した。深夜の爆発は大混乱をもたらし、その後は何日も、何週も、何ヵ月もの間、人命が失われ続ける。「チェルノブイリ―CHERNOBYL―」は、人間の勇気を描くと同時に、事故の原因や責任追及をやりすごそうとする政府の極めて非人道的な慣行と、災害の危険性を軽視したことから多くの命が犠牲になったことを明らかにする。ジャレッド・ハリス、ステラン・スカルスガルド、エミリー・ワトソンら、豪華キャストの共演も見どころの１つ。
+        title: チェルノブイリ
+        watch_on:
+        - title: 予告編
+          url: https://youtu.be/FEIgUmNiCV8
+        - title: Amazon
+          url: https://www.amazon.co.jp/gp/video/detail/B07YXDQ1G5/
+        - title: U-Next
+          url: https://video.unext.jp/title/SID0056439
+        website: https://warnerbros.co.jp/kaidora/detail.php?title_id=56644
+      khaytarma: Khaytarma
+      mr_jones:
+        description: 1933年、かつてヒトラーにも取材したことがあるイギリス人記者ガレス・ジョーンズ(ジェームズ・ノートン)は、世界恐慌の中でソ連だけが好景気であることに疑念を抱いていた。その謎を探るため単身モスクワへ向かった彼は、当局の監視を避けながら全ての鍵を握るウクライナを目指す。極寒のウクライナにたどり着いたジョーンズは、過酷な生活を強いられホロドモールで飢えに苦しむ人々を目撃する。
+        title: 'ミスター・ジョーンズ: 赤い闇 スターリンの冷たい大地で'
+        watch_on:
+        - title: 予告編
+          url: https://youtu.be/fm0T7am4dnw
+        - title: Hulu
+          url: https://www.hulu.jp/mr-jones
+        - title: Amazon
+          url: https://www.amazon.co.jp/gp/video/detail/B08R3367SN/
+        - title: Tsutaya
+          url: https://store-tsutaya.tsite.jp/item/rental_dvd/084735065.html
+        - title: Google Play
+          url: https://play.google.com/store/movies/details/%E8%B5%A4%E3%81%84%E9%97%87_%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%AA%E3%83%B3%E3%81%AE%E5%86%B7%E3%81%9F%E3%81%84%E5%A4%A7%E5%9C%B0%E3%81%A7?id=xAcPEpIQkMQ.P
+        website: http://akaiyami.com
+      the_guide: The Guide
+      winter_on_fire:
+        description: 2013-2014年にかけてのウクライナの自由革命に関するドキュメンタリー。ヨーロッパ統合を支持、国家のよりよき未来を願う平穏な学生デモが、ヴィクトル F. ヤヌコビッチ大統領の辞任を求める公民権運動へと変貌していったウクライナの93日間を追ったドキュメンタリー。
+        title: 'ウィンター・オン・ファイヤー: ウクライナ、自由への闘い'
+        watch_on:
+        - title: Trailer
+          url: https://www.youtube.com/watch?v=RibAQHeDia8
+        - title: Netflix
+          url: https://www.netflix.com/jp/title/80031666
+        website: https://www.netflix.com/jp/title/80031666
+    watch_on: "『%{title}』を鑑賞する"

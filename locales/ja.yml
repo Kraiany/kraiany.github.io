@@ -19,16 +19,6 @@ ja:
       description: 伝統的なウクライナの刺繍が施された民族衣装（ヴィシヴァンカ）を身にまとい、東京の銀座を遊歩。
       title: 東京ウクライナ・パレード
     title: イベント
-  films:
-    description: ウクライナに関する映画や映画を描いた映画やドキュメンタリーのコレクションです。
-    menu: ドキュメンタリーと映画
-    title: ウクライナに関するドキュメンタリーと映画
-    titles:
-      call_sign_banderas: バンデラス　ウクライナの英雄
-      khaytarma: Khaytarma
-      mr_jones: ミスター・ジョーンズ
-      the_guide: The Guide
-      winter_on_fire: 'ウィンター・オン・ファイヤー: ウクライナ、自由への闘い'
   kraiany_radio:
     title: ウクライナ語でのラジオ
   news:

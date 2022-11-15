@@ -1,0 +1,8 @@
+h2
+  a href=t("films.titles.#{title}.website") target="_blank"= t "films.titles.#{title}.title"
+p= t("films.titles.#{title}.description")
+- if t("films.titles.#{title}.watch_on").any?
+  h3= t("films.watch_on", title: t("films.titles.#{title}.title"))
+  p
+    - t("films.titles.#{title}.watch_on").each do |link|
+      = link_to(link[:title], link[:url], target: "_blank", class: "btn btn-success btn-margin")
