@@ -1,0 +1,13 @@
+---
+uk:
+  films:
+    description: Це збірка фільмів та документальних фільмів про Україну.
+    menu: Документальні та художні фільми
+    title: Документальні та художні фільми про Україну
+    titles:
+      call_sign_banderas: Позивний Бандерас
+      khaytarma: Хайтарма
+      mr_jones:
+        title: Mr. Jones
+      the_guide: Поводир
+      winter_on_fire: Winter On Fire

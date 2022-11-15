@@ -1,0 +1,15 @@
+---
+ja:
+  films:
+    description: ウクライナに関する映画や映画を描いた映画やドキュメンタリーのコレクションです。
+    menu: ドキュメンタリーと映画
+    title: ウクライナに関するドキュメンタリーと映画
+    titles:
+      call_sign_banderas: バンデラス　ウクライナの英雄
+      khaytarma: Khaytarma
+      mr_jones:
+        title: 'ミスター・ジョーンズ: 赤い闇 スターリンの冷たい大地で'
+      the_guide: The Guide
+      winter_on_fire: 'ウィンター・オン・ファイヤー: ウクライナ、自由への闘い'
+    trailers:
+      mr_jones: https://youtu.be/fm0T7am4dnw

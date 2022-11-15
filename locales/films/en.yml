@@ -1,0 +1,42 @@
+---
+en:
+  films:
+    description: This is a collection of films and documentaries depicting movies and films about Ukraine.
+    menu: Documentaries and Films
+    title: Documentary films and movies about Ukraine
+    titles:
+      call_sign_banderas: Call Sign Banderas
+      chernobyl:
+        description: On April 26, 1986, the Chernobyl Nuclear Power Plant in the Soviet Union suffered a massive explosion. This gripping five-part miniseries tells the powerful and visceral story of the worst man-made accident in history, following the tragedy from the moment of the early-morning explosion through the chaos and loss of life in the ensuing days, weeks and months.
+        title: Chernobyl
+        watch_on:
+        - title: Trailer
+          url: https://www.youtube.com/watch?v=s9APLXM9Ei8
+        - title: HBO Max
+          url: https://www.hbomax.com/series/urn:hbo:series:GXJvkMAU0JIG6gAEAAAIo
+        - title: Amazon
+          url: https://www.amazon.com/gp/video/detail/B07PGBXYPV/
+        - title: DVD
+          url: https://a.co/d/dbZm8lB
+        website: https://www.hbo.com/chernobyl
+      khaytarma: Khaytarma
+      mr_jones:
+        description: In 1933, Gareth Jones is an ambitious young journalist who has gained some renown for his interview with Adolf Hitler. Thanks to his connections to Lloyd George, the former British prime minister, he is able to get official permission to travel to the Soviet Union. Jones intends to try to interview Stalin and to find out more about the Soviet Union's economic expansion and its apparently-successful five-year development plan. <br /> Jones is restricted to Moscow but jumps his train and travels unofficially to Ukraine to discover evidence of the Holodomor, including empty villages, starving people, cannibalism and the enforced collection of grain. On his return to Britain, he struggles to get his story taken seriously. The film ends by recording that Jones died while reporting in Inner Mongolia with a guide who was secretly connected to the Soviet secret service.
+        title: Mr. Jones
+        watch_on:
+        - title: Trailer
+          url: https://www.youtube.com/watch?v=wtWSyFNT9qY
+        - title: Apple TV
+          url: https://apple.co/2JoCtGd
+        - title: Amazon
+          url: https://amzn.to/3hGMn5T
+        - title: Google Play
+          url: https://bit.ly/3d950fo
+        - title: Vudu Fandango
+          url: https://bit.ly/2Ne0TnD
+        - title: DVD
+          url: https://amzn.to/2YdiBhz
+        website: http://www.samuelgoldwynfilms.com/mr-jones/
+      the_guide: The Guide
+      winter_on_fire: Winter On Fire
+    watch_on: Where to watch %{title}
