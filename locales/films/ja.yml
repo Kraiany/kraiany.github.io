@@ -43,6 +43,4 @@ ja:
         - title: Netflix
           url: https://www.netflix.com/jp/title/80031666
         website: https://www.netflix.com/jp/title/80031666
-    trailers:
-      mr_jones: https://youtu.be/fm0T7am4dnw
     watch_on: "『%{title}』を鑑賞する"
