@@ -13,21 +13,6 @@ members of the organization.  The executive body of the organization is
 the Board of Directors of the organization, which is headed by the
 President of the organization.
 
-President of the NPO Kraiany: Nataliia Kovalova.
-
-Founders of the NPO Kraiany:
-
-- Katsutaro Hirayama
-- Igor Ievtushuk
-- Natalia Lysenko
-- Olga Khlestunova
-- Dmytro Kovalov
-- Natalia Kovalova
-- Oksana Piskunova
-- Victoria Vereskun
-- Yulia Virlych
-- Nataliia Zhurova
-
 The work of the NPO Kraiany is aimed at expanding international
 cooperation between Japan and Ukraine in the fields of culture, arts and
 education. NPO Kraiany cooperates with organizations that promote
