@@ -316,12 +316,21 @@
   </url>
   <url>
     <loc>https://www.kraiany.org/ja/films.html</loc>
+    <lastmod>2022-11-30T00:01:03Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://www.kraiany.org/en/films.html</loc>
+    <lastmod>2022-11-30T00:01:03Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://www.kraiany.org/uk/films.html</loc>
+    <lastmod>2022-11-30T00:01:03Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://www.kraiany.org/ja/gallery.html</loc>
