@@ -38,7 +38,7 @@ image: "pages/yoga/feature.jpg"
 - 16.03 Вплив практики йоги на гормональний баланс.
 - 23.03 Комплексний підхід до здоров’я через йогу.
 
-Питання та запити щодо семінарів відправляйте на поштову скриньку: [olena.svidran@kraiany.org](mailto:olena.svidran@kraiany.org?subject=Йога+з+Юлія+Сидоренко)
+Питання та запити щодо семінарів відправляйте на поштову скриньку: [olena.svidran@kraiany.org](mailto:olena.svidran@kraiany.org?subject=Йога)
 
 Щоб прийняти участь, [приєднуйтесь за посиланням](https://zoom.us/j/96114111323?pwd=V1h0NFNsOWwrMW4rckxPcndTTXZ3QT09)
 
