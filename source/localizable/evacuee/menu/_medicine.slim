@@ -1,13 +1,15 @@
 h3 = t("evacuee.medicine.menu")
 
 
-- items = { "forms" => "Медичні форми та переклад",
-            'consultations' => "Медичні консультації",
-            "hospitals" => "Пошук лікарень",
-            "for_mums" => "Для майбутніх мам",
-            "covid-19" => "Ковід 19",
+- items = { "medical/forms" => "Медичні форми та переклад",
+            'medical/consultations' => "Медичні консультації",
+            "medical/hospitals" => "Пошук лікарень",
+            "medical/for_mums" => "Для майбутніх мам",
+            "medical/covid-19" => "Ковід 19",
+            "helpful_advises/vaccination" => t("evacuee.helpful_advises.vaccination.menu"),
+            "medical/for-children" => "Медицина Для Дітей",
 
   }
 
 - items.keys.sort.each do |file|
-  =<> link_to items[file], "medical/"+file+".html", class:  "btn btn-success btn-wrap", style: "margin-bottom: 5px"
+  =<> link_to items[file], file+".html", class:  "btn btn-success btn-wrap", style: "margin-bottom: 5px"
