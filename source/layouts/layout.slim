@@ -6,7 +6,7 @@
       .row
         .col-sm-12
           - if current_page.data.image
-            img.section-header-image (src=image_path(current_page.data.image))
+            img.section-header-image (src=image_path(current_page.data.image) alt=translated_title)
           h1.section-title
             span{itemProp="headline"}= translated_title
       .row
