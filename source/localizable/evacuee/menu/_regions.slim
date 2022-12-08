@@ -3,18 +3,18 @@ h3 = t("evacuee.regions.menu")
 p = t("evacuee.regions.lead")
 
 
-- regions = { "tokyo"               => "Токіо",
-  "yokohama"                        => "Йокогама",
-  "osaka"                           => "Осака",
-  "saitama"                         => "преф. Сайтама",
-  "aichi"                           => "преф. Aїчі",
-  "alljapan"                        => "По всій Японії",
-  "izumisano"                       => "М. Ізумісано, преф. Осака",
-  "chiba"                           => "М. Чіба",
-  'helpful_advises/funabashi'       => "М. Фунабаші (преф. Чіба)",
+- regions = { "evacuee/regions/tokyo"           => "Токіо",
+  "evacuee/regions/yokohama"        => "Йокогама",
+  "evacuee/regions/osaka"           => "Осака",
+  "evacuee/regions/saitama"         => "преф. Сайтама",
+  "evacuee/regions/aichi"           => "преф. Aїчі",
+  "evacuee/regions/alljapan"        => "По всій Японії",
+  "evacuee/regions/izumisano"       => "М. Ізумісано, преф. Осака",
+  "evacuee/regions/chiba"           => "М. Чіба",
+  'evacuee/regions/funabashi'       => "М. Фунабаші (преф. Чіба)",
   'helpful_advises/tk_free_tickets' => "Безоплантий квиток на транспорт в Токіо",
   "support-r"                       => "Центр допомоги Support-R",
-  }
+}
 
 - regions.keys.sort.each do |file|
   =<> link_to regions[file], file+".html", class:  "btn btn-success btn-wrap", style: "margin-bottom: 5px"

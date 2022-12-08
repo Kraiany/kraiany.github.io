@@ -165,3 +165,15 @@ supported_languages.each do |lang|
   redirect "#{lang}/news/index.html", to: "/#{lang}/news.html"
   redirect "#{lang}/news/2022-03-08-bankaccount.html", to: "/#{lang}/donate.html"
 end
+
+# Redirects for moved files, SEO purpose
+
+redirect "uk/tokyo.html", to: "/uk/evacuee/regions/tokyo.html"
+redirect "uk/yokohama.html", to: "/uk/evacuee/regions/yokohama.html"
+redirect "uk/osaka.html", to: "/uk/evacuee/regions/osaka.html"
+redirect "uk/saitama.html", to: "/uk/evacuee/regions/saitama.html"
+redirect "uk/aichi.html", to: "/uk/evacuee/regions/aichi.html"
+redirect "uk/alljapan.html", to: "/uk/evacuee/regions/alljapan.html"
+redirect "uk/izumisano.html", to: "/uk/evacuee/regions/izumisano.html"
+redirect "uk/chiba.html", to: "/uk/evacuee/regions/chiba.html"
+redirect "uk/helpful_advises/funabashi.html", to: "/uk/evacuee/regions/funabashi.html"
