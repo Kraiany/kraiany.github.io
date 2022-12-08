@@ -20,3 +20,8 @@ title: evacuee.regions.alljapan
 
 - Корисна інформація від [міграційної служби Японії](https://www.moj.go.jp/isa/support/fresc/ukraine_support.html)
 - [Сайт допомоги українцям](https://zairyushien02.force.com/s/login/?ec=302&startURL=%2Fs%2F), які знайшли притулок в Японії
+
+
+## Житло від APAMAN
+
+Компанія APAMAN продовжує надавати [підтримку переміщеним українцям в Японії](https://ukrainesupport.jp/) та пропонує безкоштовне житло. Наявність житла по всій країні та контакти, куди звертатися
