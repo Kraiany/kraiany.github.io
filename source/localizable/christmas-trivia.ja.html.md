@@ -1,5 +1,5 @@
 ---
-title: "christmas-trivia.title"
+title: "ウクライナのクリスマス"
 ---
 
 # 二つのクリスマス

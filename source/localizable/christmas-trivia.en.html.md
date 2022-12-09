@@ -1,5 +1,5 @@
 ---
-title: "christmas-trivia.title"
+title: "Christmas in Ukraine"
 ---
 
 # Two Christmases
