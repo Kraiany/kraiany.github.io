@@ -13,6 +13,9 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://www.kraiany.org/en/news/2022-12-04-ukraine-food-and-history-book.html</loc>
+  </url>
+  <url>
     <loc>https://www.kraiany.org/ja/news/2022-03-29-spelling-kyiv.html</loc>
   </url>
   <url>
@@ -89,6 +92,12 @@
     <loc>https://www.kraiany.org/uk/news/2022-04-30-kokoka-kyoto.html</loc>
   </url>
   <url>
+    <loc>https://www.kraiany.org/ja/news/2022-12-04-ukraine-food-and-history-book.html</loc>
+  </url>
+  <url>
+    <loc>https://www.kraiany.org/uk/news/2022-12-15-kulynychi.html</loc>
+  </url>
+  <url>
     <loc>https://www.kraiany.org/ja/news/2022-03-30-donations.html</loc>
   </url>
   <url>
@@ -159,6 +168,9 @@
     <lastmod>2014-06-28T15:52:00Z</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://www.kraiany.org/uk/news/2022-12-04-ukraine-food-and-history-book.html</loc>
   </url>
   <url>
     <loc>https://www.kraiany.org/uk/news/2022-01-09-cooking-class.html</loc>
