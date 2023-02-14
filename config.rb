@@ -149,7 +149,7 @@ end
 redirect "donate.html", to: "/#{default_language}/donate.html"
 redirect "donate/index.html", to: "/#{default_language}/donate.html"
 redirect "donate/manage.html", to: "https://billing.stripe.com/p/login/6oE6pY89Sap04uc000"
-redirect "donate/report-sheet.html", to: "https://docs.google.com/spreadsheets/d/10DCYQGJ6pjHktbK3bHsT_5Wjy0dvPuKdlqWCi_HSip4/edit?usp=sharing"
+redirect "donate/report-sheet.html", to: "https://docs.google.com/spreadsheets/d/10DCYQGJ6pjHktbK3bHsT_5Wjy0dvPuKdlqWCi_HSip4/htmlview"
 redirect "news.html", to: "/#{default_language}/news.html"
 redirect "news/index.html", to: "/#{default_language}/news.html"
 redirect "parade.html", to: "/#{default_language}/parade.html"
