@@ -159,6 +159,7 @@ redirect "parade/index.html", to: "/#{default_language}/parade.html"
 redirect "landing/1.html", to: "/#{default_language}/about.html"
 redirect "landing/2.html", to: "/#{default_language}/about.html"
 redirect "landing/3.html", to: "/#{default_language}/about.html"
+redirect "landing/ukraiina-tse-smachno.html", to: "/#{default_language}/"
 
 supported_languages.each do |lang|
   redirect "#{lang}/parade/index.html", to: "/#{lang}/parade.html"
