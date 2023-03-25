@@ -154,6 +154,7 @@ redirect "news.html", to: "/#{default_language}/news.html"
 redirect "news/index.html", to: "/#{default_language}/news.html"
 redirect "parade.html", to: "/#{default_language}/parade.html"
 redirect "parade/index.html", to: "/#{default_language}/parade.html"
+redirect "volunteer/index.html", to: "https://forms.gle/usLLG91zwwUaiEnx5"
 
 # QR code landing pages printed on the flyers/banners
 redirect "landing/1.html", to: "/#{default_language}/about.html"

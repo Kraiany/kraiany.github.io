@@ -15,3 +15,5 @@ header#site-header.site-header.valign-center.landing-photo
       = link_to t("aid") , "donate.html", class: "btn btn-white btn-wrap"
       = link_to t("kraiany_radio.title") , "kraiany_radio.html", class: "btn btn-white btn-wrap"
       = link_to t("evacuee.help.title") , "evacuee_menu.html", class: "btn btn-white btn-wrap"
+      - if I18n.locale == :uk
+        = link_to t("volunteer") , "/volunteer/index.html", class: "btn btn-white btn-wrap"
