@@ -8,28 +8,15 @@ h2= t("donate.cc.title")
 
 h3= t("donate.cc.monthly")
 
-table#donateTable
-  thead
-    tr
-      th= t("donate.cc.monthly_amount")
-      th
-  tbody
-    tr
-      th= t("donate.cc.monthly_10k")
-      td
-        a(href='https://buy.stripe.com/4gwbKH5pE5pb2GY7st' target='_blank')= t("donate.cc.donate")
-    tr
-      th= t("donate.cc.monthly_5k")
-      td
-        a(href='https://buy.stripe.com/9AQ9Cz3hw9Fra9q7ss' target='_blank')= t("donate.cc.donate")
-    tr
-      th= t("donate.cc.monthly_3k")
-      td
-        a(href='https://buy.stripe.com/8wMbKH2ds18V6XeeUZ' target='_blank')= t("donate.cc.donate")
-    tr
-      th= t("donate.cc.monthly_1k")
-      td
-        a(href='https://buy.stripe.com/cN201Z05k2cZgxO3cg' target='_blank')= t("donate.cc.donate")
+ul
+  li
+    a(href='https://buy.stripe.com/4gwbKH5pE5pb2GY7st' target='_blank')= t("donate.cc.monthly_10k")
+  li
+    a(href='https://buy.stripe.com/9AQ9Cz3hw9Fra9q7ss' target='_blank')= t("donate.cc.monthly_5k")
+  li
+    a(href='https://buy.stripe.com/8wMbKH2ds18V6XeeUZ' target='_blank')= t("donate.cc.monthly_3k")
+  li
+    a(href='https://buy.stripe.com/cN201Z05k2cZgxO3cg' target='_blank')= t("donate.cc.monthly_1k")
 
 h3
   a(href='https://donate.stripe.com/cN2bKHaJY4l7a9q14d' target='_blank')= t("donate.cc.once")
