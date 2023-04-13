@@ -8,8 +8,6 @@ ja:
       name: 口座名義
       title: 振り込み銀行口座
     cc:
-      donate: 寄付する
-      general: 一般支援
       monthly: 月々の支援
       monthly_10k: "¥10,000"
       monthly_1k: "¥1,000"
