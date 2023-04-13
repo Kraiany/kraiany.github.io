@@ -9,16 +9,14 @@ en:
       title: Bank Transfer Information
     cc:
       donate: Donate
-      general: General Help
-      monthly_10k: "¥10,000 monthly"
-      monthly_1k: "¥1,000 monthly"
-      monthly_3k: "¥3,000 monthly"
-      monthly_5k: "¥5,000 monthly"
-      once_10k: "¥10,000 one-time"
-      once_1k: "¥1,000 one-time"
-      once_30k: "¥30,000 one-time"
-      once_50k: "¥50,000 one-time"
-      once_5k: "¥5,000 one-time"
+      monthly: "Monthly Recurring Doation"
+      monthly_amount: "Amount"
+      monthly_10k: "¥10,000"
+      monthly_1k: "¥1,000"
+      monthly_3k: "¥3,000"
+      monthly_5k: "¥5,000"
+      once: "One-time donation"
+      once_detail: "You can specify a custom amount you would like to donate with a one-time donation."
       title: Donate with Credit Card
     description: NPO Kraiany has opend an account for collecting donations for humanitarian aid in Ukraine
     lead: 'NPO Kraiany has opened an account for collecting funds for humanitarian aid in Ukraine. You can transfer donations to the account number below:'
