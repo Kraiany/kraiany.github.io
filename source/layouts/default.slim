@@ -1,6 +1,6 @@
 doctype html
 html lang=I18n.locale
-  = partial "layouts/header"
+  head= partial "layouts/header"
   body data-spy="scroll" data-target="#site-nav"
     = partial "layouts/tag_manager_body"
     = partial "layouts/page_header", locals: { title: translated_title }
