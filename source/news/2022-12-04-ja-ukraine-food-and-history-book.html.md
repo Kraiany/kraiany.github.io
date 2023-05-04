@@ -1,8 +1,7 @@
 ---
-title: 「ウクライナ料理歴史」の日本語訳が出版されました
-date: 2022-12-04
+title: "「ウクライナ料理歴史」の日本語訳が出版されました"
+date: "2022-12-04"
 image: "news/2022-12-04-ukraine-food-and-history-book/feature.jpg"
-layout: "page"
 ---
 数ヶ月に及ぶUkrainian Institute、翻訳者の皆さんと小学館CODEXの多大な努力、そしてNPO KRAIANY監修のもと[「ウクライナ料理歴史」](https://amzn.asia/d/47c71i2)の日本語訳が出版されました。
 

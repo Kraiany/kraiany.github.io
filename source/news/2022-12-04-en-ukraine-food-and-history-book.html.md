@@ -1,8 +1,7 @@
 ---
 title: '"Ukraine. Food and History" book in Japanese'
-date: 2022-12-04
+date: "2022-12-04"
 image: "news/2022-12-04-ukraine-food-and-history-book/feature.jpg"
-layout: "page"
 ---
 
 After months of close cooperation between the Ukrainian Institute, the team of translators, Shogakukan CODEX and NPO KRAIANY, this wonderful book ["Ukraine. Food and History"](https://amzn.asia/d/47c71i2) has been published in Japanese.
