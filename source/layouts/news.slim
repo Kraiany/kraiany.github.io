@@ -8,6 +8,6 @@
           h1.section-title
             span{itemProp="headline"}= current_page.data.title
             span.published_on
-              time.date{datetime=parse_date(current_page.data.date) itemprop="datePublished"}= I18n.l(parse_date(current_page.data.date), format: :default, locale: lang)
+              time.date{datetime=current_page.data.date.to_s itemprop="datePublished"}= current_page.data.date.to_s
       .row
         .col-sm-12(itemprop="articleBody")= yield
