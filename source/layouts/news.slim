@@ -8,6 +8,6 @@
           h1.section-title
             span{itemProp="headline"}= current_page.data.title
             span.published_on
-              time.date{datetime=current_page.data.date.to_s itemprop="datePublished"}= current_page.data.date.to_s
+              time.date{datetime=current_page.date.strftime("%F") itemprop="datePublished"}= current_page.date.strftime("%F")
       .row
         .col-sm-12(itemprop="articleBody")= yield
