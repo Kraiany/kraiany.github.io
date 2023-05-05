@@ -161,24 +161,35 @@ Simpler setup using Docker.
 
 ```
 docker build -t kraiany .
+docker run -it  --rm -v $(pwd):/app --name kraiany -p 4567:4567 kraiany
+# In separate terminal
+docker exec -it kraiany bundle install
 
 ```
 
-### Develop
+### Run and test site3 locally
 
 ```
-
- docker run -it  --rm -v $(pwd):/app -p 4567:4567 kraiany
- open http://localhost:4567
-
-
+docker run -it  --rm -v $(pwd):/app -p 4567:4567 kraiany
+open http://localhost:4567
 ```
 
 
 ### Deploy
 
+Deploy is done via github actions. To deploy production:
+
+- create PR
+- check build status (optional)
+- merge to master
+
+### Debugging
+
+To build site locally with debug output:
+
+```
+docker run -it --rm -v $(pwd):/app kraiany build --verbose
 ```
 
-docker run -it  --rm -v $(pwd):/app -v ~/.gitconfig:/root/.gitconfig  -p 4567:4567 kraiany deploy
 
-```
+

@@ -9,7 +9,7 @@
 # Deploy:
 # docker run -it  --rm -v $(pwd):/app -v ~/.gitconfig:/root/.gitconfig  -p 4567:4567 kraiany deploy
 #
-FROM ruby:2.6.5
+FROM ruby:3.1.4
 
 # Expose ports.
 EXPOSE 4567
@@ -21,7 +21,6 @@ RUN \
   && apt-get install -y sudo curl build-essential locales locales-all nodejs
 
 ADD Gemfile* /app/
-1
 RUN cd /app
   && gem install bundler:2.1.2
   &&  bundle install

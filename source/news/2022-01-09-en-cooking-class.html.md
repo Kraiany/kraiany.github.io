@@ -1,9 +1,5 @@
 ---
-
-title: NPO Kraiany Ukrainian cooking class in Dzherelce school
-date: 2022-01-09 15:12 UTC
-tags: Ukrainian, food, christmas
-
+title: "NPO Kraiany Ukrainian cooking class in Dzherelce school"
 ---
 
 Today there was a first lesson in the Ukrainian school Dzherelce. It was

@@ -8,8 +8,6 @@ ja:
       name: 口座名義
       title: 振り込み銀行口座
     cc:
-      donate: 寄付する
-      general: 一般支援
       monthly: 月々の支援
       monthly_10k: "¥10,000"
       monthly_1k: "¥1,000"
@@ -17,11 +15,7 @@ ja:
       monthly_5k: "¥5,000"
       monthly_cancel: ※カード決済の支援を選択された方はメールで領収書が発信されます。決済情報の更新、支援の停止などは<a href="/donate/manage.html" rel="noindex nofollow">ポータル</a>からできます。
       once: １回の支援
-      once_10k: "¥10,000"
-      once_1k: "¥1,000"
-      once_30k: "¥30,000"
-      once_50k: "¥50,000"
-      once_5k: "¥5,000"
+      once_detail: こちらの一回の寄付は希望される金額をご指定し寄付をすることができます。
       title: クレジット決済
     description: NPO Kraianyは、ウクライナで人道援助のための資金を集めるための口座を開設しました。
     lead: 'NPO Kraianyは、ウクライナで人道援助のための資金を集めるための口座を開設しました。 以下の口座番号に送金できます:'
