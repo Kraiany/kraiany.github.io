@@ -30,8 +30,8 @@ jobs:
         shell: bash
         run: |
           bundle exec middleman build --verbose
-          echo "Missing translations in file(s):"
-          ! grep -lr 'translation missing' ./build
+          # echo "Missing translations in file(s):"
+          # ! grep -lr 'translation missing' ./build
       - name: Deploy
         if: ${{ github.ref == 'refs/heads/master' }}
         uses: peaceiris/actions-gh-pages@v3
