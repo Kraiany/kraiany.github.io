@@ -161,26 +161,25 @@ Simpler setup using Docker.
 
 ```
 docker build -t kraiany .
+docker run -it  --rm -v $(pwd):/app --name kraiany -p 4567:4567 kraiany
+# In separate terminal
+docker exec -it kraiany bundle install
 
 ```
 
 ### Develop
 
 ```
-
- docker run -it  --rm -v $(pwd):/app -p 4567:4567 kraiany
- open http://localhost:4567
-
-
+docker run -it  --rm -v $(pwd):/app -p 4567:4567 kraiany
+open http://localhost:4567
 ```
 
 
 ### Deploy
 
-```
+Deploy is done via github actions. To deploy production:
 
-docker run -it  --rm -v $(pwd):/app -v ~/.gitconfig:/root/.gitconfig  -p 4567:4567 kraiany deploy
-
-```
+- create PR
+- merge to master
 
 
