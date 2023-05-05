@@ -72,10 +72,6 @@ helpers do
       t(".title")
     end
   end
-
-  def parse_date(c)
-    c.class == Date ? c.to_date : Time.parse(c).to_date
-  end
 end
 
 activate :sprockets
