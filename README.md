@@ -167,7 +167,7 @@ docker exec -it kraiany bundle install
 
 ```
 
-### Develop
+### Run and test site3 locally
 
 ```
 docker run -it  --rm -v $(pwd):/app -p 4567:4567 kraiany
@@ -188,7 +188,7 @@ Deploy is done via github actions. To deploy production:
 To build site locally with debug output:
 
 ```
-docker run -it  --rm -v $(pwd):/app -p 4567:4567 kraiany build --verbose
+docker run -it --rm -v $(pwd):/app kraiany build --verbose
 ```
 
 

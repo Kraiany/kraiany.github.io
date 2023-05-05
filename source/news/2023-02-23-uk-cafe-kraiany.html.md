@@ -1,6 +1,5 @@
 ---
 title: "Оголошення про відкриття \"Кафе Краяни\""
-date: "2023-02-23"
 image: "news/2023-02-23-cafe-kraiany/feature.jpg"
 ---
 
