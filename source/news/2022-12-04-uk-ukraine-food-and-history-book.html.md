@@ -1,6 +1,6 @@
 ---
 title: "Книга \"Україна. Їжа та історія\" японською мовою"
-date: 2022-12-04
+date: "2022-12-04"
 image: "news/2022-12-04-ukraine-food-and-history-book/feature.jpg"
 ---
 

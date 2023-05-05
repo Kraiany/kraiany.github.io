@@ -180,6 +180,16 @@ open http://localhost:4567
 Deploy is done via github actions. To deploy production:
 
 - create PR
+- check build status (optional)
 - merge to master
+
+### Debugging
+
+To build site locally with debug output:
+
+```
+docker run -it  --rm -v $(pwd):/app -p 4567:4567 kraiany build --verbose
+```
+
 
 
