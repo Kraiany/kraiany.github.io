@@ -21,14 +21,14 @@ RUN \
   && apt-get install -y sudo curl build-essential locales locales-all nodejs
 
 ADD Gemfile* /app/
-RUN cd /app
-  && gem install bundler:2.1.2
-  &&  bundle install
-  && cd /app
-  && gem install nokogiri --platform=ruby 
-  && bundle config set force_ruby_platform true
-  && gem install bundler:2.1.2
-  && bundle install
+RUN cd /app \
+  && gem install bundler:2.1.2 \
+  &&  bundle install \
+  && cd /app \
+  && gem install nokogiri --platform=ruby  \
+  && bundle config set force_ruby_platform true \
+  && gem install bundler:2.1.2 \
+  && bundle install \
   && bundle update
 
 ENTRYPOINT ["bundle", "exec", "middleman"]
