@@ -1,38 +1,41 @@
-link href="favicon.ico" rel=("shortcut icon") type="image/x-icon" /
-head
-  = partial "layouts/tag_manager_head"
-  meta charset="utf-8" /
-  meta content="IE=edge" http-equiv="X-UA-Compatible" /
-  meta content="width=device-width, initial-scale=1" name="viewport" /
+link href="/favicon.ico" rel=("shortcut icon") type="image/x-icon" /
+link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" /
+link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" /
+link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" /
 
-  - if current_page.data.description.present?
-    - description = t current_page.data.description
-  - elsif current_page.data.details.present?
-    - description = current_page.data.details
-  - elsif current_page.data.summary.present?
-    - description = current_page.data.summary
+= partial "layouts/tag_manager_head"
+meta charset="utf-8" /
+meta content="IE=edge" http-equiv="X-UA-Compatible" /
+meta content="width=device-width, initial-scale=1" name="viewport" /
 
-  - if defined?(description) && description.present?
-    meta content="#{description}" name="description" /
-    meta content="#{description}" property="og:description" /
+- if current_page.data.description.present?
+  - description = t current_page.data.description
+- elsif current_page.data.details.present?
+  - description = current_page.data.details
+- elsif current_page.data.summary.present?
+  - description = current_page.data.summary
 
-  - if current_page.data.keywords.present?
-    meta content="#{t current_page.data.keywords}" name="keywords" /
-  - elsif current_page.data.tags.present?
-    meta content="#{current_page.data.tags}" name="keywords" /
+- if defined?(description) && description.present?
+  meta content="#{description}" name="description" /
+  meta content="#{description}" property="og:description" /
 
-  meta content="#{t "kraiany.about"}" name="author" /
-  meta content="#{config[:host]}#{image_path(current_page.data.image || "/assets/images/about-us.jpg")}" property="og:image" /
-  meta content="#{config[:host]}#{current_page.url}" property="og:url" /
-  meta content="website" property="og:type" /
+- if current_page.data.keywords.present?
+  meta content="#{t current_page.data.keywords}" name="keywords" /
+- elsif current_page.data.tags.present?
+  meta content="#{current_page.data.tags}" name="keywords" /
 
-  title= translated_title
-  meta content="#{translated_title}" property="og:title" /
+meta content="#{t "kraiany.about"}" name="author" /
+meta content="#{config[:host]}#{image_path(current_page.data.image || "/assets/images/about-us.jpg")}" property="og:image" /
+meta content="#{config[:host]}#{current_page.url}" property="og:url" /
+meta content="website" property="og:type" /
 
-  link rel="alternate" type="application/rss+xml" title="#{t("news.title")} - RSS Feed" href="/#{lang}/feed.xml"
+title= translated_title
+meta content="#{translated_title}" property="og:title" /
 
-  link href="#{config[:host]}#{current_page.url}" rel="canonical" /
-  - if current_page.data.hreflang != false
-    - alternate_lang_pages(current_page).each do |lang, page|
-      link href="#{config[:host]}#{page.url}" hreflang="#{lang}" rel="alternate" /
-  = stylesheet_link_tag "/assets/stylesheets/site"
+link rel="alternate" type="application/rss+xml" title="#{t("news.title")} - RSS Feed" href="/#{lang}/feed.xml"
+
+link href="#{config[:host]}#{current_page.url}" rel="canonical" /
+- if current_page.data.hreflang != false
+  - alternate_lang_pages(current_page).each do |lang, page|
+    link href="#{config[:host]}#{page.url}" hreflang="#{lang}" rel="alternate" /
+= stylesheet_link_tag "/assets/stylesheets/site"

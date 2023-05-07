@@ -1,8 +1,6 @@
 ---
-title: 「カフェ・クラヤヌィ」開店のお知らせ
-date: 2023-02-23
+title: "「カフェ・クラヤヌィ」開店のお知らせ"
 image: "news/2023-02-23-cafe-kraiany/feature.jpg"
-layout: "page"
 ---
 
 JR三鷹駅から徒歩15分ほどの住宅街にカフェ・クラヤヌィが開店しました。

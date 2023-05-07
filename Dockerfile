@@ -9,17 +9,27 @@
 # Deploy:
 # docker run -it  --rm -v $(pwd):/app -v ~/.gitconfig:/root/.gitconfig  -p 4567:4567 kraiany deploy
 #
-FROM ruby:2.6.5
+FROM ruby:3.1.4
 
 # Expose ports.
 EXPOSE 4567
+
+ADD Gemfile* /app/
 
 RUN \
   apt-get update && apt-get --yes upgrade \
   && apt-get install -y sudo curl build-essential locales locales-all nodejs
 
 ADD Gemfile* /app/
-RUN cd /app; gem install bundler:2.1.2; bundle install
+RUN cd /app \
+  && gem install bundler:2.1.2 \
+  &&  bundle install \
+  && cd /app \
+  && gem install nokogiri --platform=ruby  \
+  && bundle config set force_ruby_platform true \
+  && gem install bundler:2.1.2 \
+  && bundle install \
+  && bundle update
 
 ENTRYPOINT ["bundle", "exec", "middleman"]
 

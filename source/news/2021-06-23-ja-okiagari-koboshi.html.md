@@ -1,14 +1,5 @@
 ---
-
-title: 起き上がりこぼしプロジェクト
-date: "2021-06-23 03:05 UTC"
-#lastmod: 2021-12-22T03:05:03Z
-#changefreq: yearly
-#priority: 0.5
-#tags:  Парад,Вишиванка,Токіо,Японія,НПО Краяни
-#categories: release,parade
-#image: "/assets/images/parade-ja-2019.jpg"
-
+title: "起き上がりこぼしプロジェクト"
 ---
 
 今年は福島原発事故から１０年、そしてチェルノブイリ原発事故から35年経ちました。

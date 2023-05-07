@@ -72,10 +72,6 @@ helpers do
       t(".title")
     end
   end
-
-  def parse_date(c)
-    c.class == Date ? c.to_date : Time.parse(c).to_date
-  end
 end
 
 activate :sprockets
@@ -154,12 +150,14 @@ redirect "news.html", to: "/#{default_language}/news.html"
 redirect "news/index.html", to: "/#{default_language}/news.html"
 redirect "parade.html", to: "/#{default_language}/parade.html"
 redirect "parade/index.html", to: "/#{default_language}/parade.html"
+redirect "volunteer/index.html", to: "https://forms.gle/usLLG91zwwUaiEnx5"
 
 # QR code landing pages printed on the flyers/banners
 redirect "landing/1.html", to: "/#{default_language}/about.html"
 redirect "landing/2.html", to: "/#{default_language}/about.html"
 redirect "landing/3.html", to: "/#{default_language}/about.html"
-redirect "landing/ukraiina-tse-smachno.html", to: "/#{default_language}/"
+redirect "landing/ukraiina-tse-smachno.html", to: "https://twitter.com/Ukraine_cafe"
+redirect "landing/kraiany-cafe-poster-2023.html", to: "https://twitter.com/Ukraine_cafe"
 
 supported_languages.each do |lang|
   redirect "#{lang}/parade/index.html", to: "/#{lang}/parade.html"
