@@ -31,4 +31,4 @@ gem 'oj'
 gem 'execjs'
 
 gem 'sass'
-gem 'nokogiri', "1.15.1"
+gem 'nokogiri', "1.15.2"
