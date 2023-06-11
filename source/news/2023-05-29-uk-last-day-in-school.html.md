@@ -15,7 +15,7 @@ READMORE
 
 Тож вітаємо з закінченням навчального року! Але вже у червні чекаємо на уроках літньої школи. 🙂 А у вересні зустрінемось знову всі!
 
-Щиро дякуємо за чудові фото Olga Sotnyk.
+Щиро дякуємо за чудові фото [Olga Sotnyk](https://www.facebook.com/olga.sotnik.9).
 
 Більше фото в [пості Facebook](https://www.facebook.com/kovalova.natalya/posts/pfbid0dAmKuQFq9wTEGxXdk6JHFW8oemFyBYWyddziR7kp3cc72tDUWJYv4kvx7E8zi232l?notif_id=1686411891392038&notif_t=feedback_reaction_generic_tagged&ref=notif)
 
