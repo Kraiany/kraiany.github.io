@@ -6,7 +6,7 @@ We were preparing for this project for a very long time. But now we are ready to
 
 READMORE
 
-(Videos in[the commentgs for the post](https://www.facebook.com/ukrainians.japan/posts/pfbid02txvknMq1pPaVMWZdoc8tq2dG9h7QgzGBgSRUc4YMzJZ43uJvRXnq1Qnt9PnzYAFbl)).
+(Videos in [the comments for the post](https://www.facebook.com/ukrainians.japan/posts/pfbid02txvknMq1pPaVMWZdoc8tq2dG9h7QgzGBgSRUc4YMzJZ43uJvRXnq1Qnt9PnzYAFbl)).
 
 Almost twom months of the non-stop work of the amazing prosthetists and rehabilitators in Mie-ken in collaboration with NPN SanPanSa and our team from Kraiany bring closer dreams of our "Kitties" to reaturn to full life. Motivated, positive, hard workers have considerable success, surprising us and the doctors with the pace of rehabilitation!
 
