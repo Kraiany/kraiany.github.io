@@ -134,6 +134,8 @@ GEM
       toml
       uglifier (~> 3.0)
       webrick
+    middleman-csv (0.1.0)
+      middleman-core (~> 4.0)
     middleman-livereload (3.4.7)
       em-websocket (~> 0.5.1)
       middleman-core (>= 3.3)
@@ -229,6 +231,7 @@ DEPENDENCIES
   i18n-tasks
   middleman (~> 4.5)
   middleman-blog
+  middleman-csv
   middleman-livereload (~> 3.4)
   middleman-minify-html
   middleman-sitemap!

@@ -14,6 +14,7 @@ gem 'middleman', '~> 4.5'
 gem 'middleman-livereload', '~> 3.4'
 gem "middleman-blog"
 gem "middleman-sitemap", git: "https://github.com/matsu911/middleman-sitemap"
+gem "middleman-csv"
 
 gem 'middleman-sprockets', '~> 4.0'
 

@@ -86,6 +86,7 @@ activate :blog do |blog|
 end
 
 activate :sitemap, :hostname => "https://www.kraiany.org"
+activate :csv
 
 
 # Reload the browser automatically whenever files change
