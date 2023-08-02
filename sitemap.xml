@@ -262,6 +262,12 @@
     <loc>https://www.kraiany.org/volunteer</loc>
   </url>
   <url>
+    <loc>https://www.kraiany.org/volunteer/register.html</loc>
+  </url>
+  <url>
+    <loc>https://www.kraiany.org/volunteer/expenses.html</loc>
+  </url>
+  <url>
     <loc>https://www.kraiany.org/landing/1.html</loc>
   </url>
   <url>
@@ -356,6 +362,15 @@
   </url>
   <url>
     <loc>https://www.kraiany.org/uk/universities.html</loc>
+  </url>
+  <url>
+    <loc>https://www.kraiany.org/ja/volunteer.html</loc>
+  </url>
+  <url>
+    <loc>https://www.kraiany.org/en/volunteer.html</loc>
+  </url>
+  <url>
+    <loc>https://www.kraiany.org/uk/volunteer.html</loc>
   </url>
   <url>
     <loc>https://www.kraiany.org/ja/events.html</loc>
