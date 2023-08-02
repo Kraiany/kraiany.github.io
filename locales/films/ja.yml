@@ -57,4 +57,4 @@ ja:
         - title: Netflix
           url: https://www.netflix.com/jp/title/80031666
         website: https://www.netflix.com/jp/title/80031666
-    watch_on: "『%{title}』を鑑賞する"
+    watch_on: 鑑賞する
