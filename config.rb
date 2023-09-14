@@ -171,7 +171,6 @@ supported_languages.each do |lang|
 end
 
 # Redirects for moved files, SEO purpose
-
 redirect "uk/tokyo.html", to: "/uk/evacuee/regions/tokyo.html"
 redirect "uk/yokohama.html", to: "/uk/evacuee/regions/yokohama.html"
 redirect "uk/osaka.html", to: "/uk/evacuee/regions/osaka.html"
@@ -181,3 +180,8 @@ redirect "uk/alljapan.html", to: "/uk/evacuee/regions/alljapan.html"
 redirect "uk/izumisano.html", to: "/uk/evacuee/regions/izumisano.html"
 redirect "uk/chiba.html", to: "/uk/evacuee/regions/chiba.html"
 redirect "uk/helpful_advises/funabashi.html", to: "/uk/evacuee/regions/funabashi.html"
+
+# Redirects from removed pages
+supported_languages.each do |lang|
+  redirect "#{lang}/ymca.html", to: "/#{lang}/evacuee_menu.html"
+end
