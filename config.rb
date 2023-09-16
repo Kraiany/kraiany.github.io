@@ -161,7 +161,7 @@ redirect "volunteer/expenses.html", to: "https://forms.gle/hGZ7DjVnKrubFpBW8"
 redirect "landing/1.html", to: "/#{default_language}/about.html"
 redirect "landing/2.html", to: "/#{default_language}/about.html"
 redirect "landing/3.html", to: "/#{default_language}/about.html"
-redirect "landing/ukraiina-tse-smachno.html", to: "https://twitter.com/Ukraine_cafe"
+redirect "landing/ukraiina-tse-smachno.html", to: "/ja/cafe.html"
 redirect "landing/kraiany-cafe-poster-2023.html", to: "https://twitter.com/Ukraine_cafe"
 
 supported_languages.each do |lang|
