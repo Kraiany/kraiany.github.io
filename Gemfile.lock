@@ -37,6 +37,7 @@ GEM
       erubi (~> 1.4)
       parser (>= 2.4)
       smart_properties
+    bigdecimal (3.1.4)
     builder (3.2.4)
     coffee-script (2.4.1)
       coffee-script-source
@@ -148,7 +149,8 @@ GEM
     nokogiri (1.15.5)
       mini_portile2 (~> 2.8.2)
       racc (~> 1.4)
-    oj (3.16.1)
+    oj (3.16.2)
+      bigdecimal (~> 3.1)
     padrino-helpers (0.15.3)
       i18n (>= 0.6.7, < 2)
       padrino-support (= 0.15.3)
