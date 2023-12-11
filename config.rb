@@ -165,6 +165,8 @@ redirect "landing/ukraiina-tse-smachno.html", to: "/ja/cafe.html"
 redirect "landing/kraiany-cafe-poster-2023.html", to: "https://twitter.com/Ukraine_cafe"
 redirect "landing/kraiany-cafe-menu-qr.html", to: "/assets/files/cafe/Ukrainian-Cafe-KRAIANY-Menu.pdf"
 redirect "landing/kraiany-cafe-card.html", to: "/ja/cafe.html"
+redirect "landing/nengajou-2023-donors.html", to: "/ja/"
+redirect "landing/nengajou-2023-partners.html", to: "/ja/"
 
 supported_languages.each do |lang|
   redirect "#{lang}/parade/index.html", to: "/#{lang}/parade.html"
