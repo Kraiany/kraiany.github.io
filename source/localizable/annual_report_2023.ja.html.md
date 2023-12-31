@@ -38,19 +38,47 @@ title: "NPO KRAIANY 2023年度活動報告"
   <img src="/assets/images/annual_report_2023/chart.ja.png" />
 </div>
 
-## 1. 医薬品/医療機器購入/郵送 -  ¥17,893,166
+## 1. 住宅、学校等の修理、建て替え、建設 - ¥19,430,259
 
-
+#### 1.1 ”GURTUM”共同プロジェクト：キーウ州の学校の防空シェルター建設
 
 <div class="gallery">
-  <img src="/assets/images/annual_report_2023/image4.png" />
-  <img src="/assets/images/annual_report_2023/image43.jpg" />
-  <img src="/assets/images/annual_report_2023/image26.jpg" />
+  <img src="/assets/images/annual_report_2023/image21.png" />
+  <img src="/assets/images/annual_report_2023/image11.jpg" />
+  <img src="/assets/images/annual_report_2023/image17.jpg" />
+  <img src="/assets/images/annual_report_2023/image30.jpg" />
 </div>
 
+#### 1.2 ”All-Ukrainian Association 'PATRIOT’”共同プロジェクト：ザポリージャ州の国内避難民シェルターの修理・運用
 
+<div class="gallery">
+  <img src="/assets/images/annual_report_2023/image39.jpg" />
+  <img src="/assets/images/annual_report_2023/image42.jpg" />
+  <img src="/assets/images/annual_report_2023/image13.jpg" />
+</div>
 
-## 2. 車両の購入、メンテナス、配送手配 - ¥8,978,615
+#### 1.3 ロシアのミサイルによる攻撃を受けたブチャ、ホストメリ等キーウ近郊の住宅や学校の修理、建て替え
+
+<div class="gallery">
+  <img src="/assets/images/annual_report_2023/image33.jpg" />
+  <img src="/assets/images/annual_report_2023/image7.jpg" />
+  <img src="/assets/images/annual_report_2023/image27.jpg" />
+</div>
+
+## 2. ウクライナ国内避難民の支援 - ¥10,113,051
+
+* 支援物資（食品、衣料、医薬品）の購入
+* 子供達へのクリスマスプレゼントの購入
+
+<div class="gallery">
+  <img src="/assets/images/annual_report_2023/image44.png" />
+  <img src="/assets/images/annual_report_2023/image31.jpg" />
+  <img src="/assets/images/annual_report_2023/image25.jpg" />
+  <img src="/assets/images/annual_report_2023/image40.jpg" />
+  <img src="/assets/images/annual_report_2023/image10.jpg" />
+</div>
+
+## 3. 車両の購入、メンテナス、配送手配 - ¥8,978,615
 
 * 避難用の車両の購入/メンテナンス
 * 日本からの救急車両の配送手配
@@ -62,7 +90,14 @@ title: "NPO KRAIANY 2023年度活動報告"
   <img src="/assets/images/annual_report_2023/image35.jpg" />
 </div>
 
-## 3. 負傷兵のリハビリ支援 - ¥3,237,046
+## 4. 発電機、モバイルバッテリー、暖房機、ホッカイロの購入 - ¥1,885,153
+
+<div class="gallery">
+  <img src="/assets/images/annual_report_2023/image36.png" />
+  <img src="/assets/images/annual_report_2023/image29.jpg" />
+</div>
+
+## 5. 負傷兵のリハビリ支援 - ¥3,237,046
 
 * NPO法人SunPanSa共同プロジェクト:三重県においてのウクライナ負傷兵リハビリ支援
 * 自衛隊中央病院のウクライナ負傷兵リハビリ支援
@@ -75,41 +110,15 @@ title: "NPO KRAIANY 2023年度活動報告"
   <img src="/assets/images/annual_report_2023/image6.jpg" />
 </div>
 
-## 4. 住宅、学校等の修理、建て替え、建設 - ¥19,430,259
-
-#### 4.1 ロシアのミサイルによる攻撃を受けたブチャ、ホストメリ等キーウ近郊の住宅や学校の修理、建て替え
+## 6. 医薬品/医療機器購入/郵送 -  ¥17,893,166
 
 <div class="gallery">
-  <img src="/assets/images/annual_report_2023/image33.jpg" />
-  <img src="/assets/images/annual_report_2023/image7.jpg" />
-  <img src="/assets/images/annual_report_2023/image27.jpg" />
+  <img src="/assets/images/annual_report_2023/image4.png" />
+  <img src="/assets/images/annual_report_2023/image43.jpg" />
+  <img src="/assets/images/annual_report_2023/image26.jpg" />
 </div>
 
-#### 4.2 ”All-Ukrainian Association 'PATRIOT’”共同プロジェクト：ザポリージャ州の国内避難民シェルターの修理・運用
-
-<div class="gallery">
-  <img src="/assets/images/annual_report_2023/image39.jpg" />
-  <img src="/assets/images/annual_report_2023/image42.jpg" />
-  <img src="/assets/images/annual_report_2023/image13.jpg" />
-</div>
-
-#### 4.3 ”GURTUM”共同プロジェクト：キーウ州の学校の防空シェルター建設
-
-<div class="gallery">
-  <img src="/assets/images/annual_report_2023/image21.png" />
-  <img src="/assets/images/annual_report_2023/image11.jpg" />
-  <img src="/assets/images/annual_report_2023/image17.jpg" />
-  <img src="/assets/images/annual_report_2023/image30.jpg" />
-</div>
-
-## 5. 発電機、モバイルバッテリー、暖房機、ホッカイロの購入 - ¥1,885,153
-
-<div class="gallery">
-  <img src="/assets/images/annual_report_2023/image36.png" />
-  <img src="/assets/images/annual_report_2023/image29.jpg" />
-</div>
-
-## 6. 応急処置訓練プログラムの支援 - ¥3,194,664
+## 7. 応急処置訓練プログラムの支援 - ¥3,194,664
 
 ウクライナ全土で応急手当プログラムの研修を行うボランティア講師の交通費
 
@@ -117,19 +126,6 @@ title: "NPO KRAIANY 2023年度活動報告"
   <img src="/assets/images/annual_report_2023/image18.jpg" />
   <img src="/assets/images/annual_report_2023/image38.jpg" />
   <img src="/assets/images/annual_report_2023/image22.jpg" />
-</div>
-
-## 7. ウクライナ国内避難民の支援 - ¥10,113,051
-
-* 支援物資（食品、衣料、医薬品）の購入
-* 子供達へのクリスマスプレゼントの購入
-
-<div class="gallery">
-  <img src="/assets/images/annual_report_2023/image44.png" />
-  <img src="/assets/images/annual_report_2023/image31.jpg" />
-  <img src="/assets/images/annual_report_2023/image25.jpg" />
-  <img src="/assets/images/annual_report_2023/image40.jpg" />
-  <img src="/assets/images/annual_report_2023/image10.jpg" />
 </div>
 
 <hr />
