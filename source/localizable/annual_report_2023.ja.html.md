@@ -28,7 +28,7 @@ title: "NPO KRAIANY 2023年度活動報告"
   <img src="/assets/images/annual_report_2023/image12.jpg" />
   <img src="/assets/images/annual_report_2023/image28.jpg" />
   <img src="/assets/images/annual_report_2023/image1.jpg" />
-  <img src="/assets/images/annual_report_2023/image37.jpg" />
+  <img src="/assets/images/annual_report_2023/image37.png" />
 </div>
 
 
