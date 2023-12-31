@@ -1,0 +1,8 @@
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5px;
+  justify-content: space-between;
+  gap: 5px; }
+  .gallery > img {
+    max-height: 250px; }

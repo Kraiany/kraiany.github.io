@@ -496,6 +496,15 @@ ul li {
     .site-footer .social-block li a:hover, .site-footer .social-block li a:focus {
       opacity: 0.8; }
 
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5px;
+  justify-content: space-between;
+  gap: 5px; }
+  .gallery > img {
+    max-height: 250px; }
+
 li.plain {
   list-style-type: none;
   font-weight: normal; }
