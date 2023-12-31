@@ -38,9 +38,9 @@ title: "NPO KRAIANY 2023年度活動報告"
   <img src="/assets/images/annual_report_2023/chart.ja.png" />
 </div>
 
-1 . ¥17,893,166
+## 1. 医薬品/医療機器購入/郵送 -  ¥17,893,166
 
-医薬品/医療機器購入/郵送
+
 
 <div class="gallery">
   <img src="/assets/images/annual_report_2023/image4.png" />
@@ -50,10 +50,10 @@ title: "NPO KRAIANY 2023年度活動報告"
 
 
 
-2 . ¥8,978,615
+## 2. 車両の購入、メンテナス、配送手配 - ¥8,978,615
 
 * 避難用の車両の購入/メンテナンス
-* 救急車両購入/ウクライナへの郵送
+* 日本からの救急車両の配送手配
 
 <div class="gallery">
   <img src="/assets/images/annual_report_2023/image14.jpg" />
@@ -62,10 +62,10 @@ title: "NPO KRAIANY 2023年度活動報告"
   <img src="/assets/images/annual_report_2023/image35.jpg" />
 </div>
 
-3 . ¥3,237,046
+## 3. 負傷兵のリハビリ支援 - ¥3,237,046
 
-* NPO法人SanPanSaとの共同プロジェクト、三重県のウクライナ負傷兵リハビリ支援
-* 自衛隊中央病院ののウクライナ負傷兵リハビリ支援
+* NPO法人SunPanSa共同プロジェクト:三重県においてのウクライナ負傷兵リハビリ支援
+* 自衛隊中央病院のウクライナ負傷兵リハビリ支援
 
 <div class="gallery">
   <img src="/assets/images/annual_report_2023/image41.png" />
@@ -75,9 +75,9 @@ title: "NPO KRAIANY 2023年度活動報告"
   <img src="/assets/images/annual_report_2023/image6.jpg" />
 </div>
 
-4 . ¥19,430,259
+## 4. 住宅、学校等の修理、建て替え、建設 - ¥19,430,259
 
-* ロシアのミサイルによる攻撃を受けたブチャ市などキーウ州の住宅と学校の修理、建て替え
+#### 4.1 ロシアのミサイルによる攻撃を受けたブチャ、ホストメリ等キーウ近郊の住宅や学校の修理、建て替え
 
 <div class="gallery">
   <img src="/assets/images/annual_report_2023/image33.jpg" />
@@ -85,7 +85,7 @@ title: "NPO KRAIANY 2023年度活動報告"
   <img src="/assets/images/annual_report_2023/image27.jpg" />
 </div>
 
-* 公共団体”All-Ukrainian Association 'PATRIOT’”と共同で、ザポリージャ市の国内避難民施設の修理・運用
+#### 4.2 ”All-Ukrainian Association 'PATRIOT’”共同プロジェクト：ザポリージャ州の国内避難民シェルターの修理・運用
 
 <div class="gallery">
   <img src="/assets/images/annual_report_2023/image39.jpg" />
@@ -93,7 +93,7 @@ title: "NPO KRAIANY 2023年度活動報告"
   <img src="/assets/images/annual_report_2023/image13.jpg" />
 </div>
 
-* 慈善団体”GURTUM”と共同で、キーウ州の学校の防空シェルター建設
+#### 4.3 ”GURTUM”共同プロジェクト：キーウ州の学校の防空シェルター建設
 
 <div class="gallery">
   <img src="/assets/images/annual_report_2023/image21.png" />
@@ -102,18 +102,16 @@ title: "NPO KRAIANY 2023年度活動報告"
   <img src="/assets/images/annual_report_2023/image30.jpg" />
 </div>
 
-5 . ¥1,885,153
-
-* 発電機、モバイルバッテリー、暖房機、ホッカイロの購入
+## 5. 発電機、モバイルバッテリー、暖房機、ホッカイロの購入 - ¥1,885,153
 
 <div class="gallery">
   <img src="/assets/images/annual_report_2023/image36.png" />
   <img src="/assets/images/annual_report_2023/image29.jpg" />
 </div>
 
-6 . ¥3,194,664
+## 6. 応急処置訓練プログラムの支援 - ¥3,194,664
 
-* 応急処置訓練プログラムの参加者の交通費用
+ウクライナ全土で応急手当プログラムの研修を行うボランティア講師の交通費
 
 <div class="gallery">
   <img src="/assets/images/annual_report_2023/image18.jpg" />
@@ -121,10 +119,10 @@ title: "NPO KRAIANY 2023年度活動報告"
   <img src="/assets/images/annual_report_2023/image22.jpg" />
 </div>
 
-7 . ¥10,113,051
+## 7. ウクライナ国内避難民の支援 - ¥10,113,051
 
-* 国内避難民の支援物資（食品、衣料、薬品等）の購入
-* 国内避難民の子供達にクリスマスプレゼント購入
+* 支援物資（食品、衣料、医薬品）の購入
+* 子供達へのクリスマスプレゼントの購入
 
 <div class="gallery">
   <img src="/assets/images/annual_report_2023/image44.png" />
@@ -134,7 +132,11 @@ title: "NPO KRAIANY 2023年度活動報告"
   <img src="/assets/images/annual_report_2023/image10.jpg" />
 </div>
 
-今後もウクライナと日本の交流を深め、ウクライナの現状についての理解を深める目的で今まで実施してきたプロジェクトを継続していきます。来年から始まる新規プロジェクトは、以下を予定しています：
+<hr />
+
+今後もウクライナと日本の交流を深め、ウクライナの現状についての理解を深める目的で今まで実施してきたプロジェクトを継続していきます。
+
+来年から始まる新規プロジェクトは、以下を予定しています：
 
 * ウクライナ文部科学省との協力のもと、ウクライナ避難民のオンライン教育プログラム
 * ロシア占領地からの避難した児童の授業実施に必要な資材の提供と日本工芸のワークショップ開催
