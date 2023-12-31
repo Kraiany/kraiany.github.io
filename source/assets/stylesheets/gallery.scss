@@ -9,3 +9,10 @@
     max-height: 250px;
   }
 }
+
+@media screen and (max-width: 600px) {
+  .gallery > img {
+    width: 100%;
+    max-height: inherit;
+  }
+}
