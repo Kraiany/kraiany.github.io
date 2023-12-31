@@ -10,7 +10,11 @@ sitemap: false
 
 NPO KRAIANYはウクライナ現地パートナーの「[Charity Foundation CITIZEN](https://ctzn24.com/en)」と共に、ウクライナの負傷者の医療費支援を行っています。
 
-日本でのスポンサー：NPO KRAIANY、[在日ウクライナ大使館](https://japan.mfa.gov.ua/ja)、[LLAN](http://llanjapan.org)。
+日本でのスポンサー：
+
+* NPO KRAIANY
+* [在日ウクライナ大使館](https://japan.mfa.gov.ua/ja)
+* [LLAN](http://llanjapan.org)
 
 ご支援・ご協力よろしくお願いいたします。
 
