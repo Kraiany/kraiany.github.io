@@ -107,7 +107,9 @@ title: "NPO KRAIANY 2023年度活動報告"
   <img src="/assets/images/annual_report_2023/image6.jpg" />
 </div>
 
-## 6. 医薬品/医療機器購入/郵送 -  ¥17,893,166
+## 6. 医薬品/医療機器購入/配送 -  ¥17,893,166
+
+欧州で不足している医療品を日本で購入、ウクライナへの配送
 
 <div class="gallery">
   <img src="/assets/images/annual_report_2023/image4.png" />
