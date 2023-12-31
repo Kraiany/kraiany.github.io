@@ -31,12 +31,9 @@ title: "NPO KRAIANY 2023年度活動報告"
   <img src="/assets/images/annual_report_2023/image37.png" />
 </div>
 
+## 2023年度には合計¥64,731,954の寄付金が寄せられました。
 
-今年、弊協会に寄せられた寄付金合計¥64,731,954は以下のプロジェクトに充てられました：
-
-<div class="gallery">
-  <img src="/assets/images/annual_report_2023/chart.ja.png" />
-</div>
+弊協会に寄せられた寄付金は以下のプロジェクトに充てられました：
 
 ## 1. 住宅、学校等の修理、建て替え、建設 - ¥19,430,259
 
@@ -127,6 +124,14 @@ title: "NPO KRAIANY 2023年度活動報告"
   <img src="/assets/images/annual_report_2023/image38.jpg" />
   <img src="/assets/images/annual_report_2023/image22.jpg" />
 </div>
+
+<hr />
+
+<div class="gallery">
+  <img src="/assets/images/annual_report_2023/chart.ja.png" />
+</div>
+
+＊参考：各プロジェクトに対する支援金の配分
 
 <hr />
 
