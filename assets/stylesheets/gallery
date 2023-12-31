@@ -2,7 +2,12 @@
   display: flex;
   flex-wrap: wrap;
   padding: 5px;
-  justify-content: space-between;
+  justify-content: start;
   gap: 5px; }
   .gallery > img {
     max-height: 250px; }
+
+@media screen and (max-width: 600px) {
+  .gallery > img {
+    width: 100%;
+    max-height: inherit; } }
