@@ -58,3 +58,14 @@ NPO KRAIANYのウクライナにおけるパートナーである[「グロマ�
   publishable-key="pk_live_51KjYSyEaPeFsLtffoIhttvgdtYOIYTQlc8GePJaAX6xp2KfeqXLcPgr0zH12qdxwV6uyJdjFqPfbZGR94ARNyNcQ00gpHSb8Se"
 >
 </stripe-buy-button>
+
+
+## 振り込み銀行口座
+
+* 口座名義: 三菱UFJ 銀行 (Mitsubishi UFJ)
+* 支店: 品川駅前支店 588
+* 預金種目: 普通
+* 口座番号: 0516596
+* 口座名義: トクテイヒエイリカツドウホウジン　ニホンウクライナユウコウキヨウカイクラヤヌイ
+
+振り込みをされる際に　「マラソン」と振込み人名義にご記入ください。
