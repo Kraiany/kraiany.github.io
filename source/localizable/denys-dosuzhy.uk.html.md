@@ -59,3 +59,14 @@ sitemap: false
   publishable-key="pk_live_51KjYSyEaPeFsLtffoIhttvgdtYOIYTQlc8GePJaAX6xp2KfeqXLcPgr0zH12qdxwV6uyJdjFqPfbZGR94ARNyNcQ00gpHSb8Se"
 >
 </stripe-buy-button>
+
+
+## Банківський Рахунок
+
+Ім'я: 三菱UFJ 銀行 (Mitsubishi UFJ)
+Відділення банку: 品川駅前支店 588
+Тип рахунку: 普通
+Номер рахунку: 0516596
+Ім'я: トクテイヒエイリカツドウホウジン　ニホンウクライナユウコウキヨウカイクラヤヌイ
+
+При переказу, вкажіть «マラソン» на імені особи (振込み人名義)
