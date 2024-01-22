@@ -75,3 +75,7 @@ NPO KRAIANYはウクライナ現地パートナーの「[Charity Foundation CITI
 * 口座名義: トクテイヒエイリカツドウホウジン　ニホンウクライナユウコウキヨウカイクラヤヌイ
 
 振り込みをされる際に　「マラソン」と振込み人名義にご記入ください。
+
+## 現在の集金状況
+
+[確認する](https://docs.google.com/spreadsheets/d/1dZOTNav2qGOSK2hcm12XwbrMkb4UWp7-gjaCPfc4x_4/htmlview)

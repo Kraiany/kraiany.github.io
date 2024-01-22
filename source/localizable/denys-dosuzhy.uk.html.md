@@ -76,3 +76,8 @@ sitemap: false
 Ім'я: トクテイヒエイリカツドウホウジン　ニホンウクライナユウコウキヨウカイクラヤヌイ
 
 При переказу, вкажіть «マラソン» на імені особи (振込み人名義)
+
+
+## Зібрані в Японії кошти на даний час
+
+[Переглянути тут](https://docs.google.com/spreadsheets/d/1dZOTNav2qGOSK2hcm12XwbrMkb4UWp7-gjaCPfc4x_4/htmlview)
