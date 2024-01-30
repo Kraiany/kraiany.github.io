@@ -167,6 +167,7 @@ redirect "landing/kraiany-cafe-menu-qr.html", to: "/assets/files/cafe/Ukrainian-
 redirect "landing/kraiany-cafe-card.html", to: "/ja/cafe.html"
 redirect "landing/nengajou-2023-donors.html", to: "/ja/annual_report_2023.html"
 redirect "landing/nengajou-2023-partners.html", to: "/ja/annual_report_2023.html"
+redirect "landing/tokyo-marathon-2024.html", to: "/ja/"
 
 supported_languages.each do |lang|
   redirect "#{lang}/parade/index.html", to: "/#{lang}/parade.html"
