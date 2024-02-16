@@ -193,7 +193,7 @@ GEM
     rb-inotify (0.10.1)
       ffi (~> 1.0)
     rexml (3.2.6)
-    rmagick (5.4.3)
+    rmagick (5.4.4)
       observer (~> 0.1)
       pkg-config (~> 1.4)
     sass (3.7.4)
