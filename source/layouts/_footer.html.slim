@@ -5,6 +5,7 @@ footer.site-footer
       .col-md-12
         p.site-info
           a href="/#{locale}/contact.html" = t "kraiany.contact_us"
-
+          - if locale == :ja
+            a href="/#{locale}/commerce-disclosure.html" = t "kraiany.commerce_disclosure"
 // dont touch
 = javascript_include_tag "/assets/javascripts/site"

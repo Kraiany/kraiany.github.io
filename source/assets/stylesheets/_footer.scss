@@ -10,6 +10,9 @@
   margin-top: auto;
 
   .site-info {
+    display: flex;
+    gap: 2em;
+    justify-content: center;
     font-weight: 400;
     margin-bottom: 10px;
     a {
