@@ -1,5 +1,6 @@
 ---
 title: "ウクライナ負傷兵のための募金活動、東京マラソン完走報告"
+image: "news/2024-03-03-tokyo-marathon-finish/feature.jpg"
 ---
 
 ロシアによる侵攻で義肢となったウクライナ兵が東京マラソンを完走しました。マラソンを通じて集められる支援金は、重大な負傷を負った、デニス・ドスージーのために必要な医療機器の購入に充てられます。<a href="https://donate.stripe.com/8wM3eb3hw7xjftKeV7" target="_blank">寄付される方はこちら</a>。
@@ -39,3 +40,9 @@ READMORE
 * 口座名義: トクテイヒエイリカツドウホウジン　ニホンウクライナユウコウキヨウカイクラヤヌイ
 
 振り込みをされる際に　「マラソン」と振込み人名義にご記入ください。
+
+![](news/2024-03-03-tokyo-marathon-finish/photo1.jpg)
+![](news/2024-03-03-tokyo-marathon-finish/photo2.jpg)
+![](news/2024-03-03-tokyo-marathon-finish/photo3.jpg)
+![](news/2024-03-03-tokyo-marathon-finish/photo4.jpg)
+![](news/2024-03-03-tokyo-marathon-finish/photo5.jpg)
