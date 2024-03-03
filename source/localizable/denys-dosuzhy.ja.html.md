@@ -60,7 +60,7 @@ NPO KRAIANYはウクライナ現地パートナーの「[Charity Foundation CITI
 </script>
 
 <stripe-buy-button
-  buy-button-id="buy_btn_1OXFhnEaPeFsLtffhG0mnQml"
+  buy-button-id="buy_btn_1Oq7OtEaPeFsLtffUjtRNs9y"
   publishable-key="pk_live_51KjYSyEaPeFsLtffoIhttvgdtYOIYTQlc8GePJaAX6xp2KfeqXLcPgr0zH12qdxwV6uyJdjFqPfbZGR94ARNyNcQ00gpHSb8Se"
 >
 </stripe-buy-button>
