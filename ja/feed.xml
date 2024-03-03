@@ -5,10 +5,59 @@
   <id>https://www.kraiany.org/ja/news.html</id>
   <link href="https://www.kraiany.org/ja/news.html"/>
   <link href="https://www.kraiany.org/ja/feed.xml" rel="self"/>
-  <updated>2023-07-09T00:00:00+00:00</updated>
+  <updated>2024-03-03T00:00:00+00:00</updated>
   <author>
     <name>NPO クラヤヌィ (Kraiany)</name>
   </author>
+  <entry>
+    <title>ウクライナ負傷兵のための募金活動、東京マラソン完走報告</title>
+    <link rel="alternate" href="https://www.kraiany.org/ja/news/2024-03-03-tokyo-marathon-finish.html"/>
+    <id>/ja/news/2024-03-03-tokyo-marathon-finish.html</id>
+    <published>2024-03-03T00:00:00+00:00</published>
+    <updated>2024-03-03T00:00:00+00:00</updated>
+    <author>
+      <name>NPO クラヤヌィ (Kraiany)</name>
+    </author>
+    <summary type="html">&lt;p&gt;ロシアによる侵攻で義肢となったウクライナ兵が東京マラソンを完走しました。マラソンを通じて集められる支援金は、重大な負傷を負った、デニス・ドスージーのために必要な医療機器の購入に充てられます。&lt;a href="https://donate.stripe.com/8wM3eb3hw7xjftKeV7" target="_blank"&gt;寄付される方はこちら&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</summary>
+    <content type="html">&lt;p&gt;ロシアによる侵攻で義肢となったウクライナ兵が東京マラソンを完走しました。マラソンを通じて集められる支援金は、重大な負傷を負った、デニス・ドスージーのために必要な医療機器の購入に充てられます。&lt;a href="https://donate.stripe.com/8wM3eb3hw7xjftKeV7" target="_blank"&gt;寄付される方はこちら&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;2024年3月3日、東京マラソンにおいて、ロシアによる侵攻で大きな犠牲を払ったウクライナの二人の英雄、ロマン・カシュプールとユーリ・コズロフスキーが、42キロメートルの距離を義肢をつけて見事完走しました。この偉業を達成した彼らへの支援と、ウクライナへの愛と希望を沿道から寄せてくださった全ての支持者の皆様に、心からの感謝を申し上げます。&lt;/p&gt;
+
+&lt;p&gt;彼らの参加は、単なるマラソンの完走以上の意味を持ちます。それは、身体的な障害を乗り越え、新たな人生を歩む勇気と希望の象徴であり、また、戦争の傷跡に苦しむ多くのウクライナ人に対する支援の手を広げることを意味しています。&lt;/p&gt;
+
+&lt;p&gt;ロマンとユーリの勇気ある挑戦は、世界中にウクライナへの支援の必要性を訴えかけるものでした。今回のマラソンを通じて集められる支援金は、重大な負傷を負ったウクライナの防衛者、デニス・ドスージーのために必要な医療機器の購入に充てられます。デニスの回復と、彼が痛みなく生活できるようになるための手術は、皆様のご支援によって可能となります。&lt;/p&gt;
+
+&lt;p&gt;東京マラソンの完走は一つの大きな節目ですが、私たちの活動と募金活動はまだ終わりません。デニスをはじめとする多くのウクライナの勇者たちが、再び健康な日常を取り戻せるよう、引き続きご支援をお願い申し上げます。&lt;/p&gt;
+
+&lt;p&gt;この道のりにおいて、沿道で声援を送ってくださった皆様、そしてこれまでにご寄付をくださった全ての方々に、改めて深く感謝いたします。一人ひとりの小さな支援が集まって、大きな希望へと変わります。デニス・ドスージーの治療支援のため、引き続きのご協力を心よりお願いいたします。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="/ja/denys-dosuzhy.html"&gt;デニス・ドスージーの募金活動にに関する詳細はこちら&lt;/a&gt;をご覧ください。&lt;/p&gt;
+
+&lt;div style="display: flex; justify-content: center;"&gt;
+&lt;script async="" src="https://js.stripe.com/v3/buy-button.js"&gt;
+&lt;/script&gt;
+
+&lt;stripe-buy-button buy-button-id="buy_btn_1Oq7OtEaPeFsLtffUjtRNs9y" publishable-key="pk_live_51KjYSyEaPeFsLtffoIhttvgdtYOIYTQlc8GePJaAX6xp2KfeqXLcPgr0zH12qdxwV6uyJdjFqPfbZGR94ARNyNcQ00gpHSb8Se"&gt;
+&lt;/stripe-buy-button&gt;
+&lt;/div&gt;
+
+&lt;h2 id="section"&gt;振り込み銀行口座&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;口座名義: 三菱UFJ 銀行 (Mitsubishi UFJ)&lt;/li&gt;
+  &lt;li&gt;支店: 品川駅前支店 588&lt;/li&gt;
+  &lt;li&gt;預金種目: 普通&lt;/li&gt;
+  &lt;li&gt;口座番号: 0516596&lt;/li&gt;
+  &lt;li&gt;口座名義: トクテイヒエイリカツドウホウジン　ニホンウクライナユウコウキヨウカイクラヤヌイ&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;振り込みをされる際に　「マラソン」と振込み人名義にご記入ください。&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>ウクライナ夏祭り「クパラ」スケジュール</title>
     <link rel="alternate" href="https://www.kraiany.org/ja/news/2023-07-09-kupala-schedule.html"/>
@@ -367,67 +416,6 @@
 
 &lt;p&gt;&lt;img src="/assets/images/news/2022-12-04-ukraine-food-and-history-book/01-11b09070.jpg" alt="З історії української кухні" /&gt;
 &lt;img src="/assets/images/news/2022-12-04-ukraine-food-and-history-book/02-7e42f178.jpg" alt="Food and History ウクライナの料理と歴史" /&gt;&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>ウクライナのサンタ2022(スヴャティ・ミコライ) 開催のお知らせ</title>
-    <link rel="alternate" href="https://www.kraiany.org/ja/news/2022-11-25-mykolay-2022.html"/>
-    <id>/ja/news/2022-11-25-mykolay-2022.html</id>
-    <published>2022-11-25T00:00:00+00:00</published>
-    <updated>2022-11-25T00:00:00+00:00</updated>
-    <author>
-      <name>NPO クラヤヌィ (Kraiany)</name>
-    </author>
-    <summary type="html">&lt;p&gt;12月18日にスヴャティ・ミコライ（ウクライナのサンタ）２０２２のイベントを千代田区で開催いたします！&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</summary>
-    <content type="html">&lt;p&gt;12月18日にスヴャティ・ミコライ（ウクライナのサンタ）２０２２のイベントを千代田区で開催いたします！&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;
-
-&lt;p&gt;おもちゃは好きですか？プレゼントは好きですか？白い髭をはやし、トナカイに乗って子供達におもちゃを配る世界中で有名なおじいさんは、みなさんご存知ですよね♪ ウクライナのサンタは「スヴャティ‧ミコライ」と呼ばれ、子供たちは12月18日に枕の下にプレゼントをもらいます。&lt;/p&gt;
-
-&lt;p&gt;プレゼントは一年中いい子にしていた子どもだけが貰えます。&lt;/p&gt;
-
-&lt;p&gt;子供たちのみなさんは最近、お手伝いをしましたか？たくさん良いことをしましたか？&lt;/p&gt;
-
-&lt;p&gt;みなさん、ぜひ「聖ミコラス祭」へご参加ください♪&lt;/p&gt;
-
-&lt;p&gt;当日のプログラム:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;「ミコライチキ」というウクライナの昔ながらのレシピのクッキーをチョコでデコレーション&lt;/li&gt;
-  &lt;li&gt;ウクライナ日曜学校「ジェレリツェ」と振付スタジオ「ドゥカチ」の生徒による、ウクライナの民話「てぶくろ」に基く音楽パフォーマンスの初演 (日本語とウクライナ語)&lt;/li&gt;
-  &lt;li&gt;楽しいゲーム、そしてミコライからのプレゼント！&lt;/li&gt;
-  &lt;li&gt;記念撮影&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;このイベントは、NPO KRAIANY、 ウクライナ日曜学校「ジェレリツェ」、 「ドゥカチ」 がライオンズクラブ国際協会330-A地区,　一般財団法人主婦会館プラザエフとのご協力、在日ウクライナ大使館からのご支援のもとで開催されます。&lt;/p&gt;
-
-&lt;p&gt;皆さんとお友達のお越しを心よりお待ちしています！ 一緒に楽しみましょう!&lt;/p&gt;
-
-&lt;p&gt;開催日: 12月18日 (日) &lt;br /&gt;
-時間: 11:00~14:00 (受付10:30〜) &lt;br /&gt;
-参加費: 子供一人3,000円　(両親は無料) &lt;br /&gt;
-場所：〒102ー0085 東京都千代田区六番町15番地 &lt;br /&gt;
-一般財団法人主婦会館（プラザエフ）B２ &lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;チケット購入方法&lt;/p&gt;
-
-&lt;p&gt;12月8日(月)までに下記口座に参加者氏名で事前に振り込みお願いします。&lt;/p&gt;
-
-&lt;p&gt;三菱UFJ 銀行 (Mitsubishi UFJ) &lt;br /&gt;
-Branch 品川駅前支店 588 &lt;br /&gt;
-Account type 普通 &lt;br /&gt;
-Account number 0516596 &lt;br /&gt;
-Name トクテイヒエイリカツドウホウジン　ニホンウクライナユウコウキヨウカイクラヤヌイ &lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;振り込みが完了しましたらcontact@kraiany.org宛にemailで
-メールの件名: ミコライ2022&lt;/p&gt;
-
-&lt;p&gt;本文: お子様全員の氏名と年齢をお送り下さい。&lt;/p&gt;
-
-&lt;p&gt;※新型コロナウィルスの感染予防の実施とソーシャルディスタンスを心がけましょう。&lt;/p&gt;
 </content>
   </entry>
 </feed>
