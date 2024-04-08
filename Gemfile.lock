@@ -193,7 +193,7 @@ GEM
     rb-inotify (0.10.1)
       ffi (~> 1.0)
     rexml (3.2.6)
-    rmagick (5.4.4)
+    rmagick (5.5.0)
       observer (~> 0.1)
       pkg-config (~> 1.4)
     sass (3.7.4)
@@ -243,7 +243,7 @@ DEPENDENCIES
   middleman-sprockets (~> 4.0)
   nokogiri (= 1.16.3)
   oj
-  rmagick (~> 5.4)
+  rmagick (~> 5.5)
   sass
   slim
   tzinfo-data
