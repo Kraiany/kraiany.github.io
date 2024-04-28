@@ -155,6 +155,7 @@ redirect "parade/index.html", to: "/#{default_language}/parade.html"
 # Volunteer related
 redirect "volunteer/index.html", to: "/#{default_language}/volunteer.html"
 redirect "volunteer/register.html", to: "https://forms.gle/usLLG91zwwUaiEnx5"
+redirect "volunteer/register-ja.html", to: "https://forms.gle/aabryAgAV8JDNoof8"
 redirect "volunteer/expenses.html", to: "https://forms.gle/hGZ7DjVnKrubFpBW8"
 
 # QR code landing pages printed on the flyers/banners
