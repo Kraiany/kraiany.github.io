@@ -23,7 +23,7 @@ gem "slim"
 gem 'middleman-minify-html'
 gem "i18n-tasks"
 
-gem 'rmagick', '~>5.5'
+gem 'rmagick', '~>6.0'
 
 gem 'font-awesome-middleman'
 
