@@ -144,9 +144,9 @@ GEM
     middleman-sprockets (4.1.1)
       middleman-core (~> 4.0)
       sprockets (>= 3.0)
-    mini_portile2 (2.8.5)
+    mini_portile2 (2.8.6)
     minitest (5.22.2)
-    nokogiri (1.16.4)
+    nokogiri (1.16.5)
       mini_portile2 (~> 2.8.2)
       racc (~> 1.4)
     observer (0.1.2)
@@ -241,7 +241,7 @@ DEPENDENCIES
   middleman-minify-html
   middleman-sitemap!
   middleman-sprockets (~> 4.0)
-  nokogiri (= 1.16.4)
+  nokogiri (= 1.16.5)
   oj
   rmagick (~> 6.0)
   sass
