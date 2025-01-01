@@ -169,7 +169,7 @@ redirect "landing/kraiany-cafe-card.html", to: "/ja/cafe-kraiany"
 redirect "landing/kraiany-cafe-menu.pdf", to: "/assets/files/cafe/Ukrainian-Cafe-KRAIANY-Menu.pdf"
 redirect "landing/nengajou-2023-donors.html", to: "/ja/annual_report_2023.html"
 redirect "landing/nengajou-2023-partners.html", to: "/ja/annual_report_2023.html"
-redirect "landing/nengajou-2024.html", to: "/ja/"
+redirect "landing/nengajou-2024.html", to: "/ja/news/2025-01-01-2025-01-01-newyear.html"
 redirect "landing/tokyo-marathon-2024.html", to: "https://zoom.us/j/98587878390?pwd=Y1BvekNta1JzNkozQ3JnZ2JUc3ltQT09"
 
 supported_languages.each do |lang|
