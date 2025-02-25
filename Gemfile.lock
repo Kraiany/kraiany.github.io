@@ -150,7 +150,7 @@ GEM
       mini_portile2 (~> 2.8.2)
       racc (~> 1.4)
     observer (0.1.2)
-    oj (3.16.9)
+    oj (3.16.10)
       bigdecimal (>= 3.0)
       ostruct (>= 0.2)
     ostruct (0.6.1)
