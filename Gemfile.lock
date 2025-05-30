@@ -37,7 +37,7 @@ GEM
       erubi (~> 1.4)
       parser (>= 2.4)
       smart_properties
-    bigdecimal (3.1.9)
+    bigdecimal (3.2.0)
     builder (3.3.0)
     coffee-script (2.4.1)
       coffee-script-source
@@ -150,7 +150,7 @@ GEM
       mini_portile2 (~> 2.8.2)
       racc (~> 1.4)
     observer (0.1.2)
-    oj (3.16.10)
+    oj (3.16.11)
       bigdecimal (>= 3.0)
       ostruct (>= 0.2)
     ostruct (0.6.1)
