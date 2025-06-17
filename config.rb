@@ -172,7 +172,7 @@ redirect "landing/nengajou-2023-partners.html", to: "/ja/annual_report_2023.html
 redirect "landing/nengajou-2024.html", to: "/ja/news/2025-01-01-2025-01-01-newyear.html"
 redirect "landing/tokyo-marathon-2024.html", to: "https://zoom.us/j/98587878390?pwd=Y1BvekNta1JzNkozQ3JnZ2JUc3ltQT09"
 redirect "landing/russian-invasion-2025.html", to: "/ja/news/2025-02-20-russian-invasion.html"
-redirect "landing/kraiany-cafe-bohrach-2025-06.html", to: "/ja/cafe-kraiany"
+redirect "landing/kraiany-cafe-bohrach-2025-06.html", to: "https://forms.gle/BCZATzzfiq5Cpjvi9"
 
 supported_languages.each do |lang|
   redirect "#{lang}/parade/index.html", to: "/#{lang}/parade.html"
