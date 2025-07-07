@@ -1,7 +1,7 @@
 li
   span
     - if langs.size > 1
-      - langs.each do |lang|
+      - ([:ja] + langs).each do |lang|
         - lang_data = data.languages[lang]
         span.language_select
           a[href="#{current_with_locale("#{lang}")}"]

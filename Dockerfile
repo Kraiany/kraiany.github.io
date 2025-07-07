@@ -31,9 +31,9 @@ RUN cd /app \
   && bundle install \
   && bundle update
 
-ENTRYPOINT ["bundle", "exec", "middleman"]
+ENTRYPOINT ["bundle", "exec"]
 
-CMD ["server"]
+CMD ["middleman", "server"]
 
 WORKDIR "/app"
 

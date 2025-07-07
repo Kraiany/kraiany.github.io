@@ -1,5 +1,5 @@
-base_locale: ja
-locales: [en, uk]
+base_locale: uk
+locales: en
 data:
   read:
     - locales/%{locale}.yml

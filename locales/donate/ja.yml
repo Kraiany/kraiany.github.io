@@ -13,7 +13,6 @@ ja:
       monthly_1k: "¥1,000"
       monthly_3k: "¥3,000"
       monthly_5k: "¥5,000"
-      monthly_cancel: ※カード決済の支援を選択された方はメールで領収書が発信されます。決済情報の更新、支援の停止などは<a href="/donate/manage.html" rel="noindex nofollow">ポータル</a>からできます。
       once: １回の支援
       once_detail: こちらの一回の寄付は希望される金額をご指定し寄付をすることができます。
       title: クレジット決済

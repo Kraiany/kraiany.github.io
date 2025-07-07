@@ -26,8 +26,8 @@ page '/*.txt', layout: false
 #  which_fake_page: "Rendering a fake page with a local variable" }
 
 # General configuration
-default_language = :ja
-supported_languages = [default_language, :en, :uk]
+default_language = :uk
+supported_languages = [default_language, :en]
 activate :i18n, langs: supported_languages, :mount_at_root => false
 
 # --------------------------------------------
