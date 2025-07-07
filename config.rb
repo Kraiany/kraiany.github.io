@@ -160,9 +160,9 @@ redirect "volunteer/register-ja.html", to: "https://forms.gle/aabryAgAV8JDNoof8"
 redirect "volunteer/expenses.html", to: "https://forms.gle/hGZ7DjVnKrubFpBW8"
 
 # QR code landing pages printed on the flyers/banners
-redirect "landing/1.html", to: "/#{default_language}/ja/about-us"
-redirect "landing/2.html", to: "/#{default_language}/ja/about-us"
-redirect "landing/3.html", to: "/#{default_language}/ja/about-us"
+redirect "landing/1.html", to: "/ja/about-us"
+redirect "landing/2.html", to: "/ja/about-us"
+redirect "landing/3.html", to: "/ja/about-us"
 redirect "landing/ukraiina-tse-smachno.html", to: "/ja/cafe-kraiany"
 redirect "landing/kraiany-cafe-poster-2023.html", to: "https://twitter.com/Ukraine_cafe"
 redirect "landing/kraiany-cafe-menu-qr.html", to: "/assets/files/cafe/Ukrainian-Cafe-KRAIANY-Menu.pdf"
