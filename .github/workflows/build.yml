@@ -45,18 +45,6 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./build
-      - name: Deploy to AWS S3
-        if: ${{ github.ref == 'refs/heads/master' }}
-        uses: reggionick/s3-deploy@v3
-        env:
-          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-        with:
-          folder: build
-          bucket: ${{ secrets.S3_BUCKET }}
-          bucket-region: ${{ secrets.S3_BUCKET_REGION }}
-          private: false
-          filesToInclude: ".*/*,*/*,**"
   dependabot:
     needs: build
     runs-on: ubuntu-latest
