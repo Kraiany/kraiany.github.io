@@ -4,9 +4,6 @@
     <loc>https://www.kraiany.org/google88dada53162dff40.html</loc>
   </url>
   <url>
-    <loc>https://www.kraiany.org</loc>
-  </url>
-  <url>
     <loc>https://www.kraiany.org/uk/news/2014-06-28-parade-2014.html</loc>
   </url>
   <url>
@@ -313,13 +310,13 @@
     <loc>https://www.kraiany.org/landing/kraiany-cafe-bohrach-2025-06.html</loc>
   </url>
   <url>
-    <loc>https://www.kraiany.org/ja/parade</loc>
+    <loc>https://www.kraiany.org/uk/parade</loc>
   </url>
   <url>
-    <loc>https://www.kraiany.org/ja/news</loc>
+    <loc>https://www.kraiany.org/uk/news</loc>
   </url>
   <url>
-    <loc>https://www.kraiany.org/ja/news/2022-03-08-bankaccount.html</loc>
+    <loc>https://www.kraiany.org/uk/news/2022-03-08-bankaccount.html</loc>
   </url>
   <url>
     <loc>https://www.kraiany.org/en/parade</loc>
@@ -329,15 +326,6 @@
   </url>
   <url>
     <loc>https://www.kraiany.org/en/news/2022-03-08-bankaccount.html</loc>
-  </url>
-  <url>
-    <loc>https://www.kraiany.org/uk/parade</loc>
-  </url>
-  <url>
-    <loc>https://www.kraiany.org/uk/news</loc>
-  </url>
-  <url>
-    <loc>https://www.kraiany.org/uk/news/2022-03-08-bankaccount.html</loc>
   </url>
   <url>
     <loc>https://www.kraiany.org/uk/tokyo.html</loc>
@@ -367,34 +355,49 @@
     <loc>https://www.kraiany.org/uk/helpful_advises/funabashi.html</loc>
   </url>
   <url>
-    <loc>https://www.kraiany.org/ja/ymca.html</loc>
+    <loc>https://www.kraiany.org/uk/ymca.html</loc>
   </url>
   <url>
     <loc>https://www.kraiany.org/en/ymca.html</loc>
   </url>
   <url>
-    <loc>https://www.kraiany.org/uk/ymca.html</loc>
+    <loc>https://www.kraiany.org/uk/pathways.ja.html</loc>
   </url>
   <url>
-    <loc>https://www.kraiany.org/ja/school.html</loc>
+    <loc>https://www.kraiany.org/en/pathways.ja.html</loc>
   </url>
   <url>
-    <loc>https://www.kraiany.org/en/school.html</loc>
+    <loc>https://www.kraiany.org/uk/denys-dosuzhy.ja.html</loc>
+  </url>
+  <url>
+    <loc>https://www.kraiany.org/en/denys-dosuzhy.ja.html</loc>
+  </url>
+  <url>
+    <loc>https://www.kraiany.org/uk/commerce-disclosure.ja.html</loc>
+  </url>
+  <url>
+    <loc>https://www.kraiany.org/en/commerce-disclosure.ja.html</loc>
   </url>
   <url>
     <loc>https://www.kraiany.org/uk/school.html</loc>
   </url>
   <url>
-    <loc>https://www.kraiany.org/ja/parade.html</loc>
+    <loc>https://www.kraiany.org/en/school.html</loc>
   </url>
   <url>
-    <loc>https://www.kraiany.org/en/parade.html</loc>
+    <loc>https://www.kraiany.org/uk/kraiany_radio.ja.html</loc>
+  </url>
+  <url>
+    <loc>https://www.kraiany.org/en/kraiany_radio.ja.html</loc>
   </url>
   <url>
     <loc>https://www.kraiany.org/uk/parade.html</loc>
   </url>
   <url>
-    <loc>https://www.kraiany.org/ja/films.html</loc>
+    <loc>https://www.kraiany.org/en/parade.html</loc>
+  </url>
+  <url>
+    <loc>https://www.kraiany.org/uk/films.html</loc>
     <lastmod>2022-11-30T00:01:03Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -406,121 +409,121 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.kraiany.org/uk/films.html</loc>
-    <lastmod>2022-11-30T00:01:03Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <loc>https://www.kraiany.org/uk/christmas-trivia.ja.html</loc>
   </url>
   <url>
-    <loc>https://www.kraiany.org/ja/donate.html</loc>
-  </url>
-  <url>
-    <loc>https://www.kraiany.org/en/donate.html</loc>
+    <loc>https://www.kraiany.org/en/christmas-trivia.ja.html</loc>
   </url>
   <url>
     <loc>https://www.kraiany.org/uk/donate.html</loc>
   </url>
   <url>
-    <loc>https://www.kraiany.org/ja/events.html</loc>
-  </url>
-  <url>
-    <loc>https://www.kraiany.org/en/events.html</loc>
+    <loc>https://www.kraiany.org/en/donate.html</loc>
   </url>
   <url>
     <loc>https://www.kraiany.org/uk/events.html</loc>
   </url>
   <url>
-    <loc>https://www.kraiany.org/ja/cafe.html</loc>
-  </url>
-  <url>
-    <loc>https://www.kraiany.org/en/cafe.html</loc>
+    <loc>https://www.kraiany.org/en/events.html</loc>
   </url>
   <url>
     <loc>https://www.kraiany.org/uk/cafe.html</loc>
   </url>
   <url>
-    <loc>https://www.kraiany.org/ja/gallery.html</loc>
+    <loc>https://www.kraiany.org/en/cafe.html</loc>
   </url>
   <url>
-    <loc>https://www.kraiany.org/en/gallery.html</loc>
+    <loc>https://www.kraiany.org/uk/about.ja.html</loc>
+  </url>
+  <url>
+    <loc>https://www.kraiany.org/en/about.ja.html</loc>
+  </url>
+  <url>
+    <loc>https://www.kraiany.org/uk/bylaw.ja.html</loc>
+  </url>
+  <url>
+    <loc>https://www.kraiany.org/en/bylaw.ja.html</loc>
   </url>
   <url>
     <loc>https://www.kraiany.org/uk/gallery.html</loc>
   </url>
   <url>
-    <loc>https://www.kraiany.org/ja/news.html</loc>
-  </url>
-  <url>
-    <loc>https://www.kraiany.org/en/news.html</loc>
+    <loc>https://www.kraiany.org/en/gallery.html</loc>
   </url>
   <url>
     <loc>https://www.kraiany.org/uk/news.html</loc>
   </url>
   <url>
-    <loc>https://www.kraiany.org/ja/universities.html</loc>
-  </url>
-  <url>
-    <loc>https://www.kraiany.org/en/universities.html</loc>
+    <loc>https://www.kraiany.org/en/news.html</loc>
   </url>
   <url>
     <loc>https://www.kraiany.org/uk/universities.html</loc>
   </url>
   <url>
-    <loc>https://www.kraiany.org/ja/volunteer.html</loc>
+    <loc>https://www.kraiany.org/en/universities.html</loc>
   </url>
   <url>
-    <loc>https://www.kraiany.org/en/volunteer.html</loc>
+    <loc>https://www.kraiany.org/uk/ukraine-update-2-23.ja.html</loc>
+  </url>
+  <url>
+    <loc>https://www.kraiany.org/en/ukraine-update-2-23.ja.html</loc>
   </url>
   <url>
     <loc>https://www.kraiany.org/uk/volunteer.html</loc>
   </url>
   <url>
-    <loc>https://www.kraiany.org/ja/medical/covid-19.html</loc>
+    <loc>https://www.kraiany.org/en/volunteer.html</loc>
   </url>
   <url>
-    <loc>https://www.kraiany.org/en/medical/covid-19.html</loc>
+    <loc>https://www.kraiany.org/uk/fake-news.ja.html</loc>
+  </url>
+  <url>
+    <loc>https://www.kraiany.org/en/fake-news.ja.html</loc>
+  </url>
+  <url>
+    <loc>https://www.kraiany.org/uk/evacuee_menu.ja.html</loc>
+  </url>
+  <url>
+    <loc>https://www.kraiany.org/en/evacuee_menu.ja.html</loc>
   </url>
   <url>
     <loc>https://www.kraiany.org/uk/medical/covid-19.html</loc>
   </url>
   <url>
-    <loc>https://www.kraiany.org/ja/contact.html</loc>
+    <loc>https://www.kraiany.org/en/medical/covid-19.html</loc>
   </url>
   <url>
-    <loc>https://www.kraiany.org/en/contact.html</loc>
+    <loc>https://www.kraiany.org/uk/annual_report_2023.ja.html</loc>
+  </url>
+  <url>
+    <loc>https://www.kraiany.org/en/annual_report_2023.ja.html</loc>
+  </url>
+  <url>
+    <loc>https://www.kraiany.org/uk/media-information.ja.html</loc>
+  </url>
+  <url>
+    <loc>https://www.kraiany.org/en/media-information.ja.html</loc>
   </url>
   <url>
     <loc>https://www.kraiany.org/uk/contact.html</loc>
   </url>
   <url>
-    <loc>https://www.kraiany.org/ja</loc>
-  </url>
-  <url>
-    <loc>https://www.kraiany.org/en</loc>
+    <loc>https://www.kraiany.org/en/contact.html</loc>
   </url>
   <url>
     <loc>https://www.kraiany.org/uk</loc>
   </url>
   <url>
+    <loc>https://www.kraiany.org/en</loc>
+  </url>
+  <url>
     <loc>https://www.kraiany.org/uk/pathways.html</loc>
-  </url>
-  <url>
-    <loc>https://www.kraiany.org/ja/pathways.html</loc>
-  </url>
-  <url>
-    <loc>https://www.kraiany.org/ja/denys-dosuzhy.html</loc>
-  </url>
-  <url>
-    <loc>https://www.kraiany.org/ja/donate.html</loc>
   </url>
   <url>
     <loc>https://www.kraiany.org/uk/kowa.html</loc>
   </url>
   <url>
     <loc>https://www.kraiany.org/uk/pets.html</loc>
-  </url>
-  <url>
-    <loc>https://www.kraiany.org/ja/commerce-disclosure.html</loc>
   </url>
   <url>
     <loc>https://www.kraiany.org/uk/anketa.html</loc>
@@ -637,9 +640,6 @@
     <loc>https://www.kraiany.org/uk/helpful_advises/uk-books.html</loc>
   </url>
   <url>
-    <loc>https://www.kraiany.org/ja/kraiany_radio.html</loc>
-  </url>
-  <url>
     <loc>https://www.kraiany.org/en/evacuee_menu.html</loc>
   </url>
   <url>
@@ -647,9 +647,6 @@
   </url>
   <url>
     <loc>https://www.kraiany.org/uk/about.html</loc>
-  </url>
-  <url>
-    <loc>https://www.kraiany.org/ja/christmas-trivia.html</loc>
   </url>
   <url>
     <loc>https://www.kraiany.org/uk/translation_services.html</loc>
@@ -661,13 +658,7 @@
     <loc>https://www.kraiany.org/uk/help_for_students.html</loc>
   </url>
   <url>
-    <loc>https://www.kraiany.org/ja/about.html</loc>
-  </url>
-  <url>
     <loc>https://www.kraiany.org/uk/support-r.html</loc>
-  </url>
-  <url>
-    <loc>https://www.kraiany.org/ja/bylaw.html</loc>
   </url>
   <url>
     <loc>https://www.kraiany.org/uk/dzherelce_free.html</loc>
@@ -676,22 +667,13 @@
     <loc>https://www.kraiany.org/uk/japanese_language_tests.html</loc>
   </url>
   <url>
-    <loc>https://www.kraiany.org/ja/ukraine-update-2-23.html</loc>
-  </url>
-  <url>
     <loc>https://www.kraiany.org/uk/work.html</loc>
   </url>
   <url>
     <loc>https://www.kraiany.org/uk/study_japanese.html</loc>
   </url>
   <url>
-    <loc>https://www.kraiany.org/ja/fake-news.html</loc>
-  </url>
-  <url>
     <loc>https://www.kraiany.org/uk/evacuee_menu.html</loc>
-  </url>
-  <url>
-    <loc>https://www.kraiany.org/ja/evacuee_menu.html</loc>
   </url>
   <url>
     <loc>https://www.kraiany.org/uk/medical/consultations.html</loc>
@@ -727,13 +709,7 @@
     <loc>https://www.kraiany.org/en/bylaw.html</loc>
   </url>
   <url>
-    <loc>https://www.kraiany.org/ja/annual_report_2023.html</loc>
-  </url>
-  <url>
     <loc>https://www.kraiany.org/uk/seminars.html</loc>
-  </url>
-  <url>
-    <loc>https://www.kraiany.org/ja/media-information.html</loc>
   </url>
   <url>
     <loc>https://www.kraiany.org/uk/yoga.html</loc>
