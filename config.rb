@@ -50,6 +50,7 @@ helpers do
     dict = {}
 
     data.languages.keys.map(&:to_sym).map do |locale|
+      next if locale == I18n.locale # skip current locale
       localised_path = page.url
         .sub(%r{^/#{I18n.locale}/},"/#{locale}/")
         .sub(%r{/$}, "/index.html")
