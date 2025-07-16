@@ -164,7 +164,7 @@ GEM
       ast (~> 2.4.1)
       racc
     parslet (2.0.0)
-    pkg-config (1.5.9)
+    pkg-config (1.6.2)
     public_suffix (5.0.4)
     racc (1.8.1)
     rack (2.2.14)
@@ -195,7 +195,7 @@ GEM
     rb-inotify (0.10.1)
       ffi (~> 1.0)
     rexml (3.3.9)
-    rmagick (6.1.1)
+    rmagick (6.1.2)
       observer (~> 0.1)
       pkg-config (~> 1.4)
     sass (3.7.4)
