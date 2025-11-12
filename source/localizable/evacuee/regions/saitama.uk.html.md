@@ -18,4 +18,4 @@ title: evacuee.regions.saitama
 
 Мерія міста також шукає волонтерів-перекладачів.
 
-[Додаткова інформація](https://www.city.tokorozawa.saitama.jp/iitokoro/enjoy/bunkakyoyo/kokusaikoryu/Ukrainian.html)
+[Додаткова інформація](https://www.city.tokorozawa.saitama.jp/iitokoro/enjoy/bunkakyoyo/kokusaikoryu/tabunkakyousei/Ukrainian.html)
