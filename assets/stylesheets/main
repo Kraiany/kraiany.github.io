@@ -368,6 +368,9 @@ ul li {
     margin-left: 0; } }
 
 @media (max-width: 767px) {
+  .site-branding .logo {
+    font-size: 11px;
+    letter-spacing: 1px; }
   .navbar-menu ul li {
     display: block;
     padding: unset;
