@@ -1,7 +1,7 @@
 # If you do not have OpenSSL installed, change
 # the following line to use 'http://'
 source 'https://rubygems.org'
-ruby "3.1.4"
+ruby "3.4.8"
 
 # For faster file watcher updates on Windows:
 gem 'wdm', '~> 0.1.0', platforms: [:mswin, :mingw]
@@ -26,6 +26,10 @@ gem "i18n-tasks"
 gem 'rmagick', '~>6.1'
 
 gem 'font-awesome-middleman'
+
+# Gems removed from Ruby 3.4 stdlib, required by activesupport 7.x
+gem 'mutex_m'
+gem 'logger'
 
 # speed up minifying processes
 gem 'oj'
