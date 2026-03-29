@@ -143,55 +143,69 @@ configure :build do
   ignore(/^assets\/javascripts\/(?!site).*\.js/)
 end
 
-redirect "donate.html", to: "/#{default_language}/donate.html"
-redirect "donate/index.html", to: "/#{default_language}/donate.html"
-redirect "donate/manage.html", to: "https://billing.stripe.com/p/login/6oE6pY89Sap04uc000"
-redirect "donate/report-sheet.html", to: "https://docs.google.com/spreadsheets/d/10DCYQGJ6pjHktbK3bHsT_5Wjy0dvPuKdlqWCi_HSip4/htmlview"
-redirect "news.html", to: "/#{default_language}/news.html"
-redirect "news/index.html", to: "/#{default_language}/news.html"
-redirect "parade.html", to: "/#{default_language}/parade.html"
-redirect "parade/index.html", to: "/#{default_language}/parade.html"
+# --------------------------------------------
+# Redirects (origins are excluded from sitemap)
+# --------------------------------------------
+redirect_origins = []
+
+def tracked_redirect(origins, from, to:)
+  origins << from
+  redirect from, to: to
+end
+
+tracked_redirect redirect_origins, "donate.html", to: "/#{default_language}/donate.html"
+tracked_redirect redirect_origins, "donate/index.html", to: "/#{default_language}/donate.html"
+tracked_redirect redirect_origins, "donate/manage.html", to: "https://billing.stripe.com/p/login/6oE6pY89Sap04uc000"
+tracked_redirect redirect_origins, "donate/report-sheet.html", to: "https://docs.google.com/spreadsheets/d/10DCYQGJ6pjHktbK3bHsT_5Wjy0dvPuKdlqWCi_HSip4/htmlview"
+tracked_redirect redirect_origins, "news.html", to: "/#{default_language}/news.html"
+tracked_redirect redirect_origins, "news/index.html", to: "/#{default_language}/news.html"
+tracked_redirect redirect_origins, "parade.html", to: "/#{default_language}/parade.html"
+tracked_redirect redirect_origins, "parade/index.html", to: "/#{default_language}/parade.html"
 
 # Volunteer related
-redirect "volunteer/index.html", to: "/#{default_language}/volunteer.html"
-redirect "volunteer/register.html", to: "https://forms.gle/usLLG91zwwUaiEnx5"
-redirect "volunteer/register-ja.html", to: "https://forms.gle/aabryAgAV8JDNoof8"
-redirect "volunteer/expenses.html", to: "https://forms.gle/hGZ7DjVnKrubFpBW8"
+tracked_redirect redirect_origins, "volunteer/index.html", to: "/#{default_language}/volunteer.html"
+tracked_redirect redirect_origins, "volunteer/register.html", to: "https://forms.gle/usLLG91zwwUaiEnx5"
+tracked_redirect redirect_origins, "volunteer/register-ja.html", to: "https://forms.gle/aabryAgAV8JDNoof8"
+tracked_redirect redirect_origins, "volunteer/expenses.html", to: "https://forms.gle/hGZ7DjVnKrubFpBW8"
 
 # QR code landing pages printed on the flyers/banners
-redirect "landing/1.html", to: "/ja/about-us"
-redirect "landing/2.html", to: "/ja/about-us"
-redirect "landing/3.html", to: "/ja/about-us"
-redirect "landing/ukraiina-tse-smachno.html", to: "/ja/cafe-kraiany"
-redirect "landing/kraiany-cafe-poster-2023.html", to: "https://twitter.com/Ukraine_cafe"
-redirect "landing/kraiany-cafe-menu-qr.html", to: "/assets/files/cafe/Ukrainian-Cafe-KRAIANY-Menu.pdf"
-redirect "landing/kraiany-cafe-card.html", to: "/ja/cafe-kraiany"
+tracked_redirect redirect_origins, "landing/1.html", to: "/ja/about-us"
+tracked_redirect redirect_origins, "landing/2.html", to: "/ja/about-us"
+tracked_redirect redirect_origins, "landing/3.html", to: "/ja/about-us"
+tracked_redirect redirect_origins, "landing/ukraiina-tse-smachno.html", to: "/ja/cafe-kraiany"
+tracked_redirect redirect_origins, "landing/kraiany-cafe-poster-2023.html", to: "https://twitter.com/Ukraine_cafe"
+tracked_redirect redirect_origins, "landing/kraiany-cafe-menu-qr.html", to: "/assets/files/cafe/Ukrainian-Cafe-KRAIANY-Menu.pdf"
+tracked_redirect redirect_origins, "landing/kraiany-cafe-card.html", to: "/ja/cafe-kraiany"
+# Non-HTML redirect — already excluded from sitemap by extension filter
 redirect "landing/kraiany-cafe-menu.pdf", to: "/assets/files/cafe/Ukrainian-Cafe-KRAIANY-Menu.pdf"
-redirect "landing/nengajou-2023-donors.html", to: "/ja/annual_report_2023.html"
-redirect "landing/nengajou-2023-partners.html", to: "/ja/annual_report_2023.html"
-redirect "landing/nengajou-2024.html", to: "/ja/news/2025-01-01-2025-01-01-newyear.html"
-redirect "landing/tokyo-marathon-2024.html", to: "https://zoom.us/j/98587878390?pwd=Y1BvekNta1JzNkozQ3JnZ2JUc3ltQT09"
-redirect "landing/russian-invasion-2025.html", to: "/ja/news/2025-02-20-russian-invasion.html"
-redirect "landing/kraiany-cafe-bohrach-2025-06.html", to: "https://forms.gle/BCZATzzfiq5Cpjvi9"
+tracked_redirect redirect_origins, "landing/nengajou-2023-donors.html", to: "/ja/annual_report_2023.html"
+tracked_redirect redirect_origins, "landing/nengajou-2023-partners.html", to: "/ja/annual_report_2023.html"
+tracked_redirect redirect_origins, "landing/nengajou-2024.html", to: "/ja/news/2025-01-01-2025-01-01-newyear.html"
+tracked_redirect redirect_origins, "landing/tokyo-marathon-2024.html", to: "https://zoom.us/j/98587878390?pwd=Y1BvekNta1JzNkozQ3JnZ2JUc3ltQT09"
+tracked_redirect redirect_origins, "landing/russian-invasion-2025.html", to: "/ja/news/2025-02-20-russian-invasion.html"
+tracked_redirect redirect_origins, "landing/kraiany-cafe-bohrach-2025-06.html", to: "https://forms.gle/BCZATzzfiq5Cpjvi9"
 
 supported_languages.each do |lang|
-  redirect "#{lang}/parade/index.html", to: "/#{lang}/parade.html"
-  redirect "#{lang}/news/index.html", to: "/#{lang}/news.html"
-  redirect "#{lang}/news/2022-03-08-bankaccount.html", to: "/#{lang}/donate.html"
+  tracked_redirect redirect_origins, "#{lang}/parade/index.html", to: "/#{lang}/parade.html"
+  tracked_redirect redirect_origins, "#{lang}/news/index.html", to: "/#{lang}/news.html"
+  tracked_redirect redirect_origins, "#{lang}/news/2022-03-08-bankaccount.html", to: "/#{lang}/donate.html"
 end
 
 # Redirects for moved files, SEO purpose
-redirect "uk/tokyo.html", to: "/uk/evacuee/regions/tokyo.html"
-redirect "uk/yokohama.html", to: "/uk/evacuee/regions/yokohama.html"
-redirect "uk/osaka.html", to: "/uk/evacuee/regions/osaka.html"
-redirect "uk/saitama.html", to: "/uk/evacuee/regions/saitama.html"
-redirect "uk/aichi.html", to: "/uk/evacuee/regions/aichi.html"
-redirect "uk/alljapan.html", to: "/uk/evacuee/regions/alljapan.html"
-redirect "uk/izumisano.html", to: "/uk/evacuee/regions/izumisano.html"
-redirect "uk/chiba.html", to: "/uk/evacuee/regions/chiba.html"
-redirect "uk/helpful_advises/funabashi.html", to: "/uk/evacuee/regions/funabashi.html"
+tracked_redirect redirect_origins, "uk/tokyo.html", to: "/uk/evacuee/regions/tokyo.html"
+tracked_redirect redirect_origins, "uk/yokohama.html", to: "/uk/evacuee/regions/yokohama.html"
+tracked_redirect redirect_origins, "uk/osaka.html", to: "/uk/evacuee/regions/osaka.html"
+tracked_redirect redirect_origins, "uk/saitama.html", to: "/uk/evacuee/regions/saitama.html"
+tracked_redirect redirect_origins, "uk/aichi.html", to: "/uk/evacuee/regions/aichi.html"
+tracked_redirect redirect_origins, "uk/alljapan.html", to: "/uk/evacuee/regions/alljapan.html"
+tracked_redirect redirect_origins, "uk/izumisano.html", to: "/uk/evacuee/regions/izumisano.html"
+tracked_redirect redirect_origins, "uk/chiba.html", to: "/uk/evacuee/regions/chiba.html"
+tracked_redirect redirect_origins, "uk/helpful_advises/funabashi.html", to: "/uk/evacuee/regions/funabashi.html"
 
 # Redirects from removed pages
 supported_languages.each do |lang|
-  redirect "#{lang}/ymca.html", to: "/#{lang}/evacuee_menu.html"
+  tracked_redirect redirect_origins, "#{lang}/ymca.html", to: "/#{lang}/evacuee_menu.html"
 end
+
+# Exclude all redirect origins from sitemap.xml
+redirect_origins.each { |origin| page origin, data: { ignore: true } }
