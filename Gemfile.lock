@@ -77,9 +77,6 @@ GEM
       logger
     highline (3.1.2)
       reline
-    hpricot (0.8.6)
-    html2slim (0.2.0)
-      hpricot
     htmlcompressor (0.2.0)
     http_parser.rb (0.8.1)
     i18n (1.14.8)
@@ -285,7 +282,6 @@ PLATFORMS
 DEPENDENCIES
   execjs
   font-awesome-middleman
-  html2slim
   i18n-tasks
   logger
   middleman (~> 4.5)
