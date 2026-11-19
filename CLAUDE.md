@@ -6,7 +6,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 Kraiany.org — website for the Ukrainian community organization in Japan. Built with **Middleman 4.5** (Ruby static site generator), hosted on GitHub Pages.
 
-- **Ruby**: 3.4.8
+- **Ruby**: 3.4.13
 - **Template engine**: Slim (primary), also ERB and Markdown
 - **CSS**: Bootstrap + custom SCSS via Sprockets
 - **JS**: jQuery + Bootstrap JS via Sprockets

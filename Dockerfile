@@ -9,7 +9,7 @@
 # Deploy:
 # docker run -it  --rm -v $(pwd):/app -v ~/.gitconfig:/root/.gitconfig  -p 4567:4567 kraiany deploy
 #
-FROM ruby:3.4.8
+FROM ruby:3.4.13
 
 ENV LANG=en_US.UTF-8 \
     LANGUAGE=en_US.UTF-8 \
