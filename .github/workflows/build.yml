@@ -17,15 +17,11 @@ jobs:
   build:
     name: Build
     timeout-minutes: 10
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     env:
       BUNDLE_JOBS: "4"
     steps:
       - uses: actions/checkout@v7
-      - name: Install system dependencies
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y imagemagick libmagickwand-dev
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:

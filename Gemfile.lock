@@ -174,7 +174,6 @@ GEM
       racc (~> 1.4)
     nokogiri (1.18.10-x86_64-linux-gnu)
       racc (~> 1.4)
-    observer (0.1.2)
     oj (3.16.16)
       bigdecimal (>= 3.0)
       ostruct (>= 0.2)
@@ -189,7 +188,6 @@ GEM
       ast (~> 2.4.1)
       racc
     parslet (2.0.0)
-    pkg-config (1.6.5)
     pp (0.6.3)
       prettyprint
     prettyprint (0.2.0)
@@ -240,9 +238,6 @@ GEM
     reline (0.6.3)
       io-console (~> 0.5)
     rexml (3.4.4)
-    rmagick (6.2.0)
-      observer (~> 0.1)
-      pkg-config (~> 1.4)
     ruby-progressbar (1.13.0)
     sass (3.7.4)
       sass-listen (~> 4.0.0)
@@ -302,7 +297,6 @@ DEPENDENCIES
   mutex_m
   nokogiri (= 1.18.10)
   oj
-  rmagick (~> 6.1)
   sass
   slim
   tzinfo-data
