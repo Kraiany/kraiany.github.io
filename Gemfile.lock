@@ -189,7 +189,7 @@ GEM
       ast (~> 2.4.1)
       racc
     parslet (2.0.0)
-    pkg-config (1.6.5)
+    pkg-config (1.6.8)
     pp (0.6.3)
       prettyprint
     prettyprint (0.2.0)
@@ -240,7 +240,7 @@ GEM
     reline (0.6.3)
       io-console (~> 0.5)
     rexml (3.4.4)
-    rmagick (6.2.0)
+    rmagick (7.2.0)
       observer (~> 0.1)
       pkg-config (~> 1.4)
     ruby-progressbar (1.13.0)
@@ -302,7 +302,7 @@ DEPENDENCIES
   mutex_m
   nokogiri (= 1.18.10)
   oj
-  rmagick (~> 6.1)
+  rmagick (~> 7.2)
   sass
   slim
   tzinfo-data
