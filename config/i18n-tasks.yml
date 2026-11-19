@@ -4,7 +4,6 @@ data:
   read:
     - locales/%{locale}.yml
     - locales/**/*.yml
-    - locales/*.yml
 
   write:
     - ['{about, donate, evacuee, films, gallery, kraiany, parade}.*', 'locales/\1/%{locale}.yml']
@@ -28,3 +27,5 @@ ignore_unused:
   - '*.title'
   - '*.description'
   - 'evacuee.regions.*'
+  - 'films.titles.*.watch_on'
+  - 'films.titles.*.website'
