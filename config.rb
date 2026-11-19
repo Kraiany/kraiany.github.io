@@ -184,6 +184,7 @@ tracked_redirect redirect_origins, "landing/nengajou-2024.html", to: "/ja/news/2
 tracked_redirect redirect_origins, "landing/tokyo-marathon-2024.html", to: "https://zoom.us/j/98587878390?pwd=Y1BvekNta1JzNkozQ3JnZ2JUc3ltQT09"
 tracked_redirect redirect_origins, "landing/russian-invasion-2025.html", to: "/ja/news/2025-02-20-russian-invasion.html"
 tracked_redirect redirect_origins, "landing/kraiany-cafe-bohrach-2025-06.html", to: "https://forms.gle/BCZATzzfiq5Cpjvi9"
+tracked_redirect redirect_origins, "landing/2027-01-festival-light-darkness.html", to: "/ja/"
 
 supported_languages.each do |lang|
   tracked_redirect redirect_origins, "#{lang}/parade/index.html", to: "/#{lang}/parade.html"
