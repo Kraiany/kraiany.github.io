@@ -9,34 +9,29 @@
 # Deploy:
 # docker run -it  --rm -v $(pwd):/app -v ~/.gitconfig:/root/.gitconfig  -p 4567:4567 kraiany deploy
 #
-FROM ruby:3.1.7
+FROM ruby:3.4.13
 
-# Expose ports.
+ENV LANG=en_US.UTF-8 \
+    LANGUAGE=en_US.UTF-8 \
+    LC_ALL=en_US.UTF-8
+
+WORKDIR /app
+
+RUN apt-get update \
+  && apt-get install -y --no-install-recommends \
+    build-essential \
+    git \
+    imagemagick \
+    libmagickwand-dev \
+    locales \
+    nodejs \
+  && rm -rf /var/lib/apt/lists/*
+
+COPY Gemfile Gemfile.lock ./
+RUN gem install bundler -v 4.0.9 \
+  && bundle install --jobs 4 --retry 3
+
 EXPOSE 4567
 
-ADD Gemfile* /app/
-
-RUN \
-  apt-get update && apt-get --yes upgrade \
-  && apt-get install -y sudo curl build-essential locales locales-all nodejs
-
-ADD Gemfile* /app/
-RUN cd /app \
-  && gem install bundler:2.1.2 \
-  &&  bundle install \
-  && cd /app \
-  && gem install nokogiri --platform=ruby  \
-  && bundle config set force_ruby_platform true \
-  && gem install bundler:2.1.2 \
-  && bundle install \
-  && bundle update
-
 ENTRYPOINT ["bundle", "exec"]
-
 CMD ["middleman", "server"]
-
-WORKDIR "/app"
-
-ENV LANG en_US.UTF-8
-ENV LANGUAGE en_US.UTF-8
-ENV LC_ALL en_US.UTF-8

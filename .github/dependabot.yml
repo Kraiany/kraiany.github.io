@@ -6,3 +6,16 @@ updates:
     interval: daily
     time: "20:00"
   open-pull-requests-limit: 10
+  groups:
+    bundler-minor-and-patch:
+      update-types:
+      - minor
+      - patch
+- package-ecosystem: github-actions
+  directory: "/"
+  schedule:
+    interval: weekly
+  groups:
+    github-actions:
+      patterns:
+      - "*"

@@ -21,7 +21,7 @@ jobs:
     env:
       BUNDLE_JOBS: "4"
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v7
       - name: Install system dependencies
         run: |
           sudo apt-get update
@@ -41,7 +41,7 @@ jobs:
           ! grep -lr 'translation missing' ./build
       - name: Deploy to GitHub Pages
         if: ${{ github.ref == 'refs/heads/master' }}
-        uses: peaceiris/actions-gh-pages@v3
+        uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./build
@@ -52,7 +52,7 @@ jobs:
     steps:
       - name: Dependabot metadata
         id: metadata
-        uses: dependabot/fetch-metadata@v1
+        uses: dependabot/fetch-metadata@v3
         with:
           github-token: "${{ secrets.GITHUB_TOKEN }}"
       - name: Auto-merge Dependabot PRs

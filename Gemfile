@@ -1,13 +1,13 @@
 # If you do not have OpenSSL installed, change
 # the following line to use 'http://'
 source 'https://rubygems.org'
-ruby "3.1.7"
+ruby "3.4.13"
 
 # For faster file watcher updates on Windows:
-gem 'wdm', '~> 0.1.0', platforms: [:mswin, :mingw]
+gem 'wdm', '~> 0.1.0', platforms: [:windows]
 
 # Windows does not come with time zone data
-gem 'tzinfo-data', platforms: [:mswin, :mingw, :jruby]
+gem 'tzinfo-data', platforms: [:windows, :jruby]
 
 # Middleman Gems
 gem 'middleman', '~> 4.5'
@@ -15,6 +15,7 @@ gem 'middleman-livereload', '~> 3.4'
 gem "middleman-blog"
 gem "middleman-sitemap", git: "https://github.com/matsu911/middleman-sitemap"
 gem "middleman-csv"
+gem "csv"
 
 gem 'middleman-sprockets', '~> 4.0'
 
@@ -25,6 +26,10 @@ gem "i18n-tasks"
 gem 'rmagick', '~>6.1'
 
 gem 'font-awesome-middleman'
+
+# Gems removed from Ruby 3.4 stdlib, required by activesupport 7.x
+gem 'mutex_m'
+gem 'logger'
 
 # speed up minifying processes
 gem 'oj'
