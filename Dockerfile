@@ -21,8 +21,6 @@ RUN apt-get update \
   && apt-get install -y --no-install-recommends \
     build-essential \
     git \
-    imagemagick \
-    libmagickwand-dev \
     locales \
     nodejs \
   && rm -rf /var/lib/apt/lists/*

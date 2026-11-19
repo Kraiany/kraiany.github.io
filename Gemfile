@@ -23,8 +23,6 @@ gem "slim"
 gem 'middleman-minify-html'
 gem "i18n-tasks"
 
-gem 'rmagick', '~>7.2'
-
 gem 'font-awesome-middleman'
 
 # Gems removed from Ruby 3.4 stdlib, required by activesupport 7.x
