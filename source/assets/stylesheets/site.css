@@ -5,21 +5,22 @@
 *= require main
 */
 
-.language_select {
-    @media  (max-width:767px) {
+@media (max-width: 767px) {
+    .language_select {
         display: inline-block;
         *display: inline; /* For IE7 */
         zoom: 1; /* Trigger hasLayout */
         width: 25%;
         text-align: center;
     }
-    img {
-        padding: .5ex;
-        padding-top: 2ex;
-    }
 }
 
-// Bootstrap overrides
+.language_select img {
+    padding: .5ex;
+    padding-top: 2ex;
+}
+
+/* Bootstrap overrides */
 .tooltip {
     font-size: 1em;
 }
@@ -37,15 +38,16 @@
   border-top-color: #fff;
 }
 
-#donateTable {
-  td, th {
+#donateTable td,
+#donateTable th {
     border: 1px solid black;
     text-align: center;
     padding: 5px 5px;
-    a {
-      text-decoration: underline;
-    }
-  }
+}
+
+#donateTable td a,
+#donateTable th a {
+    text-decoration: underline;
 }
 
 /* large font button */
