@@ -18,7 +18,6 @@ gem "middleman-csv"
 
 gem 'middleman-sprockets', '~> 4.0'
 
-gem "html2slim"
 gem "slim"
 gem 'middleman-minify-html'
 gem "i18n-tasks"
